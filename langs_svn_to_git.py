@@ -148,18 +148,35 @@ def main():
     ]
     directories = ["st", "gt", "kt", "langs"]
 
-    for langinfo in langs:
-        lang = langinfo[0]
-        paths = [f"--path {directory}/{lang}" for directory in directories]
+    for (git_lang, first_git_commit) in langs:
+        svn_lang = git_lang.split("-")[0]
+        paths = [f"--path {directory}/{svn_lang}" for directory in directories]
         for command in [
             (
-                f"git clone --mirror --no-local langtech_upto_removed_langs {lang}-mirror",
+                f"git clone --mirror --no-local langtech_upto_removed_langs {svn_lang}-mirror",
                 os.getcwd(),
             ),
-            (f"git filter-repo --prune-empty always", f"{lang}-mirror"),
-            (f"git filter-repo {' '.join(paths)}", f"{lang}-mirror"),
-            (f"git filter-repo --path-rename langs/{lang}:", f"{lang}-mirror"),
-            (f"git clone {lang}-mirror {lang}-processed", os.getcwd()),
+            (
+                f"git filter-repo --prune-empty always {' '.join(paths)} --path-rename langs/{svn_lang}/:",
+                f"{svn_lang}-mirror",
+            ),
+            (f"git clone git@github.com:giellalt/lang-{git_lang}", os.getcwd()),
+            (
+                f"git fetch ../{svn_lang}-mirror master:main_with_fixed_history",
+                os.path.join(os.getcwd(), f"lang-{git_lang}"),
+            ),
+            (
+                "git switch main_with_fixed_history",
+                os.path.join(os.getcwd(), f"lang-{git_lang}"),
+            ),
+            (
+                f"git cherry-pick {first_git_commit}^..HEAD --allow-empty",
+                os.path.join(os.getcwd(), f"lang-{git_lang}"),
+            ),
+            (
+                f"git filter-repo --prune-empty always",
+                os.path.join(os.getcwd(), f"lang-{git_lang}"),
+            ),
         ]:
             try:
                 run(command[0], cwd=command[1])
