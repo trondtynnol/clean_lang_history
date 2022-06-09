@@ -177,42 +177,73 @@ def main():
         # "closed-langs": [],
     ]
 
-    for (svndir, langinfos) in svnlanginfos.items():
-        directories = ["st", "gt", "kt", svndir]
-        for (git_lang, first_git_commit) in langinfos:
-            svn_lang = git_lang.split("-")[0]
-            paths = [f"--path {directory}/{svn_lang}" for directory in directories]
-            for command in [
-                (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
-                (f"git filter-repo --prune-empty always", f"{svn_lang}-mirror"),
-                (f"git filter-repo {' '.join(paths)}", f"{svn_lang}-mirror"),
-                (
-                    f"git filter-repo--path-rename {svndir}/{svn_lang}/:",
-                    f"{svn_lang}-mirror",
-                ),
-                (f"git clone git@github.com:giellalt/lang-{git_lang}", os.getcwd()),
-                (
-                    f"git fetch ../{svn_lang}-mirror master:main_with_fixed_history",
-                    os.path.join(os.getcwd(), f"lang-{git_lang}"),
-                ),
-                (
-                    "git switch main_with_fixed_history",
-                    os.path.join(os.getcwd(), f"lang-{git_lang}"),
-                ),
-                (
-                    f"git cherry-pick {first_git_commit}^..HEAD --allow-empty",
-                    os.path.join(os.getcwd(), f"lang-{git_lang}"),
-                ),
-                (
-                    f"git filter-repo --prune-empty always",
-                    os.path.join(os.getcwd(), f"lang-{git_lang}"),
-                ),
-            ]:
-                try:
-                    run(command[0], cwd=command[1])
-                except subprocess.CalledProcessError as error:
-                    print(error)
-                    raise SystemExit(1)
+    if len(sys.argv) != 2:
+        print("Please give a language to fix")
+        usage(svnlanginfos)
+
+    try:
+        langinfo = [
+            langinfo
+            for langinfo in svnlanginfos
+            if langinfo.langname == sys.argv[1] and not langinfo.has_full_history
+        ][0]
+    except IndexError:
+        print("The given language either does not exist, or has already been fixed.")
+        usage(svnlanginfos)
+
+    fix_a_lang(langinfo)
+
+
+def usage(svnlanginfos):
+    print("You can choose from")
+    print(
+        "\n".join(
+            [
+                langinfo.langname
+                for langinfo in svnlanginfos
+                if not langinfo.has_full_history
+            ]
+        )
+    )
+    raise SystemExit(1)
+
+
+def fix_a_lang(langinfo):
+    directories = [langinfo.start_directory, langinfo.final_directory]
+    svn_lang = langinfo.langname.split("-")[0]
+    paths = [f"--path {directory}/{svn_lang}" for directory in directories]
+    commands = [
+        (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
+        (f"git filter-repo --prune-empty always", f"{svn_lang}-mirror"),
+        (f"git filter-repo {' '.join(paths)}", f"{svn_lang}-mirror"),
+        (
+            f"git filter-repo--path-rename {langinfo.final_directory}/{svn_lang}/:",
+            f"{svn_lang}-mirror",
+        ),
+        (f"git clone git@github.com:giellalt/lang-{langinfo.langname}", os.getcwd()),
+        (
+            f"git fetch ../{svn_lang}-mirror master:main_with_fixed_history",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+        (
+            "git switch main_with_fixed_history",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+        (
+            f"git cherry-pick {langinfo.first_important_git_commit}^..HEAD --allow-empty",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+        (
+            f"git filter-repo --prune-empty always",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+    ]
+    for (index, command) in enumerate(commands, start=2):
+        try:
+            run(command[0], cwd=command[1])
+        except subprocess.CalledProcessError as error:
+            print(error)
+            raise SystemExit(index)
 
 
 if __name__ == "__main__":
