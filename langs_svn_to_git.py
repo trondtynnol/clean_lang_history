@@ -2,7 +2,7 @@
 import os
 import subprocess
 import sys
-from collections import namedtuple
+from typing import NamedTuple
 
 # Find the commit where the github repos started their github history
 
@@ -10,17 +10,13 @@ from collections import namedtuple
 # Check out langtech to the revision before the "langs" directory was removed, svn r191058
 # Then run this script, giving that working directory as the base point to work from for this script
 
-LangInfo = namedtuple(
-    "LangInfo",
-    [
-        "langname",
-        "first_important_git_commit",
-        "start_directory",
-        "final_directory",
-        "has_full_history",
-    ],
-    defaults=[False],
-)
+
+class LangInfo(NamedTuple):
+    langname: str
+    first_important_git_commit: str
+    start_directory: str
+    final_directory: str
+    has_full_history: bool = False
 
 
 def run(command, cwd=""):
