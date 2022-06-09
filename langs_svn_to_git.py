@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-import subprocess
 import os
+import subprocess
+import sys
 from collections import namedtuple
 
 # Find the commit where the github repos started their github history
