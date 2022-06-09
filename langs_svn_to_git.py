@@ -1,12 +1,26 @@
 #!/usr/bin/env python3
 import subprocess
 import os
+from collections import namedtuple
 
 # Find the commit where the github repos started their github history
 
 # Get the pre-github history
 # Check out langtech to the revision before the "langs" directory was removed, svn r191058
 # Then run this script, giving that working directory as the base point to work from for this script
+
+LangInfo = namedtuple(
+    "LangInfo",
+    [
+        "langname",
+        "first_important_git_commit",
+        "start_directory",
+        "final_directory",
+        "has_full_history",
+    ],
+)
+
+
 def run(command, cwd=""):
     print(command)
     subprocess.run(command.split(), cwd=cwd, check=True, encoding="utf-8")
