@@ -205,39 +205,58 @@ def usage(svnlanginfos):
 
 
 def fix_a_lang(langinfo):
+    index = 2
     directories = [langinfo.start_directory, langinfo.final_directory]
     svn_lang = langinfo.langname.split("-")[0]
     paths = [f"--path {directory}/{svn_lang}" for directory in directories]
     commands = [
-        (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
-        (f"git filter-repo {' '.join(paths)}", f"{svn_lang}-mirror"),
-        (
-            f"git filter-repo--path-rename {langinfo.final_directory}/{svn_lang}/:",
-            f"{svn_lang}-mirror",
-        ),
-        (f"git clone git@github.com:giellalt/lang-{langinfo.langname}", os.getcwd()),
-        (
-            f"git fetch ../{svn_lang}-mirror master:main_with_fixed_history",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
-        (
-            "git switch main_with_fixed_history",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
-        (
-            f"git cherry-pick {langinfo.first_important_git_commit}^..HEAD --allow-empty",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
-        (
-            f"git filter-repo --prune-empty always",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
+        # (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
+        # (
+        #     f"git filter-repo {' '.join(paths)} --path-rename {langinfo.final_directory}/{svn_lang}/:",
+        #     f"{svn_lang}-mirror",
+        # ),
+        (f"git clone git@github.com:giellalt/lang-{langinfo.langname}", os.getcwd())
     ]
-    for (index, command) in enumerate(commands, start=2):
+    for (index, command) in enumerate(commands, start=index):
         try:
             run(command[0], cwd=command[1])
         except subprocess.CalledProcessError as error:
             print(error)
+            raise SystemExit(index)
+
+    old_head = subprocess.run(
+        "git log --oneline -n 1".split(),
+        cwd=os.path.join(os.getcwd(), f"{svn_lang}-mirror"),
+        encoding="utf-8",
+        capture_output=True,
+    ).stdout.split()[0]
+    main_head = subprocess.run(
+        "git log --oneline -n 1".split(),
+        cwd=os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        encoding="utf-8",
+        capture_output=True,
+    ).stdout.split()[0]
+
+    commands2 = [
+        (
+            f"git fetch ../{svn_lang}-mirror master:old",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+        (
+            f"git rebase --merge ours --onto {old_head} {langinfo.first_important_git_commit}^ {main_head}",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+        (
+            f"git switch -c main_with_history_fixed",
+            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
+        ),
+        (f"git branch -D old", os.path.join(os.getcwd(), f"lang-{langinfo.langname}")),
+    ]
+    for (index, command) in enumerate(commands2, start=index):
+        try:
+            run(command[0], cwd=command[1])
+        except subprocess.CalledProcessError as error:
+            print(error, index)
             raise SystemExit(index)
 
 
