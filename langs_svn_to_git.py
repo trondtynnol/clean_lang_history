@@ -19,6 +19,7 @@ LangInfo = namedtuple(
         "final_directory",
         "has_full_history",
     ],
+    defaults=[False],
 )
 
 
