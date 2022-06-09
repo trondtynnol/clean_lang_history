@@ -20,7 +20,7 @@ class LangInfo(NamedTuple):
 
 
 def run(command, cwd=""):
-    print(command)
+    print(f"\n{command}")
     subprocess.run(command.split(), cwd=cwd, check=True, encoding="utf-8")
 
 
