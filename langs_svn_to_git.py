@@ -163,8 +163,10 @@ def main():
             paths = [f"--path {directory}/{svn_lang}" for directory in directories]
             for command in [
                 (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
+                (f"git filter-repo --prune-empty always", f"{svn_lang}-mirror"),
+                (f"git filter-repo {' '.join(paths)}", f"{svn_lang}-mirror"),
                 (
-                    f"git filter-repo --prune-empty always {' '.join(paths)} --path-rename {svndir}/{svn_lang}/:",
+                    f"git filter-repo--path-rename {svndir}/{svn_lang}/:",
                     f"{svn_lang}-mirror",
                 ),
                 (f"git clone git@github.com:giellalt/lang-{git_lang}", os.getcwd()),
