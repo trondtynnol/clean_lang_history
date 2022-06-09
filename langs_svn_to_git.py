@@ -210,7 +210,6 @@ def fix_a_lang(langinfo):
     paths = [f"--path {directory}/{svn_lang}" for directory in directories]
     commands = [
         (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
-        (f"git filter-repo --prune-empty always", f"{svn_lang}-mirror"),
         (f"git filter-repo {' '.join(paths)}", f"{svn_lang}-mirror"),
         (
             f"git filter-repo--path-rename {langinfo.final_directory}/{svn_lang}/:",
