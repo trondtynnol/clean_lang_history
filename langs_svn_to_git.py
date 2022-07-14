@@ -1,22 +1,145 @@
 #!/usr/bin/env python3
+import glob
 import os
+import shutil
 import subprocess
 import sys
-from typing import NamedTuple
 
-# Find the commit where the github repos started their github history
-
-# Get the pre-github history
-# Check out langtech to the revision before the "langs" directory was removed, svn r191058
-# Then run this script, giving that working directory as the base point to work from for this script
+# Script to fix histories of langs from https://gtsvn.uit.no/langtech/trunk
 
 
-class LangInfo(NamedTuple):
-    langname: str
-    first_important_git_commit: str
-    start_directory: str
-    final_directory: str
-    has_full_history: bool = False
+def main():
+    git_repos_home = os.path.abspath(
+        sys.argv[1]
+    )  # run gut clone -o giellalt -r lang-* to populate this directory
+    work_directory = os.path.abspath(sys.argv[2])
+
+    try:
+        prepare_old_svn(work_directory)
+    except subprocess.CalledProcessError as error:
+        print(error)
+    for git_repo_name in get_valid_repo_names(git_repos_home):
+        if os.path.exists(f"{work_directory}/{git_repo_name}"):
+            print(git_repo_name, "has already been processed")
+        else:
+            try:
+                fix_a_lang(git_repo_name, work_directory)
+            except subprocess.CalledProcessError as error:
+                print(error)
+            except IndexError as error:
+                print(error)
+
+
+def prepare_old_svn(work_directory):
+    # 191058
+    here = os.path.abspath(os.path.dirname(__file__))
+    commands = [
+        (
+            f"git svn clone -r1:191058 --authors-file {here}/svn2git-authors.txt "
+            "https://gtsvn.uit.no/langtech/trunk langtech_upto_removed_langs",
+            work_directory,
+        ),
+        (
+            "git clone --mirror --no-local langtech_upto_removed_langs lt",
+            work_directory,
+        ),
+        (
+            "git filter-repo "
+            "--prune-empty always "  # remove empty commits, e.g. svn-ignores and such
+            "--strip-blobs-bigger-than 50M",  # strip files larger than githubs limit
+            f"{work_directory}/lt",  # the "lang"-mirror repos are cloned from this repo
+        ),
+    ]
+    for command in commands:
+        run(command[0], cwd=command[1])
+
+
+def fix_a_lang(git_repo_name, work_directory):
+    svn_elements = set(svn_lang_dirs(git_repo_name, work_directory))
+    if len(svn_elements) < 2:
+        # The language files have only lived in one svn directory.
+        # The previous svn2git process has covered this case
+        print("No need to process", git_repo_name)
+    else:
+        svn_lang = git_repo_name.split("-")[1]
+        prepare_for_rebase(git_repo_name, svn_elements, svn_lang, work_directory)
+        rebase_new_on_old(git_repo_name, svn_lang, work_directory)
+        cleanup(git_repo_name, svn_lang, work_directory)
+
+
+def prepare_for_rebase(git_repo_name, svn_directories, svn_lang, work_directory):
+    # The process stops here for some languages because of name change collisions.
+    # Find the directory where the language last lived in the svn repo by running
+    # the git log commands found in svn_lang_dirs function and look at the dates.
+    # Remove all the --path-rename options from command found in the log
+    # in the terminal window, except the one for the directory that was found,
+    # then run that command.
+    # Proceed with running the rest of the commands manually.
+    paths = [f"--path {svn_directory}" for svn_directory in svn_directories]
+    renames = [f"--path-rename {svn_directory}/:" for svn_directory in svn_directories]
+    commands = [
+        (f"git clone --mirror --no-local lt {svn_lang}-mirror", work_directory),
+        (
+            f"git filter-repo {' '.join(paths)} {' '.join(renames)}",
+            f"{work_directory}/{svn_lang}-mirror",
+        ),
+        (f"git clone git@github.com:giellalt/{git_repo_name}", work_directory),
+    ]
+    for command in commands:
+        run(command[0], cwd=command[1])
+
+
+def rebase_new_on_old(git_repo_name, svn_lang, work_directory):
+    # The last commit in the old history
+    old_head = subprocess.run(
+        "git log --oneline -n 1".split(),
+        cwd=f"{work_directory}/{svn_lang}-mirror",
+        encoding="utf-8",
+        capture_output=True,
+    ).stdout.split()[0]
+
+    # The last commit in current history
+    main_log_lines = subprocess.run(
+        "git log --oneline".split(),
+        cwd=f"{work_directory}/{git_repo_name}",
+        encoding="utf-8",
+        capture_output=True,
+    ).stdout.split("\n")
+
+    # The github history starts at this commit
+    first_important_git_commit = [
+        line for line in main_log_lines if "Add initial CI configuration" in line
+    ][0].split()[0]
+    main_head = main_log_lines[0].split()[0]
+
+    commands = [
+        (
+            f"git fetch ../{svn_lang}-mirror master:old",
+            f"{work_directory}/{git_repo_name}",
+        ),
+        # The process stops at the rebase for some languages because of conflicts
+        # If this is the case, then manually
+        #   merge incoming changes each time the rebase stops
+        #   `git add` files that have been fixed
+        #   git rebase --continue (or git rebase --skip for empty commits)
+        # the run switch -c command, followed by the ones in cleanup()
+        (
+            # merge histories, rebase the commits in the range from "first_import_git_commit" to "main_head"
+            # onto the old history
+            f"git rebase --onto {old_head} {first_important_git_commit}^ {main_head}",
+            f"{work_directory}/{git_repo_name}",
+        ),
+        (f"git switch -c main_with_history_fixed", f"{work_directory}/{git_repo_name}"),
+    ]
+    for command in commands:
+        run(command[0], cwd=command[1])
+
+
+def cleanup(git_repo_name, svn_lang, work_directory):
+    commands = [(f"git branch -D old", f"{work_directory}/{git_repo_name}")]
+    for command in commands:
+        run(command[0], cwd=command[1])
+    shutil.rmtree(f"{work_directory}/{svn_lang}-mirror")
 
 
 def run(command, cwd=""):
@@ -24,240 +147,63 @@ def run(command, cwd=""):
     subprocess.run(command.split(), cwd=cwd, check=True, encoding="utf-8")
 
 
-def main():
-    # List produced (except where noted) by running:
-    # for i in lang-*
-    # do
-    #   cd $i;
-    #   hash=$(git log --oneline |grep 'Add initial CI configuration'|cut -f1 -d" ");
-    #   lang=$(echo $i|cut -f2- -d'-');
-    #   echo "('$lang', '$hash'),";
-    #   cd ..;
-    # done
-    # in giellalt, where giellalt is the directory where gut has checked out giellat lang-* repos
-    svnlanginfos = [
-        # "langs": [
-        LangInfo("chp", "113e8f9", "kt", "langs", True),  # ok
-        # ("chr", "4514fc6"),  # this is in both startup-langs and langs
-        # ("ciw", "7599214"),
-        # ("cor", "4e3257d"),
-        # ("crk", "7165a207"),
-        # ("cwd", ""),
-        # ("dan", ""), not in svn
-        # ("deu", "6693a3d"),
-        # ("est-x-plamk", "815fe034"),
-        # ("esu", ""), not in svn
-        # ("evn", "251dca3"),
-        # ("fao", "3f0fa1aa"),
-        # ("fin", "2f37c19"),
-        # ("fit", "3d6d326"),
-        # ("fkv", "f3b59102"),
-        # # ("got", ""), not in svn
-        # ("hdn", "220f0d1"),
-        # ("hun", "d543259"),
-        # ("ipk", "02c1014"),
-        # ("isl", ""), not in svn
-        # ("izh", "22f5320"),
-        # ("kal", "a3944514"),
-        # ("kca", "45f757b"),
-        # ("koi", "c5c22ab"),
-        # ("kpv", "153dbf5a"),
-        # ("lav", "fbfa558"),
-        # ("liv", "73568549"),
-        # ("lut", "65c99b4"),
-        # ("mdf", "bfcdfc60"),
-        # ("mhr", "a8a34b1"),  # this is in both startup-langs and langs
-        # ("mns", "034f0a7"),
-        # ("mrj", "182f39f7"),
-        # ("myv", "d258b5c7"),
-        # ("nds", "8fd7c7c"),
-        # ("nio", "6f1b271"),
-        # ("nob", "b572447"),
-        # ("oji", "64dcf88"),
-        # ("olo", "db0aa188"),
-        # ("otw", "24256a3"),
-        # ("quc-x-ext-apertium", ""), not in svn
-        # ("ron", "f5642b2"),
-        # ("rus", "31eb8bb"),
-        # ("sjd", "ec45987"),
-        # ("sje", "3a16cf1f"),
-        # ("sma", "66e59da0"),
-        # ("sme", "37dcbb27d"),
-        # ("smj", "ca3d670f"),
-        # ("smn", "ed3d1d758"),
-        # ("sms", "61a49596"),
-        # ("som", "536f1ef"),
-        # ("tat", "7e05745"),
-        # ("tku", "3626703"),
-        # ("udm", "2cd4ee3"),
-        # ("vep", "85a1628"),
-        # ("vot", "530ce57"),
-        LangInfo(
-            langname="vro",
-            first_important_git_commit="ae7c8768",
-            start_directory="kt",
-            final_directory="langs",
-        ),
-        # ("yrk", "6e99a71d"),
-        # ("zul", ""),
-        # ],
-        # "startup-langs": [
-        # ("aka", "f1cf245"),
-        # ("amh", "0ce51a6"),
-        # ("apu", "14df469"),
-        # ("aym", "02ef116"),
-        # ("bla", "dd451d6"),
-        # # ("chr", "4514fc6"),  # this is in both startup-langs and langs
-        # ("ckt", "39044a9"),
-        # ("crj", "aac6c44"),
-        # ("crl", "76dd46e"),
-        # ("dgr", "a2a2a17"),
-        # ("epo", "65cfe2e"),
-        # ("ess", "39c7770"),
-        # ("eus", "37c6aaf"),
-        # ("gle", "d6777b8"),
-        # ("grn", "a88b4ba"),
-        # ("hin", "abdf753"),
-        # ("iku", "733f289"),
-        # ("kek", "b3edbb4"),
-        # ("khk", "7f078a5"),
-        # ("kio", "8477882"),
-        # ("kjh", "55cc343"),
-        # ("kmr", "fa791b0"),
-        # ("krl", "341844e"),
-        # ("luo", "4ac25dd"),
-        # # ("mhr", "a8a34b1"),  # this is in both startup-langs and langs
-        # ("moe", "0f7f5f4"),
-        # ("moh", "eea5424"),
-        # ("ndl", "3bf2cf9"),
-        # ("nno", "1f103d4"),
-        # ("non", "811a457"),
-        # ("nso", "03d3203"),
-        # ("rmf", "381c752"),
-        # ("rmn", "93a0989"),
-        # ("rmu", "e7a023a"),
-        # ("rmy", "41f4cc5"),
-        # ("rup", "7bd49ad"),
-        # ("sel", "8c3a987"),
-        # ("skf", "e907aee"),
-        # ("srs", "7166051"),
-        # ("sto", "fcaadfe"),
-        # ("swe", "7642ee8"),
-        # ("tau", "46b4d47"),
-        # ("tel", "d6ca64c"),
-        # ("tgl", "e7e070c"),
-        # ("tir", "61aa79b"),
-        # ("tlh", "9dbd161"),
-        # ("tuv", "22c291e"),
-        # ("tyv", "df0f772"),
-        # ("xal", "b4228d7"),
-        # ("xwo", "3977c78"),
-        # ("zul-x-exp", "4b50118"),
-        # ],
-        # "experimental-langs": [
-        # ("ara", "7db2ee8"),
-        # ("bul", "cf69e73"),
-        # ("ces", "f3185db"),
-        # ("eng", "95af006"),
-        # ("est-x-utee", "f4db64a"),
-        # ("sjt", "4f94ca5"),
-        # ("sqi", "cc318f7"),
-        # ("zxx", "d90a1f0"),
-        # ],
-        # "external-langs": [
-        # ("nno-x-ext-apertium", ""),
-        # ("spa-x-ext-apertium", ""),
-        # ("tur-x-ext-trmorph", ""),
-        # ("vot-x-ext-kkankain", ""),
-        # ],
-        # "closed-langs": [],
+def get_valid_repo_names(git_repos_home):
+    avoid_langs = [
+        "lang-zul",  # lang-zul-x-experimental is the open one
+        "lang-est-x-utee",  # must be manually fixed
+        "lang-est-x-plamk",  # same goes for this
+        "lang-esu",  # the work done in svn is not used in the github repo
+        "lang-sjd-x-private",
+    ]
+    return [
+        l.split("/")[-1]
+        for l in sorted(glob.glob(f"{git_repos_home}/lang-*"))
+        if (l.split("/")[-1] not in avoid_langs or l.endswith("nno-x-ext-apertium"))
     ]
 
-    if len(sys.argv) != 2:
-        print("Please give a language to fix")
-        usage(svnlanginfos)
 
-    try:
-        langinfo = [
-            langinfo
-            for langinfo in svnlanginfos
-            if langinfo.langname == sys.argv[1] and not langinfo.has_full_history
-        ][0]
-    except IndexError:
-        print("The given language either does not exist, or has already been fixed.")
-        usage(svnlanginfos)
+def svn_lang_dirs(git_repo_name, work_directory):
+    # Find all the places the language files have lived in gtsvn
+    print(f"checking {git_repo_name}")
+    svn_name = git_repo_name.split("-")[1]
 
-    fix_a_lang(langinfo)
-
-
-def usage(svnlanginfos):
-    print("You can choose from")
-    print(
-        "\n".join(
+    # rmf started up as rom, search in both rom and rmf history
+    svn_names = ["rom", "rmf"] if svn_name == "rmf" else [svn_name]
+    for svn_lang_dir in [
+        f"{svn_lang_dir_base}/{name}"
+        for name in svn_names
+        for svn_lang_dir_base in [
+            "gt",
+            "kt",
+            "st",
+            "experiment-langs",
+            "startup-langs",
+            "langs",
+            "techdoc/lang",
+            "gt/doc/lang",
+            "gtlangs",
+            "newinfra",
+            "newinfra/gtlangs",
+            "newinfra/langs",
+        ]
+    ]:
+        o = subprocess.run(
             [
-                langinfo.langname
-                for langinfo in svnlanginfos
-                if not langinfo.has_full_history
-            ]
+                "git",
+                "log",
+                "-n 1",
+                '--pretty=format:"%H %an %ad"',
+                "--date=short",
+                "--",
+                f"{svn_lang_dir}",
+            ],
+            cwd=f"{work_directory}/langtech_upto_removed_langs",
+            encoding="utf-8",
+            check=True,
+            capture_output=True,
         )
-    )
-    raise SystemExit(1)
-
-
-def fix_a_lang(langinfo):
-    index = 2
-    directories = [langinfo.start_directory, langinfo.final_directory]
-    svn_lang = langinfo.langname.split("-")[0]
-    paths = [f"--path {directory}/{svn_lang}" for directory in directories]
-    commands = [
-        # (f"git clone --mirror --no-local lt {svn_lang}-mirror", os.getcwd()),
-        # (
-        #     f"git filter-repo {' '.join(paths)} --path-rename {langinfo.final_directory}/{svn_lang}/:",
-        #     f"{svn_lang}-mirror",
-        # ),
-        (f"git clone git@github.com:giellalt/lang-{langinfo.langname}", os.getcwd())
-    ]
-    for (index, command) in enumerate(commands, start=index):
-        try:
-            run(command[0], cwd=command[1])
-        except subprocess.CalledProcessError as error:
-            print(error)
-            raise SystemExit(index)
-
-    old_head = subprocess.run(
-        "git log --oneline -n 1".split(),
-        cwd=os.path.join(os.getcwd(), f"{svn_lang}-mirror"),
-        encoding="utf-8",
-        capture_output=True,
-    ).stdout.split()[0]
-    main_head = subprocess.run(
-        "git log --oneline -n 1".split(),
-        cwd=os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        encoding="utf-8",
-        capture_output=True,
-    ).stdout.split()[0]
-
-    commands2 = [
-        (
-            f"git fetch ../{svn_lang}-mirror master:old",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
-        (
-            f"git rebase --merge ours --onto {old_head} {langinfo.first_important_git_commit}^ {main_head}",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
-        (
-            f"git switch -c main_with_history_fixed",
-            os.path.join(os.getcwd(), f"lang-{langinfo.langname}"),
-        ),
-        (f"git branch -D old", os.path.join(os.getcwd(), f"lang-{langinfo.langname}")),
-    ]
-    for (index, command) in enumerate(commands2, start=index):
-        try:
-            run(command[0], cwd=command[1])
-        except subprocess.CalledProcessError as error:
-            print(error, index)
-            raise SystemExit(index)
+        if o.stdout:
+            yield svn_lang_dir
 
 
 if __name__ == "__main__":
