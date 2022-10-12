@@ -14,20 +14,21 @@ def main():
     )  # run gut clone -o giellalt -r lang-* to populate this directory
     work_directory = os.path.abspath(sys.argv[2])
 
-    try:
-        prepare_old_svn(work_directory)
-    except subprocess.CalledProcessError as error:
-        print(error)
+    # try:
+    #     prepare_old_svn(work_directory)
+    # except subprocess.CalledProcessError as error:
+    #     print(error)
     for git_repo_name in ["lang-sme"]:  # get_valid_repo_names(git_repos_home):
-        if os.path.exists(f"{work_directory}/{git_repo_name}"):
-            print(git_repo_name, "has already been processed")
-        else:
-            try:
-                fix_a_lang(git_repo_name, work_directory)
-            except subprocess.CalledProcessError as error:
-                print(error)
-            except IndexError as error:
-                print(error)
+        # if os.path.exists(f"{work_directory}/{git_repo_name}"):
+        #     print(git_repo_name, "has already been processed")
+        # else:
+        try:
+            fix_a_lang(git_repo_name, work_directory)
+        except subprocess.CalledProcessError as error:
+            print(error)
+        except IndexError as error:
+            print(error)
+    print("main done")
 
 
 def prepare_old_svn(work_directory):
@@ -62,9 +63,9 @@ def fix_a_lang(git_repo_name, work_directory):
         print("No need to process", git_repo_name)
     else:
         svn_lang = git_repo_name.split("-")[1]
-        prepare_for_rebase(git_repo_name, svn_elements, svn_lang, work_directory)
+        # prepare_for_rebase(git_repo_name, svn_elements, svn_lang, work_directory)
         rebase_new_on_old(git_repo_name, svn_lang, work_directory)
-        cleanup(git_repo_name, svn_lang, work_directory)
+        # cleanup(git_repo_name, svn_lang, work_directory)
 
 
 def prepare_for_rebase(git_repo_name, svn_directories, svn_lang, work_directory):
@@ -92,44 +93,54 @@ def prepare_for_rebase(git_repo_name, svn_directories, svn_lang, work_directory)
 def rebase_new_on_old(git_repo_name, svn_lang, work_directory):
     # The last commit in the old history
     old_head = subprocess.run(
-        "git log --oneline -n 1".split(),
+        ["git", "log", "-n", "1", '--pretty=format:"%H %an %ad"'],
         cwd=f"{work_directory}/{svn_lang}-mirror",
         encoding="utf-8",
         capture_output=True,
-    ).stdout.split()[0]
+    ).stdout[1:-1]
+
+    commit_b = old_head.split()[0]
+    print(f"old_head: {old_head}")
+    print(f"commit_b: {commit_b}")
 
     # The last commit in current history
     main_log_lines = subprocess.run(
-        "git log --oneline".split(),
+        ["git", "log", '--pretty=format:"%H %an %ad"'],
         cwd=f"{work_directory}/{git_repo_name}",
         encoding="utf-8",
         capture_output=True,
     ).stdout.split("\n")
-
+    print(f"len of main_log_lines: {len(main_log_lines)}")
+    print(main_log_lines[0])
     # The github history starts at this commit
+    needle = f"{old_head.replace(commit_b, '')}"
     first_important_git_commit = [
-        line for line in main_log_lines if "Add initial CI configuration" in line
-    ][0].split()[0]
-    main_head = main_log_lines[0].split()[0]
+        line[1:-1] for line in main_log_lines if needle in line
+    ][0]
+    print(f"first_important: {first_important_git_commit}")
+    commit_a = first_important_git_commit.split()[0]
+    print(commit_a)
 
     commands = [
         (
             f"git fetch ../{svn_lang}-mirror master:old",
             f"{work_directory}/{git_repo_name}",
         ),
-        # The process stops at the rebase for some languages because of conflicts
-        # If this is the case, then manually
-        #   merge incoming changes each time the rebase stops
-        #   `git add` files that have been fixed
-        #   git rebase --continue (or git rebase --skip for empty commits)
-        # the run switch -c command, followed by the ones in cleanup()
-        (
-            # merge histories, rebase the commits in the range from "first_import_git_commit" to "main_head"
-            # onto the old history
-            f"git rebase --onto {old_head} {first_important_git_commit}^ {main_head}",
-            f"{work_directory}/{git_repo_name}",
-        ),
         (f"git switch -c main_with_history_fixed", f"{work_directory}/{git_repo_name}"),
+        (f"git replace {commit_a} {commit_b}", f"{work_directory}/{git_repo_name}"),
+        (f"git filter-repo --force", f"{work_directory}/{git_repo_name}")
+        #     # The process stops at the rebase for some languages because of conflicts
+        #     # If this is the case, then manually
+        #     #   merge incoming changes each time the rebase stops
+        #     #   `git add` files that have been fixed
+        #     #   git rebase --continue (or git rebase --skip for empty commits)
+        #     # the run switch -c command, followed by the ones in cleanup()
+        #     (
+        #         # merge histories, rebase the commits in the range from "first_import_git_commit" to "main_head"
+        #         # onto the old history
+        #         f"git rebase --onto {old_head} {first_important_git_commit}^ {main_head}",
+        #         f"{work_directory}/{git_repo_name}",
+        #     ),
     ]
     for command in commands:
         run(command[0], cwd=command[1])
