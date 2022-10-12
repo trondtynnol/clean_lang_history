@@ -208,3 +208,29 @@ def svn_lang_dirs(git_repo_name, work_directory):
 
 if __name__ == "__main__":
     main()
+
+# https://github.com/giellalt/clean_lang_history/issues/1
+# fix names https://stackoverflow.com/questions/58263216/how-to-change-commit-author-for-multiple-commits-using-filter-branch
+# author dates https://github.com/giellalt/giella-core/issues/20#issuecomment-1135506061
+
+# cd repo
+# git filter-repo --mailmap my-mailmap
+
+
+# Parent rewriting
+
+# To replace $commit_A with $commit_B (e.g. make all commits which had $commit_A as a parent instead have $commit_B for that parent), and rewrite history to make it permanent:
+
+# git replace $commit_A $commit_B
+# git filter-repo --force
+
+# To create a new commit with the same contents as $commit_A except with different parent(s) and then replace $commit_A with the new commit, and rewrite history to make it permanent:
+
+# git replace --graft $commit_A $new_parent_or_parents
+# git filter-repo --force
+
+# The reason to specify --force is two-fold: filter-repo will error out if no arguments are specified, and the new graft commit would otherwise trigger the not-a-fresh-clone check.
+
+# ❯ grep 'Obsolete test' main.txt
+# 239ea63d8 Obsolete test script, removed. Checked with Lene and Trond.
+# dd1681737 Obsolete test script, removed. Checked with Lene and Trond.
