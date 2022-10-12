@@ -18,7 +18,7 @@ def main():
         prepare_old_svn(work_directory)
     except subprocess.CalledProcessError as error:
         print(error)
-    for git_repo_name in get_valid_repo_names(git_repos_home):
+    for git_repo_name in ["lang-sme"]:  # get_valid_repo_names(git_repos_home):
         if os.path.exists(f"{work_directory}/{git_repo_name}"):
             print(git_repo_name, "has already been processed")
         else:
