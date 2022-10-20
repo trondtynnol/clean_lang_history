@@ -289,3 +289,14 @@ if __name__ == "__main__":
 # git replace --edit child of commit_a or commit_b
 # in the editor, remove the suspicios parent
 # git filter-repo --replace-refs delete-no-add --force --prune-degenerate always
+
+
+# Manual operations for chr
+# git filter-repo \
+#     --path langs/chr \
+#     --path startup-langs/chr
+#     --path techdoc/lang/chr
+#     --path-rename langs/chr/:
+#     --path-rename startup-langs/chr/: # Removed this one
+#     --path-rename techdoc/lang/chr/:
+#     --force
