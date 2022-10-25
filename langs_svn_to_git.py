@@ -70,6 +70,9 @@ def fix_a_lang(git_repo_name, work_directory):
 def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_directory):
     # Find the directory where the language last lived in the svn repo by running
     # the git log commands found in svn_lang_dirs function and look at the dates.
+    replacements = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "replacements.txt"
+    )
     mailmappath = os.path.join(
         os.path.abspath(os.path.dirname(__file__)), "all-repos.mailmap"
     )
@@ -82,6 +85,7 @@ def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_direc
             (f"git clone --mirror --no-local lt {svn_lang}-mirror", work_directory),
             (
                 f"git filter-repo  {' '.join(paths)} {' '.join(renames)} "
+                f"--replace-message {replacements} "
                 f"--mailmap {mailmappath}",
                 f"{work_directory}/{svn_lang}-mirror",
             ),
