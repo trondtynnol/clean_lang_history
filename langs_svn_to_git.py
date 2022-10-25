@@ -73,6 +73,9 @@ def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_direc
     replacements = os.path.join(
         os.path.abspath(os.path.dirname(__file__)), "replacements.txt"
     )
+    git_svn = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "replace_git_svn.py"
+    )
     mailmappath = os.path.join(
         os.path.abspath(os.path.dirname(__file__)), "all-repos.mailmap"
     )
@@ -86,6 +89,7 @@ def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_direc
             (
                 f"git filter-repo  {' '.join(paths)} {' '.join(renames)} "
                 f"--replace-message {replacements} "
+                f"--message-callback {git_svn} "
                 f"--mailmap {mailmappath}",
                 f"{work_directory}/{svn_lang}-mirror",
             ),
