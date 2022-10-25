@@ -70,6 +70,9 @@ def fix_a_lang(git_repo_name, work_directory):
 def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_directory):
     # Find the directory where the language last lived in the svn repo by running
     # the git log commands found in svn_lang_dirs function and look at the dates.
+    mailmappath = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "all-repos.mailmap"
+    )
     if not os.path.exists(f"{work_directory}/{svn_lang}-mirror"):
         paths = [f"--path {svn_directory}" for svn_directory in svn_directories]
         renames = [
@@ -78,7 +81,8 @@ def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_direc
         commands = [
             (f"git clone --mirror --no-local lt {svn_lang}-mirror", work_directory),
             (
-                f"git filter-repo {' '.join(paths)} {' '.join(renames)}",
+                f"git filter-repo  {' '.join(paths)} {' '.join(renames)} "
+                f"--mailmap {mailmappath}",
                 f"{work_directory}/{svn_lang}-mirror",
             ),
         ]
@@ -188,14 +192,10 @@ def cleanup(git_repo_name, svn_lang, work_directory):
             ).stdout,
             file=pre_stream,
         )
-    mailmappath = os.path.join(
-        os.path.abspath(os.path.dirname(__file__)), "all-repos.mailmap"
-    )
     commands = [
         (
             f"git filter-repo --replace-refs delete-no-add --force "
-            f"--prune-degenerate always --mailmap {mailmappath}",
-            f"{work_directory}/{git_repo_name}",
+            f"--prune-degenerate always",
         )
     ]
     for command in commands:
