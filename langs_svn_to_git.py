@@ -186,6 +186,10 @@ def cleanup(git_repo_name, svn_lang, work_directory):
     commands = [
         # (f"git branch -D old", f"{work_directory}/{git_repo_name}"),
         (f"git branch -D main_with_history_fixed", f"{work_directory}/{git_repo_name}"),
+        (
+            f"git filter-repo --replace-refs delete-no-add --force --prune-degenerate always",
+            f"{work_directory}/{git_repo_name}",
+        )
         # (
         #     f"git push --force -d origin main_with_history_fixed",
         #     f"{work_directory}/{git_repo_name}",
@@ -205,14 +209,6 @@ def cleanup(git_repo_name, svn_lang, work_directory):
             ).stdout,
             file=pre_stream,
         )
-    commands = [
-        (
-            f"git filter-repo --replace-refs delete-no-add --force "
-            f"--prune-degenerate always",
-        )
-    ]
-    for command in commands:
-        run(command[0], cwd=command[1])
 
 
 def run(command, cwd=""):
