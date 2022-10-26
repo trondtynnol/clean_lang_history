@@ -88,15 +88,19 @@ def prepare_for_git_replace(git_repo_name, svn_directories, svn_lang, work_direc
         commands = [
             (f"git clone --mirror --no-local lt {svn_lang}-mirror", work_directory),
             (
-                f"git filter-repo  {' '.join(paths)} {' '.join(renames)} "
-                f"--replace-message {replacements} "
-                f"--message-callback {git_svn} "
-                f"--mailmap {mailmappath}",
+                f"git filter-repo  {' '.join(paths)} {' '.join(renames)}",
                 f"{work_directory}/{svn_lang}-mirror",
             ),
         ]
         for command in commands:
             run(command[0], cwd=command[1])
+    run(
+        f"git filter-repo --force "
+        f"--replace-message {replacements} "
+        f"--message-callback {git_svn} "
+        f"--mailmap {mailmappath}",
+        cwd=f"{work_directory}/{svn_lang}-mirror",
+    )
 
 
 def do_git_replace(git_repo_name, svn_lang, work_directory):
