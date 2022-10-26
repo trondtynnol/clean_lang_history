@@ -286,24 +286,8 @@ if __name__ == "__main__":
     main()
 
 # https://github.com/giellalt/clean_lang_history/issues/1
-# fix names https://stackoverflow.com/questions/58263216/how-to-change-commit-author-for-multiple-commits-using-filter-branch
-# author dates https://github.com/giellalt/giella-core/issues/20#issuecomment-1135506061
-
-# cd repo
-# git filter-repo --mailmap my-mailmap
 
 # https://stackoverflow.com/questions/49563574/git-delete-one-of-two-parent-commits, answer two
 # git replace --edit child of commit_a or commit_b
 # in the editor, remove the suspicios parent
-# git filter-repo --replace-refs delete-no-add --force --prune-degenerate always
 
-
-# Manual operations for chr
-# git filter-repo \
-#     --path langs/chr \
-#     --path startup-langs/chr
-#     --path techdoc/lang/chr
-#     --path-rename langs/chr/:
-#     --path-rename startup-langs/chr/: # Removed this one
-#     --path-rename techdoc/lang/chr/:
-#     --force
