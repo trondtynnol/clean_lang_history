@@ -3,6 +3,7 @@ import glob
 import os
 import subprocess
 import sys
+import datetime
 
 # Script to fix histories of langs from https://gtsvn.uit.no/langtech/trunk
 
@@ -236,7 +237,8 @@ def get_valid_repo_names(git_repos_home):
 
 def svn_lang_dirs(git_repo_name, work_directory):
     # Find all the places the language files have lived in gtsvn
-    print(f"checking {git_repo_name}")
+    print(f"checking {git_repo_name}: {datetime.datetime.now()}")
+
     svn_name = git_repo_name.split("-")[1]
 
     # rmf started up as rom, search in both rom and rmf history
