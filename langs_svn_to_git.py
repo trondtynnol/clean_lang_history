@@ -24,12 +24,13 @@ def main():
         sys.argv[1]
     )  # run gut clone -o giellalt -r lang-* to populate this directory
     for git_repo_name in get_valid_repo_names(git_repos_home):
-        try:
-            fix_a_lang(git_repo_name, work_directory)
-        except subprocess.CalledProcessError as error:
-            print(error)
-        except IndexError as error:
-            print(error)
+        if not os.path.exists(os.path.join(work_directory, git_repo_name)):
+            try:
+                fix_a_lang(git_repo_name, work_directory)
+            except subprocess.CalledProcessError as error:
+                print(error)
+            except IndexError as error:
+                print(error)
 
 
 def prepare_old_svn(work_directory):
