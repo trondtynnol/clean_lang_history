@@ -243,7 +243,7 @@ def svn_lang_dirs(git_repo_name, work_directory):
 
     svn_name = git_repo_name.split("-")[1]
 
-    lang_map = {"lut": ["slh", "lut"], "rmf": ["rom", "rmf"]}
+    lang_map = {"lut": ["slh", "lut"], "rmf": ["rom", "rmf"], "cor": ["kor", "cor"]}
     # rmf started up as rom, search in both rom and rmf history
     # lut started as slh, search for both slh and lut
     svn_names = lang_map.get(svn_name, [svn_name])
