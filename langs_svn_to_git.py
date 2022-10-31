@@ -14,10 +14,11 @@ def main():
             "usage: ./langs_svn_to_git.py <dir-where-giellalt-is-clone> <dir-where-work-is-done>"
         )
     work_directory = os.path.abspath(sys.argv[2])
-    try:
-        prepare_old_svn(work_directory)
-    except subprocess.CalledProcessError as error:
-        print(error)
+    if not os.path.exists(os.path.join(work_directory, "lt")):
+        try:
+            prepare_old_svn(work_directory)
+        except subprocess.CalledProcessError as error:
+            print(error)
 
     git_repos_home = os.path.abspath(
         sys.argv[1]
