@@ -1,0 +1,104 @@
+322d321
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+328d326
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+337d334
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+342,343d338
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+349d343
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+361d354
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+391d383
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+397d388
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+400d390
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+410d399
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+413d401
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+415d402
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+429d415
+< More things to ignore. 2018-05-14T10:30:20+00:00
+444,445d429
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+448d431
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+459d441
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+488d469
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+509,510d489
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+522d500
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+538,539d515
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+557d532
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+573d547
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+577a552,606
+> makefile for latin2sy.. 2014-03-09T21:29:35+00:00
+> Trying to improve, the syll2lat does not work, the reason is that ambiguity is included, and must be removed. 2014-03-09T21:25:59+00:00
+> added script name extension 2010-04-21T17:46:29+00:00
+> caseconv-fix 2010-01-15T15:14:26+00:00
+> Got new name 2010-01-15T15:07:15+00:00
+> Moved 2010-01-15T15:06:52+00:00
+> Further experiments in simplifying makefiles. 2009-11-30T14:48:07+00:00
+> formatting 2009-10-22T15:05:14+00:00
+> Fixed flag diacritics format to foma compatibility 2009-10-03T22:09:32+00:00
+> utf-8 2009-10-03T22:08:56+00:00
+> Path and whitespace cleanup. 2009-07-01T11:51:06+00:00
+> adjustimg to work. 2009-05-11T16:07:18+00:00
+> Changed svnredone reference back to gtsvn. 2009-04-14T10:28:59+00:00
+> redone 2009-04-13T18:13:21+00:00
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> Six more forms. 2009-03-06T21:43:20+00:00
+> Added suffixes for Poss. 2009-03-06T15:47:18+00:00
+> Made all the Px codes. 2009-03-06T15:46:32+00:00
+> Regelopdateringer. 2009-03-05T17:33:15+00:00
+> Cleaned the codes. 2009-03-05T17:32:53+00:00
+> Nu fungerer nominerne 2009-03-05T16:54:36+00:00
+> Changed path back to relative. 2009-03-05T16:49:16+00:00
+> Checking fst again. 2009-03-04T22:54:55+00:00
+> tags more in line. 2009-03-04T21:13:31+00:00
+> Longer rulenames, to be unique. 2009-03-04T21:12:45+00:00
+> Lesson over, still inukk. 2009-03-04T19:07:53+00:00
+> 3vow phonrule and more close to good plural. 2009-03-04T18:34:41+00:00
+> Changes 2009-03-04T18:16:49+00:00
+> POS tags. 2009-03-04T17:44:21+00:00
+> Added three missing semicolons. 2009-03-04T17:32:57+00:00
+> Checking in an intermediate version, having a break here. Tentatively making a dummy %^V symbol for prolonging of vst in dual, and discussing q stems. 2009-03-04T17:22:31+00:00
+> testfil af Tika 2009-03-04T16:28:02+00:00
+> Added tags for TV inflection. No affixes added. 2009-03-04T16:17:08+00:00
+> Added from Dorais. 2009-03-03T20:21:39+00:00
+> Removed ipk rules. 2009-03-01T20:24:33+00:00
+> Cleaned up and removed Iñupiaq. 2009-03-01T03:41:29+00:00
+> Added two missing files, dummy at the moment. 2009-02-26T12:14:57+00:00
+> Preparing shift to last xerox tool, by the time anyone looks into this, they have the new tools. 2008-10-20T21:20:43+00:00
+> Changed script address from gt/script to gtsvn/gt/script 2008-06-26T20:27:47+00:00
+> Introduced variable definitions for the Xerox tools 2008-05-23T18:39:03+00:00
+> Revisions, now an alpha version for syll-lat-analysis-syll 2008-04-09T18:07:20+00:00
+> testing 2008-04-09T18:05:40+00:00
+> Corrections, reordering. 2008-04-09T17:58:24+00:00
+> cvsignore 2007-10-04T19:51:19+00:00
+> makefiles 2007-10-04T19:50:17+00:00
+> caseregex 2007-10-04T19:49:24+00:00
+> convtesting 2007-10-04T19:46:59+00:00
+> First rule sketch. 2007-09-30T19:10:36+00:00
+> Dummy file, or a little more: Joined ipk makefile with iku syllconverter makefile. 2007-09-30T11:41:17+00:00
+> More or less dummy files. 2007-09-30T11:40:28+00:00
+> Reordered rules. 2007-09-30T11:28:51+00:00
+> Commented out empty translations. 2007-09-23T12:40:18+00:00
+> Additions for loanwords, and swapped content as well. 2007-09-19T21:29:29+00:00
+> Perl files. 2007-09-01T22:38:50+00:00
+> automaton 2007-09-01T21:45:36+00:00

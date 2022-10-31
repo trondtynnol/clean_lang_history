@@ -1,0 +1,105 @@
+323d322
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+329d327
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+338d335
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+343,344d339
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+350d344
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+362,363d355
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:10:40+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+393d384
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+399d389
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+402d391
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+412d400
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+415d402
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+417d403
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+431d416
+< More things to ignore. 2018-05-14T10:30:20+00:00
+445,446d429
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+449d431
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+460d441
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+489d469
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+510,511d489
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+523d500
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+537,538d513
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+556d530
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+572d545
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+636d608
+< Updated svn ignores. 2016-06-09T20:05:58+00:00
+654d625
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:01:42+00:00
+675d645
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:35+00:00
+679d648
+< Updated svn ignores. 2016-03-15T19:55:06+00:00
+682d650
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:11:09+00:00
+702c670
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:31:44+00:00
+---
+> Everything moved to the new infra, now the whole grn dir is removed from the old one. YES! :) 2016-02-12T22:53:38+00:00
+727a696,736
+> Save this binary. 2011-07-19T14:40:34+00:00
+> Adjusted the hfst Makefile to hfst3, and some other fixes (thanks to Fran). 2011-07-19T14:40:18+00:00
+> Better than before, but not able to compile the xfst file. 2011-07-19T06:24:27+00:00
+> Removing files that only CVS needs 2010-09-01T13:07:03+00:00
+> make 2010-08-31T14:44:14+00:00
+> orthographic notes... 2010-05-03T12:37:16+00:00
+> added another resource 2010-05-03T12:28:28+00:00
+> adding some resources to NOTES 2010-05-02T18:45:29+00:00
+> caseconv-fix 2010-01-15T15:14:26+00:00
+> Got new name 2010-01-15T15:07:13+00:00
+> Moved 2010-01-15T15:06:50+00:00
+> added some words, and source list from ... that one book. 2010-01-10T15:46:43+00:00
+> Added university of paraguay's guarani-language texts, stripping HTML tags and etc. 2009-10-05T16:15:51+00:00
+> Started working a bit on more prefixes.  Looks like the nasal harmony stuff in xfst will need some work, since it doesn't actually interpret the output that appears. 2009-10-05T14:01:12+00:00
+> Fixed circumfix. 2009-10-03T22:08:13+00:00
+> Wasn't compiling-- fixed syntax issues in verb lexicon, added path without negative 2009-10-02T15:39:17+00:00
+> Added more letters to Vow and Cns. Added phon rules for Neg prefix changes (NegativeNasal, NEgativeVowel, NegativeConsDeletion, still not working. 2009-10-02T13:23:43+00:00
+> Added Neg suffix, debugging...:-( 2009-10-02T13:22:41+00:00
+> Added flag diacritics for Neg circumfix. Morphphonology still not done. 2009-10-02T12:53:16+00:00
+> add two verbs 2009-10-02T12:22:22+00:00
+>  se after the rest of the mood 2009-10-02T12:19:27+00:00
+> suffixes 2009-10-02T12:13:20+00:00
+> change codesNword to wordNcodes.pl 2009-10-02T11:28:37+00:00
+> prefix testing 2009-10-02T11:11:20+00:00
+> adjuistments 2009-10-02T11:10:23+00:00
+> generated 2009-10-02T11:08:26+00:00
+> V+ across the board. 2009-10-02T11:06:05+00:00
+> con -> lexicon in first line 2009-10-02T11:03:02+00:00
+> Testing catalogue. 2009-10-02T10:57:24+00:00
+> saving recovered changes to verb-grn-morph.txt 2009-10-02T10:47:53+00:00
+> Added chendal morphemes to verb-grn-morph.txt 2009-10-02T09:48:36+00:00
+> Included the grn-all-lex.tmp in the make clean target. 2009-10-02T09:03:39+00:00
+> K away. 2009-10-02T09:02:57+00:00
+> the classical semicolon after LEXICON error. 2009-10-02T09:00:16+00:00
+> space added, debugging. 2009-10-02T08:59:06+00:00
+> Three files missing in SRCS variable list 2009-10-02T08:43:04+00:00
+> a "corpus" and some makefile changes 2009-10-02T08:41:00+00:00
+> UTF-8 2009-10-01T22:54:47+00:00
+> Prefix tags get + to the right as well. DummyDeletion, nasalisation rule for nasal verbs now working. 2009-10-01T22:54:32+00:00
+> Changed to UTF-8, made the code compilable. 2009-10-01T22:27:51+00:00
+> New language, new continent: This time Guaraní. 2009-10-01T16:00:01+00:00

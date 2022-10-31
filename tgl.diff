@@ -1,0 +1,74 @@
+390d389
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+396d394
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+405d402
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+410,411d406
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+417d411
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+429d422
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+459d451
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+465d456
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+468d458
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+478d467
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+481d469
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+483d470
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+497d483
+< More things to ignore. 2018-05-14T10:30:20+00:00
+511,512d496
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+515d498
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+526d508
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+555d536
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+576,577d556
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+589d567
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+603,604d580
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+622d597
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+638d612
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+643a618
+> Adjusted the hfst Makefile to hfst3 conventions. 2011-07-18T17:32:10+00:00
+646a622
+> Removing files that only CVS needs 2010-09-01T13:07:03+00:00
+648a625
+> testing 2010-03-05T14:12:31+00:00
+650a628
+> caseconv-fix 2010-01-15T15:14:26+00:00
+651a630,631
+> Got new name 2010-01-15T15:07:23+00:00
+> Moved 2010-01-15T15:07:00+00:00
+653a634,635
+> utf8-correction 2009-12-27T12:05:16+00:00
+> testing 2009-11-24T15:10:33+00:00
+655a638,639
+> This version does inbi to imi. 2009-11-21T15:23:15+00:00
+> a couple of changes to twolc file and add makefile for hfst 2009-11-21T15:19:10+00:00
+657a642,643
+> a couple more comments 2009-11-21T15:02:31+00:00
+> Files from fao. The makefile has tgl for fao, otherwise the files are identical. 2009-11-21T15:01:44+00:00
+660a647,648
+> commit one comment 2009-11-21T15:00:06+00:00
+> Removed suffix boundary deletion rule (this is done via declaration, not rule), now it compiles. 2009-11-21T14:53:43+00:00
+662a651,652
+> Tagalog 2009-11-21T14:51:24+00:00
+> Tagalog 2009-11-21T14:50:58+00:00

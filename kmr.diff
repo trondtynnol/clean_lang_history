@@ -1,0 +1,64 @@
+324d323
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+330d328
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+339d336
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+344,345d340
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+351d345
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+363d356
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+393d385
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+398d389
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+401d391
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+411d400
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+414d402
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+416d403
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+430d416
+< More things to ignore. 2018-05-14T10:30:20+00:00
+444,445d429
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+448d431
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+459d441
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+488d469
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+509,510d489
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+522d500
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+536,537d513
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+555d530
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+571d545
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+577a552,566
+> Adjusted the hfst Makefile to hfst3 conventions. 2011-07-18T17:36:36+00:00
+> Removing files that only CVS needs 2010-09-01T13:07:03+00:00
+> converbs 2010-03-23T14:52:17+00:00
+> refs 2010-03-23T14:42:01+00:00
+> filenames 2010-03-23T14:39:18+00:00
+> ref 2010-03-23T14:39:08+00:00
+> encoding 2010-03-23T14:39:01+00:00
+> the Real Thing™ 2010-03-23T14:33:01+00:00
+> All kinds of small errors made by all the involved. Now it at least compiles. 2010-03-23T14:28:48+00:00
+> forgotten. 2010-03-23T14:20:52+00:00
+> Now, this compiles by twolc. 2010-03-23T14:18:24+00:00
+> whitespace 2010-03-23T14:09:22+00:00
+> corrected lexicon name 2010-03-23T14:09:15+00:00
+> fix a typo and add hfst makefile 2010-03-23T14:08:36+00:00
+> Kurmanji Kurdish, actually. Files from apertium-ku-fa. 2010-03-23T14:02:19+00:00

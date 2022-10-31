@@ -1,0 +1,112 @@
+658a659
+> oppdateringar 2020-04-12T11:56:07+00:00
+673d673
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+680,684d679
+< ignore *.fomabin. 2019-10-08T06:35:05+00:00
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T21:13:09+00:00
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+700d694
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+705,706d698
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+713d704
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+725,726d715
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+738,739d726
+< ignore for bin 2018-10-14T13:31:01+00:00
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+759,760d745
+< svn ignore update 2018-09-20T08:44:05+00:00
+< updated svn ignore. 2018-09-20T08:28:11+00:00
+764d748
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+767d750
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+777d759
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+780d761
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+782d762
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+797d776
+< More things to ignore. 2018-05-14T10:33:30+00:00
+811,814d789
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+817d791
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+828d801
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+861d833
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+882,883d853
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+895d864
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+910,911d878
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+918d884
+< ign 2017-03-21T19:49:19+00:00
+930d895
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+946d910
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+973c937,982
+< Moved fit from startup-langs to langs. Tiny as the fst is, we will put it into use. 2016-10-24T08:56:32+00:00
+---
+> [Template merge - langs/und] Better support for speller filters using source files from other locations. 2016-10-20T14:31:01+00:00
+> [Template merge - langs/und] Added mwe-dis.cg3, to allow disambiguation of multiword expressions and other tokenisation ambiguity. 2016-10-18T09:55:59+00:00
+> [Template merge - langs/und] We build the tokeising analysers directly off the disamb and grammar checker analysers in src/, assuming that they are identical. This is a reasonable assumption now that the hfst tool kit contains all necessary machinery, and we don't need to pay special attention to the requirements of the tokenisation. 2016-10-17T07:30:03+00:00
+> [Template merge - langs/und] Make --with-backend-format work also for the tokenising analysers. 2016-10-17T06:44:58+00:00
+> [Template merge - langs/und] Wrong variable name :-( - now it is correct. 2016-10-10T15:01:56+00:00
+> [Template merge - langs/und] Corrected makefile dependency for the und.timestamp file. 2016-10-10T14:50:42+00:00
+> [Template merge - langs/und] More robustness added to the test scripts: checking several variables, testing whether the found variables are pointing to existing directories, and giving an error message if no directory is found. 2016-10-06T15:25:28+00:00
+> [Template merge - langs/und] Changed variable name and definition to allow overriding the path to the called script, to make it easy to use a locally modified script instead. 2016-10-04T13:49:12+00:00
+> [Template merge - langs/und] Changed variable name in devtool scripts, to reflect similar changes elsewhere. Part of fixing bug #2219. 2016-10-04T08:53:42+00:00
+> [Template merge - langs/und] Corrected a number of bugs and deficiencies when building spellers when the giella proofing tools libraries must be fetched over the net. Not the spellers build correctly under all intended circumstances given that there is a network connection. 2016-09-09T16:16:46+00:00
+> [Template merge - langs/und] Corrected path for the test for availability of the giella-common resources. 2016-09-09T11:35:06+00:00
+> [Template merge - langs/und] Added support for getting precompiled proofing tools libraries across the net if not found locally. Makes it actually possible to build spellers without checking out the whole of $GIELLA_HOME. Now it is also possible to just check out $GIELLA_LIBS if one still wants to build everything locally. 2016-09-09T10:37:24+00:00
+> [Template merge - langs/und] Applied backend format rules to the tools/mt/ap/filters dir. This is not future proof, but does not create problems for sme, and solves a bug in smj. The future problem is that we mix both a specified backend format (for compilation efficiency) with the default/unspecified format fst (for weighting) in the same dir, and we can't automatically say which filters need to be in the specified backend format and which should be in the default format. This needs further consideration. 2016-09-02T08:23:58+00:00
+> [Template merge - langs/und] Completely clean src/transcriptions/, and also clean tools/mt/apertium/filters/. 2016-09-01T13:31:23+00:00
+> [Template merge - langs/und] Do not use PKG_CHECK_MODULES if you don't really have to - it clutters your code and creates unneeded variables = noise. 2016-08-31T11:22:13+00:00
+> [Template merge - langs/und] Corrected placeholder string for two-letter ISO language code. 2016-08-25T20:54:03+00:00
+> [Template merge - langs/und] Changed the path to the css for the xml speller test results in devtools. 2016-08-25T18:59:16+00:00
+> [Template merge - langs/und] Added support for building alternate orthography fst's for dictionary and oahpa, and also morphers for alternative orthographies. Slight simplification of defs. 2016-08-24T13:18:35+00:00
+> [Template merge - langs/und] One small change to support spellers for alternative orthographies built off of the raw fst instead of the standard fst. 2016-08-23T22:10:18+00:00
+> [Template merge - langs/und] Added a possibility to build fst's for alternate orthographies based on the raw fst surface forms, instead of from the default/standard orthography. 2016-08-23T20:41:06+00:00
+> [Template merge - langs/und] Changed all references to $(GIELLA_SHARED)/common into $(GIELLA_SHARED)/all_langs. 2016-08-23T06:28:45+00:00
+> [Template merge - langs/und] Rewrote the code for identifying the location of GIELLA_CORE (former GTCORE). The code should be more robust, and is prepared to check against a pkg-config pc file as well. GTCORE is still used throughout the code, but in parallel to GIELLA_CORE, so that one can easily replace the former with the latter without causing bugs or other problems. 2016-08-22T20:20:28+00:00
+> [Template merge - langs/und] Added checking for and setting of GIELLA_TEMPLATES, but only if you have defined GIELLA_MAINTAINER (renamed from GTMAINTAINER). Otherwise it is ignored. 2016-08-22T14:59:30+00:00
+> [Template merge - langs/und] Revert experiment with priority union - it doesn't work as expected when weights are involved. Corrected filenames in the .SECONDARY target. 2016-08-19T12:29:12+00:00
+> [Template merge - langs/und] Added download links to the build feedbad for 'make upload' in tools/spellcheckers/fstbased/desktop/hfst/. 2016-08-19T10:31:51+00:00
+> [Template merge - langs/und] Final step to make the GIELLA_SHARED dir be found in all cases: assign the path from pkg-config to the variable. 2016-08-18T10:36:22+00:00
+> [Template merge - langs/und] Removed the separate test for content, instead adding the test to each possible location, moving to the next location if no data is found. 2016-08-18T09:46:12+00:00
+> [Template merge - langs/und] Changed the search order for GIELLA_SHARED data: * using --with-giella-shared=/path/to/giella-shared/data/root/dir * env. variable GIELLA_SHARED * env. variable GIELLA_HOME * env. variable GTHOME * env. variable GTCORE * using pkg-config This way it is always possible to overtide everything else using the --with option. Added comments. 2016-08-18T09:00:28+00:00
+> [Template merge - langs/und] Added a configure test to check that there is actually data in GIELLA_SHARED. 2016-08-18T08:04:20+00:00
+> [Template merge - langs/und] The giella-shared data dir is now found using several techniques in the following order: * evn. variable GIELLA_SHARED * evn. variable GIELLA_HOME * evn. variable GTHOME * evn. variable GTCORE * using --with-giella-shared=/dir/to/giella-shared * using pkg-config If all these fail, configure errors out. Since it a.o. uses GTHOME, the change should be of no concern to existing users having checked out everything. And since the svn location is still within GTCORE, it will also work for those checking out only the core and a single or a couple of languages without any action on their part. 2016-08-17T12:59:49+00:00
+> [Template merge - langs/und] Second steps in renaming and splitting the gtcore into giella-core, giella-shared and giella-templates: replaced $(GTCORE)/giella-shared with the Automake variable @GIELLA_SHARED@. 2016-08-15T12:38:11+00:00
+> [Template merge - langs/und] First steps in renaming and splitting the gtcore into giella-core, giella-shared and giella-templates: renamed variables. 2016-08-15T11:29:27+00:00
+> Replace entities 2016-07-13T13:34:37+00:00
+> [Template merge - langs/und] Generalised the build instructions for the morphological segmenter, aka the morpher. The morpher output can be used as input to a stemmer. 2016-07-01T11:29:37+00:00
+> Out-commented docstrings have been removed from the documentation 2016-06-30T22:34:30+00:00
+> First time generation of documentation 2016-06-30T22:32:59+00:00
+> [Template merge - langs/und] Fixed a bug in speller builds introduced lately - missing hfst target. 2016-06-11T14:58:57+00:00
+> [Template merge - langs/und] Updated filename reference, and added a pmatch setting fixes that the issue where words next to punctuation like "ja." don't get analysed. 2016-06-11T06:16:13+00:00
+> [Template merge - langs/und] Removed '+' in front of tag patterns to be extracted from the tag list and used as input to regex generation scripts. This was done to accomodate the use of prefix tags, where the '+' is at the end of the tag, not in the beginning. 2016-06-09T23:00:26+00:00
+> [Template merge - langs/und] Added new test to check that the speller accepts all lemmas in the lexicon. Disabled another test that hangs for unknown reasons. 2016-06-09T22:12:15+00:00
+> [Template merge - langs/und] Rewrote the pmatch compilation code to support Kevin's tokenisation hints for MWE-ambiguous entries. Requires Kevin's hfst fork for now. Work in progress. 2016-06-08T17:50:16+00:00
+> update 2016-06-08T12:26:26+00:00
+> This is a dummy Meänkieli FST. 2016-06-08T09:53:56+00:00
+> [Template merge - langs/und] Small change to support new style, backtracking based tokenisation experiments on space separated compounds in sme. 2016-06-08T07:43:32+00:00
+> [Template merge - langs/und] The next batch of changes to support building hfst fst's with a specified backend fst format: desktop spellers are now supported. The speller fst's will be built using the specified backend format up to the point where corpus and tag weights are added, when the fst format will be changed to the default (openfst-tropical) format. That is, even if you specify (the unweighted) sfst as the backend format, the final speller will still be weighted. 2016-06-06T10:05:04+00:00
+> if you want a steak you have to buy a whole cow: here you are 2016-06-03T18:24:45+00:00

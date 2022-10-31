@@ -1,0 +1,96 @@
+352d351
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+358d356
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+367d364
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+372,373d368
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+379d373
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+391d384
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+405d397
+< Ignore generated files. 2018-11-27T14:17:16+00:00
+434d425
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+439d429
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+442d431
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+452d440
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+455d442
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+457d443
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+471d456
+< More things to ignore. 2018-05-14T10:30:20+00:00
+485,486d469
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+489d471
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+500d481
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+529d509
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+550,551d529
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+563d540
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+577,578d553
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+596d570
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+612d585
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+625a599,643
+> Removed duplicate docu (there’s an identical copy in doc/). 2017-01-24T07:31:23+00:00
+> Commenting out the if-vic-then-commercial-xerox. Users wanting them for special purposes may comment the ifeq victorio lines in again locally, the default behaviour is now non-commercial xerox. 2012-10-13T00:49:47+00:00
+> num 2012-02-08T09:07:46+00:00
+> commercial first, then non-commercial. 2012-02-08T09:05:01+00:00
+> nno-parser 2011-11-26T19:20:38+00:00
+> Removed initial (and final, hmm) blanks in order to avoid bug in abbr list creation. 2010-07-02T12:31:02+00:00
+> added script name extension 2010-04-21T17:46:29+00:00
+> renaming 2010-03-05T14:13:37+00:00
+> deleted-wrong-name 2010-02-01T19:28:28+00:00
+> regex terminology fix. 2010-01-30T14:28:11+00:00
+> caseconv-fix 2010-01-15T15:14:26+00:00
+> Got new name 2010-01-15T15:07:18+00:00
+> Moved 2010-01-15T15:06:55+00:00
+> Shuffeling around debugging, no problems here. 2009-10-05T20:20:05+00:00
+> Debugging, replaced a fatal ironi> with ironi. 2009-10-05T20:19:35+00:00
+> Path and whitespace cleanup. 2009-07-01T11:17:02+00:00
+> Changed svnredone reference back to gtsvn. 2009-04-14T10:28:59+00:00
+> redone 2009-04-13T18:13:21+00:00
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> utf8 2008-10-20T21:30:00+00:00
+> Changed script address from gt/script to gtsvn/gt/script 2008-06-26T20:27:47+00:00
+> Introduced variable definitions for the Xerox tools 2008-05-23T18:39:03+00:00
+> Added ingore file 2007-03-12T13:02:07+00:00
+> REf to abbr. 2007-01-24T21:13:59+00:00
+> Removed 'save-as-fst' command. 2007-01-10T07:04:53+00:00
+> Added abbr to target 2007-01-09T14:43:25+00:00
+> From nob. 2007-01-09T14:43:13+00:00
+> Uniq. 2006-12-18T22:03:35+00:00
+> Added target abbr. This is not yet in use, since the file abbr-nno-lex.txt is missing. 2006-12-18T09:49:12+00:00
+> upperCASE fix. 2006-11-20T11:27:30+00:00
+> Fixed en-dash, em-dash and related issues in the st/ languages. 2006-10-03T18:49:33+00:00
+> Corpus file. 2006-07-05T06:40:53+00:00
+> Docu file. 2006-05-05T11:56:44+00:00
+> cvsignore. 2006-05-02T20:33:19+00:00
+> Tag shuffling. 2006-05-02T20:31:12+00:00
+> Testing routine added. 2006-05-02T20:27:51+00:00
+> Smaller corrections. 2006-05-01T21:27:27+00:00
+> UTF-8 conversion, removed sm doublet lexica. 2006-04-30T01:33:04+00:00
+> Added cvs ignore 2004-10-29T22:12:11+00:00
+> Binary file, in cvs by accident. 2004-10-27T10:01:41+00:00
+> Removed ting duplet 2004-10-27T09:59:42+00:00
+> Added .cvsignore file. 2004-10-14T10:44:34+00:00
+> Synchronised lexica. 2004-10-14T10:00:50+00:00
+> Added entries. 2004-10-14T09:40:41+00:00
+> Initial revision 2004-09-15T21:07:00+00:00

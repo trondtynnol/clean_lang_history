@@ -1,0 +1,277 @@
+955c955
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@186451 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-12-25T22:12:41+00:00
+---
+>  2019-12-25T22:12:41+00:00
+1006d1005
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+1035d1033
+< ignore *.fomabin. 2019-10-08T06:35:05+00:00
+1037,1038d1034
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+1040d1035
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+1044c1039
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@183777 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-07T09:41:48+00:00
+---
+>  2019-10-07T09:41:48+00:00
+1150d1144
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+1176,1177d1169
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+1244c1236
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@179291 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-05-02T10:37:53+00:00
+---
+>  2019-05-02T10:37:53+00:00
+1246c1238
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@179289 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-05-02T10:36:45+00:00
+---
+>  2019-05-02T10:36:45+00:00
+1324,1325c1316,1317
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@178591 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-04-12T04:21:15+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@178590 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-04-12T04:20:37+00:00
+---
+>  2019-04-12T04:21:15+00:00
+>  2019-04-12T04:20:37+00:00
+1427d1418
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+1583,1584d1573
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+1850d1838
+< ignore for bin 2018-10-14T13:31:01+00:00
+1852d1839
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+1968d1954
+< svn ignore update 2018-09-20T08:44:05+00:00
+1970d1955
+< updated svn ignore. 2018-09-20T08:28:11+00:00
+2018,2019d2002
+< Added default ignore patterns. Earlier they had none, and showed up as deviations during general updates across all languages. Now they will just be left as is. 2018-09-10T11:25:41+00:00
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+2023d2005
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+2039d2020
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+2042d2022
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+2046d2025
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+2079c2058
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@169267 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-02T20:21:38+00:00
+---
+>  2018-08-02T20:21:38+00:00
+2198d2176
+< More things to ignore. 2018-05-14T10:33:30+00:00
+2379d2356
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+2381,2382d2357
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+2396d2370
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+2417d2390
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+2431d2403
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+2703d2674
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+2888,2889d2858
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+3134d3102
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+3249,3250d3216
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+3452d3417
+< ign 2017-03-21T19:49:19+00:00
+3464d3428
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+3480d3443
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+4443d4405
+< directory for testikorpus 2016-10-19T15:45:53+00:00
+4927d4888
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+4961d4921
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+4985d4944
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+5012d4970
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+5019d4976
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+5039d4995
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+5052d5007
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+5057,5058d5011
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+5068d5020
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+5128d5079
+< Updated svn:ignore’s. 2015-11-18T23:05:40+00:00
+5170d5120
+< Updated svn ignores. 2015-10-20T07:50:38+00:00
+5242d5191
+< made directory for missing list for analysator 2015-09-07T08:10:26+00:00
+5245d5193
+< Ignore temporary files generated by the speller suggestion test script. 2015-09-03T04:23:51+00:00
+5361d5308
+< Ignore txt files in speller dirs. 2015-04-09T11:55:38+00:00
+5412d5358
+< Updated svn ignores. 2015-03-14T10:46:39+00:00
+5419d5364
+< Updated svn ignores. 2015-03-12T08:28:02+00:00
+5429d5373
+< Updated svn ignores. 2015-03-09T10:41:02+00:00
+5431d5374
+< Updated svn ignores. 2015-03-06T15:56:54+00:00
+5434d5376
+< Updated svn ignores. 2015-03-06T09:24:00+00:00
+5447d5388
+< Update svn ignores. 2015-02-27T12:55:53+00:00
+5524d5464
+< Special svn:ignore on src/orthography/. 2015-01-26T10:30:36+00:00
+5548d5487
+< Setting svn:ignore for Bashkir, updating the other ignores. 2015-01-19T06:20:12+00:00
+5556d5494
+< Updated svn:ignore's. 2015-01-12T21:50:15+00:00
+5558d5495
+< svn:ignore also for *.service. 2015-01-12T15:58:08+00:00
+5795d5731
+< Update ignores for src/morphology/. 2014-10-23T08:25:38+00:00
+5955d5890
+< Updated svn:ignore's. 2014-09-08T21:51:28+00:00
+5998d5932
+< ignore 2014-08-16T15:52:40+00:00
+6128d6061
+< Updated svn:ignore for all languages. 2014-06-11T09:37:23+00:00
+6142d6074
+< Ignore cg3 files in the tools/mt/apertium/ dir. 2014-06-02T14:02:42+00:00
+6173d6104
+< Ignore the generated pkg-config files. 2014-05-12T20:27:01+00:00
+6282d6212
+< just a tmp dir to test the parallel corpus for fkvnob 2014-04-16T16:56:16+00:00
+6284d6213
+< Extra ignores on tools/mt/apertium/filters/. 2014-04-16T05:45:32+00:00
+6286d6214
+< Updated svn ignores. 2014-04-15T13:30:11+00:00
+6290d6217
+< Updated svn ignore. 2014-04-10T15:16:59+00:00
+6302d6228
+< Updated svn ignores. 2014-04-03T10:10:45+00:00
+6306d6231
+< Updated svn ignore. 2014-04-02T10:58:00+00:00
+6353d6277
+< Update svn ignores on test/src/phonology/. 2014-03-20T07:32:24+00:00
+6395d6318
+< catalogue 2014-03-15T10:56:06+00:00
+6400d6322
+< Updated ignore patterns for test/tools/spellcheckers/. 2014-03-14T10:26:24+00:00
+6452d6373
+< Updated svn ignores. 2014-02-28T06:46:07+00:00
+6664d6584
+< Ignore mk-files in the preprocess/ dir. 2014-01-14T14:20:40+00:00
+6672d6591
+< Ignore generated easteregg files. 2014-01-12T11:44:07+00:00
+6675d6593
+< Ignore functions.cg3 and dependency.cg3 if they are copied from a shared location (these files will not be ignored if already in svn). 2014-01-10T10:24:56+00:00
+6678d6595
+< Updated the ignore pattern for morphology/stems/. 2014-01-09T13:45:44+00:00
+6709d6625
+< Ignore generated regex files in the src/filters/ dir. 2013-12-03T11:56:43+00:00
+6723,6724d6638
+< Extra ignores in the filters/ dir. 2013-11-24T15:24:39+00:00
+< igno 2013-11-24T15:13:39+00:00
+6729d6642
+< Ignore the generated, concatenated lexc file. 2013-11-22T13:37:46+00:00
+6744d6656
+< Ignore generated documents in tools/shellscripts/. 2013-10-18T11:47:12+00:00
+6753,6754d6664
+< One more ignore on the grammar checker dir. 2013-10-10T09:06:26+00:00
+< Update svn ignores. 2013-10-09T11:01:58+00:00
+6756d6665
+< Updated svn ignores. 2013-10-09T07:04:36+00:00
+6773c6682
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fkv@81084 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2013-09-20T13:07:56+00:00
+---
+>  2013-09-20T13:07:56+00:00
+6807d6715
+< Ignore zipped files (built for apertium). 2013-08-19T07:13:39+00:00
+6810d6717
+< Ignore *.att files in src/ (produced by the apertium targets). 2013-08-17T12:30:28+00:00
+7011d6917
+< Ignore extra generated files in the tagsets dir. 2013-06-13T14:40:56+00:00
+7062d6967
+< Updated the svn ignores. 2013-06-06T08:10:31+00:00
+7290d7194
+< [ignore] Also ignore generated foma transducers. 2013-04-11T16:57:19+00:00
+7429d7332
+< Ignore the generated voikko-3 dir. 2013-03-18T09:43:22+00:00
+7444d7346
+< More extensive ignores on src/morphology/. 2013-03-12T08:07:27+00:00
+7524d7425
+< this should be the standard folder for meetings for each lg projects. 2013-03-03T09:46:24+00:00
+7557d7457
+< Ignore top-level build dir. 2013-02-27T07:18:08+00:00
+7559d7458
+< Update svn ignores. 2013-02-27T00:08:32+00:00
+7563d7461
+< Ignore the build/ dir within doc/. 2013-02-26T17:02:56+00:00
+7758,7759d7655
+< The ignore pattern was wrong - now correct. 2013-01-23T22:34:12+00:00
+< Ignore generated yaml tests. 2013-01-23T22:28:44+00:00
+7769a7666
+> symlinks 2013-01-23T14:35:11+00:00
+7776d7672
+< Updated svn:ignore with the latest modifications to the ignore patterns. 2013-01-14T19:34:16+00:00
+7778d7673
+< ignore .fst as well. 2013-01-13T14:04:51+00:00
+7813a7709,7710
+> corrected link to root.lexc 2013-01-09T06:37:24+00:00
+> lg-specific docu, more to come. 2013-01-08T16:03:02+00:00
+7847a7745
+> All content files moved to the new infra - we can delete our first language from the old one. YES! 2012-11-15T23:29:37+00:00
+7850d7747
+< Moved fkv doc files. 2012-11-15T23:23:03+00:00
+7856a7754,7789
+> Removed initial (and final, hmm) blanks in order to avoid bug in abbr list creation. 2010-07-02T12:31:02+00:00
+> name 2010-02-01T19:32:33+00:00
+> regex suffix changed to xfst when needed 2010-01-30T15:14:49+00:00
+> not a regex file. 2010-01-30T15:13:20+00:00
+> some old changes 2009-12-03T11:06:04+00:00
+> Added comment about the use of the HFST tools. 2009-11-24T15:21:24+00:00
+> Changed fin to fkv. 2009-11-24T15:09:26+00:00
+> Replaced the last remnants of hard-coded filenames. Now the filenames are *really* only given in the dependencies. 2009-11-24T14:54:39+00:00
+> Restricted the left context of the "Gradation of k:0" rule to not overlap (and thus conflict) with two other rules covering other alternations of the same underlying consonant, k. Now the rules compile without warnings. 2009-11-24T14:43:53+00:00
+> fixed some mistakes,added some explanations 2009-11-24T12:57:46+00:00
+> All the rest of the hard-coded filenames are now replaced with variables. The filenames are now only listed in the dependency list. 2009-11-24T12:53:06+00:00
+> Several changes: • removed the use of the tmp fkv-all file - it isn't necessary, and it complicates debugging. • added compilation of a lookup-optimized transducer • used variables instead of hard-coded filenames • used -o output variables instead of redirection - no actual diff in functionality, but cleaner code and less output from hfst 2009-11-24T11:44:01+00:00
+> Corrected errors, and added missing symbols. 2009-11-24T11:39:07+00:00
+> Testing catalogue from Finnish. 2009-11-24T11:09:46+00:00
+> accident 2009-11-24T11:01:12+00:00
+> tmp-cat 2009-11-24T11:00:32+00:00
+> fao-file 2009-11-24T10:59:01+00:00
+> hfst-make 2009-11-24T10:58:41+00:00
+> Added lexica in use but commented out (shortillpl, short-par, strong-v-stem). 2009-11-06T14:54:39+00:00
+> Added %^E2I Multichar symbol. 2009-11-04T23:28:34+00:00
+> The perhaps too simplistic I-0 k:j rule was added, and works as intended. poika^wg>n to poija00n 2009-10-23T14:39:40+00:00
+> Added a rule "I-0 for k:j" The rule changes poikan to poijan, but also the extraterrestrial dog Laika to Laijan. More work is thus needed. 2009-10-21T14:50:17+00:00
+> This is the first really Kven version of the twolc file ------------------------------------------------------- It contains a handful of rules: 3-or-so rules for consonant gradation, II-I and I-0. 2009-10-19T14:50:12+00:00
+> Added a nice overview of the fkv consonant gradation pattern. More to come. 2009-10-08T13:29:16+00:00
+> added aamu valo 2009-10-08T13:28:24+00:00
+> Fixed ruoka poika. 2009-10-08T13:28:03+00:00
+> Started to include something. 2009-10-08T13:27:47+00:00
+> exchanged diacritical marks with more mnemonic ones. 2009-10-08T13:27:18+00:00
+> new words 2009-10-02T11:38:07+00:00
+> allcaps from finnish 2009-10-02T08:20:10+00:00
+> added case conversion file. added kven đ (dh) 2009-10-02T07:58:24+00:00
+> Made the files compile. 2009-09-28T07:44:58+00:00
+> symbolic name. 2009-09-22T16:30:55+00:00
+> These files are now just copied from Finnish. In order to make them Kven, we will need a rearrangment of the stem classes. 2009-09-09T13:07:00+00:00
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> cvsignore 2008-01-04T23:36:51+00:00

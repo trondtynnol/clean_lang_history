@@ -1,0 +1,58 @@
+376d375
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+382d380
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+391d388
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+396,397d392
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+403d397
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+415d408
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+445d437
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+450d441
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+453d443
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+463d452
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+466d454
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+468d455
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+482d468
+< More things to ignore. 2018-05-14T10:30:20+00:00
+496,497d481
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+500d483
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+511d493
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+540d521
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+542d522
+< Ignore generated paradigms. 2017-12-04T22:43:49+00:00
+566,567d545
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+579d556
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+593,594d569
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+612d586
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+628d601
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+694d666
+< Updated svn ignores. 2016-06-09T20:05:58+00:00
+699c671,673
+< moved swe from experiment to startup 2016-06-08T08:05:18+00:00
+---
+> [Template merge - langs/und] Small change to support new style, backtracking based tokenisation experiments on space separated compounds in sme. 2016-06-08T07:43:32+00:00
+> [Template merge - langs/und] The next batch of changes to support building hfst fst's with a specified backend fst format: desktop spellers are now supported. The speller fst's will be built using the specified backend format up to the point where corpus and tag weights are added, when the fst format will be changed to the default (openfst-tropical) format. That is, even if you specify (the unweighted) sfst as the backend format, the final speller will still be weighted. 2016-06-06T10:05:04+00:00
+> if you want a steak you have to buy a whole cow: here you are 2016-06-03T18:24:45+00:00

@@ -1,0 +1,395 @@
+331d330
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+340,344d338
+< ignore *.fomabin. 2019-10-08T06:35:05+00:00
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T21:13:09+00:00
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+353d346
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+358,359d350
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+367d357
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+379,380d368
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+393,394d380
+< ignore for bin 2018-10-14T13:31:01+00:00
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+414,415d399
+< svn ignore update 2018-09-20T08:44:05+00:00
+< updated svn ignore. 2018-09-20T08:28:11+00:00
+419d402
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+422d404
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+432d413
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+435d415
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+437d416
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+456d434
+< More things to ignore. 2018-05-14T10:33:30+00:00
+471,474d448
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+477d450
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+488d460
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+521d492
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+542,543d512
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T12:04:06+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+555d523
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+569,570d536
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+579d544
+< ign 2017-03-21T19:49:19+00:00
+591d555
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+607d570
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+674d636
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+693d654
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+714d674
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+718d677
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+721d679
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+741d698
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+746d702
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+751,752d706
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+756d709
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+812c765,1076
+< Moving deu into main/langs. 2015-12-31T03:17:19+00:00
+---
+> Adding tags for adjective declension: +St, +Sw and +Mix. 2015-12-31T02:30:15+00:00
+> Adjectives are partially working. There is still work to be done with A_teu/er__adj; it requires vowel removal. 2015-12-30T21:35:41+00:00
+> Adverbs and a minimal of adjectives have been added from Apertium. 2015-12-30T16:56:23+00:00
+> Adding nearly 1000 proper nouns from Apertium with 1 additional Mordowien. Two sem tags have been added to the copied sme Sem/... sets: Sem/Ant_Fem and Sem/Ant_Mal . 2015-12-30T09:55:29+00:00
+> Added more weak verbs; more than 200. 2015-12-30T08:32:37+00:00
+> Weak verbs have been facilitated with over 2100 verbs from Apertium. 2015-12-29T14:28:03+00:00
+> The nouns, over 13000 have been introduced from Apertium. The lexc is still a little messy, and there is duplication present from the original GT material. Apertium continuation lexica are more specific. An allusive lexc from the original GT has issues with _e_ loss such that Uhr, Karbonade and Ammer belong to the same contlex. 2015-12-29T07:31:45+00:00
+> [Template merge - langs/und] Readded the initial-letter edits in the regex - everything else is there for the initial letter machinery, so leaving it out made the build inconsistent. The default is off, with a large warning for those turning it on. 2015-12-08T16:11:41+00:00
+> [Template merge - langs/und] Added script to run suggestion testing for the hfst-ospell-service (MS Office) speller. Rewrote the speller testing scripts to allow parallel execution. 2015-12-08T14:08:34+00:00
+> [Template merge - langs/und] Make transitivity tags optional also for the Apertium generator. 2015-12-02T14:02:18+00:00
+> [Template merge - langs/und] Push weights even when not minimising the speller acceptor. Minimisation is not always the best strategy. 2015-12-01T13:29:19+00:00
+> [Template merge - langs/und] Removed --Werror from the language-independent automake file. Added a variable to make it possible to add it to the language-specific automake file. 2015-11-27T14:51:10+00:00
+> [Template merge - langs/und] Added configure option to enable symbol alignment during lexc compilation for the lexical transducer. Defaults to off for now, we need to test the effect on various languages before making it default to on. Also added --Werror to lexc to make it break on all warnings when compiling the lexical fst. 2015-11-27T12:59:47+00:00
+> [Template merge - langs/und] Use tar + xz for a 40-50 % reduction in file size for zhfst files. 2015-11-27T09:15:52+00:00
+> [Template merge - langs/und] Allow longer filenames by using tar-pax for make dist. 2015-11-26T09:49:48+00:00
+> [Template merge - langs/und] Added upload target for zhfst files. That will be the only method for spell checking in more than one language for now (for regular users). Not ideal, but have no time for anything else. 2015-11-25T13:00:20+00:00
+> [Template merge - langs/und] Ensure that all required cg3 files are copied over to the apertium dir. Also make sure that included files are copied before including files are processed. 2015-11-18T20:06:31+00:00
+> [Template merge - langs/und] Silent build updates for Apertium. 2015-11-18T17:12:56+00:00
+> [Template merge - langs/und] No morphology backend for now in our infra. Corrected typo. 2015-11-18T14:00:01+00:00
+> [Template merge - langs/und] Added support for the vfst fst format for voikko-based spellers, to be used in mobile apps. 2015-11-18T10:03:02+00:00
+> [Template merge - langs/und] Corrected typo. 2015-11-17T06:53:53+00:00
+> [Template merge - langs/und] Upload xpi and MacVoikko files, beta versions. 2015-11-16T22:23:59+00:00
+> [Template merge - langs/und] Look for saxon in $HOME/lib first. Fixes bug http://giellatekno.uit.no/bugzilla/show_bug.cgi?id=2100. 2015-11-11T07:50:10+00:00
+> [Template merge - langs/und] Add lexicon version to the speller testing output. 2015-11-11T05:50:09+00:00
+> [Template merge - langs/und] Added a new variable HAS_FOMA, which will be set independently of the configuration if foma is available. This can be used to circumvent bugs in Hfst if weights are not needed: if foma is available, print as ATT, read in foma, perform transformations, print as ATT, convert, and continue. 2015-11-10T10:15:38+00:00
+> [Template merge - langs/und] Error out if one tries to build abbr files with generators disabled. 2015-11-09T10:19:00+00:00
+> [Template merge - langs/und] Error out if syntax is enabled and no vislcg3 is found or too old. 2015-11-09T09:59:34+00:00
+> [Template merge - langs/und] Added support for building abbr.txt. Copy of the sme template committed in r111579. 2015-11-09T09:43:12+00:00
+> [Template merge - langs/und] Added targets for foma spellers, outcommented now due to build issues. Added more silent build strings. 2015-11-04T12:28:22+00:00
+> [Template merge - langs/und] Added some general tag cleanup before making the speller fst used as input for the analyser and generator that is the last step before building the acceptor, Makes it easier to write yaml tests for the speller fst's. 2015-10-26T11:52:59+00:00
+> [Template merge - langs/und] Added filter to remove tags irrelevant to speller builds. Adjusted required version of GTCORE accordingly. 2015-10-19T07:33:28+00:00
+> [Template merge - langs/und] Corrected a bug with filter compilations for speller filters involving tag conversion to flag diacritics. 2015-10-15T10:15:01+00:00
+> [Template merge - langs/und] Make sure analyser-raw-gt-desc.hfst is always built, to ensure we have the necessary prerequisites for all targets. Refactored the initial speller fst build to use common build code for all fst technologies. Makes it possible to easier test and compare test results when debugging. 2015-10-14T12:49:35+00:00
+> [Template merge - langs/und] Changed the response to missing transducers from FAIL to SKIP to avoid problems with lexc tests for fst's not enabled and thus not available. Instead report the missing fst to the user. 2015-10-05T10:42:32+00:00
+> [Template merge - langs/und] Streamlined descriptive compounding tags to follow a shared tag structure. 2015-10-03T09:26:12+00:00
+> Replaced +RCmpnd with +Cmp/SplitR (and escaped variants) using the following commands: 2015-10-03T08:33:46+00:00
+> [Template merge - langs/und] Added a comment about the non-functioning of the initial edit setting. Made the compound-restricted fst a tmp file, to allow for additional local processing. 2015-09-29T08:15:10+00:00
+> [Template merge - langs/und] Removed all minimization of the error model except for the final build step. Removed also the initial letter handling for now, it blows up the error model, and slows it down correspondingly, making spellers that has turned this on useless. For now we apply the regular error model on the first letter, that seems to work ok. 2015-09-28T17:51:46+00:00
+> [Template merge - langs/und] Added a very short test script written by Lene to help run a subset of tests frequently needed. 2015-09-25T10:49:54+00:00
+> [Template merge - langs/und] Fixed a problem running bc on the linux servers, which caused the yaml test summaries to be blank. Fixes bug #2054. 2015-09-24T13:43:36+00:00
+> [Template merge - langs/und] Added an option to specify how many lines of the frequency corpus to be used in the frequency weighting, to trim the acceptor fst at a point where the weights don't really matter. 2015-09-23T10:42:55+00:00
+> [Template merge - langs/und] Replaced 'giellatekno' with 'giella' or added Divvun, depending on context. 2015-09-18T17:15:26+00:00
+> [Template merge - langs/und] Renamed m4/giellatekno.m4 to bring it in line with the switch to 'giella' for all things common to GT and Divvun. 2015-09-18T10:25:37+00:00
+> [Template merge - langs/und] The previous commit did not solve the issue - the different jars where checked in the wrong order. Now it should be ok. 2015-09-18T10:03:30+00:00
+> [Template merge - langs/und] Added standard Linux location for Saxon to the paths searched. Fixes bug #2080. 2015-09-18T07:32:26+00:00
+> [Template merge - langs/und] Corrected path for pkgconfig data and one variable name in MT filters. 2015-09-16T14:19:23+00:00
+> [Template merge - langs/und] gtdshared has been renamed to giella-shared, all references now updated. 2015-09-16T11:40:54+00:00
+> [Template merge - langs/und] More robust handling of MWE in speller testing. Now also possible to specify build dir different from source dir. 2015-09-16T08:22:50+00:00
+> [Template merge - langs/und] Added a Makefile.am variable to turn on or off corpus-based (frequency) weighting of suggestions. Default for the time being is off while we work out the best interactions between the different parts of the spellers. Changed one intermediary filename to ensure proper dependency checks and thus rebuilds. 2015-09-16T07:01:16+00:00
+> [Template merge - langs/und] Added support for specifying regexes or list of string pairs for initial and final symbols in the error model. Also added a Makefile variable to control whether to allow edits of the initial letter(s), default is ‘no’. 2015-09-15T13:17:52+00:00
+> [Template merge - langs/und] Guard against -q for lookups that don't support it. 2015-09-09T13:34:26+00:00
+> [Template merge - langs/und] Small code cleanup that has been lingering since June. 2015-09-09T09:14:53+00:00
+> [Template merge - langs/und] Made new of a new option for the speller suggestion testing: output an attribute on each test word element containing essential info about the correct suggestion. This will support better styling of the xml file with the test data. Also changed the path to the css from the local filesystem (which will vary from machine to machine) to the svn repository web url. 2015-09-07T13:09:45+00:00
+> [Template merge - langs/und] Added a variable to hold source files to be included in the distro but not compiled as such. 2015-09-03T20:16:46+00:00
+> [Template merge - langs/und] Added first version of a shell script to check the suggestions generated by spellers. Requires the file test/data/typos.txt for data input. 2015-09-02T19:44:33+00:00
+> [Template merge - langs/und] Shortened a filename to make tar happy when building distribution packages. 2015-09-02T13:29:49+00:00
+> [Template merge - langs/und] Fixed an error in distcheck - one test shell script was not included. 2015-09-02T09:02:17+00:00
+> [Template merge - langs/und] Made one step in the speller build behave properly wrt silent builds. Removed grammar checker targets, we are far from ready for this, and it breaks 'make distcheck'. 2015-09-02T07:00:32+00:00
+> [Template merge - langs/und] Added a variable to pass a compilation option to hfst-regexp2fst. Used this variable to compile all filter regexes with the option --xerox-composition=ON. This will ensure that all filters where flag diacritics are used as symbols will be compiled correctly for proper used in later compositions. A.o. this fixes a bug where tags converted to flags to restrict compounding did not work at all. 2015-09-01T17:58:55+00:00
+> [Template merge - langs/und] Replaced sed expression with double cut - the sed did not work on the xserve for whatever reason, and caused the testing to hang. 2015-08-17T09:56:34+00:00
+> [Template merge - langs/und] More robust checking of Saxon, now requires that any jar found is at least v8.0. 2015-08-17T08:07:28+00:00
+> [Template merge - langs/und] Added /usr/share/java/ as a search path for the Saxon jar, this is what is used on the UiT Linux virtual machines, and probably many other Linux systems. 2015-08-14T06:53:02+00:00
+> [Template merge - langs/und] Initial support for building Mozvoikko spellers for our languages. 2015-08-13T08:10:56+00:00
+> [Template merge - langs/und] Adding support for specifying one-sided tests (half tests) in the lexc test data, using an optional .gen or .ana "suffix" after the fst name. Simplified source file processing. 2015-08-06T12:08:46+00:00
+> [Template merge - langs/und] When building with Foma, use the new lexc-align feature. 2015-06-12T23:26:57+00:00
+> [Template merge - langs/und] Added lexicon filtering when pair-testing twolc rules. 2015-06-11T14:40:01+00:00
+> [Template merge - langs/und] Corrected e-mail address, changed the template content of the transcription files from SMA to CRK, and at the same time corrected the direction of the code. Also added a default punctuation lexicon. 2015-06-09T21:42:23+00:00
+> [Template merge - langs/und] Added support for easter eggs specific to alternative writing systems and other variants. Will help in debugging. 2015-06-07T19:54:05+00:00
+> [Template merge - langs/und] Moved specification of default weight and editing distance to the language specific Makefile. 2015-06-05T01:43:19+00:00
+> [Template merge - langs/und] After a lot of experimenting, a moderate set of changes to the speller error models. The biggest change is that the alphabet for the edit distance error model is not taken from the acceptor anymore, but must be explicitly listed in the editdist.*.txt file. The suggestion speed is back to normal, but more work is needed re the interaction of the error model and corpus weights. 2015-06-05T01:11:10+00:00
+> [Template merge - langs/und] Prefixed all silent build strings for Hfst tools with H, for easier identification. 2015-06-04T10:06:22+00:00
+> [Template merge - langs/und] Commented out the old target for calculating unit weights (default weight for out-of-corpus word forms), and added a new which is basically the highest tropical weight + the ALPHA smoothing value. This is just the first step in further developing the suggestion ordering for the spellers. 2015-05-27T14:55:29+00:00
+> [Template merge - langs/und] Added a simple test to check a minimum suggestion speed for our test word nuvviDspeller. No speller should be released that does not pass this test. Additional and more elaborate tests should be added as well, this is just the very bare minimum in suggestion speed testing. 2015-05-25T14:08:25+00:00
+> [Template merge - langs/und] Corrected typo in twolc compilation for foma (using hfst). 2015-05-24T13:50:50+00:00
+> [Template merge - langs/und] Worked around a bug in hfst-fst2fst by going via att and foma instead. 2015-05-23T09:15:24+00:00
+> [Template merge - langs/und] Initial support for compiling twolc files for foma by way of hfst, intersect and conversion to foma format. 2015-05-23T05:39:37+00:00
+> Change e-mail address 2015-05-21T14:03:58+00:00
+> [Template merge - langs/und] Yaml testing is now working also when building with Foma. 2015-05-21T09:09:38+00:00
+> [Template merge - langs/und] Fixed downcasing of derived short names. Made yaml testing output a bit more readable (hopefully). 2015-05-21T08:05:30+00:00
+> [Template merge - langs/und] More robust xfscript build code for hfst-xfst. Clean hfstol files. 2015-05-18T10:43:37+00:00
+> [Template merge - langs/und] Extended Foma support to alternate writing systems and orthographies. At the same time put to use a new idiom to handle multiple independent target variables / patterns, which will be useful in other contexts as well. The code was generalised using this new idiom, and effectively reduced to half the original code size, with much less duplicate code. 2015-05-15T09:07:02+00:00
+> [Template merge - langs/und] First working version of foma builds. The basic set of analysers and generators are built, but nothing else. A lot of changes to variables and build rules, including generalisations that save quite a few lines of code. 2015-05-11T15:42:10+00:00
+> [Template merge - langs/und] First steps to support building with Foma. Lexicon compilation is working, but note that Foma crashes on regexes in lexc. 2015-05-08T15:17:42+00:00
+> [Template merge - langs/und] Slightly more robust pair-testing with hfst. 2015-04-27T12:46:42+00:00
+> [Template merge - langs/und] Corrected rsynk options also for the alternate writing system oxt's. 2015-04-27T09:30:06+00:00
+> [Template merge - langs/und] Fixed a build bug for MacVoikko, causing the final target to always be out of date. Regulated verbosity for zhfst targets. The twolc testing scripts now print a message when there is no test data. The Hfst twolc testing script properly detects when there is no test data, and exits with the SKIP (77) value. 2015-04-27T09:06:25+00:00
+> [Template merge - langs/und] Added support for alternate writing systems for spellers. 2015-04-24T19:04:49+00:00
+> [Template merge - langs/und] Finally got all weighting to work as intended, including the no-sugg weights. 2015-04-23T06:53:23+00:00
+> [Template merge - langs/und] Further modularisation and improvements to weighted spellers. With hfst3 revision 4329, using a tab-separated tag reweighting file is working. 2015-04-21T11:47:05+00:00
+> [Template merge - langs/und] Do not remove usage tags when building spellers, speller tags were throwned out. 2015-04-16T09:55:55+00:00
+> [Template merge - langs/und] Added an attempt at normalising the corpus-based weights towards a standard max upper weight, to allow a much higher weight for strings not to be suggested. Also split the processing of adding corpus-based weights and morphology weights into more steps - retaining each intermediate fst - to allow easier debugging of the weight assignments. 2015-04-16T08:24:24+00:00
+> [Template merge - langs/und] Xerox composition of weights and lexical fst. 2015-04-13T12:50:00+00:00
+> [Template merge - langs/und] Moved a script for cleaning weighting corpus to the core. Require new core. 2015-04-10T12:41:19+00:00
+> [Template merge - langs/und] Fixed bugs related to the new support for frequency-weighted spellers: missing checks for required tools. 2015-04-10T11:14:50+00:00
+> [Template merge - langs/und] Stupid copy-paste error turned the positive test into a negative. Now corrected. 2015-04-10T10:20:48+00:00
+> [Template merge - langs/und] Skip Xerox testing if no test data is found. Added comments. 2015-04-10T10:02:12+00:00
+> [Template merge - langs/und] Added pair-test for hfst, improved pair-testing for Xerox' twolc. 2015-04-10T09:01:40+00:00
+> [Template merge - langs/und] Add a huge weight to words tagged with +Use/SpellNoSugg. 2015-04-09T11:41:39+00:00
+> [Template merge - langs/und] Added support for corpus-based (frequency) weighting of the speller fst's. Also reorganised where to specify the tag-based weights (and this is subject to change pending a bug fix in hfst-reweight). All languages are given a toy corpus, which can be replaced with a real one. This is finally the core of Tommi's dissertation applied to all languages. 2015-04-09T09:41:18+00:00
+> [Template merge - langs/und] More robust testing for Xerox fst's - will properly report all generation fails. 2015-04-07T11:58:45+00:00
+> [Template merge - langs/und] Corrected tests for nouns and propernouns. Now nouns behave correctly with hfst, and proper nouns have correct tags. 2015-04-07T07:14:20+00:00
+> [Template merge - langs/und] Modernised the generate-noun-lemmas.sh.in script, added similar scripts for adj, proper nouns and verbs. 2015-04-02T06:17:51+00:00
+> [Template merge - langs/und] Check that yaml testing is enabled before running yaml tests in test/tools/. 2015-04-01T11:17:14+00:00
+> [Template merge - langs/und] Require new version of the core, updated comments about Err tags. 2015-03-30T10:14:05+00:00
+> [Template merge - langs/und] Removed CmpNP tags from downcase-derived-proper-strings.xfscript.in. 2015-03-19T07:36:08+00:00
+> [Template merge - langs/und] When doing 'make clean', remove generated html files in the root dir. 2015-03-14T10:31:14+00:00
+> [Template merge - langs/und] Removed multichar definition of superfluous flag diacritics. 2015-03-13T13:57:48+00:00
+> Working suffix compounding: we don’t separate flag diacritics for that, we can use combinations of the other flag diacritics. Now multipart compounds are working again, and the suffix element is only allowed as last part of compounds, and never alone. 2015-03-13T12:49:05+00:00
+> More test data. 2015-03-13T12:46:31+00:00
+> Corrected test data. 2015-03-13T12:25:18+00:00
+> More automatised. 2015-03-13T12:24:49+00:00
+> Makefile to automatise building and testing. Should help in nailing down errors in flag diacritic restricted compounding. 2015-03-13T12:13:41+00:00
+> Test data to verify whether flag diacritic restricted compounding is working as it should. 2015-03-13T12:12:37+00:00
+> Moved my lexc test file for testing the use of compound-regulating flag diacritics. 2015-03-13T11:55:51+00:00
+> [Template merge - langs/und] Added a new directory named devtools/ to each language, with the idea that it should contain tools useful for development, but not necessarily suitable for automake testing. Initially it contains shell scripts to generate a table of generated word forms for each continuation lexicon. 2015-03-13T11:21:36+00:00
+> [Template merge - langs/und] Removed corpus names from tools/spellcheckers/fstbased/hfst/data/Makefile.am. It caused the build to stop with an error for all languages except FIN. 2015-03-12T08:50:49+00:00
+> [Template merge - langs/und] Make building the abbr.txt configurable (default=no), check for the existence of src/morphology/stems/abbreviations.lexc, and error out if not found. 2015-03-12T06:31:56+00:00
+> [Template merge - langs/und] Forgot to include the new Makefile (r109076) in configure.ac. 2015-03-12T05:49:15+00:00
+> [Template merge - langs/und] Preparations for supporting corpus-based frequency weights, as per TommiP. 2015-03-11T17:45:49+00:00
+> [Template merge - langs/und] Enabled weighting of speller fst's. Adjust weights and tags as needed. 2015-03-11T13:26:56+00:00
+> [Template merge - langs/und] Added support for all languages to generate the abbr.txt file used by $GTCORE/scripts/preprocess. At the same time added initial support for compiling pmatch scripts into fst's for hfst-proc2, which is the future alternative to preprocess. 2015-03-09T15:13:06+00:00
+> [Template merge - langs/und] Forgot to remove some debug statements from the yaml test runner. Now cleaned. 2015-03-06T16:32:05+00:00
+> [Template merge - langs/und] Moved MWE tag processing into the core - we want this for many languages. 2015-03-06T15:30:22+00:00
+> [Template merge - langs/und] Added support for a new type of yaml tests: speller acceptance testing. The basic idea is to just give a list of words and word constructions (compounds, derivations, etc) the speller should accept or reject, and let the yaml test bench verify whether this is actually the case. 2015-03-06T13:29:54+00:00
+> [Template merge - langs/und] Several changes to properly support all position-based +CmpN/XX tags: * moved tag path splitting and tag-to-flag conversion into separate regex files in the core. * added support for compiling and using the new regexes * added support for a new type +CmpN/Suff * added the required multichar symbols to the root.lexc files * increased required core version number 2015-03-05T15:48:07+00:00
+> Added a missing tag, reordered tags. 2015-03-05T15:27:21+00:00
+> [Template merge - langs/und] Fixed a bug in the yaml test bench when both hfst and xfst was enabled, but where only one type is built, e.g. for Apertium. 2015-03-05T14:12:35+00:00
+> Experimental data to control suffix/derivation-like compounding (only last, and never alone). 2015-03-05T11:20:43+00:00
+> [Template merge - langs/und] Added build support for alternate orthographies: default fst's, dicts and oapha. 2015-03-04T15:51:40+00:00
+> [Template merge - langs/und] Fixed a bug that caused the wrong fst to be picked in certain cases, which caused the test script to fail. 2015-03-04T10:58:15+00:00
+> [Template merge - langs/und] A couple of changes related to testing: * require Python 3.3+ * require new gtcore * update YAML test runner to make SMS testing work as intended also with Xerox 2015-03-03T16:42:49+00:00
+> [Template merge - langs/und] Added support for country/region specific proofing tools in configure.ac. 2015-03-02T13:16:18+00:00
+> [Template merge - langs/und] We do not support anything but the latest/newest Voikko now. 2015-02-27T12:44:31+00:00
+> [Template merge - langs/und] Finalised the basic multiple writing system support, by adding support for Oahpa and dictionary fst's. 2015-02-27T11:23:58+00:00
+> [Template merge - langs/und] Added a configuration flag to enable two-step compose-intersect. In most cases this will not make any difference, but for some languages it will correct a bug in compose-intersect that would otherwise create a bad fst, and for other languages it will make the operation much slower without changing the fst. Disabled by default, whether it is useful must be tested in each case / language. 2015-02-27T09:21:50+00:00
+> [Template merge - langs/und] Corrected errors in hfst compilation of alternative writing system fst's. 2015-02-26T18:08:55+00:00
+> [Template merge - langs/und] Added test runners for genation and analysis tests only for the descriptive fst. 2015-02-26T12:39:20+00:00
+> [Template merge - langs/und] Compilation of the default set of fst's with alternate writing systems working. 2015-02-26T08:41:42+00:00
+> [Template merge - langs/und] First step in adding support for alternate writing systems and orthographies: adding variables to configure.ac. Removed the variable LO_min_version, it isn't used. 2015-02-25T06:54:29+00:00
+> [Template merge - langs/und] Split the m4/ax_python_module.m4 file, it contained mostly java autotools stuff. Improved the message to update the gtcore. 2015-02-24T15:20:24+00:00
+> Experimenting with regulating hyphen compounds. This setup seems to work. The word with the hyphen flag is blocked from non-hyphen compounds, but is otherwise allowed. All other words are allowed in both types of compounds. 2015-02-13T13:44:58+00:00
+> [Template merge - langs/und] Added the make-optional-hyph-tags filter to the generators. Fixes bug #1914. 2015-02-12T22:51:16+00:00
+> [Template merge - langs/und] Make use of the new remove-adv_comp filter. Require new core and newest hfst. 2015-02-12T15:09:33+00:00
+> [Template merge - langs/und] Put to use the make-optional-adv_comp filter. 2015-02-12T11:34:03+00:00
+> [Template merge - langs/und] Don't build xerox fst's within the Apertium dir tree - no need for it. 2015-02-12T11:21:36+00:00
+> [Template merge - langs/und] Require new core because of new filters. Use hfst-optimized-lookup in the yaml testing (but only if possible), this should speed up hfst testing quite a bit. 2015-02-11T21:49:36+00:00
+> [Template merge - langs/und] Put the new optional minip filter to use, and increased required gtcore version. 2015-02-11T04:54:18+00:00
+> [Template merge - langs/und] Replaced all instances of sub and lexsub filters with the new, generated error filters. 2015-02-10T20:56:58+00:00
+> [Template merge - langs/und] Added support for extracting error tags and constructing filters for manipulating error strings and tags. Updated required version of gtcore. 2015-02-10T14:43:26+00:00
+> [Template merge - langs/und] Remove variant tags in disamb analyser. 2015-02-10T13:49:58+00:00
+> [Template merge - langs/und] Xerox fst's are irrelevant to Apertium, don't even try to build them. 2015-02-10T09:15:35+00:00
+> [Template merge - langs/und] Use the new make-optional-v1-tags filter for apertium generators. 2015-02-09T19:52:03+00:00
+> [Template merge - langs/und] Forgot to include the new regex in the src file listing in the previous commit. 2015-02-09T18:05:34+00:00
+> [Template merge - langs/und] Corrected dictionary generators to require a variant tag except for +v1, which is optional. 2015-02-09T17:43:07+00:00
+> [Template merge - langs/und] Removed 'invert net' from a couple of more instances. 2015-02-09T17:01:44+00:00
+> [Template merge - langs/und] Treat Hfst and Xerox the same during *tmp.Xfst and *.Xfst build - invert both only in the last step when going from tmp to non-tmp fst (invert the analyser for hfst, the generator for xfst). This should remove one more confusing difference between the two. 2015-02-09T15:34:18+00:00
+> [Template merge - langs/und] Check that we have at least Python3.1 when enabling Apertium, error out if not. Also add AM check for hfst-optimized-lookup. 2015-02-09T14:47:56+00:00
+> [Template merge - langs/und] A small, functionally equivalent change: from suffix rule to pattern rule. 2015-01-30T16:52:02+00:00
+> [Template merge - langs/und] Now +CmpN/Pref is correctly supported (earlier it was treated as +CmpN/First). 2015-01-30T13:01:24+00:00
+> Updated documentation. Extended the flags to cover prefix-tagged words as well (prefix=first only, never alone). 2015-01-30T12:19:15+00:00
+> Test lexc file to check that compounding restriction flag diacritica are working correctly. 2015-01-30T10:30:59+00:00
+> [Template merge - langs/und] Corrected fst file reference in test shell script. 2015-01-29T20:06:18+00:00
+> [Template merge - langs/und] Corrected source file reference in test shell script. 2015-01-29T19:07:41+00:00
+> [Template merge - langs/und] Changes to a couple of Makefile.am files to fix issues with 'make dist'. 2015-01-29T09:52:41+00:00
+> [Template merge - langs/und] The last part of the CmpN location restriction flag diacritics added. 2015-01-29T08:01:20+00:00
+> Makefile.in does not belong in svn. 2015-01-28T08:57:05+00:00
+> [Template merge - langs/und] Code cleanup: no use for the M4 part - the null alternative did not work. 2015-01-27T20:11:06+00:00
+> [Template merge - langs/und] Finally nailed all combinations of fst compilator and lexicon minimisation - now downcasing of derived proper nouns is working as it should again for both Xerox, Hfst hyperminimised and Hfst normal lexc compilation. 2015-01-27T15:38:42+00:00
+> [Template merge - langs/und] +CmpN/Only supported, first steps in tag splitting taken. 2015-01-27T13:15:02+00:00
+> [Template merge - langs/und] Moved code common to all yaml testrunner shell scripts to an include file in GTCORE to avoid code duplication and reduce the risk for introducing bugs. This requires the newest version of the CORE. Because of the inclusion, I had to rename the test runner to .sh.in, and added autoconf processing of it. Also added a test file for testing the base speller fst (it must be tailored to each language of course). 2015-01-26T15:33:56+00:00
+> [Template merge - langs/und] Last change to get hyperminimisation to produce the correct output: made the derived-proper downcase script being processed by autoconf, so that we can require a symbol in a certain context, and at the same time in the end let the symbol be empty if not needed. 2015-01-22T11:09:19+00:00
+> [Template merge - langs/und] Added optional flag diacritic inserted by Hfst hyperminimisation. This resolves the remaining cases of errors after the hfst team fixed a bug in lexc compilation with hyperminimisation turned on. Since it is optional, it does not make any harm when using Xerox or when not using hyperminimisation. 2015-01-22T08:42:30+00:00
+> [Template merge - langs/und] Added xerox variable flag-is-epsilon to the tag reorder regex. This fixes most of the cases of errors after the hyperminimisation bug was fixed in hfst-lexc. The remaining errors must be fixed in the downcase-derived-proper regex. 2015-01-22T07:21:19+00:00
+> [Template merge - langs/und] Added more silent builds for hfst tools. 2015-01-20T20:37:55+00:00
+> [Template merge - langs/und] Added conversion of tags to flag diacritica for position-restricting tags. These are currently used in sma, sme, smj and sje. Together with some additions to the R lexicon, the tags will finally do what they are meant to do for hfst-based spellers. 2015-01-20T09:16:17+00:00
+> [Template merge - langs/und] Added Multichar symbol definitions for flag diacritica controlling compounding based on position tags. Done for most langs, the symbols will be ignored if not used. 2015-01-19T21:29:59+00:00
+> [Template merge - langs/und] New: added example test file for the fstspeller fst file (starting point for foma and hfst spellers). 2015-01-14T18:15:21+00:00
+> [Template merge - langs/und] Fixed: errors in the yaml test runner when the fst has a suffix 'hfst'. 2015-01-14T18:04:59+00:00
+> [Template merge - langs/und] Fixed: directory and fst names in the yaml runner shell script. 2015-01-14T17:28:34+00:00
+> [Template merge - langs/und] Added support for yaml tests for speller fst's. 2015-01-14T17:08:17+00:00
+> [Template merge - langs/und] Added support for Xerox fst's in tools/spellcheckers/fstbased, mainly to help in debugging hfst. Turned out to be very useful. 2015-01-13T23:44:01+00:00
+> [Template merge - langs/und] Improved comments to make the lemma generation script easier to adapt. 2015-01-13T15:42:21+00:00
+> [Template merge - langs/und] Additions to generate the inverted fst's, to enable symmetric yaml testing. 2015-01-13T06:24:21+00:00
+> [Template merge - langs/und] Fixed: order of filter application was wrong, causing all Use/-Spell forms to be included in the spellers. 2015-01-12T21:41:21+00:00
+> [Template merge - langs/und] Make sure the easter egg is rebuilt every time the fst is rebuilt. 2015-01-09T10:15:40+00:00
+> [Template merge - langs/und] Fixed: The MacVoikko target contained one subtarget that built even when spellers were not enabled, and thus failed because of a missing dependency. 2015-01-08T10:08:05+00:00
+> [Template merge - langs/und] A number of changes to make the MacVoikko.service build cleanly with proper dependency tracking. Also a bit safer cleaning. 2015-01-07T11:10:56+00:00
+> [Template merge - langs/und] Fixed: The MacVoikko target was missing from noinst_DATA, thus it was not built. 2015-01-07T09:42:25+00:00
+> [Template merge - langs/und] Two template merges: * Added initial support for building language-specific macosx systemwide spellers. [r105104] * Added strip function to get rid of extra spaces, resolves bug in abbr.txt build. [r104185] 2015-01-05T16:11:58+00:00
+> [Template merge - langs/und] Expanded the source file base for building the abbr file, more like the old infra. Included lexc files in src/morphology/ in the abbr file making. 2014-11-19T11:45:17+00:00
+> [Template merge - und] Only delete (aka 'make clean') generated corpus files used for weighting if such files exist. Removes a very dangerous 'rm -rf .*' command. 2014-11-18T07:37:22+00:00
+> [Template merge - und] Fixed bug in the phonology building that caused extra source files not to be compiled. 2014-11-14T10:19:32+00:00
+> [Template merge - und] Removing Use/LexSub strings from all normative fst's. Fixes bug #1904. 2014-11-11T09:48:28+00:00
+> [Template merge - und] Added support for turning off building of vislcg3/syntactic tools. 2014-11-04T10:55:58+00:00
+> [Template merge - und] Improvements and corrections in the README file. 2014-10-28T23:23:39+00:00
+> [Template merge - und] Changed Hfst configuration: * moved xerox check before hfst check to ... * automatically enable hfst if the Xerox tools are not found * moved minimum version requirement definition to configure.ac * removed hfst-foma requirement, instead checking for all required tools * removed path check for obsolete hfst tools * improved hfst configuration messages * updated the summary text to reflect that hfst is automatically enabled These changes should ease configuration on systems without Xerox. 2014-10-28T22:27:33+00:00
+> [Template merge - und] Corrected names of compiled twolc files in test/src/phonology/pair-test*.sh.in. We need to use the 'compose' fst because compiled twolc files are not treated the same as other fst's. We can't just skip the new lookup-friendly filenames either, because morphophonological rules can be written using xfscript, in which case the lookup renaming (and inversion) is essential. 2014-10-27T15:11:42+00:00
+> [Template merge - und] Corrrected references to the new lookup style fst names. Fixes broken inituppercase tests. Updated config header in initcap yaml file correspondingly. 2014-10-23T09:15:10+00:00
+> [Template merge - und] Now both general and language-pair specific relabelling using regexes are supported, in addition to using relabel files. The regexes allow context-dependent and multisymbol changes, whereas the relabel files only cover 1:1 mappings of single symbols. The actual change was to add support for regex files in the language-pair independent processing. The tools/mt/apertium/tagsets/README.txt file was more or less completely rewritten to better document the filenames being recognised, and how they should be used. 2014-10-23T06:15:55+00:00
+> [Template merge - und] Retain the regular non-optimised hfst analyser for easy paradigm generation using a regex plus composition. 2014-10-21T11:02:19+00:00
+> [Template merge - und] Fixed a bug in the Apertium build that blocked building of AP-tagged analysers. 2014-10-20T19:14:52+00:00
+> [Template merge - und] Make sure there is always an apertium analyser for 'und' if nothing else. 2014-10-20T14:41:04+00:00
+> [Template merge - und] Do not remove homonymy tags from the apertium fst's. Also simplified the automatic conversion by moving all non-automatic changes to a separate file, run as a sort of tag conversion postprocessing. Updated the tagset/README.txt file to contain info aobut the manually maintained postprocessing relabel file. Added an initial postprocessing relabel file containing word boundary and homonymy tag changes. 2014-10-14T19:22:50+00:00
+> [Template merge - und] Do not remove homonymy tags from the regular analysers. 2014-10-14T14:39:21+00:00
+> [Template merge - und] Fixed a bug in building Oahpa generators - orig-lang tags were not removed. Clean *.hfstol files in tools/mt/apertium/. 2014-10-14T11:15:36+00:00
+> [Template merge - und] Moved Apertium tagset creation and relabeling from src/tagsets/ to tools/mt/apertium/tagsets/. This should fix building of apertium fst's for fin, smn. 2014-10-10T14:28:42+00:00
+> [Template merge * 2 - und] 1) Improved test for gnu awk. 2) Renamed AWK to GAWK in relevant places to get around another AWK test. Now gawk is found properly in all cases. 2014-10-09T11:02:07+00:00
+> [Template merge - und] Require newest core to force people to upgrade to get an important bugfix. 2014-10-07T14:07:39+00:00
+> [Template merge - und] Fixed a bug in the core for generated regexes - a reserved char was not escaped. Required core version bumped. 2014-10-06T07:34:07+00:00
+> [Template merge - und] Hfst 3.8.0 is out, with a number of important bug fixes and improvements, including new options required to make our code build properly. 2014-10-04T07:16:41+00:00
+> [Template merge - und] Several changes to accomodate a downcaseerror variant of the L2 error fst for Oahpa: * added configure.ac option --enable-downcaseerror (independent of the L2 opt) * a number of changes to the build instructions for Oahpa to support the new fst * made the error fst compilation independent of whether an L2 twolc/xfscript file is used - if not, it will just use the ordinary twolc/xfscript file. This way it is possible to build a downcaseerror fst without starting L2 development. * svn-copied regexes from the old to the new infra, including to the core * increased gtcore version number and required version number due to new regexes 2014-10-02T14:34:27+00:00
+> [Template merge - und] Corrected wrong filenames and file references that blocked the oahpa L2 build. 2014-10-02T06:39:24+00:00
+> [Template merge - und] Tagset relabeling didn't work for xfst files, now it does. Also generalised the use of relabel files (for use with hfst-relabel). 2014-10-02T06:24:06+00:00
+> [Template merge - und] Simplified the building of hfst's with alternative tagsets, now that the *.hfst files are not in optimised lookup format. Silenced regex compilation. 2014-10-01T14:44:20+00:00
+> [Template merge - und] Last part of the lookup & composition cleanup: phonetics and phonology now covered. Now all non-lexical and non-filter files have a suffix .compose.* or .lookup.* depending on their intended use, and they are all properly inverted where needed (i.e. only for Xerox' lookup tool). There might still be source files to clean, but that is a separate step. 2014-09-30T22:55:10+00:00
+> [Template merge - und] Corrected a couple of cases where old filenames were still used, and thus broke compilation. Also improved filtering of transcriptors, and constructed transcriptor target names dynamically based on the source files. 2014-09-30T21:30:41+00:00
+> [Template merge - und] Xfscript and lookup cleanup: now we explicitly build files made for lookup and composition marked in the filenames. This is done for hyphenation and for orthography, phonology and phonetics still to be done. From now on there should be no need to use invert as part of the xfscript code - DON'T DO IT! All targets updated to use the new filenames. Removed inversion from the hyphenation xfscript. 2014-09-30T19:54:37+00:00
+> [Template merge - und] Use explicit pipe mode with hfst-xfst. 2014-09-30T10:50:52+00:00
+> [Template merge - und] Moved Apertium target language specification from configure.ac to tools/mt/apertium/Makefile.am. Changed the target filename construction to better follow the Apertium naming scheme. Fixed a bug introduced about four weeks ago that destroyed the dependency chain (due to a bug/fragileness in GNU make). 2014-09-30T10:37:59+00:00
+> [Template merge - und] Cleaned up building of target fst's using the lookup-include.am file. Now all hfst transducers in optimised lookup format have the suffix .hfstol, and optimisation should not be hidden or implisit anymore. All test scripts should be updated as well. Also move all common targets from src/Makefile.am to am-shared/src-dir-include.am and sub-included AM files. This cleans up the src/ dir Makefile.am quite a lot. 2014-09-29T21:22:26+00:00
+> [Template merge - und] Added support for additional local lexc files not part of the lexical fst. 2014-09-29T11:51:44+00:00
+> [Template merge - und] Several changes to clean up the mess with the transcriptors: * moved transcriptor final builds from src/ to src/transcriptions/ * renamed transcriptor source files and targets * streamlined transcriptor compilation to use lexc-include and lookup-include * also silenced xfst in lookup-include.am 2014-09-26T09:08:20+00:00
+> [Template merge * 2 - und] There were a couple of issues in the previous commit: * vpath directive didn't work reliably * L1 and L2 variabless were declared for easy merging, but in a way that AM didn't like * forgot to change the name of the lexical fst in the filter processing 2014-09-24T12:17:05+00:00
+> [Template merge - und] Added support for filters written in lexc and xfscript. Renamed variables and added a lexc-include.am file to support general lexc compilation. 2014-09-22T12:19:48+00:00
+> [Template merge - und] Fixed an unfortunate AM syntax error that blocked Automake, and thus all builds. 2014-09-20T10:04:31+00:00
+> [Template merge - und] Three template updates at once: * Cleaned the filter build files even more. Now only local / language specific regex source files need to be listed in the local Makefile.am. * Fixed a problem with MT filter compilation that only revealed itself in sme. * Another filter build cleanup: all filter regexes in core are now built for all languages. One obsolete filter was removed. 2014-09-18T17:43:37+00:00
+> [Template merge - und] Added a new filter to the filter compilation. Used the new filter to build correct fst's for dictionary analysis and generation. Increased the version number of the required gtd core version, due to the new and required filter in the core. 2014-09-18T07:45:56+00:00
+> [Template merge - und] Major cleanup of filter and tagset compilation: * moved all non-local data and build instructions into am-shared/ * created dir-specific am-include files * clean use of regex-include.am * removed sme-specific source files from tools/mt/apertium/tagsets/Makefile.am * switched the apertium filter use to use the one built in src/filters/ instead of rebuilding it 2014-09-17T11:52:42+00:00
+> [Template merge - und] analyser-oahpa-gt-desc should be analyser-oahpa-gt-norm. Now renamed. 2014-09-15T17:03:46+00:00
+> [Template merge - und] The listbased speller fst is now generated properly using both Xerox and Hfst. 2014-09-15T13:00:26+00:00
+> [Template merge - und] Fixed a logical error that turned off all hfst spellers. Renamed a variable. 2014-09-15T10:03:01+00:00
+> [Template merge - und] Only build Apertium tagsets in tools/mt/ if Apertium is turned on. 2014-09-15T08:41:49+00:00
+> [Template merge - und] Corrected a syntax error in the src_disamb-include.am file. Moved all fst trimming of general interest from tools-spellcheckers-listbased to tools-spellcheckers. Made the configuration so that list-based spellers will only compile if configured to build Hunspell. Also tried to make the configuration of other spellers such that they are automatically off when spellers are off. 2014-09-15T06:04:55+00:00
+> [Template merge - und] Downcasing of the initial letter of derived proper nouns (Pariisi -> pariisilainen) is now finally working with Hfst. It requires Hfst svn rev. 4000. 2014-09-12T10:36:40+00:00
+> [Template merge - und] The first major step for adding support for generating list-based spellers such as Hunspell and the PLX (Polderland/MS Word) spellers. The conversion is not trivial, since we try to control compounding according to the linguistic specifiation in the lexicon (using tags). Although PLX is only for three Sámi languages, Hunspell conversion should be useful for all languages in our infrastructure. No real Hunspell or PLX files produced yet, only prerequisite fst's. - At the same time fixed a glitch in the version checking of VislCG3 that would turn off support for CG files now that the vislcg3 svn revision number has turned 10 000. 2014-09-08T21:33:54+00:00
+> [Template merge - und] Added support for local overrides of the base speller fst. 2014-09-05T20:55:33+00:00
+> [Template merge - und] Generalised and simplified the code for building oxt's - no more hard-coded filenames. Now the LO-voikko versions supported as well as the platforms are just defined in two variables, and the rest follows from there. The build code also handles cases of unsupported combinations of voikko versions and platforms. Also silenced the build quite a lot in non-verbose mode. 2014-09-04T08:23:38+00:00
+> [Template merge - und] Switched to universal binary build for the LO41 voikko OXT. 2014-09-02T10:13:12+00:00
+> [Template merge - und] Made the hfst optimised lookup file format explicit by using the .hfstol suffix, and by optimising files for lookup in a separate build step, instead of implicitly as before. So far only for tools/mt/apertium/, but more will come. Removed the removal of semantic tags - they are already optional, which should be more flexible and robust. 2014-08-27T11:58:27+00:00
+> [Template merge - und] Made speller minimisation default to yes, specified where to push weights. 2014-08-26T07:08:16+00:00
+> [Template merge - und] Added --encode-weights to determinise and minimise. This fixed the never-ending compilation of Finnish spellers. 2014-08-25T14:32:36+00:00
+> [Template merge - und] The optimisations that worked for Greenlandic didn't work for Finnish, potentially due to Finnish being corpus-weighted and thus posing more challenges to determinisation and minimisation. Because of this the Greenlandic optimisation is now rolled into the configuration option --enable-minimised-spellers, OFF by default. 2014-08-22T17:40:51+00:00
+> [Template merge - und] Added size and speed optimisations to the speller compilation process: remove-epsilons, push-weights, determinise and minimise. Together this made the KAL speller *much* smaller and *much* faster. It is now as fast and small as any other fst-based speller. 2014-08-22T09:32:19+00:00
+> [Template merge - und] Hyperminimisation seems to be stable now, and I have added it as a standard configuration option. Also added autoconf support for the preliminary tool hfst-proc2, to facilitate easier testing of the tokeniser/analyser. 2014-08-21T08:51:07+00:00
+> [Template merge - und] Updated the tagset targets to support Xerox fst's, and tagset replacement using regexes instead of the hfst-only relabel tool. Now all languages can get localised analysis and generation tags by adding a regex file and specifying a few targets. 2014-08-19T16:43:15+00:00
+> [Template merge - und] Added build step to explicitly convert hfst transducers to optimised lookup format. Whitespace changes in the silent rule variables. Included the new lookup-include file in src-dir-include.am. 2014-08-19T11:34:06+00:00
+> [Template merge - und] Preparations for better handling of lookup & testing of free-standing lexc and rewrite rule transducers: added build rules to do inversion of fst's intended for lookup. 2014-08-19T07:53:39+00:00
+> [Template merge - und] Added a test dir for the upcoming hfst-based tokeniser. 2014-08-19T07:01:24+00:00
+> [Template merge - und] Corrected some paths to enable VPATH building of spellers. Added support for retaining intermediate files when building using "make --debug". 2014-08-15T06:56:35+00:00
+> [Template merge - und] Added support for building OXT for LO/OOo 3.6-4.0 for Mac. Language support is limited. 2014-08-11T09:05:30+00:00
+> docu 2014-08-08T12:48:09+00:00
+> docu 2014-08-08T12:47:06+00:00
+> Debugging deu. Now it compiles. 2014-08-08T12:44:06+00:00
+> Trying to fix lexc errors. Still errors somewhere. 2014-08-08T09:32:06+00:00
+> [Template merge - und] Brought experiment-langs up to date with a massive merge from the und template, covering revisions 85356-98043. For three languages, changes were made to 349 files! Eng and est compiles, deu does not due to LexC errors (missing lexicons etc.). 2014-08-08T09:16:00+00:00
+> dummy file. 2013-12-30T21:38:29+00:00
+> setup 2013-12-20T12:08:49+00:00
+> Experimental, for pedagogical reasons. 2013-12-20T12:08:09+00:00
+> moved-to-newinfra 2013-12-18T08:49:11+00:00
+> Rmoved when deu was moved to experimental-catalogue. 2013-12-18T08:47:27+00:00
+> moved 2013-12-18T08:46:12+00:00
+> moved 2013-12-18T08:45:06+00:00
+> moved 2013-12-18T08:44:19+00:00
+> moved 2013-12-18T08:43:35+00:00
+> moved 2013-12-18T08:41:46+00:00
+> moved 2013-12-18T08:40:40+00:00
+> moved 2013-12-18T08:39:55+00:00
+> moved 2013-12-18T08:39:09+00:00
+> moved 2013-12-18T08:36:43+00:00
+> moving from old infra st to experimental 2013-12-18T08:32:13+00:00
+> Testing-svn 2013-04-17T14:40:18+00:00
+> inituppercase name fix. 2010-03-18T07:42:57+00:00
+> Got new name 2010-01-15T15:07:10+00:00
+> Moved 2010-01-15T15:06:47+00:00
+> redone 2009-04-13T18:13:21+00:00
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> Preparing shift to last xerox tool, by the time anyone looks into this, they have the new tools. 2008-10-20T21:18:53+00:00
+> .svnignorefile 2008-06-23T20:15:30+00:00
+> Epenthese 2008-05-23T19:03:51+00:00
+> parameter 2008-05-23T18:55:41+00:00
+> Introduced variable definitions for the Xerox tools 2008-05-23T18:39:03+00:00
+> Preparing for lecture on Flag Diacritics. 2008-04-20T20:57:26+00:00
+> whatever 2007-02-26T18:28:47+00:00
+> Two tags were missing from the Multichar list. 2007-01-23T22:22:28+00:00
+> utf-8 2006-11-20T11:37:15+00:00
+> Fixed en-dash, em-dash and related issues in the st/ languages. 2006-10-03T18:49:33+00:00
+> kosmetische verÃ¤nderungen und erklÃ¤rungen. 2006-08-18T12:42:07+00:00
+> Flag Diacritics erklÃ¤rt (kosmetische VerÃ¤nderungen). 2006-08-18T12:40:37+00:00
+> saved changes that which were documented in the previous log . 2006-08-18T12:38:49+00:00
+>  Erweiterung des LEXICON Prafixe, BE- und ENT-, WIEDER- und kosmetische VerÃ¤nderungen. VerÃ¤nderung der upper Form fÃ¼r schwache Partizipien. 2006-08-18T12:36:49+00:00
+> Prf, nicht Ptc. 2006-08-18T12:29:50+00:00
+> .cvsignore 2006-08-18T06:25:46+00:00
+> More explanations, and utf8 fix for tok.txt. 2006-08-17T06:18:34+00:00
+> Some of the verbal codes. 2006-08-13T18:23:36+00:00
+> Now compiling, and working Flag diacritics. 2006-08-13T18:21:44+00:00
+> Still not working. 2006-08-12T05:39:37+00:00
+> Checking in  non-compiling version, for reference. 2006-08-11T23:17:23+00:00
+> Changed MUTTER to s5f. 2006-08-11T20:04:18+00:00
+> Changed LEXICON MUTTER to LEXICON s5f. 2006-08-11T20:03:26+00:00
+> Keine leere Zeilen... 2006-08-11T20:03:16+00:00
+> Repaired the damaged file. 2006-08-11T19:56:46+00:00
+> Modified the following rule: "Umlaut vor Vokal"  Vx:Vy <=>  Cns _ Cns:+ ( e LNR ) X1: %>:  ; 2006-08-11T19:55:47+00:00
+> Acc -er, nicht -e. 2006-08-11T14:07:17+00:00
+> Kannibale wo hinsie gehøren usw. 2006-08-11T14:05:53+00:00
+> Refinements. 2006-08-10T14:25:00+00:00
+> Refinements. 2006-08-09T18:39:46+00:00
+> added .in, .out. 2006-08-09T18:38:43+00:00
+> utf8 2006-08-09T06:46:44+00:00
+> utf8 bug. 2006-08-09T06:45:51+00:00
+> Testing. 2006-08-09T06:43:53+00:00
+> Toy. 2006-08-09T06:08:39+00:00
+> cvsignore 2006-08-09T06:06:57+00:00

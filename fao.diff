@@ -1,0 +1,985 @@
+876d875
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+891,894d889
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T21:13:09+00:00
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+961d955
+< propedit-ignore 2019-09-05T16:13:51+00:00
+971d964
+< ignore 2019-09-05T16:00:30+00:00
+976c969
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@182658 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-05T10:49:56+00:00
+---
+>  2019-09-05T10:49:56+00:00
+997c990
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@182597 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-04T09:22:39+00:00
+---
+>  2019-09-04T09:22:39+00:00
+1019c1012
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@182411 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-08-29T09:06:27+00:00
+---
+>  2019-08-29T09:06:27+00:00
+1040c1033
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@182191 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-08-20T13:21:43+00:00
+---
+>  2019-08-20T13:21:43+00:00
+1061d1053
+< catalogue 2019-08-05T07:03:01+00:00
+1102d1093
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+1129,1130d1119
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+1197d1185
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+1201d1188
+< svnignore 2019-02-25T20:01:26+00:00
+1222d1208
+< førebels 2019-01-27T08:54:18+00:00
+1231,1232d1216
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+1260,1261d1243
+< ignore for bin 2018-10-14T13:31:01+00:00
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+1281d1262
+< svn ignore update 2018-09-20T08:44:05+00:00
+1283d1263
+< updated svn ignore. 2018-09-20T08:28:11+00:00
+1289d1268
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+1292d1270
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+1309d1286
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+1312d1288
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+1314d1289
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+1350d1324
+< More things to ignore. 2018-05-14T10:33:30+00:00
+1410d1383
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+1414,1415d1386
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+1417d1387
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+1429d1398
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+1446d1414
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+1489d1456
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+1518,1519d1484
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+1541d1505
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+1611,1612d1574
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+1667d1628
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@150519 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2017-03-27T12:01:23+00:00
+1669d1629
+< ign 2017-03-21T19:49:19+00:00
+1724,1725c1684,1685
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@149336 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2017-03-01T15:11:17+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@149331 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2017-03-01T13:32:26+00:00
+---
+>  2017-03-01T15:11:17+00:00
+>  2017-03-01T13:32:26+00:00
+1728d1687
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+1732c1691
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/fao@149308 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2017-03-01T10:52:34+00:00
+---
+>  2017-03-01T10:52:34+00:00
+1780d1738
+< set mime-type txt, thanks to Sjur for hint. 2017-02-22T08:12:28+00:00
+1838d1795
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+1918d1874
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+1922d1877
+< script 2016-06-02T19:32:03+00:00
+1959d1913
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+1981d1934
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+1985d1937
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+1988d1939
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+2009d1959
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+2014d1963
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+2019,2020d1967
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+2024d1970
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+2037d1982
+< Updated svn:ignore’s. 2015-11-18T23:05:40+00:00
+2054d1998
+< Updated svn ignores. 2015-10-20T07:50:38+00:00
+2081d2024
+< Ignore temporary files generated by the speller suggestion test script. 2015-09-03T04:23:51+00:00
+2128d2070
+< Ignore txt files in speller dirs. 2015-04-09T11:55:38+00:00
+2143d2084
+< Updated svn ignores. 2015-03-14T10:46:39+00:00
+2148d2088
+< Updated svn ignores. 2015-03-12T08:28:02+00:00
+2154d2093
+< Updated svn ignores. 2015-03-09T10:41:02+00:00
+2156d2094
+< Updated svn ignores. 2015-03-06T15:56:54+00:00
+2159d2096
+< Updated svn ignores. 2015-03-06T09:24:00+00:00
+2166d2102
+< Update svn ignores. 2015-02-27T12:55:53+00:00
+2208d2143
+< Special svn:ignore on src/orthography/. 2015-01-26T10:30:36+00:00
+2215d2149
+< Setting svn:ignore for Bashkir, updating the other ignores. 2015-01-19T06:20:12+00:00
+2223d2156
+< Updated svn:ignore's. 2015-01-12T21:50:15+00:00
+2225,2227d2157
+< svn:ignore also for *.service. 2015-01-12T15:58:08+00:00
+< rollback 2015-01-12T09:36:28+00:00
+< No *.service in gtcore/.../und, so here instead. 2015-01-10T10:06:01+00:00
+2249d2178
+< Update ignores for src/morphology/. 2014-10-23T08:25:38+00:00
+2292d2220
+< Updated svn:ignore's. 2014-09-08T21:51:28+00:00
+2315d2242
+< ignore 2014-08-16T15:52:40+00:00
+2330d2256
+< Updated svn:ignore for all languages. 2014-06-11T09:37:23+00:00
+2339d2264
+< Ignore cg3 files in the tools/mt/apertium/ dir. 2014-06-02T14:02:42+00:00
+2344d2268
+< Ignore the generated pkg-config files. 2014-05-12T20:27:01+00:00
+2365d2288
+< Extra ignores on tools/mt/apertium/filters/. 2014-04-16T05:45:32+00:00
+2367d2289
+< Updated svn ignores. 2014-04-15T13:30:11+00:00
+2370d2291
+< Updated svn ignore. 2014-04-10T15:16:59+00:00
+2381d2301
+< Updated svn ignores. 2014-04-03T10:10:45+00:00
+2384d2303
+< Updated svn ignore. 2014-04-02T10:58:00+00:00
+2400d2318
+< Update svn ignores on test/src/phonology/. 2014-03-20T07:32:24+00:00
+2407d2324
+< Updated ignore patterns for test/tools/spellcheckers/. 2014-03-14T10:26:24+00:00
+2415d2331
+< Updated svn ignores. 2014-02-28T06:46:07+00:00
+2456d2371
+< Ignore mk-files in the preprocess/ dir. 2014-01-14T14:20:40+00:00
+2464d2378
+< Ignore generated easteregg files. 2014-01-12T11:44:07+00:00
+2467d2380
+< Ignore functions.cg3 and dependency.cg3 if they are copied from a shared location (these files will not be ignored if already in svn). 2014-01-10T10:24:56+00:00
+2470d2382
+< Updated the ignore pattern for morphology/stems/. 2014-01-09T13:45:44+00:00
+2518d2429
+< Ignore generated regex files in the src/filters/ dir. 2013-12-03T11:56:43+00:00
+2527,2528d2437
+< Extra ignores in the filters/ dir. 2013-11-24T15:24:39+00:00
+< igno 2013-11-24T15:13:39+00:00
+2532d2440
+< Ignore the generated, concatenated lexc file. 2013-11-22T13:37:46+00:00
+2549d2456
+< Ignore generated documents in tools/shellscripts/. 2013-10-18T11:47:12+00:00
+2558,2559d2464
+< One more ignore on the grammar checker dir. 2013-10-10T09:06:26+00:00
+< Update svn ignores. 2013-10-09T11:01:58+00:00
+2561d2465
+< Updated svn ignores. 2013-10-09T07:04:36+00:00
+2590d2493
+< Ignore zipped files (built for apertium). 2013-08-19T07:13:39+00:00
+2593d2495
+< Ignore *.att files in src/ (produced by the apertium targets). 2013-08-17T12:30:28+00:00
+2605d2506
+< Ignore extra generated files in the tagsets dir. 2013-06-13T14:40:56+00:00
+2628d2528
+< [ignore] Also ignore generated foma transducers. 2013-04-11T16:57:19+00:00
+2629a2530,2533
+> moved 2013-04-10T07:06:20+00:00
+> obsolete 2013-04-10T07:04:51+00:00
+> moved 2013-04-10T07:03:45+00:00
+> moved 2013-04-10T07:01:44+00:00
+2630a2535
+> Removing files and dirs. 2013-04-09T22:11:03+00:00
+2631a2537
+> Removing files and dir. 2013-04-09T22:04:20+00:00
+2641a2548
+> Obsolete files. 2013-04-09T20:59:13+00:00
+2652d2558
+< Ignore the generated voikko-3 dir. 2013-03-18T09:43:22+00:00
+2659d2564
+< More extensive ignores on src/morphology/. 2013-03-12T08:07:27+00:00
+2666d2570
+< Ignore top-level build dir. 2013-02-27T07:18:08+00:00
+2668d2571
+< Update svn ignores. 2013-02-27T00:08:32+00:00
+2672d2574
+< Ignore the build/ dir within doc/. 2013-02-26T17:02:56+00:00
+2692,2693d2593
+< The ignore pattern was wrong - now correct. 2013-01-23T22:34:12+00:00
+< Ignore generated yaml tests. 2013-01-23T22:28:44+00:00
+2699c2599,2600
+< newinfra-mvd 2013-01-23T14:30:26+00:00
+---
+> symlink 2013-01-23T14:32:35+00:00
+> newinfra 2013-01-23T14:31:06+00:00
+2703d2603
+< Updated svn:ignore with the latest modifications to the ignore patterns. 2013-01-14T19:34:16+00:00
+2752a2653
+> Link that makes *-cgi-<lang>.html contain a valid link to this doc 2012-09-30T17:34:11+00:00
+2754c2655,3391
+< Moved gtcore/ and langs/ out of newinfra/ - the experiment period is over, and the new infra should grow up and become a full member of the GT home. The newinfra/ dir is now gone. 2012-09-25T15:30:19+00:00
+---
+> Added warning about missing YAML testing, with short instructions on how to enable them. Template update. 2012-09-25T06:19:32+00:00
+> The top-level syntax include AM file had not been changed to reflect the rle->cg3 suffix change. Merge from template. 2012-09-21T10:37:43+00:00
+> Corrected a bug in the default generate-noun-lemmas.sh test script. Made file references more robust. Update from template. This also clears any warnings left over from the cg3 file renaming, such that we get a clean merge in the next template update. 2012-09-20T09:26:56+00:00
+> The VislCG3 team has lately switched to a *.cg3 suffix. Now we do the same in the new infra - the new suffix is definitely more transparent. 2012-09-19T18:26:12+00:00
+> Variables=cleaner code. Update from the template. 2012-09-18T06:56:51+00:00
+> Updated the yaml test runner to properly report the exit value of the yaml tests, and also to give directions for how to see the details of each test if it failed. Update from the template. 2012-09-17T14:10:42+00:00
+> Corrected typo in shell scripts. 2012-09-17T11:03:08+00:00
+> Several testing shell script updates: correct exit value when data files are not found, proper use of Autoconf-made variables (will free the test scripts from relying on the user setting up environment variables), and better checks on the availability of test data for the lemma and replaced all hard-coded file refs with variables in the noun generation test. 2012-09-17T09:30:31+00:00
+> Added check for the Xerox lookup tool, which also defines the LOOKUP variable. Update from template. 2012-09-17T08:14:29+00:00
+> Reorganised AC processing of shell scripts to be more future-proof and avoid annoying (and useless) warning from chmod. Added AC variable to the AC-processed shell script to make casual by-lookers aware of the fact that the resulting shell script file is generated by AC. 2012-09-17T07:37:40+00:00
+> Corrected error in previous commit. Finally things are working as they should. It might be necessary to run ./autogen.sh and ./configure before compilation is running smoothly again. 2012-09-15T12:52:14+00:00
+> Forgot to update configure.ac. 2012-09-15T10:43:23+00:00
+> Refined the yaml test runner: more informative banner, ignore extra analyses (= removes false alarms). Merge from template. 2012-09-15T08:17:53+00:00
+> Added basic setup for running YAML tests in the test/src/morphology/ dir. The default setup will run all *.yaml files found in this dir, but this can be modified in the shell (*.sh.in) script. If there are yaml files in that dir, they will be automatically run by 'make check'. 2012-09-14T19:28:03+00:00
+> Enable yaml tests by magic. Merge from the template. 2012-09-14T11:54:49+00:00
+> Added conditional support for running python-based tests in test/src/morphology. 2012-09-14T11:27:52+00:00
+> Added checks for Python 3.1+ and py-yaml, and defined CAN_YAML_TEST. The idea is that we will run the python-based tests only if the prerequisites are available to us, and skip them if not. 2012-09-14T10:54:10+00:00
+> Added support for transcribing transducers, ie transducers that change the input from one orthographical representation to another, e.g. date and time expressions as strings or digits to the opposite form. 2012-09-10T10:37:35+00:00
+> Renamed the default error model file, to follow the naming scheme used in the zhfst guidelines. 2012-09-10T09:30:47+00:00
+> Renamed the default error model file, to follow the naming scheme used in the zhfst guidelines. This makes compilation much easier, and should cause the present makefile to actually build spellers. Tommi already did this for FIN. 2012-09-10T09:25:01+00:00
+> Don't remove the *.tmp files - that destroys the dependency relationships for (auto)make, which forces a full recompilation of all target fst's, and a lot of extra waiting time. 2012-09-10T09:00:36+00:00
+> SETs, not LISTs 2012-09-08T17:31:37+00:00
+> Add missing src to hfst spellchecker automaton path. Merge from template. 2012-09-08T13:00:22+00:00
+> Added vehtag lexicon. Note: No +Veh tag. 2012-09-08T09:29:45+00:00
+> Search-replace error. The - in lexiconnames had been replaced by _, but also where it should not have been. 2012-09-08T09:27:34+00:00
+> Added missing reference to dialect tag filter. Update from the template. 2012-09-08T08:42:58+00:00
+> Updated my simplistic noun generation script to be aware of its new location. 2012-09-07T14:48:50+00:00
+> Reorganised the test dir, in anticipation of a larger set of tools and source types in need of testing. Merge from the template. 2012-09-07T13:49:17+00:00
+> Added test/data/typos.txt to hold a list of collected typos. The list is used both for testing spellers, and as part of the preprocessor used with the Xerox lookup tool. 2012-09-07T06:27:36+00:00
+> Major template update of all languages (except those already updated by Jack): * proper tag deletion of tags only used for transducer manipulation, not for analysis (manipulations mostly not yet implemented) * making optional some tag sets for the generators * updated README with correct and working instructions for first time installers, also for svn users * added hooks for easily adding language-specific operations on transducers * silenced the und.timestamp message unless you are a GTMAINTAINER (thanks to Tommi) => more synchronized template merges, less noise for regular users * a number of other small fixes 2012-09-06T19:19:58+00:00
+> Autoconf updates from the template. Intended goal: better hfst testing before enabling it. 2012-08-30T05:39:16+00:00
+> Added border removal to the basic analyser and generator, such that they become useful. Also changed the order of the dir processing in src/, to ensure that the filters are built before they are needed. 2012-08-29T03:12:39+00:00
+> Added border removal to the basic analyser and generator, such that they become useful. Also changed the order of the dir processing in src/, to ensure that the filters are built before they are needed. 2012-08-29T03:06:20+00:00
+> Corrected syntax error. 2012-08-29T01:46:18+00:00
+> Made the first test script more robust: it bails out if no transducer is found, and gives basic feedback to whether it is testing Xerox or Hfst. The test data files are not deleted after the test run, so that they can be easily inspected if needed, even after a successful test run. 2012-08-29T01:34:20+00:00
+> Added the first test script: it tests whether noun lemmas do generate. The script does contain some language-specific bits, and must thus be adapted to the requirements of each language. 2012-08-29T00:17:53+00:00
+> Moved one file to a better place. 2012-08-28T22:26:59+00:00
+> Corrected reference to inituppercase.?fst. Template update. 2012-08-28T19:34:40+00:00
+> Corrected compilation of hyphenation rules. Template update. 2012-08-28T18:44:51+00:00
+> Corrected compilation of phonetic/orth2ipa rules. Merge from the template. 2012-08-28T17:41:58+00:00
+> Added basic structure for hyphenation and conversion to IPA. Merge from the template. 2012-08-28T05:45:14+00:00
+> Added Hunspell dir. Merge from templates. 2012-08-27T16:44:43+00:00
+> Two template updates at once: 2012-08-27T16:09:42+00:00
+> Added build support for xml source files. Updates from the template. 2012-08-27T07:33:38+00:00
+> Added initial support for xml source files. NB! The support isn't fully according to GNU (autotools) standards yet, but will have to do for the moment. 2012-08-25T07:24:18+00:00
+> A lot of cleanup and corrections: * suffix rules in more places (although not in all - that is not possible) * removed automake warning about pattern rules - we need them * checked all *-include.am files for consistency, added missing Xerox and HFST targets were needed, corrected vars to HFST tools, added comments and generally made the files easier to maintain (I hope). 2012-08-24T13:13:59+00:00
+> Added Autoconf processing of the Makefile.am files in test/. Update from the template. 2012-08-22T18:10:32+00:00
+> Updated Test dir with subdirs and make-files, and older template changes. Updates from the template. 2012-08-22T17:36:14+00:00
+> updates 2012-06-24T21:40:40+00:00
+> More on cns shortening in front of cns suffixes. 2012-06-24T21:40:13+00:00
+> improvements 2012-06-23T22:20:49+00:00
+> corrections, additions 2012-06-22T17:42:50+00:00
+> added-adv 2012-06-22T14:32:23+00:00
+> Additions from missing list. 2012-06-22T10:05:16+00:00
+> Merge from core: Corrected syntax error, renamed a couple of errors. 2012-06-21T15:59:32+00:00
+> Almost there - applied the changes from core, but got a syntax error. 2012-06-21T14:53:52+00:00
+> Latest merge update from core (only changed the timestamp file - the affected file was already corrected locally). 2012-06-21T08:50:35+00:00
+> Finally managed to merge changes to the Automake and M4 files from core to FAO, with the help of an updated merge script by Tommi, and better understanding of the merge process on my part. 2012-06-21T08:46:44+00:00
+> Reverted tests 2012-06-20T16:41:58+00:00
+> Successful merge 2012-06-20T16:38:15+00:00
+> No symlinking any more - that is a thing of the past. 2012-06-19T13:09:35+00:00
+> Whitespace changes only, for better readability. 2012-06-19T09:58:56+00:00
+> Forgot about a syntax requirement of xfst: no newline directly after the variable name. Now it compiles. 2012-06-19T09:52:48+00:00
+> We don't need both an xfst regex and an xfst script file for the same purpose. Deleting the regex, and keeping the xfst script file. Updated the script file to be completely equivalent to the regex file that's deleted. 2012-06-19T09:45:09+00:00
+> Updated FAO with filter support - first instance is sub-form filtering to create normative transducers. 2012-05-24T13:59:29+00:00
+> Brought fao in line with the core template. The automatic updates did not work, but should hopefully work after these changes. The only changes in this file are additional comments. 2012-05-10T07:44:55+00:00
+> Brought fao in line with the core template. The automatic updates did not work, but should hopefully work after these changes. 2012-05-10T07:41:13+00:00
+> Empty line at the end. 2012-05-10T07:39:40+00:00
+> Empty line at the end. 2012-05-10T07:30:25+00:00
+> Empty line at the end. 2012-05-10T07:29:05+00:00
+> Renamed files and dirs to more generic names. 2012-05-08T05:39:44+00:00
+> Added comments copied from tlh. 2012-04-30T21:21:02+00:00
+> Merging with a script successfully 2012-04-16T00:22:57+00:00
+> remove unneeded m4 inclusions from copied style infra 2012-04-15T22:40:51+00:00
+> Renamed according to the new naming convention in the new infra: *.xfst is now reserved for the meaning "Xerox binary transducer file". Xfst script files from now on have the extension *.xfscript - hopefully mnemonic and clear enough that people will recognise it without being too long (it is still quite long). 2012-04-05T08:32:17+00:00
+> These will be in svn from now, no more symlink hell 2012-04-04T18:31:16+00:00
+> Testing timetamps 2012-04-04T18:08:38+00:00
+> updates 2011-11-16T12:57:40+00:00
+> example of cg compilation for fo 2011-11-07T17:47:47+00:00
+> uppercasing example in fao 2011-11-07T16:44:21+00:00
+> Move autoconf stuff from configure.ac to shared/m4 2011-11-07T04:40:15+00:00
+> No need to let this one be executable. 2011-11-04T08:48:33+00:00
+> Move spell-checker/error model compilation makefile to the shared dir, and include it in the local makefile. 2011-11-03T09:06:09+00:00
+> Do phonology before morphology (no specific reason, it just feels more naturally this way). 2011-11-03T09:04:34+00:00
+> Shortened format name now that I have learned what the short form is. 2011-11-03T08:41:25+00:00
+> Adjusting the script paths after things have been reorganised. 2011-11-03T06:18:52+00:00
+> return to make dictionary for speller if necessary 2011-11-03T00:48:35+00:00
+> Native line endings. 2011-11-01T14:06:13+00:00
+> Default error model copied from sma. NOT tuned to fao, used only for testing the infra. 2011-11-01T14:03:57+00:00
+> Removed index.xml - it is generated from a template. Ignore this file and another generated file. 2011-10-31T13:22:09+00:00
+> Moved all twolc compilation code to the shared makefile fragments. Added *.twolc.* to the compiled twolc transducer filenames. 2011-10-31T11:33:33+00:00
+> Readded vim flag for Tommi's pleasure:) 2011-10-31T11:31:57+00:00
+> Added clean target, changed to native line-breaks. 2011-10-31T10:51:32+00:00
+> Moved all lexc compilation to the shared makefile (automake) fragment, unified the make commands with the existing commands. 2011-10-31T10:43:08+00:00
+> Changed line-endings to native. Added *.lexc.* to the compiled lexc transducer filenames. Added local-clean target. Faster HFST compilation by explicitly compiling to foma first, then convert to whatever we want. 2011-10-31T10:21:18+00:00
+> An initial index.xml file for the Faroese hfst speller (svn copy from sme). Will probably be moved. 2011-10-31T08:14:39+00:00
+> Switch line endings to native, check for zip to enable zhfst building. 2011-10-31T08:09:31+00:00
+> We use autogen.sh instead to create the links. 2011-10-29T19:36:34+00:00
+> actually test link with -L 2011-10-28T09:38:19+00:00
+> Use autogen to generate am-shared at top_srcdir 2011-10-28T09:31:25+00:00
+> Hack GTCORE/am-shared into top_srcdir before Makefile generation 2011-10-28T09:16:54+00:00
+> move makefile data to am-shared in GTCORE 2011-10-28T08:15:47+00:00
+> Put all languages in one dir, for a cleaner top level and clearer separation. 2011-10-20T11:36:16+00:00
+> Corrected path ref. 2011-10-09T10:51:07+00:00
+> Some formal errors. 2011-09-05T18:25:56+00:00
+> Link to symlinked file. 2011-08-08T23:08:08+00:00
+> symlink 2011-08-08T22:29:50+00:00
+> Symlink to smi-dep.rle. 2011-08-05T09:51:05+00:00
+> parentheses, new feature 2011-08-05T09:33:41+00:00
+> hfst3 2011-08-05T09:33:15+00:00
+> extra dist sources for now 2011-07-10T09:44:32+00:00
+> simple example for spell-checking in this build system 2011-07-09T22:02:13+00:00
+> example of spell checker generated by the script 2011-07-06T00:47:07+00:00
+> More detailed build instructions, and info about the VPATH build option, as well as a warning about a lexc bug/arbitrary limit. 2011-06-29T22:17:48+00:00
+> Added one more search path for the configure script, to make it more robust during the development phase. Now the configuration step works also when using VPATH builds. 2011-06-29T21:41:47+00:00
+> s/sharedir/datadir/ 2011-06-29T21:05:28+00:00
+> Reverting the previous commit - I hadn't understood how things were supposed to be working. 2011-06-29T20:52:23+00:00
+> Removed a combining double acute accent that had crept in. 2011-06-29T20:48:35+00:00
+> Corrected paths to reflect the current (non-optimal) state. 2011-06-29T20:28:36+00:00
+> missed Makefile 2011-06-29T20:23:13+00:00
+> non-detached build version (no includes, no common m4) 2011-06-29T09:42:24+00:00
+> test commit for gtlangs restruct. work 2011-06-03T08:38:24+00:00
+>  2011-04-20T14:17:30+00:00
+> Old work forgotten to check in. 2011-04-05T19:16:08+00:00
+> The start of an automake file, by svn copy of the old makefile. 2011-01-12T08:55:41+00:00
+> no mhr here, just fao 2011-01-11T13:21:27+00:00
+> Renamed makefile so that it won't crash with the generated makefile created by the autotools from Makefile.am. To compile fao transducers the old way, please call make as follows: 2011-01-05T09:28:43+00:00
+> Giving up on CMake for the moment, trying out the autotools instead. Eventually CMake might be our thing, since it has better support for building things on Windows. But this is a learning curve and learning experience, we'll develop our infrastructure as we move along. Just getting a more sane infrastructure - independent of which tools we use for that - will be a huge step forward:) 2011-01-05T08:44:45+00:00
+> Starting to experiment with autotools in the st group of languages, first fao. Old build system will continue to work until the new one is working properly, perhaps with renamed make files. 2011-01-05T08:42:08+00:00
+> Comment is comment , deprecated or not 2010-11-19T22:02:40+00:00
+> Fixed error. But this one is not in use, so refer to the common one. 2010-10-29T05:07:43+00:00
+> bin 2010-08-31T14:59:57+00:00
+> corr 2010-08-31T14:54:50+00:00
+> Removed initial (and final, hmm) blanks in order to avoid bug in abbr list creation. 2010-07-02T12:31:02+00:00
+> Testing this way of documenting things. 2010-06-11T13:00:21+00:00
+> corrections 2010-05-27T17:17:15+00:00
+> added script name extension 2010-04-21T17:46:29+00:00
+> Work on adjusting dis to gold standard; early mornings during offline easter holiday... 2010-04-04T14:40:39+00:00
+> Added omaneftir 2010-04-04T14:25:03+00:00
+> Corrected typo in  "Deleting Double Consonant in Front of Consonant" Added Supine context to rule  "t Deletion in Neuter" ... the name is now strictly speaking misleading, come to think of it. 2010-04-04T14:22:29+00:00
+> tag "\" should be "\\" ... as it is there, "\") | ("\;" is a single tag. ~Tino 2010-04-02T23:53:25+00:00
+> Solved conflicts for u-Umlaut, ementhetic vowels and double consonant simplifications. Unified two rules Double consonant simplification in front of t and Deleting Double consonant in front of Consonant Revised right contexts for these rules, and cleaed up the PASS rules, by also adding -i- as a left context. 2010-03-29T08:49:38+00:00
+> Added alternating preterite lexica. Added new lexicon TYKJA. Corrected PASS contlex. 2010-03-29T08:47:15+00:00
+> Alternative dative for h6e blaðnum. 2010-03-29T08:46:00+00:00
+> Added words missing in gold corpus. 2010-03-29T08:45:27+00:00
+> LExica for summur, eingin. 2010-03-29T08:45:01+00:00
+> Starting completing the analysis of the gold corora, now done lexical orrections. 2010-03-27T23:30:52+00:00
+> Corrections. 2010-03-25T15:13:53+00:00
+> Went through the files and corrected. 2010-03-24T19:14:51+00:00
+> length 2010-03-24T15:27:09+00:00
+> The never-ending story. 2010-03-24T15:26:56+00:00
+> removed whitespace 2010-03-24T09:49:25+00:00
+> This one generated, now removing __all__ kalrules. 2010-03-24T09:43:15+00:00
+> Removed to superfluous syntags. 2010-03-24T08:28:11+00:00
+> This one generated. 2010-03-23T18:15:52+00:00
+> The sentences themselves. 2010-03-23T18:12:57+00:00
+> cleanup 2010-03-23T18:10:48+00:00
+> Now hopefully fixed the 2Sg if _tú_ somewhere around rule. 2010-03-23T15:30:22+00:00
+> New participle contlex, avoiding -ur in Msc for ptc in -in (the rest need a check as well) 2010-03-23T15:29:41+00:00
+> Last issue resolved. Behind the problem was an error in the participle paradigm. 2010-03-23T15:26:39+00:00
+> One unclear issue left, _dottin_, there is something with the Msc participle. 2010-03-23T15:08:14+00:00
+> Changed some aux to mv. My comments are still in the file, marked with  --. 2010-03-18T16:28:36+00:00
+> Added 3-4 new sentences to the gold part. 2010-03-18T14:57:20+00:00
+> Obsolete, see gt/common/speccorp/depcorp/ 2010-03-18T13:02:59+00:00
+> Obsolete, see gt/common/speccorp/depcorp/ 2010-03-18T13:02:58+00:00
+> Obsolete, see gt/common/speccorp/depcorp/ 2010-03-18T13:02:57+00:00
+> Obsolete, see gt/common/speccorp/depcorp/ 2010-03-18T13:02:56+00:00
+> Obsolete, see gt/common/speccorp/depcorp/ 2010-03-18T13:02:54+00:00
+> Correct corpus. 2010-03-18T13:00:34+00:00
+> preprocessed 2010-03-18T07:56:32+00:00
+> generalised supine rule. 2010-03-18T07:45:07+00:00
+> Fied perfect participles as such. 2010-03-18T07:44:27+00:00
+> Fixed epenthetic vowel of -in adjectives. 2010-03-18T07:43:55+00:00
+> Added 'hans' as a genitive of 'hann', in addition to 'hansara. 2010-03-12T10:04:49+00:00
+> Added an optional suffix boundary to the rule governing epenthetic vowel in -in etc. stems (-nir). As it was, it let through vakin > vaknir but blocked komin > komnir. 2010-03-09T13:23:28+00:00
+> cosmetics 2010-03-08T11:28:30+00:00
+> Trond corrected the kv-flt9 contlex (hond - hendur), eIUML, not IUML, and -UR contlex, not -IR. 2010-03-08T11:27:59+00:00
+> moved 2010-03-08T09:31:49+00:00
+> changes 2010-03-05T14:17:49+00:00
+> unclear status. 2010-03-05T14:15:44+00:00
+> Looking at relative sentences. 2010-02-20T18:30:21+00:00
+> Added tags from sme, and rules for dicrected adverbials. 2010-02-14T20:38:17+00:00
+> hagar 2010-02-14T20:37:45+00:00
+> wrong-name 2010-02-01T19:32:08+00:00
+> wrong-name 2010-02-01T19:31:51+00:00
+> deleted-wrong-name 2010-02-01T19:29:37+00:00
+> Fixed the .regex .xfst confusion 2010-01-30T14:18:06+00:00
+> This is not a regex file. 2010-01-30T14:08:14+00:00
+> This is not a regex file. 2010-01-30T14:07:16+00:00
+> This is not a regex file. 2010-01-30T14:06:27+00:00
+> First experiments with CMake. Not yet working. 2010-01-27T15:38:50+00:00
+> Reorganised and simplified the makefile to prepare for infrastructure experiments. Xerox bails out with a Segmentation fault, but I can see no relation to the changes in the Makefile. Anyone else having the same problems? 2010-01-15T16:47:59+00:00
+> Changed name to tok.regex 2010-01-15T15:18:25+00:00
+> Fixed the initcase naming issue, it was left as case.regex and caseconv.fst, thereby not compiling. 2010-01-15T15:01:27+00:00
+> Filename without hyphen, in order to keep things uniform. 2010-01-15T14:44:35+00:00
+> Filename without hyphen, in order to keep things uniform. 2010-01-15T14:44:29+00:00
+> *.bin -> *.hfst. This will keep the hfst binaries separate from the xerox ones. 2010-01-14T14:39:36+00:00
+> Solved one rule conflict - one left. Added comments. Removed obsolete HFST code. 2010-01-14T14:38:18+00:00
+> Consistent file endings: .txt -> .regex. 2010-01-14T11:48:02+00:00
+> Removed an empty line to make it fit within one screenful. 2010-01-14T11:47:24+00:00
+> Renamed case.regex to init-uppercase.regex. 2010-01-14T11:07:39+00:00
+> Changed allur from A to Det, in order to make things compatible with the icelandic analyser. 2009-12-21T14:34:49+00:00
+> Added ruleset from sme-dis assigning @CNP and @CVP tags. Need a correct corpus. 2009-12-09T23:33:49+00:00
+> Added comment about the use of the HFST tools. 2009-11-24T15:21:24+00:00
+> Replaced all instances of hard-coded filenames. Now the filenames are only given in the dependencies. 2009-11-24T15:18:04+00:00
+> Added rules, from Francis (?). 2009-11-20T08:34:15+00:00
+> typo 2009-11-20T08:33:40+00:00
+> Added vaksa. 2009-11-20T08:33:18+00:00
+> hfst-lexc is a bit simpler to compile with now 2009-11-18T12:56:19+00:00
+> select CS if (0 at)(1C Inf) => select IM -||-; correct? 2009-11-17T11:45:58+00:00
+> minor syntax fixes, first attempt at rule for 'VFIN ... at VINFIN<@-FMAINV>' 2009-11-17T11:43:03+00:00
+> Added correct corpus for the new tag regime. 2009-11-16T19:05:42+00:00
+> Missing comma blocked the IM tag from working. 2009-11-08T19:36:58+00:00
+> Add some more missing words 2009-11-06T10:09:18+00:00
+> improvements 2009-11-05T15:11:42+00:00
+> sa disambiguation . 2009-11-05T13:52:14+00:00
+> gt 2009-11-05T13:47:12+00:00
+> IM tag declared and assigned, and also @IM 2009-11-05T13:25:51+00:00
+> Rules now pointing to correct tag. 2009-11-05T13:25:17+00:00
+> IM, not only CS. 2009-11-05T13:24:29+00:00
+> Added possessive -sa clitic. 2009-11-05T13:23:50+00:00
+> scripts 2009-11-05T10:48:53+00:00
+> Generalised some rules for NP agreement. 2009-11-05T09:16:32+00:00
+> Corrected verða. 2009-11-05T09:16:16+00:00
+> Changed substitue rules @FS-... in order to account for CS-initial clauses. Made SETPARENT rules refer to substituded tags (+FMAINV and -FMAINV out of the file). Added separate rules for all infinite verbs in the verb complex. 2009-11-04T23:26:32+00:00
+> Added AUX munna. Added rule for aux as main verb. 2009-11-04T23:24:42+00:00
+> Fixed the PrsPrc tag. 2009-11-04T23:23:35+00:00
+> corrections 2009-11-02T22:54:41+00:00
+> sme-harmonizing 2009-11-02T22:54:21+00:00
+> addition 2009-11-02T22:54:07+00:00
+> changed contlex. 2009-11-02T22:53:57+00:00
+> sets 2009-11-02T15:16:00+00:00
+> Restored S-BOUNDARY2, now that @CVP has been introduced. 2009-11-02T09:52:19+00:00
+> Added u r suffix string to  "Deleting Double Consonant in Front of Consonant" This rule must still be checked, it is finnurst > finst 2009-11-01T23:46:42+00:00
+> Numerous corrections. 2009-11-01T23:45:00+00:00
+> Added >A. 2009-11-01T23:44:21+00:00
+> Added >A. 2009-11-01T23:42:24+00:00
+> Lexical additions. 2009-11-01T23:41:49+00:00
+> Forgot the Prs Pl form of eiga. 2009-10-31T20:40:57+00:00
+> Removed a double +Pl+Pl tagstring from adj-def-pl. 2009-10-31T20:40:12+00:00
+> added a verb. 2009-10-31T20:39:27+00:00
+> removed doubleforms hesinhesin etc. 2009-10-31T20:39:02+00:00
+> sessur 2009-10-31T18:10:24+00:00
+> Fixed definiteness for systir. 2009-10-31T17:58:46+00:00
+> Added +Dem tag 2009-10-31T16:47:00+00:00
+> Added Pron Dem for non-determinative use of tann, hesin, and the lot. 2009-10-31T16:46:42+00:00
+> Had forgot to add a crucial 0 in the select Pron hon rule 2009-10-31T13:18:02+00:00
+> contlex naming mismatch. 2009-10-31T12:39:59+00:00
+> Made a new lexicon VANDI for present participles, directing them to the gang of adjectives, in addition to the verbal reading. 2009-10-31T11:55:11+00:00
+> Finally understood the raison d'etre for k21. 2009-10-31T11:52:48+00:00
+> Added dummy to Deleting Double Consonant in Front of Consonant, now its scope is better. 2009-10-31T11:52:19+00:00
+> A couple of rules for specific words, mostly Adv and P vs. Imp. 2009-10-31T11:51:44+00:00
+> More words. 2009-10-31T11:51:05+00:00
+> Also passive tags. 2009-10-31T11:50:23+00:00
+> Removed reference to suffix t in Stem Vowel Shortening in Supine and Participle. Sometimes the suffix is also d. The %^VSH should be enough, so I removed all context beyond that. 2009-10-31T07:41:38+00:00
+> Corrected +Cmp tag in adjectives. When a new lexicon was added, the thing gave segmentation fault. Lesson to be learned: Declare your multichar symbols 2009-10-31T07:40:28+00:00
+> Commented out two lines that caused a segmentation fault with LexC version lexc-3.7.9 (2.14.10). Now it compiles. 2009-10-30T11:05:30+00:00
+> Refined some rules which were to harsh. 2009-10-29T22:42:37+00:00
+> removed sme setname. 2009-10-29T22:41:38+00:00
+> added a missing paradigm, also corrected some stems. 2009-10-29T22:41:16+00:00
+> Fixed the paradigms ELDRI ELSTUR, they had double case marking. 2009-10-29T22:40:40+00:00
+> Added words. 2009-10-29T22:39:59+00:00
+> vegur and all the other k13 were for some reason wrong. 2009-10-28T20:47:52+00:00
+> Continuing the harmonization of tags 2009-10-28T20:44:27+00:00
+> typo in contlex name. 2009-10-28T15:03:43+00:00
+> Added definitions and substitution rules from sme. 2009-10-28T14:50:53+00:00
+> harmonizing with sme tag conventions. Transfer still underway. 2009-10-28T12:15:14+00:00
+> Added the 3 last words from the missing list. 2009-10-27T21:54:02+00:00
+> Added all 4 words to the lexicon, kept 3 for reference. 2009-10-27T21:53:37+00:00
+> Added +V+PrfPrc across the board for all participles. 2009-10-27T10:06:16+00:00
+> dalur 2009-10-27T08:34:48+00:00
+> add one more 2009-10-27T02:55:48+00:00
+> add file with some words to add 2009-10-27T02:55:38+00:00
+> add a makefile for HFST 2009-10-26T22:42:05+00:00
+> Enriched a boundary, to be standardised. 2009-10-22T21:46:38+00:00
+> included mwe. 2009-10-22T15:02:05+00:00
+> Added subjunctive tag. 2009-10-22T14:49:39+00:00
+> added barrier. 2009-10-22T14:49:07+00:00
+> add one multiword preposition 'fram við' 2009-10-12T14:31:59+00:00
+> Added another option for 'annar', +Pron+Indef, in addition to the ordinal reading +A. 2009-10-11T20:59:24+00:00
+> Wrong tag, +PrfPtc pro correct +PrfPrc. Also, no adj tags. Still holes in the paradigm. 2009-10-11T18:13:53+00:00
+> lesa now s56, not the errouneous s2. 2009-10-11T12:23:12+00:00
+> Removed the initial {_ marks 2009-10-08T06:57:12+00:00
+> The test1 and test2 rules, removing 1Sg and 2Sg when no relevant pronoun is available: REMOVE:test1 (V Ind 1Sg) IF (NEGATE 0* ("eg" Pron Pers Sg Nom)); REMOVE:test2 (V Ind 2Sg) IF (NEGATE 0* ("tú" + Pron + Pers + Sg + Nom)); 2009-10-03T21:14:36+00:00
+> -ir relegated to the lexicon for k44, preventing bróðirir as stem. 2009-10-03T19:41:32+00:00
+> Assuming it works... 2009-10-01T12:50:10+00:00
+> Split standard-j-ir in order to cope with past tense skilti (s11 pro s21). 2009-10-01T12:34:34+00:00
+> Added words. 2009-10-01T12:34:01+00:00
+> Reintroduced the Epenthetic deletion rule for himli etc. Added æ to the set of stressed central vowels (for no -u in -unum of fænum). 2009-10-01T12:33:49+00:00
+> one, not plus one. 2009-09-19T10:56:45+00:00
+> names 2009-09-18T16:59:59+00:00
+> corrections 2009-09-18T16:57:37+00:00
+> mostly imperative, some syntax. 2009-09-18T16:50:50+00:00
+> participles as adj. 2009-09-18T16:50:31+00:00
+> lexical additions. 2009-09-18T16:50:09+00:00
+> Removed a forgotten note. 2009-08-03T06:48:49+00:00
+> This version is copied to the workshop inbox. 2009-07-01T22:45:56+00:00
+> Correcting reference to the script catalog, using GTHOME. 2009-07-01T10:48:09+00:00
+> Commented out a malfunctioning *0 rule. 2009-06-29T13:29:12+00:00
+> ref to HOMONYM-ADJ-FORMS 2009-06-29T13:28:47+00:00
+> Corrected Gen Def error. 2009-06-29T13:28:13+00:00
+> Added two. 2009-06-29T13:27:52+00:00
+> Corrections in gold standard. 2009-06-29T13:27:25+00:00
+> work underway. 2009-06-29T13:21:43+00:00
+> Corrected paradigm, the definite genitive was wrong. 2009-06-29T13:21:09+00:00
+> Stypes 2009-06-29T13:20:34+00:00
+> More text, approaching deadline. 2009-06-29T09:09:12+00:00
+> The article version. 2009-06-20T12:07:48+00:00
+> Removed hyphen from reference to R- lexicon, the previous version errouneously accepted double hyphens. 2009-05-22T16:11:27+00:00
+> Added rules to master the gold corpus, mainly NP internal. 2009-05-22T16:10:07+00:00
+> REarranged the s12 daughter lexica to reintroduce the -j- in prs pl. 2009-05-22T16:08:44+00:00
+> Added a compound. 2009-05-22T16:07:45+00:00
+> Added a compound. 2009-05-22T16:07:23+00:00
+> Last night's work, mainly on sentence fragments and coordination. 2009-05-18T07:32:06+00:00
+> Complete rework of the comparatives and superlatives. At the outset, they do not have case inflection, and it was also not added to the fst. Now, a full case set is added (and hence a lot of homonymy introduced). 2009-05-17T20:57:55+00:00
+> Added compounding with acronyms as first part. 2009-05-17T20:53:00+00:00
+> Added compounding with acronyms as first part. 2009-05-17T20:52:36+00:00
+> Included remarks for Htwolc compilation. 2009-05-17T20:51:43+00:00
+> Added compounds. 2009-05-17T20:49:09+00:00
+> original 2009-05-14T12:04:26+00:00
+> testing p, r, etc. 2009-05-14T12:03:12+00:00
+> Corrections. 2009-05-14T12:02:08+00:00
+> gold corpus for dep. 2009-05-14T12:01:16+00:00
+> Pictures. 2009-05-14T01:32:29+00:00
+> Somewhat presentable version. 2009-05-14T01:31:46+00:00
+> frá is not a dativeprep. 2009-05-12T20:23:32+00:00
+> small add 2009-05-12T20:23:07+00:00
+> new snt. 2009-05-12T20:22:43+00:00
+> The words above 1033 relegated to goldb. 2009-05-12T20:20:36+00:00
+> 1033 words revisited. 2009-05-12T20:20:00+00:00
+> note. 2009-05-12T18:45:24+00:00
+> Improving gold standard. 2009-05-12T07:31:43+00:00
+> talk, slowly growing. 2009-05-11T19:41:13+00:00
+> testing 2009-05-11T19:40:36+00:00
+> Pictures 2009-05-11T19:39:30+00:00
+> texts 2009-05-11T19:37:15+00:00
+> Sentences 2009-05-11T19:35:36+00:00
+> sentences 2009-05-11T19:22:51+00:00
+> Corrected a typo in the present tense of s24 verbs. 2009-05-11T18:57:50+00:00
+> correctcorpora 2009-05-11T16:59:53+00:00
+> results 2009-05-11T16:07:52+00:00
+> Allowed final hyphen for all nouns. 2009-05-10T22:05:12+00:00
+> Added sm entries. 2009-05-10T22:04:49+00:00
+> Additions from missing list. 2009-05-10T11:14:26+00:00
+> Additions from missing list. 2009-05-10T11:14:14+00:00
+> Additions from missing list. 2009-05-10T11:14:06+00:00
+> New data. 2009-05-10T11:13:17+00:00
+> Page to estimae recall. 2009-05-09T23:47:29+00:00
+> Added sep Faroese names. 2009-05-09T23:45:39+00:00
+> Added names. 2009-05-09T23:45:20+00:00
+> Corrected contlexes. 2009-05-09T23:45:01+00:00
+> Added wds. 2009-05-09T23:44:40+00:00
+> Turned many upper:lower mistakes. Added words. 2009-05-09T23:44:22+00:00
+> Sbj also in VFIN. 2009-05-02T21:00:51+00:00
+> Rules for MWE. Also rule for setting node to 0. 2009-05-02T20:59:33+00:00
+> Added multiword wxpr. 2009-05-02T20:58:43+00:00
+> Based on the bible text, it seems that « and » are used in  the reverse order compared to Norwegian, that is, like this: »aøfsdklj« 2009-04-28T13:01:04+00:00
+> Rules on topicalised args and object predicatives. 2009-04-27T13:57:48+00:00
+> Plual forms of strong verbs. 2009-04-27T13:56:54+00:00
+> Added words 2009-04-27T13:56:23+00:00
+> Sentences from the reference grammar. 2009-04-27T13:55:54+00:00
+> All the k1/3 word had been added by switching the order of lemma and stem (sparkass:sparkassi k1/3). Now the order is as it should be. 2009-04-22T18:22:51+00:00
+> Added some lexical items. 2009-04-20T20:35:47+00:00
+> Stem corrections. 2009-04-20T20:35:21+00:00
+> Removed the need for right context for AB3 rules. 2009-04-20T20:35:06+00:00
+> Rearranged the order of verb tags, for legibility. 2009-04-20T20:34:45+00:00
+> Looked at the epenthesis rule, now it works, but I do not quite understand why it did not work earlier. 2009-04-20T17:41:56+00:00
+> Added ^%EPH to h13e. 2009-04-20T17:41:07+00:00
+> Adjusted some stems. 2009-04-20T17:40:28+00:00
+> Added lexical items, corrected stems. 2009-04-20T17:40:00+00:00
+> Adjusted the stems for s11, s18, s21, they were all stripped of the -ja. 2009-04-20T16:37:37+00:00
+> Changed svnredone reference back to gtsvn. 2009-04-14T10:28:59+00:00
+> redone 2009-04-13T18:13:21+00:00
+> svnredone 2009-04-13T18:08:11+00:00
+> svnredone pro gtsvn 2009-04-13T18:02:04+00:00
+> Added a rule for interjection á. Added a rule selecting refl reading of "seg" in front of sjálfur. Improved the Imp rule set for coordinating imperatives. Added a rule for selecting "tú" over "hon" following imperatives. 2009-04-11T19:37:37+00:00
+> Added Pron + Gen to the list of heads in the NP rule r1. 2009-04-11T19:30:53+00:00
+> Added multichar symbol %^PASS. 2009-04-11T19:29:46+00:00
+> Added the contlex adj-a for 5 lexica (l1, l36-l39), these lexica should be checked. 2009-04-11T19:29:20+00:00
+> Added the multichar symbpl %^PASS, and a rule for removing -ur in front of the -st suffix, and a rule for deleting the final consonant of verbal affixes in front of -st. Rules: "u in ur Deletion in front of Pass" "Cns Deletion in front of Pass" 2009-04-11T19:28:11+00:00
+> Added a final twist to all verb lexica, PASS. Now all verb forms may also have an -st suffix, tagged +Pass. Also fixed some minor errors jinf, etc. 2009-04-11T19:25:22+00:00
+> á (a-acute) as an interjection. 2009-04-11T19:23:36+00:00
+> Added entries from inc. 2009-04-11T19:22:55+00:00
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> Added the missing kv patterns, still some definite forms missing at the end there. 2009-03-24T20:55:04+00:00
+> Added advs from missing list. 2009-03-24T20:53:44+00:00
+> Sálomo. 2009-03-24T20:50:05+00:00
+> Added rule for -unum to -num in Dat of monosyllables like b´y. 2009-03-24T20:38:49+00:00
+> Corrected +v to +V. 2009-03-24T20:37:48+00:00
+> Changed stems when filling in holes in the kv declension patterns. 2009-03-24T20:36:51+00:00
+> s39/30 defined twice, now one commented out. 2009-03-20T20:57:16+00:00
+> Corrected sm irregular verbs. 2009-03-20T20:51:01+00:00
+> Rule updates for displaced arguments, and for NP-interal post-N possessors. 2009-03-20T20:50:35+00:00
+> Added words. 2009-03-20T20:49:32+00:00
+> Det Poss for 1st and 2nd person, but Pron Gen for 3rd person. 2009-03-20T20:48:54+00:00
+> Rules for postverbal subjects. 2009-03-10T19:23:22+00:00
+> Sharpening the rules. 2009-03-09T22:49:52+00:00
+> Added stray advs. 2009-03-09T22:49:34+00:00
+> Removed doubled lexica. 2009-03-09T22:48:13+00:00
+> Removed doublets and triplets, the whole file was basically doubled and more than that. 2009-03-09T22:45:57+00:00
+> Stem errors in superlatives. 2009-03-09T22:45:13+00:00
+> Added compounds. 2009-03-09T22:44:45+00:00
+> Some Det also as Pron. 2009-03-09T22:44:26+00:00
+> Added ref to the tagfix routine, this is a routine making integration of Prop into N easier, it deletes the initial +N in a +N+Prop+N sequence. 2009-03-08T21:42:29+00:00
+> Reorganised the 'third layer' of morphology somewhat. Also added bridging contlex from prop to noun. 2009-03-08T21:41:38+00:00
+> Added rules for coordination, for displaced constituents, and for several individual words. 2009-03-08T21:39:20+00:00
+> Lexical additions, reorderings. 2009-03-08T21:37:50+00:00
+> Tag reordering regex. 2009-03-08T21:36:28+00:00
+> Working on adjective coordination. 2009-03-06T21:44:33+00:00
+> Stem of irregulars. 2009-03-05T12:06:23+00:00
+> Initial CC goes to VMAIN. 2009-03-05T12:05:54+00:00
+> Added OPRED and rules for it. 2009-03-05T12:05:16+00:00
+> Addition 2009-03-05T12:03:50+00:00
+> Technical error fix. 2009-03-05T12:03:17+00:00
+> Missing list additions. 2009-03-05T12:02:49+00:00
+> some biblical morphology. 2009-03-05T12:02:10+00:00
+> Added sm 2009-03-04T21:14:57+00:00
+> Added sm 2009-03-04T21:13:57+00:00
+> Expanded Per og Kari rule to NPs, added left context CLB for initial CC. 2009-03-02T16:01:00+00:00
+> Abstract submitted to CG workshop at Nodalida. 2009-03-02T02:42:52+00:00
+> Recent results for Ffst. 2009-03-02T02:39:51+00:00
+> Corrected a fatal lexicon repetition. 2009-03-01T19:51:25+00:00
+> Completed lexica. 2009-03-01T03:40:31+00:00
+> Added biblical (i.e. Norwegian) numerals. 2009-03-01T03:39:59+00:00
+> Add Guess tag 2009-03-01T03:38:58+00:00
+> gott 2009-03-01T03:38:29+00:00
+> Corparatives. 2009-02-28T23:26:30+00:00
+> Forgot to save. 2009-02-28T23:25:32+00:00
+> Mainly changed stems and contlexes for strong verbs. 2009-02-28T22:37:41+00:00
+> Corrected strong verb errors, not done. 2009-02-28T22:36:28+00:00
+> Added adjs. Note especially the lexicalised present participles, a whole bunch of them, they are not verbs, and must thus be lexicalised as adjs. 2009-02-28T22:21:52+00:00
+> Added rule for initial CC 2009-02-28T22:20:18+00:00
+> Corrected a very resistent definiteness error. 2009-02-28T22:17:15+00:00
+> Added tag Guess, and made a rule removing Guess if any non-Guess reading is available. Also made a rule removing the noun reading of _at_ in non-NP contexts. 2009-02-28T21:36:35+00:00
+> Added a sublexicon guess, and a regular expression guessing names (see last check-in). The regex picks words containing initial capita letter, then any number of any foreign (incl. Danish) letter, but at least one vowel, and finally the final letter must be non-faroese (mostly non-alveolar). The result is sent to a case lexicon, NAD are basic, and G comes with an s. The outcome seems promising (but can of course not be used in normative contexts). 2009-02-28T21:34:35+00:00
+> Added words from missing list. 2009-02-28T21:25:35+00:00
+> changes. 2009-01-20T12:52:32+00:00
+> Fixed the sup-a lexicon. 2008-12-16T22:13:44+00:00
+> Added words 2008-12-16T22:13:28+00:00
+> A noun-like lexicon. 2008-12-16T22:13:06+00:00
+> minor rules, some rules for prodrop structures. 2008-12-16T22:12:45+00:00
+> Added rules, especially for singleton words. 2008-12-16T22:12:11+00:00
+> added words. 2008-12-16T22:11:36+00:00
+> Numeral rules. 2008-11-30T22:22:18+00:00
+> Fixed relative ref to the script catalogue. 2008-10-24T23:36:59+00:00
+> Preparing shift to last xerox tool, by the time anyone looks into this, they have the new tools. 2008-10-20T21:20:02+00:00
+> Fixed syntax error. 2008-10-01T13:54:09+00:00
+> Added a sub form and a compound. 2008-08-04T06:02:25+00:00
+> Added a wd. 2008-08-04T06:00:18+00:00
+> Relative paths. 2008-08-03T19:47:02+00:00
+> Merged two t deletion rules. 2008-07-11T21:37:42+00:00
+> Problems with emacs on Putty, accidently glued in half the file twice. 2008-07-11T19:17:43+00:00
+> Added hvørt, have a look at this. 2008-07-11T18:50:33+00:00
+> Stem form of -ur adjectives l29 and l30 changed from -urj to - (where did the urj come from? 2008-07-11T18:13:56+00:00
+> serliga 2008-07-11T18:12:10+00:00
+> Added more context possibilites to "Deleting v in gv sequence", %^VDEL has more dummys to the left. Changed U-umlaut in Front of Nasal, the point is that EPH and extra vowel go together. Commented out right context to the right of %^IUML in the geheral "I-umlaut" rule. Added ú shortening to the Vx:Vy set of "tem Vowel Shortening in Supine and Pariciple", it was needed for flúgva s41. 2008-07-11T14:09:32+00:00
+> Changes to s41 flúgva. %^VDEL added to most entries. 2008-07-11T14:05:56+00:00
+> Cosmetics. 2008-07-11T14:04:54+00:00
+> Changed some entries which probably are typos: -run:runi k1e to -runi:-run k1e. Assigned politi to h28e 2008-07-11T14:04:15+00:00
+> Fixed h28e. It did not reflect its paradigm after the twol change. 2008-07-11T13:32:04+00:00
+> Forgot the &0&0@@@ {_ entries. Now it compiles. 2008-07-11T12:47:22+00:00
+> Removed final a from the stem of some 2000 kv1e nouns. 2008-07-11T12:37:34+00:00
+> Minor change. Main issue was that I forgot to remove tghe parentheses of the first line of "U-umlaut in Front of Nasal". Was:  a:o <=> _ Nas (Cns:) (Vow:) (Cns:) (%^EPH:) %^UUML: ; Should be, and is now:  a:o <=> _ Nas (Cns:)  Vow: (Cns:)  %^EPH: %^UUML: ; Without it, we still had the conflict with Epenthetic deletion. 2008-07-11T11:46:11+00:00
+> This log message contains two parts: First the changes of this revision, and then the changes of revision 19908. 2008-07-11T11:35:51+00:00
+> UUML 2008-07-11T09:34:46+00:00
+> UUML 2008-07-11T09:30:26+00:00
+> UUML 2008-07-11T09:28:51+00:00
+> meira 2008-07-11T09:25:20+00:00
+> ablaut and umlaut 2008-07-10T19:43:04+00:00
+> strong verbs 2008-07-10T19:42:43+00:00
+> strong verbs up to s69 2008-07-10T19:42:25+00:00
+> nd > ð rule 2008-07-10T18:34:18+00:00
+> nd > ð rule 2008-07-10T18:27:38+00:00
+> s65 2008-07-10T18:25:59+00:00
+> nd > ð rule 2008-07-10T18:21:40+00:00
+> nd > ð rule 2008-07-10T17:56:45+00:00
+> nd > ð rule 2008-07-10T17:56:03+00:00
+> s65 2008-07-10T17:54:02+00:00
+> s65 2008-07-10T17:53:54+00:00
+> nd > ð rule 2008-07-10T17:53:25+00:00
+> strong verbs corrected 2008-07-10T15:28:02+00:00
+> ablaut and umlaut rules 2008-07-10T15:27:16+00:00
+> strong verbs s45-s61 2008-07-10T15:26:51+00:00
+> ng to kk rule fixed 2008-07-10T11:56:42+00:00
+> ablaut rules 2008-07-10T11:09:39+00:00
+> strong verbs 2008-07-10T10:43:50+00:00
+> strong verbs s35 -- s44 2008-07-10T10:43:20+00:00
+> stinga exclamation mark missing line 370 2008-07-09T08:31:03+00:00
+> forgot to check in the %^NGKK Multichar_Symbol. Now done. 2008-07-08T20:27:15+00:00
+> Discussing stinga, solution forthcoming tomorrow, we hope. 2008-07-08T20:26:35+00:00
+> Split the h1 lexicon to get the dative and accusative right. 2008-07-08T19:50:51+00:00
+> LEXICON s46a stinga updated 2008-07-08T19:41:58+00:00
+> LEXICON s46a stinga updated 2008-07-08T19:26:47+00:00
+> s46 stinga changed to s46a 2008-07-08T19:21:08+00:00
+> adjective turrlagdur added to lexicon 2008-07-08T19:20:02+00:00
+> LEXICON s46a stinga added 2008-07-08T19:19:13+00:00
+> This revision resolves all nonresolved conflicts in the twol file. Now we will just have to check that we have not lost anything... There are still many conflicts resolved by twol, i.e., compilation time may be speeded up. 2008-07-08T19:15:03+00:00
+> This revision changes the burden of weak nouns over to the morphology file. Committing out the rules: 2008-07-08T12:55:55+00:00
+> Change to introduce strong/weak distinction also for neuters. h1, h2, h24, h25, h26 all got new stems. Earlier eyga h1 ; Now eyga:eyg h1 ; and similarily for the others. 2008-07-08T12:53:40+00:00
+> Change to introduce strong/weak distinction also for neuters. h1, h2, h24, h25, h26 all got new stems, and therefore also correspondingly new continuation lexica. Neuter got separate -W lexica, just as masculine earlier. We distinguished between "Danis" -ir plural and Faroese -i pluaral, only the latter goes to definite form. 2008-07-08T12:52:31+00:00
+> Makefile with relative tmp. 2008-07-08T12:47:39+00:00
+> Starting the cumbersome process of getting the twol file back to a clean state. The problem started with r17505, a linguistically good state with a new set Special in addition to the old set Dummy, this should probably be removed. All in all, the then-introduced rules -"Deleting initial i in definite suffix" and -"Deleting initial i in definite suffix after wowel, ð or g last in stem" must be revised. They introduce too many compilation conflicts. 2008-07-08T09:21:55+00:00
+> i-deletion in suffix 2008-07-05T12:04:23+00:00
+> i-deletion in suffix 2008-07-05T12:02:48+00:00
+> eyga 2008-07-05T11:48:14+00:00
+> removed r118 2008-07-05T11:42:03+00:00
+> r119 2008-07-05T11:40:36+00:00
+> r119 2008-07-05T11:39:01+00:00
+> r119 2008-07-05T11:38:38+00:00
+> r119 2008-07-05T11:38:12+00:00
+> r119 2008-07-05T11:35:08+00:00
+> stinga 2008-07-05T11:25:50+00:00
+> stinga 2008-07-05T11:25:06+00:00
+> stinga 2008-07-05T11:24:14+00:00
+> past tense plural i to u 2008-07-05T11:21:44+00:00
+> stinga 2008-07-05T11:19:07+00:00
+> stinga 2008-07-05T11:15:19+00:00
+> stinga 2008-07-05T11:15:09+00:00
+> stinga 2008-07-05T11:13:22+00:00
+> stinga 2008-07-05T11:12:52+00:00
+> stinga 2008-07-05T11:12:48+00:00
+> added to uAB 2008-07-05T11:08:24+00:00
+> added to aAB 2008-07-05T11:07:05+00:00
+> stinga 2008-07-05T11:06:21+00:00
+> aAB to AB2 2008-07-05T11:01:07+00:00
+> uAB to AB3 2008-07-05T10:58:24+00:00
+> aAB to uAB 2008-07-05T10:56:36+00:00
+> e to a in monophthongs 2008-07-05T10:32:38+00:00
+> subject relative rule 2008-07-05T10:29:02+00:00
+> %^uAB 2008-07-05T10:28:50+00:00
+> subject relative rule removed 2008-07-05T10:22:28+00:00
+> stinga 2008-07-05T09:16:43+00:00
+> stinga 2008-07-05T09:16:38+00:00
+> stinga 2008-07-05T09:15:37+00:00
+> stinga 2008-07-05T09:15:28+00:00
+> stinga 2008-07-05T09:12:25+00:00
+> r118 2008-07-04T20:26:51+00:00
+> r118 2008-07-04T20:25:51+00:00
+> r118 2008-07-04T20:23:06+00:00
+> r118 2008-07-04T11:02:01+00:00
+> ið subject relative clauses 2008-07-04T10:57:50+00:00
+> ið subject relative clauses 2008-07-04T10:56:07+00:00
+> ið subject relative clauses 2008-07-04T10:53:22+00:00
+> ið subject relative clauses 2008-07-04T10:51:56+00:00
+> ið subject relative clauses 2008-07-04T10:50:58+00:00
+>  2008-07-04T10:42:44+00:00
+> removed ng to kk 2008-07-04T10:34:23+00:00
+> ng to kk 2008-07-04T10:32:54+00:00
+> ng to kk 2008-07-04T10:29:33+00:00
+> ng to kk added 2008-07-04T10:14:06+00:00
+> Removed Past tense singular diphthongs III 2008-07-04T10:09:28+00:00
+> Past tense singular diphthongs III 2008-07-04T10:07:24+00:00
+> prt-a: uðu > aðu 2008-07-04T09:33:21+00:00
+> namelexica. 2008-06-29T19:25:06+00:00
+> names 2008-06-29T19:24:39+00:00
+> Changed Dat to Acc as default for stray Acc/Dat PPs. Last word is not said here. 2008-06-26T20:33:41+00:00
+> Changed script address from gt/script to gtsvn/gt/script 2008-06-26T20:27:47+00:00
+> Supine and SVH vow shortening added for that. 2008-06-26T13:42:22+00:00
+> ð 2008-06-26T13:20:22+00:00
+> oops 2008-06-26T13:16:27+00:00
+> løgdu 2008-06-26T13:11:35+00:00
+> leggja:l 2008-06-26T13:03:15+00:00
+> løgðu. 2008-06-26T13:01:56+00:00
+> Verb leggja added. 2008-06-26T12:46:09+00:00
+>  Verb stíga added. 2008-06-26T12:20:28+00:00
+> ekki 2008-06-26T11:43:17+00:00
+> verði is Sbj, not Imp, Trond. 2008-06-26T11:06:06+00:00
+> Added the tag +Sbj to the tag declaration list. 2008-06-26T11:05:33+00:00
+> Last-minute checkins before svn update. 2008-06-23T09:47:27+00:00
+> Additions. 2008-06-22T20:38:16+00:00
+> Removed slash in front of comma definition. 2008-06-20T08:38:39+00:00
+> Compiler stopper, RUT defined twice. 2008-06-20T08:38:01+00:00
+> Additions 2008-06-20T08:21:10+00:00
+> Indefinite pronouns. 2008-06-20T08:20:43+00:00
+> Postnominal possessors, mainly. 2008-06-19T11:17:17+00:00
+> Additions 2008-06-19T06:01:13+00:00
+> Fixed neuter of det. 2008-06-19T06:00:03+00:00
+> Additions. 2008-06-18T11:59:18+00:00
+> texts 2008-06-18T11:58:41+00:00
+> Additions. 2008-06-18T07:26:57+00:00
+> Looking at the Relative Clause domain issue. 2008-06-18T07:26:11+00:00
+> Additions 2008-06-14T18:48:15+00:00
+> Testing directed subjects. 2008-05-30T13:25:31+00:00
+> Added +Pl tag to Plural Neuter Datives. 2008-05-24T18:29:29+00:00
+> Debugging our testing suit, at least here it was a banale LEXICON ... ; error. 2008-05-23T17:41:41+00:00
+> Mystical final rule. 2008-05-21T22:39:44+00:00
+> Pron Dem to Det. 2008-05-21T22:39:30+00:00
+> Some new rules. 2008-05-21T22:39:11+00:00
+> Definitions 2008-05-21T22:38:54+00:00
+> Strugleing with the new Xerox tools. 2008-05-21T22:38:41+00:00
+> Additions 2008-05-21T22:38:27+00:00
+> xfst, not fst. 2008-05-21T22:37:34+00:00
+> i-N-SGDG-is. 2008-05-21T21:14:12+00:00
+> Commenting out hon kv2. 2008-05-21T21:13:34+00:00
+> Added names. 2008-05-21T13:27:07+00:00
+> Formatting 2008-05-21T13:26:55+00:00
+> Added rules for Possessor, Genitive, and 3Sg verb. 2008-05-19T20:47:16+00:00
+> Updates. 2008-05-18T21:49:15+00:00
+> Brought tags in line with analyser. 2008-05-18T16:42:09+00:00
+> Looked like an error, now working, also for nouns. 2008-05-18T16:41:54+00:00
+> made Interr Det in addition to Pron. 2008-05-18T13:59:00+00:00
+> Refined rules. 2008-05-18T13:58:41+00:00
+> Variable for lex files, possible to compile outside victorio. 2008-05-18T13:58:26+00:00
+> advl in sentence fragments. 2008-05-17T22:17:03+00:00
+> eitt as +Det 2008-05-17T22:15:33+00:00
+> Calling for opt tools on victorio 2008-05-17T22:15:20+00:00
+> Profound changes, adjs now work, but the file needs testing. 2008-05-17T22:15:05+00:00
+> Adjectives in twol. Experimenting with SUBJ> and <SUBJ. 2008-05-17T21:11:03+00:00
+> Minor changes. 2008-05-14T20:55:46+00:00
+> Removed an _m_ in an intermediate DAT lexicon, have a look at this. 2008-04-18T19:57:00+00:00
+> Worked on definitions. SETPARENT rules for PPs, for CS, and for verbs of subordinate clauses. 2008-04-18T19:56:14+00:00
+> Split Pron in the NOMINALHEAD definitions. Split a $$NUMBER rule into REMOVE Sg and Pl. Added a rule for "millum", and other PP rules. Made a very, very strict Imp rule, now awaiting authentic Imp data to relax it. Changed AUX to Copula for @SPRED rules. 2008-04-18T19:54:56+00:00
+> Moved +A tags earlier, they were inconsistent. 2008-04-18T19:51:08+00:00
+> Added rules to refine verb chains. 2008-04-15T18:26:58+00:00
+> Improvements 2008-03-08T00:19:47+00:00
+> dep-bin in makefile target. 2008-03-08T00:05:07+00:00
+> Fixed several (\!) syntactic errors. 2008-03-06T07:19:29+00:00
+> Requires UTF-8 for fao-dis.bin compilation. 2008-03-05T12:22:38+00:00
+> Added dependency file for fao. Still only a couple of rules. 2008-03-05T06:09:08+00:00
+> Additions to cater for dep-file. 2008-03-05T06:08:41+00:00
+> dis-bin 2008-03-04T22:07:11+00:00
+> Made routine to compile binary disambiguator. 2008-03-04T07:35:29+00:00
+> LF. 2008-03-03T22:19:36+00:00
+> THIRD is list, not set. 2008-03-03T22:19:03+00:00
+> Inserted breaks. 2008-03-03T18:52:36+00:00
+> Rule to shorten the ó in neuter from gáð to gott. Now it works generally, but it should be checked how general it is. 2008-03-03T18:50:32+00:00
+> substantiv 2008-03-03T18:49:37+00:00
+> The whole file is reshaped. The sticky sets are introduced, and the syntax (including add/map section) is moved towards the end. Furthermore, a lot of rules were added, especially mapping rules were made more precise. 2008-03-03T18:49:10+00:00
+> Added an adjective. 2008-03-03T18:47:05+00:00
+> hyph 2008-03-02T23:09:14+00:00
+> NoÅ¡ conflated the gender rules as well, by making complementary gender set. 2008-03-02T22:48:46+00:00
+> Removed the quadruppel rules. 2008-03-02T22:34:28+00:00
+> Changed k1e/48fb to k1e/48f, the former was not pointed at. Have a look at this, Heini. 2008-03-02T09:36:13+00:00
+> Removed ^S character. 2008-03-02T09:32:28+00:00
+> fixed faðir in noun-fao-lex.txt 2008-03-01T16:40:16+00:00
+> Worked on masculine nouns. All paradigms for masculine nouns are now properly generated. 2008-03-01T16:31:55+00:00
+> Removed link to other projects, they were promoted to the front page. 2008-02-20T07:25:25+00:00
+> Link to others. 2008-02-19T22:55:18+00:00
+> Fixed weak fem def bug, it was unified with strong, now separate. 2008-02-13T08:30:24+00:00
+> Starting the process of fixing the gentuin problem. 2008-02-07T16:46:55+00:00
+> Minor corrections. 2008-02-05T16:09:04+00:00
+> Interrogatives 2008-02-04T16:56:00+00:00
+> Added cmp, superl 2008-02-04T16:55:39+00:00
+> Updates, additions, before the Gbg presentations. Added cmp, sup of adjs (started), added hard-coded irregular verbs, added stray words here and there. 2008-02-04T16:55:01+00:00
+> Fixed for validation. 2008-02-04T14:37:59+00:00
+> Testdiary 2008-02-03T21:07:09+00:00
+> Updated verbcodes. 2008-02-03T21:06:45+00:00
+> Link to testdiary. 2008-02-03T21:06:27+00:00
+> Added irregular verb and adjective forms. 2008-02-03T21:05:56+00:00
+> ... and another foe > fao. 2008-02-02T20:35:56+00:00
+> forrest uses em, not emph 2008-01-24T15:15:49+00:00
+> Update 2008-01-24T14:44:41+00:00
+> Fixed maður def pl. 2007-11-30T07:03:37+00:00
+> Fixed u-umlaut for mixed nasals and non-nasals, the børn-fix. 2007-11-29T14:05:19+00:00
+> Added a colon to a dummy symbol. 2007-10-23T14:20:13+00:00
+> Added ið. 2007-10-01T13:43:52+00:00
+> foe to fao also in makefile. 2007-10-01T13:21:18+00:00
+> Gen Sg given as -a, should be -u, for weak Fem nouns. 2007-10-01T13:19:59+00:00
+> adding resources for paradigm generator 2007-08-31T11:08:21+00:00
+> abbr-extract in gt/script replaces old version 2007-06-11T04:43:49+00:00
+> Updates. 2007-05-27T20:30:40+00:00
+> Corrected sets, added some verb rules. 2007-05-21T06:48:28+00:00
+> New name. 2007-04-02T17:03:09+00:00
+> text 2007-02-26T18:31:26+00:00
+> Additions. 2007-02-13T19:19:41+00:00
+> Updated abbr-target. 2006-12-18T09:37:09+00:00
+> upper -> uppercase 2006-11-20T11:40:13+00:00
+> rm Gen. 2006-11-19T21:08:19+00:00
+> Added wds. 2006-11-17T22:45:50+00:00
+> Case, and Imp. 2006-11-17T22:43:25+00:00
+> N -ur errors, more verbs and disamb rules, numerals. 2006-11-17T22:41:09+00:00
+> UTF-8. 2006-11-16T17:26:17+00:00
+> Numbers. 2006-11-16T16:54:05+00:00
+> More name fixing. 2006-11-15T09:21:00+00:00
+> Names from the dict. 2006-11-14T18:41:37+00:00
+> REf to propernoun-foe-morph.txt 2006-11-14T17:31:37+00:00
+> Name morphology went to diff file. 2006-11-14T17:31:20+00:00
+> Split the name morphology into a different file. 2006-11-14T17:30:57+00:00
+> Syntactic tags. 2006-11-14T11:58:21+00:00
+> Double # removed. 2006-11-14T11:58:01+00:00
+> Added plural lex + sm DAGUR. 2006-11-14T11:57:32+00:00
+> Small typo causing acceptance of empty tag string. 2006-11-11T13:13:49+00:00
+> reorganised preposition mapping. 2006-11-11T13:13:13+00:00
+> Reshufled names, added split verb lexica, added two irregular verbs, to be revised. 2006-11-10T16:53:48+00:00
+> p class without section tag. 2006-11-06T12:37:55+00:00
+> Stamp. 2006-11-06T12:34:01+00:00
+> Two more lines. 2006-11-05T21:47:56+00:00
+> Removed appr 300 doublets. 2006-11-05T13:20:48+00:00
+> Fixed contlex. 2006-11-05T13:20:30+00:00
+> NP internal disambiguation, and added basic syntactic categories. 2006-11-05T13:20:01+00:00
+> Additions of split lexica. 2006-10-26T07:54:22+00:00
+> Started change from lexicon-coded to declension class-regulated declension markers. 2006-10-16T21:22:05+00:00
+> Added nouns with defect declension patterns (except some with alternate forms). Also added the relevant lexica in the morph file. 2006-10-14T18:23:00+00:00
+> Started adding nouns with defect paradigms, sg only, pl only, splitting paradigms on the way. 2006-10-13T06:13:56+00:00
+> Added words with different sg and pl lexica. Added some demonstrative pronouns. 2006-10-11T17:00:43+00:00
+> Added emplty link, returning to it. 2006-10-10T21:10:16+00:00
+> Added file acro and relevant tags. 2006-10-10T21:07:37+00:00
+> Added neuter lexica. 2006-10-10T21:02:37+00:00
+> Prep rules, ACR tag. 2006-10-10T21:01:27+00:00
+> From kal, revised. 2006-10-10T21:00:50+00:00
+> Added .txt (and .rle) to the list of ignored suffixes, due to the addition of an added preprocessor. 2006-10-10T06:45:02+00:00
+> Added references to new files. 2006-10-09T20:57:13+00:00
+> Fixed the initial and final parts of the ARABIC loop. 2006-10-09T20:54:21+00:00
+> Updated tags. 2006-10-09T20:53:53+00:00
+> Taken some names from sme and abbrs from nob. 2006-10-09T20:53:35+00:00
+> Copied from nob. 2006-10-09T20:05:04+00:00
+> Corrected a crucial typo, I had forgot the : symbol behind the %>: of the final rule. 2006-10-09T07:51:29+00:00
+> Added a very embryonic Faroese disambiguator. 2006-10-09T07:50:51+00:00
+> Introduced up/down casing for Faroese letters. 2006-10-09T07:50:26+00:00
+> Added entries. 2006-10-09T07:50:02+00:00
+> Introduced recursivity, linking from Sg Gen to R and then back to Nouns. Also added a Cmpnd tag and done minor edits in the Neu lexica. 2006-10-09T07:49:33+00:00
+> Fixed en-dash, em-dash and related issues in the st/ languages. 2006-10-03T18:49:33+00:00
+> Changed the order of lexica, they excluded 3rd person pronouns. 2006-09-28T12:24:05+00:00
+> Added embryonic documentation. 2006-09-01T09:51:48+00:00
+> Whatever isn't added yet. 2006-08-31T20:01:16+00:00
+> Files. 2006-08-30T22:16:57+00:00
+> Files. 2006-08-29T22:32:17+00:00
+> Added nouns from dictioary. 2006-08-28T22:43:16+00:00
+> Added more lexica. 2006-08-28T13:57:05+00:00
+> Finished m, added f classes 1-16, made several Umlaut rules. 2006-08-23T22:21:01+00:00
+> k46-50, three m lexica to go. 2006-08-22T22:08:16+00:00
+> Fixed the mysterious UTF-8 uu= bug, thanks to Michael Eversons somewhat oldfashioned, but effective method. 2006-08-21T21:58:47+00:00
+> Updates, extensions. 2006-08-21T19:49:23+00:00
+> Removed binary file from cvs. 2005-10-19T12:52:43+00:00
+> removed dot in .out 2005-10-11T06:05:43+00:00
+> Added procedure for twol testing. 2005-10-05T11:57:43+00:00
+> Added banners, converted to dict format, fixed until k24. 2005-09-30T12:59:51+00:00
+> Added .out suffix to the ignore list. 2005-09-28T07:37:15+00:00
+> Added reference to .in files in the testing directories, due to twolc testing routines. 2005-09-26T07:25:05+00:00
+> Fixed lexicon numbering into a compileable version. 2005-09-21T06:36:05+00:00
+> Added categories from the dictionary. 2005-09-21T06:33:54+00:00
+> Added the standard testing .cvsignore file. 2005-09-21T06:33:23+00:00
+> Corrected a lexicon name, v2b, that had prevented compilation. 2005-09-20T14:22:18+00:00
+> Added cvsignorefile for Faroese dev. 2005-09-20T14:20:11+00:00
+> Added directories 2005-09-20T14:18:54+00:00
+> Added test suite for Faroese. 2005-09-20T14:18:24+00:00
+> Faroese morphological parser, after a nice weekend in Tórshavn. 2005-09-20T14:17:38+00:00

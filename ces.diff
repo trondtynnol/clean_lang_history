@@ -1,0 +1,112 @@
+317d316
+< Updated ignore patterns. 2019-10-23T18:25:34+00:00
+324d322
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:04:57+00:00
+333d330
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:33:54+00:00
+338,339d334
+< Updating svn ignores. 2019-05-24T09:52:39+00:00
+< Updating svn ignores. 2019-05-24T09:40:09+00:00
+345d339
+< Updated svn ignores. 2019-02-27T10:21:10+00:00
+357,358d350
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:06:40+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:56:01+00:00
+388d379
+< Updated svn ignores. 2018-09-25T08:25:04+00:00
+393d383
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:03:59+00:00
+396d385
+< Updated svn ignore patterns. 2018-09-08T05:26:53+00:00
+406d394
+< Updated svn ignores. 2018-08-30T15:58:31+00:00
+409d396
+< Updated svn ignores. 2018-08-29T05:25:44+00:00
+411d397
+< Updating svn ignores. 2018-08-28T10:41:36+00:00
+425d410
+< More things to ignore. 2018-05-14T09:52:56+00:00
+439d423
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:01:06+00:00
+442d425
+< Two more files to ignore. 2018-02-06T09:34:41+00:00
+453d435
+< Updated svn ignores. 2018-01-31T12:06:31+00:00
+482d463
+< Updated svn ignores. 2017-12-11T12:51:45+00:00
+503,504d483
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:35:46+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:03:08+00:00
+516d494
+< Updating svn ignores. 2017-08-25T10:16:46+00:00
+530,531d507
+< Updating svn ignores. 2017-06-28T23:38:04+00:00
+< Updated svn ignores. 2017-06-28T17:12:58+00:00
+549d524
+< Updated svn ignores. 2017-03-01T11:26:04+00:00
+565d539
+< Updated svn ignores. 2017-01-30T09:54:28+00:00
+631d604
+< Updated svn ignores. 2016-06-09T20:04:14+00:00
+649d621
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:12+00:00
+670d641
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:35+00:00
+674d644
+< Updated svn ignores. 2016-03-15T19:55:06+00:00
+677d646
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:11:09+00:00
+697d665
+< Updated the svn ignore script with recent additions to the infrastructure. 2016-02-16T22:23:49+00:00
+698a667,717
+> Deleting spuriously added file. There was alredy another file with the exact same content, and with an svn history in there, but with a different name (case.regex). Yay to standardised filenames! :D 2016-02-15T13:55:37+00:00
+> added-this-file 2010-02-01T19:31:16+00:00
+> Path and whitespace cleanup. 2009-07-01T11:51:06+00:00
+> redone 2009-04-13T18:13:21+00:00
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> Preparing shift to last xerox tool, by the time anyone looks into this, they have the new tools. 2008-10-20T21:18:24+00:00
+> Added some masculine lexica. 2008-05-27T22:01:27+00:00
+> Corrected e's to e2's, added človÄk and lidé 2008-05-27T21:39:06+00:00
+> added odvaznost 2008-05-27T14:10:55+00:00
+> Work, work. 2008-05-27T13:57:43+00:00
+> All cases. 2008-05-27T13:57:17+00:00
+> Commercial 2008-05-27T13:57:07+00:00
+> Added a rule set on cns change. 2008-05-27T12:47:25+00:00
+> The minimal amount of CR before the magic word LEXICON. 2008-05-27T12:15:07+00:00
+> Debugging shuffling ... 2008-05-27T12:09:30+00:00
+> Debug 2008-05-27T12:03:59+00:00
+> Capital P 2008-05-27T11:49:51+00:00
+> Victorio fix. 2008-05-27T11:42:12+00:00
+> Debugging a strange not-allowed-to-use-this-app bug. 2008-05-27T11:33:59+00:00
+> there was a morph file here as well. 2008-05-27T11:14:57+00:00
+> Commented out dead ends. 2008-05-27T11:14:40+00:00
+> e2 Multichar. 2008-05-27T11:14:23+00:00
+> To and fro, and added a missing verb file reference. 2008-05-27T11:13:29+00:00
+> Added e2, and a rule for it. 2008-05-27T11:13:13+00:00
+> Further refinements of SG/PL split. 2008-05-27T11:12:48+00:00
+> split paradigms to sg and pl to include irregular nouns, included hromadna a pomnozna jmena, added dual, added some irregular nouns 2008-05-26T22:21:46+00:00
+> Introduced variable definitions for the Xerox tools 2008-05-23T18:39:03+00:00
+> Added ž 2008-05-06T10:13:52+00:00
+> Added fems, now possessing all noun models. 2008-05-06T10:13:20+00:00
+> Added neutra 2008-05-06T10:00:19+00:00
+> Added feminines 2008-05-06T08:56:24+00:00
+> Rearranged lexica, corrected typos and inconsistencies. Now it compiles. 2008-04-29T09:36:21+00:00
+> Warning this version does not compile 2008-04-29T08:38:04+00:00
+> Added dummy lexica, now it compiles. 2008-04-22T10:00:42+00:00
+> Karlas new version. 2008-04-22T08:53:58+00:00
+> Removed the first empty line. 2008-04-01T10:25:48+00:00
+> Lexical lexica in capital (convension only), and added suffix boundary. 2008-04-01T10:22:47+00:00
+> Removed irrelevant rules, added one rule, tentative. 2008-04-01T10:22:11+00:00
+> Added ref to utf8 2008-04-01T10:19:02+00:00
+> vice trid 2008-04-01T10:02:11+00:00
+> Encoding, encoding. 2008-04-01T09:53:42+00:00
+> Fixed encoding problem. 2008-04-01T09:40:06+00:00
+> mu a third option. 2008-04-01T09:30:52+00:00
+> Just testing, actually 2008-04-01T09:12:47+00:00
+> Added nonsense verb. 2008-04-01T09:01:47+00:00
+> .cvsignore 2008-04-01T08:17:39+00:00
+> Fixed : mistake. 2008-04-01T08:16:56+00:00
+> Makefile 2008-04-01T08:04:14+00:00
+> noun-codes 2008-04-01T08:03:41+00:00
+> .cvsignore 2008-03-08T08:58:15+00:00
+> Added file setup for Czech analyser. 2008-03-04T21:10:36+00:00

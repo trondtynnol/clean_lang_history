@@ -1,0 +1,11 @@
+326d325
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+332d330
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+341d338
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+346,347d342
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+354a350
+> links 2019-05-09T21:51:16+00:00

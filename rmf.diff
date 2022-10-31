@@ -1,0 +1,177 @@
+304a305
+> [Template merge - langs/und] The final mmove in the old svn infra: change the am-shared reference to point to giella-core parallel to the language dir. After this we can remove am-shared from each language. 2020-05-13T12:12:25+00:00
+305a307
+> [Template merge - langs/und] Fix mobile speller filename bug. 2020-05-12T16:58:47+00:00
+306a309
+> [Template merge - langs/und] Fix speller generation bug. 2020-05-09T11:12:30+00:00
+307a311,312
+> [Template merge - langs/und] Fix speller analyser reference after the flattening of the tools/spellcheckers/ dir. 2020-05-09T09:47:27+00:00
+> [Template merge - langs/und] Final step in flattening the tools/spellcheckers/ dir tree: removing the whole fstbased/ dir, with all subdirs. Finally! 2020-05-09T05:03:40+00:00
+309a315
+> [Template merge - langs/und] Fix automakefile error: no final backslash followed by an empty line. 2020-05-08T20:41:29+00:00
+310a317
+> [Template merge - langs/und] Step eight in flattening the tools/spellcheckers/ dir tree: flipping the switch. All pieces are in place for building everything in tools/spellcheckers/ only, and everything has been tested with one language, including make check (a few tests are skipped because the fst is not found, but no tests break). The old files are kept for the moment, in case unseen issues and missing data is popping up after the switch, but will be deleted after verification. 2020-05-08T18:28:19+00:00
+311a319
+> [Template merge - langs/und] Step six in flattening the tools/spellcheckers/ dir tree: copying fstbased/mobile/hfst/index.xml to the new location. 2020-05-08T15:52:37+00:00
+312a321,322
+> [Template merge - langs/und] Step six in flattening the tools/spellcheckers/ dir tree: moving TAGWEIGHTS out of the language independent part to the language specific part, so that we can specify different tagweight files for desktop and mobile spellers. 2020-05-08T13:21:48+00:00
+> [Template merge - langs/und] Step four in flattening the tools/spellcheckers/ dir tree: modifying another set of build files for the new dir structure, and the consequences of one dir for all speller files. 2020-05-08T09:57:51+00:00
+314a325
+> [Template merge - langs/und] Step four in flattening the tools/spellcheckers/ dir tree: copying all non-make files from spellcheckers/fstbased/desktop/hfst/ to spellcheckers/. 2020-05-07T19:17:07+00:00
+315a327
+> [Template merge - langs/und] Step three in flattening the tools/spellcheckers/ dir tree: changing the relocated build files to adapt to their new home. 2020-05-07T16:47:55+00:00
+316a329
+> [Template merge - langs/und] Step two in flattening the tools/spellcheckers/ dir tree: copying the desktop/weighting/ dir as the default one - for most languages the mobile/weighting/ dir is just a copy of the desktop one. 2020-05-07T06:28:25+00:00
+317a331,332
+> [Template merge - langs/und] Step one in flattening the tools/spellcheckers/ dir tree: copying all subdir Makefile.am files to *.mod-* files in the top spellcheckers dir, except from the weigthing dirs. 2020-05-06T12:14:56+00:00
+> [Template merge - langs/und] Added .gitignore file, as a preparatory step. 2020-05-06T10:51:00+00:00
+319a335
+> [Template merge - langs/und] Forgot to remove the entries for configure.ac re listbased spellers. 2020-05-06T08:52:49+00:00
+320a337
+> [Template merge - langs/und] Removed all list-based spellcheckers. There has not been any serious work in that area since the move to the new infrastructure 8 years ago. If there is a future need, we have it all in the rev history, and removing it simplifies other operations. 2020-05-06T07:53:52+00:00
+321a339
+> [Template merge - langs/und] Moved the files in tools/data/ to tools/tokenisers/, and removed the dir tools/data/. Part of the tools dir cleanup. 2020-05-06T06:58:26+00:00
+322a341
+> [Template merge - langs/und] Commented out check for GTLANG_xxx variable, it is not used, and the check output is confusing to users. 2020-05-05T12:46:02+00:00
+323a343
+> [Template merge - langs/und] Added checks for giella-core and giella-shared, symlinking to them if found, checking out (svn) or cloning (git) if not. Also removed every single reference to __UND__, it is not needed, and will cause merge conflicts. 2020-05-05T11:37:14+00:00
+325a346
+> [Template merge - langs/und] The last hyphenation build fix: now also works with other than the default fst backend, e.g. with the foma backend. 2020-04-27T08:53:25+00:00
+326a348
+> [Template merge - langs/und] Removed a double target declaration, one from the old pattern-based build, and one from the fst build. It was a simple copy from fst to pattern, and is not needed anymore. 2020-04-27T08:02:35+00:00
+327a350
+> [Template merge - langs/und] Updated referenced filename. Old name was not found, and stopped all builds. 2020-04-26T16:15:18+00:00
+328a352
+> [Template merge - langs/und] Restored file that was accidentally deleted, also renamed it to the correct name after the dir reorg. 2020-04-26T09:01:14+00:00
+329a354
+> [Template merge - langs/und] One reference to an old filename corrected. Stopped all nightlies. 2020-04-25T21:23:08+00:00
+330a356
+> [Template merge - langs/und] Removing the last remnants of the old hyphenation directory structure. 2020-04-24T20:45:05+00:00
+331a358
+> [Template merge - langs/und] Moving the last files from patterns one dir up. 2020-04-24T19:55:19+00:00
+332a360
+> [Template merge - langs/und] Removed most of the old hyph files not needed anymore. 2020-04-24T17:38:12+00:00
+333a362
+> [Template merge - langs/und] Switched build to new, shallower build structure. The old files and dirs are still there, but not used. 2020-04-24T16:31:34+00:00
+334a364
+> [Template merge - langs/und] Forgot one file to be copied up one dir level, now done. 2020-04-24T13:58:39+00:00
+335a366
+> [Template merge - langs/und] Step one in flattening the tools/hyphenators/ dir tree: copying and renaming make files, copying the filter dir. The files are not yet connected. Also preparing new build instruction file. 2020-04-24T12:37:50+00:00
+336a368
+> [Template merge - langs/und] Added missing quote mark „ that caused unwanted behaviour in tokenisation. 2020-04-23T07:31:30+00:00
+337a370,371
+> [Template merge - langs/und] Updated references to dir names in giella-shared: requires new version of giella-common. Updated some test scripts to refer to the new dir names. 2020-04-23T06:47:02+00:00
+> [Template merge - langs/und] The second big renaming: src/morphology/ -> src/fst/. All build, test and config files are updated. `make` and `make check` works for sma. 2020-04-22T19:33:52+00:00
+339a374
+> [Template merge - langs/und] Added dynamic construction of a regex of flag diacritics found in tokeniser fst's. The regex is used to ensure that flag diacritics are considered epsilons at token boundaries. Fixes a number of tokenisation bugs. 2020-04-22T09:26:18+00:00
+340a376,377
+> [Template merge - langs/und] A glaring miss stopped all nightly builds. Thanks to Tino for pointing out. 2020-04-22T05:42:35+00:00
+> [Template merge - langs/und] Renamed src/syntax/ to src/cg3/, and updated all references to it. Part of the large restructuring, and a test case for more complex renaming. 2020-04-21T18:05:57+00:00
+342a380
+> [Template merge - langs/und] More cleanup after removing src/phonology/*: all references to it have been replacecd, and the file am-shared/src-phonology-dir-include.am has been removed. 2020-04-21T07:10:14+00:00
+344c382,383
+< Deleted src/phonology/ dir after all source files have been moved to src/morphology/. Some files have been renamed. All builds should continue to work as before. 2020-04-20T14:20:52+00:00
+---
+> [Template merge - langs/und] Forgot to remove src/phonology/Makefile from configure.ac. Duh. 2020-04-20T18:42:11+00:00
+> Deleted src/phonology/ dir after all source files have been moved to src/morphology/. Some files have been renamed. All builds should continue to work as before. 2020-04-20T14:20:33+00:00
+345a385
+> [Template merge - langs/und] Changed documentation extraction & building to get the source doc in src/morphology/. 2020-04-20T12:05:17+00:00
+346a387
+> [Template merge - langs/und] The big switch: building phonology files are now changed from src/phonology/ to src/morphology. Documentation is still built in the old location, but will be moved separately due to higher conflict risk. 2020-04-20T11:36:28+00:00
+347a389,390
+> [Template merge - langs/und] Update phonology filename in src/morphology/Makefile.modifications-phon.am. 2020-04-20T07:29:26+00:00
+> [Template merge - langs/und] Copy src/phonology/Makefile.am to src/morphology/Makefile.modifications-phon.am and src/phonology/xxx-phon.twolc to src/morphology/phonology.twolc as step one in moving the file. Then the build can switch, and finally, the old files can be deleted. 2020-04-18T16:05:21+00:00
+349a393
+> [Template merge - langs/und] Corrected copy-paste bug in the build steps for areal grammar checker analysers. The bug caused SMJ to fail. 2020-04-17T06:36:43+00:00
+350a395
+> [Template merge - langs/und] Fixed bug with multiple declarations of EXTRA_DIST and noinst_DATA in the previous template merge. 2020-04-17T06:16:14+00:00
+351a397,398
+> [Template merge - langs/und] Preparations for moving the phonology files inside morphology/ (later to be renamed fst/). 2020-04-17T05:59:47+00:00
+> [Template merge - langs/und] Reorganised mt/apertium make files so that fixed content is in Makefile.am, and userj-editable content is in Makefile.modifications.am. 2020-04-07T13:54:30+00:00
+353a401
+> [Template merge - langs/und] Started splitting the local Makefile.am in two, by moving it to a new filename, and then create a new Makefile.am that just includes the moved one. In later commmits, some of the content can be moved from one file to the other. 2020-04-06T11:57:59+00:00
+354a403
+> [Template merge - langs/und] Fixed the remaining cases of improved upper-lower case configurable processing. Removed a variable from configure.ac with comments, turned out it wasn't needed. 2020-04-05T11:19:59+00:00
+355a405
+> [Template merge - langs/und] First step in fixing default case handling: downcasing of derived proper nouns can now be turned off for the standard fst's by changing a test in configure.ac. 2020-04-03T12:46:59+00:00
+356a407
+> [Template merge - langs/und] Fixed bug in phonology compilation when there are multiple phonology files: temporary files were deleted before being used due to name overlap. 2020-03-31T07:26:54+00:00
+357a409
+> [Template merge - langs/und] Added Automake variables to handle demanding or non-default uppercasing, or writing systems with no case distinction at all. 2020-03-30T13:47:05+00:00
+359,360c411,413
+< Testing new languages and forms. 2020-03-22T21:36:51+00:00
+< rmf, not the macrotag rom 2020-03-16T22:23:50+00:00
+---
+> Testing new languages and forms. 2022-10-28T01:10:56+02:00
+> kodeproblem 2020-03-22T13:21:47+00:00
+> rmf, not the macrotag rom 2022-10-28T01:09:13+02:00
+362a416
+> rmf-ref 2020-03-15T18:35:50+00:00
+367c421,485
+< Correct language code. 2019-12-04T15:20:58+00:00
+---
+> tags 2019-12-04T14:47:17+00:00
+> testing-files 2019-12-04T14:04:22+00:00
+> testing-files 2019-12-04T14:04:04+00:00
+> [Template merge - langs/und] Added ‹ and › to the list of possible punctuation marks in the tokenisers. 2019-11-15T12:38:01+00:00
+> [Template merge - langs/und] Added ‹ and › to the list of possible punctuation marks in the tokenisers. 2019-11-15T12:37:38+00:00
+> [Template merge - langs/und] Added Makefile setting for enabling swaps in error models (ie ab -> ba). Default is no (as this used not to work, and the existing error models are based on this fact). 2019-11-06T17:23:16+00:00
+> [Template merge - langs/und] Added Makefile setting for enabling swaps in error models (ie ab -> ba). Default is no (as this used not to work, and the existing error models are based on this fact). 2019-11-06T17:22:29+00:00
+> [Template merge - langs/und] Replace UNDEFINED with __UNDEFINED__, so that text replacement can take place. 2019-10-24T15:58:00+00:00
+> [Template merge - langs/und] Replace UNDEFINED with __UNDEFINED__, so that text replacement can take place. 2019-10-24T14:20:07+00:00
+> [Template merge - langs/und] tools/mt/Makefile.am needs am-shared/lookup-include.am as well. 2019-10-22T09:18:16+00:00
+> [Template merge - langs/und] Forgot to add cgbased to the SUBDIRS variable in tools/mt/Makefile.am. 2019-10-22T08:38:49+00:00
+> [Template merge - langs/und] Forgot to add cgbased to the SUBDIRS variable in tools/mt/Makefile.am. 2019-10-22T08:34:12+00:00
+> [Template merge - langs/und] Added basic support for CG-based machine translation. Ongoing work. 2019-10-22T07:38:18+00:00
+> [Template merge - langs/und] Added basic support for CG-based machine translation. Ongoing work. 2019-10-22T07:30:33+00:00
+> [Template merge - langs/und] Make sure some jspwiki header files for generated documentation are included in the distro. 2019-10-16T06:14:21+00:00
+> [Template merge - langs/und] Make sure some jspwiki header files for generated documentation are included in the distro. 2019-10-16T06:13:47+00:00
+> [Template merge - langs/und] Made it possible to disable Forrest validation when Forrest is installed. This reduces build time and annoying warnings for people not working on the documentation. Default is still to do Forrest validation. 2019-10-14T11:00:25+00:00
+> [Template merge - langs/und] Made it possible to disable Forrest validation when Forrest is installed. This reduces build time and annoying warnings for people not working on the documentation. Default is still to do Forrest validation. 2019-10-14T10:57:18+00:00
+> [Template merge - langs/und] Wrapped command line tools in double quotes, to protect against spaces in pathnames. Spaces will occur when building on Windows using Windows Subsystem for Linux, as locations such as 'Program Files' are included in the default search path. 2019-10-10T10:54:00+00:00
+> [Template merge - langs/und] Wrapped command line tools in double quotes, to protect against spaces in pathnames. Spaces will occur when building on Windows using Windows Subsystem for Linux, as locations such as 'Program Files' are included in the default search path. 2019-10-10T09:44:31+00:00
+> [Template merge - langs/und] Improved build process for pattern hyphenators - now patgen config is done programmatically instead of interactively. The values are configured in the Makefile.am. 2019-10-03T05:57:00+00:00
+> [Template merge - langs/und] Improved build process for pattern hyphenators - now patgen config is done programmatically instead of interactively. The values are configured in the Makefile.am. 2019-10-02T22:19:52+00:00
+> [Template merge - langs/und] Added script for testing tag coverage, made by Kevin, and originally for sme. 2019-09-17T08:43:16+00:00
+> [Template merge - langs/und] Added script for testing tag coverage, made by Kevin, and originally for sme. 2019-09-17T08:42:15+00:00
+> [Template merge - langs/und] Added support for multiple whitespace analysers. 2019-09-05T07:14:23+00:00
+> [Template merge - langs/und] Added support for multiple whitespace analysers. 2019-09-05T07:12:33+00:00
+> [Template merge - langs/und] Added support for comments in error model text files. Added support for zipped but uncompressed files (required by divvunspell for now). 2019-09-05T04:09:35+00:00
+> [Template merge - langs/und] Added support for comments in error model text files. Added support for zipped but uncompressed files (required by divvunspell for now). 2019-09-05T04:07:21+00:00
+> [Template merge - langs/und] Added simple shell script to easily run the grammar checker test tool, and considering build directories etc. 2019-08-09T12:17:42+00:00
+> [Template merge - langs/und] Added simple shell script to easily run the grammar checker test tool, and considering build directories etc. 2019-08-09T12:10:05+00:00
+> [Template merge - langs/und] Generate and compile the new filter for removing semantic tags in front of derivations. Require new version of the giella-core because of dependencies. 2019-06-14T11:12:43+00:00
+> [Template merge - langs/und] Generate and compile the new filter for removing semantic tags in front of derivations. Require new version of the giella-core because of dependencies. 2019-06-14T11:08:42+00:00
+> [Template merge - langs/und] Make sure all generated files have a suffix that will make them be ignored. Added comments to clarify. 2019-06-14T08:26:42+00:00
+> [Template merge - langs/und] Make sure all generated files have a suffix that will make them be ignored. Added comments to clarify. 2019-06-14T08:25:39+00:00
+> [Template merge - langs/und] Børre updated the documentation url to point to giellalt.uit.no. 2019-06-14T07:29:56+00:00
+> [Template merge - langs/und] Børre updated the documentation url to point to giellalt.uit.no. 2019-06-14T07:08:18+00:00
+> [Template merge - langs/und] Fixed stupid copy-paste error in the previous commit. Reorganised the code a bit to make a variable definition clearer and more logical. 2019-05-27T11:15:18+00:00
+> [Template merge - langs/und] Fixed stupid copy-paste error in the previous commit. Reorganised the code a bit to make a variable definition clearer and more logical. 2019-05-27T11:15:02+00:00
+> [Template merge - langs/und] Make sure that the input to all variants of the mobile speller is weighted. 2019-05-27T07:21:09+00:00
+> [Template merge - langs/und] Make sure that the input to all variants of the mobile speller is weighted. 2019-05-27T07:18:59+00:00
+> [Template merge - langs/und] Fixed fsttype mismatch error for filters when building mobile spellers, by building filters locally of the correct fst type, as we do for desktop spellers. 2019-05-24T09:29:23+00:00
+> [Template merge - langs/und] Fixed fsttype mismatch error for filters when building mobile spellers, by building filters locally of the correct fst type, as we do for desktop spellers. 2019-05-24T09:23:42+00:00
+> Updated docs. 2019-05-02T09:29:26+00:00
+> [Template merge - langs/und] Added UpCase function to the tokenisers, to handle all-upper variants of the input side. It does almost double the size of the fst, but at least it is just one additional line of code. Also, it does only work in Linux/using glib (for other platforms it is restricted to Latin1 - still, that covers a major portion of the Sámi fst's and running text, so much better than nothing). 2019-03-22T14:47:09+00:00
+> [Template merge - langs/und] Added UpCase function to the tokenisers, to handle all-upper variants of the input side. It does almost double the size of the fst, but at least it is just one additional line of code. Also, it does only work in Linux/using glib (for other platforms it is restricted to Latin1 - still, that covers a major portion of the Sámi fst's and running text, so much better than nothing). 2019-03-22T14:44:47+00:00
+> [Template merge - langs/und] Ensure that the correct grammar checker pipeline is the default one, so that it will be executed when no pipeline is specified. 2019-03-13T08:52:36+00:00
+> [Template merge - langs/und] Ensure that the correct grammar checker pipeline is the default one, so that it will be executed when no pipeline is specified. 2019-03-13T08:46:19+00:00
+> Demoversio ilman twolc. 2019-03-09T20:47:41+00:00
+> alphabet+case 2019-03-09T16:11:12+00:00
+> startup lg rom, Finnish Romani, initiative from Kimmo Granqvist 2019-03-09T11:16:23+00:00
+> [Template merge - langs/und] Added the new multichar +Symbol to the multichar definitions. 2019-02-28T07:40:22+00:00
+> [Template merge - langs/und] Changed sub-post tag for symbols from +ABBR to +Symbol. Needs to be declared as multichar in each language. 2019-02-27T13:33:17+00:00
+> [Template merge - langs/und] Added support for shared Symbol file: build rules, affix file, modifications to root.lexc. Also increased required version of giella-common, to make sure that the shared stem file is actually there. 2019-02-27T08:28:18+00:00
+> [Template merge - langs/und] Fixed dir name typo that broke compilation. 2019-02-25T18:10:10+00:00
+> [Template merge - langs/und] Added support for building an analyser tool. This is in practice an xml-specified pipeline identical to what is used in the grammar checker, but where the pipeline does text analysis instead of grammar checking. Also made grammar checkers and mobile spellers part of the --enable-all-tools configuration. 2019-02-25T17:07:57+00:00
+> [Template merge - langs/und] Added filter to remove the +MWE tag from the grammar checker generator. It blocked generation of some word forms (and should not be visible in any case). 2019-02-13T07:47:37+00:00
+> [Template merge - langs/und] Fixed another case of transducer format mismatch for hyphenators, this time regarding pattern-based hyph building. 2019-01-25T08:54:07+00:00
+> [Template merge - langs/und] Corrected an instance of transducer format mismatch when building hyphenators. 2019-01-25T08:08:55+00:00
+> The first noun is in place. Yaml test will be one of the next things to add. The material was contributed by Johanna Kivimäki. 2019-01-18T22:23:52+00:00
+> [Template merge - langs/und] Make the mobile keyboard layout error model work properly (ie on input  longer than one char) by circumfixing it with any-stars. 2019-01-17T19:30:10+00:00
+> [Template merge - langs/und] First round of improved handling of compilation errors in shell pipes: instruct make to delete targets when some of the intermediate steps fail. 2019-01-11T13:53:26+00:00
+> [Template merge - langs/und] Added configure.ac conditional to control whether spellers for alternative orthographies are built. The default is 'true'. Set this to 'false' for historical or other orthographies for which a speller is not relevant. 2019-01-09T10:41:17+00:00
+> [Template merge - langs/und] Fix broken hfst builds of xfscript files when there is no final newline in the source file (caused the save command to be shaddowed by the final line of text, usually a comment, so no file was saved, and thus there was nothing to work on for the next build step). 2019-01-09T08:59:21+00:00
+> [Template merge - langs/und] Apply alternate orthography conversion after hyphenation marks have been removed, but before the morphology marks are deleted. Especially word boundaries are useful for certain types of conversion, but other borders will likely be useful as well. The conversion scripts need to take the border marks into consideration. 2019-01-08T08:59:35+00:00
+> Introducing Kalo Finnish Romani. 2019-01-03T11:11:42+00:00

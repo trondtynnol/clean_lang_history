@@ -1,0 +1,565 @@
+560d559
+< Merge pull request #4 from giellalt/dependabot/bundler/docs/nokogiri-1.12.5 2021-09-28T10:11:50+03:00
+574d572
+< Merge pull request #3 from giellalt/dependabot/bundler/docs/addressable-2.8.0 2021-07-15T17:00:51+02:00
+1293d1290
+< svnignores 2020-04-16T07:38:30+00:00
+1382d1378
+< preparations for the next group 2020-03-14T21:25:46+00:00
+1502d1497
+< preparations 2019-11-10T12:28:32+00:00
+1519d1513
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+1541,1546d1534
+< ignore *.fomabin. 2019-10-08T06:35:05+00:00
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T20:56:55+00:00
+< ign 2019-10-07T20:55:33+00:00
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+1565d1552
+< preparations 2019-09-15T19:22:36+00:00
+1607d1593
+< Correct mime types. 2019-08-31T10:02:32+00:00
+1692d1677
+< to be deleted; going under 2ALGE 2019-06-20T08:52:24+00:00
+1747d1731
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+1760d1743
+< removed testfile 2019-06-13T07:45:22+00:00
+1805,1806d1787
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+2077d2057
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+2126,2127d2105
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+2169d2146
+< ign 2018-11-19T10:08:54+00:00
+2217d2193
+< ignore for bin 2018-10-14T13:31:01+00:00
+2219,2220d2194
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+< ign 2018-10-14T12:54:55+00:00
+2225d2198
+< no lg-specific dep-file. 2018-10-12T15:18:13+00:00
+2240d2212
+< catalogue for errordata 2018-10-12T08:32:30+00:00
+2266d2237
+< This is an old copy from sme in 2014, we want the giella-shared one instead. 2018-10-01T11:13:46+00:00
+2278d2248
+< Updated svn ignores. 2018-09-25T08:00:58+00:00
+2280d2249
+< svn ignore update 2018-09-20T08:44:05+00:00
+2290d2258
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+2293d2260
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+2306d2272
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+2309d2274
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+2314d2278
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+2407d2370
+< More things to ignore. 2018-05-14T10:33:30+00:00
+2420d2382
+< Restored dir for gt-desc yaml files. The lack of this dir caused spurious error messages from `find`. Also, if there is a future need for such tests, then the dir should be there. Finally, we want to keep all language dir structure to avoid unnecessary diffs and future merge issues. The dir was removed in svn r112753. 2018-05-07T12:41:42+00:00
+2557d2518
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+2560,2561d2520
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+2577d2535
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+2686a2645
+> new name 2018-02-07T11:08:34+00:00
+2694d2652
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+2724d2681
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+2869d2825
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+3219,3220d3174
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+3273d3226
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+3358,3359d3310
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+3599,3600d3549
+< ign 2017-03-21T19:49:19+00:00
+< deleting empty directory 2017-03-21T15:12:33+00:00
+3680d3628
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+3707d3654
+< Better mime types, line endings. 2017-02-22T08:01:57+00:00
+3766d3712
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+3776a3723
+> Removed empty or obsolete dirs in old infra. 2017-01-23T11:41:07+00:00
+4329c4276
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@138244 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2016-08-01T17:19:02+00:00
+---
+>  2016-08-01T17:19:02+00:00
+4608d4554
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+4941d4886
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+5114d5058
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+5145d5088
+< as the name says 2016-04-13T11:49:44+00:00
+5503d5445
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+5526d5467
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+5600d5540
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+5627d5566
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+5635,5636d5573
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+5685d5621
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+5911d5846
+< Folder for list yamls, these should be returned to the normal yaml folder at some point. 2016-01-04T13:25:36+00:00
+6367d6301
+< Updated svn:ignore’s. 2015-11-18T23:05:40+00:00
+6636d6569
+< ignore 2015-10-29T10:09:08+00:00
+6975d6907
+< Updated svn ignores. 2015-10-20T07:50:38+00:00
+7830c7762
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@120216 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-09-03T15:48:04+00:00
+---
+>  2015-09-03T15:48:04+00:00
+7853d7784
+< Ignore temporary files generated by the speller suggestion test script. 2015-09-03T04:23:51+00:00
+8484d8414
+< New dir 2015-08-17T07:32:43+00:00
+8668d8597
+< for reference 2015-08-07T11:29:44+00:00
+8930d8858
+< Adding the folder, empty. 2015-07-13T18:11:43+00:00
+10394,10395c10322,10323
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112857 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-05-01T08:09:18+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112856 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-05-01T08:06:05+00:00
+---
+>  2015-05-01T08:09:18+00:00
+>  2015-05-01T08:06:05+00:00
+10428,10429c10356,10357
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112780 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-04-30T07:53:50+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112779 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-04-30T07:53:17+00:00
+---
+>  2015-04-30T07:53:50+00:00
+>  2015-04-30T07:53:17+00:00
+10431,10432c10359,10360
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112777 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-04-30T07:26:44+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112776 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-04-30T07:26:03+00:00
+---
+>  2015-04-30T07:26:44+00:00
+>  2015-04-30T07:26:03+00:00
+10443d10370
+< we don't need this now 2015-04-29T15:07:05+00:00
+10453,10454c10380,10381
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112738 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-04-29T14:37:28+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@112737 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-04-29T14:37:05+00:00
+---
+>  2015-04-29T14:37:28+00:00
+>  2015-04-29T14:37:05+00:00
+10670d10596
+< Ignore txt files in speller dirs. 2015-04-09T11:55:38+00:00
+10808c10734
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109752 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-20T11:25:55+00:00
+---
+>  2015-03-20T11:25:55+00:00
+10877d10802
+< Updated svn ignores. 2015-03-14T10:46:39+00:00
+10887,10888c10812,10813
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109292 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-13T18:52:44+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109291 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-13T18:49:33+00:00
+---
+>  2015-03-13T18:52:44+00:00
+>  2015-03-13T18:49:33+00:00
+10891c10816
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109270 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-13T14:04:37+00:00
+---
+>  2015-03-13T14:04:37+00:00
+10908,10910c10833,10835
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109161 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-12T14:42:58+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109155 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-12T14:12:33+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109154 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-12T14:10:27+00:00
+---
+>  2015-03-12T14:42:58+00:00
+>  2015-03-12T14:12:33+00:00
+>  2015-03-12T14:10:27+00:00
+10916,10917c10841,10842
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109140 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-12T12:27:54+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109139 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-12T12:26:23+00:00
+---
+>  2015-03-12T12:27:54+00:00
+>  2015-03-12T12:26:23+00:00
+10922,10923c10847
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@109124 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2015-03-12T09:56:37+00:00
+< Folder for tables to be read by people (and linked to by the link page). All xslx tabels go here (but in csv or jspwiki format). 2015-03-12T09:44:27+00:00
+---
+>  2015-03-12T09:56:37+00:00
+10928d10851
+< Updated svn ignores. 2015-03-12T08:28:02+00:00
+10936d10858
+< Updated svn ignores. 2015-03-09T10:41:02+00:00
+10939d10860
+< Updated svn ignores. 2015-03-06T15:56:54+00:00
+10947d10867
+< Updated svn ignores. 2015-03-06T09:24:00+00:00
+10958d10877
+< Update svn ignores. 2015-02-27T12:55:53+00:00
+10993d10911
+< typo 2015-02-15T20:54:30+00:00
+10995,10997d10912
+< ign 2015-02-15T17:58:08+00:00
+< ignore 2015-02-15T14:15:29+00:00
+< ignore 2015-02-15T14:14:34+00:00
+11261d11175
+< Special svn:ignore on src/orthography/. 2015-01-26T10:30:36+00:00
+11306d11219
+< Setting svn:ignore for Bashkir, updating the other ignores. 2015-01-19T06:20:12+00:00
+11352d11264
+< Updated svn:ignore's. 2015-01-12T21:50:15+00:00
+11354d11265
+< svn:ignore also for *.service. 2015-01-12T15:58:08+00:00
+11398,11399c11309,11310
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@103045 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2014-11-19T14:57:25+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/smn@103044 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2014-11-19T14:55:47+00:00
+---
+>  2014-11-19T14:57:25+00:00
+>  2014-11-19T14:55:47+00:00
+11423d11333
+< ignore 2014-11-17T12:06:09+00:00
+11453d11362
+< Update ignores for src/morphology/. 2014-10-23T08:25:38+00:00
+11528d11436
+< Updated svn:ignore's. 2014-09-08T21:51:28+00:00
+11614d11521
+< ignore 2014-08-16T15:52:40+00:00
+11616d11522
+< Shouldn't *.lexc have been set as ignore on all the generated_files folders? 2014-08-16T15:46:52+00:00
+11649d11554
+< adding a catalogue scripts ??? 2014-06-21T16:51:58+00:00
+11654d11558
+< Updated svn:ignore for all languages. 2014-06-11T09:37:23+00:00
+11659d11562
+< Ignore cg3 files in the tools/mt/apertium/ dir. 2014-06-02T14:02:42+00:00
+11664d11566
+< Ignore the generated pkg-config files. 2014-05-12T20:27:01+00:00
+11686d11587
+< Extra ignores on tools/mt/apertium/filters/. 2014-04-16T05:45:32+00:00
+11688d11588
+< Updated svn ignores. 2014-04-15T13:30:11+00:00
+11692d11591
+< Updated svn ignore. 2014-04-10T15:16:59+00:00
+11702d11600
+< Updated svn ignores. 2014-04-03T10:10:45+00:00
+11706d11603
+< Updated svn ignore. 2014-04-02T10:58:00+00:00
+11720d11616
+< Update svn ignores on test/src/phonology/. 2014-03-20T07:32:24+00:00
+11727d11622
+< Updated ignore patterns for test/tools/spellcheckers/. 2014-03-14T10:26:24+00:00
+11735d11629
+< Updated svn ignores. 2014-02-28T06:46:07+00:00
+11776d11669
+< Ignore mk-files in the preprocess/ dir. 2014-01-14T14:20:40+00:00
+11784d11676
+< Ignore generated easteregg files. 2014-01-12T11:44:07+00:00
+11787d11678
+< Ignore functions.cg3 and dependency.cg3 if they are copied from a shared location (these files will not be ignored if already in svn). 2014-01-10T10:24:56+00:00
+11801d11691
+< Updated the ignore pattern for morphology/stems/. 2014-01-09T13:45:44+00:00
+11819d11708
+< Ignore generated regex files in the src/filters/ dir. 2013-12-03T11:56:43+00:00
+11826d11714
+< Extra ignores in the filters/ dir. 2013-11-24T15:25:54+00:00
+11828d11715
+< igno 2013-11-24T15:13:39+00:00
+11832d11718
+< Ignore the generated, concatenated lexc file. 2013-11-22T13:37:46+00:00
+11848d11733
+< Ignore generated documents in tools/shellscripts/. 2013-10-18T11:47:12+00:00
+11857,11858d11741
+< One more ignore on the grammar checker dir. 2013-10-10T09:06:26+00:00
+< Update svn ignores. 2013-10-09T11:01:58+00:00
+11860d11742
+< Updated svn ignores. 2013-10-09T07:04:36+00:00
+11900d11781
+< Ignore zipped files (built for apertium). 2013-08-19T07:13:39+00:00
+11903d11783
+< Ignore *.att files in src/ (produced by the apertium targets). 2013-08-17T12:30:28+00:00
+11923d11802
+< Ignore extra generated files in the tagsets dir. 2013-06-13T14:40:56+00:00
+11932d11810
+< Updated the svn ignores. 2013-06-06T08:10:31+00:00
+11945d11822
+< [ignore] Also ignore generated foma transducers. 2013-04-11T16:57:19+00:00
+11957d11833
+< Ignore the generated voikko-3 dir. 2013-03-18T09:43:22+00:00
+11964d11839
+< More extensive ignores on src/morphology/. 2013-03-12T08:07:27+00:00
+11971d11845
+< Ignore top-level build dir. 2013-02-27T07:18:08+00:00
+11973d11846
+< Update svn ignores. 2013-02-27T00:08:32+00:00
+11977d11849
+< Ignore the build/ dir within doc/. 2013-02-26T17:02:56+00:00
+11995,11996d11866
+< The ignore pattern was wrong - now correct. 2013-01-23T22:34:12+00:00
+< Ignore generated yaml tests. 2013-01-23T22:28:44+00:00
+12000a11871
+> Added smn synlink 2013-01-23T15:40:05+00:00
+12001a11873
+> Moved all smn files from techdoc/lang/ to langs/smn/doc/. 2013-01-23T15:38:59+00:00
+12006d11877
+< Updated svn:ignore with the latest modifications to the ignore patterns. 2013-01-14T19:34:16+00:00
+12025a11897
+> Saami 2012-11-22T13:05:15+00:00
+12090a11963,11964
+> unused tag 2012-05-26T20:13:36+00:00
+> Ordinals, thanks to Petter Morottaja. 2012-05-19T10:30:06+00:00
+12092a11967,11968
+> Put in the numbers, but the p-positions should still be translated, and everything checked. 2012-05-18T13:49:07+00:00
+> Checking in a copy of sme, for developmental purposes. 2012-05-18T13:30:35+00:00
+12094a11971,11972
+> M4 work on SMN. No M4 code found, but the same escaped symbols and morphological boundary markers have been added, to ensure consistency across languages. Also the punctuation file has been updated to follow SME, in addition to fixing something that looked like a charset problem - a lot of characters did not look like the expected one, but more like remnants of some 8-bit charset. All replaced with the corresponding UTF-8 chars from SME. 2012-03-07T11:06:12+00:00
+> Two different test files, one for Olthuis grammar, and one for Morottaja textbook. The two are not in synch. 2012-01-15T18:08:06+00:00
+12096a11975,11976
+> Added some words from Olthuis grammar. 2012-01-01T15:08:44+00:00
+> Forgot to check in this one, formatting. 2012-01-01T15:08:02+00:00
+12098a11979,11980
+> Forgot to check in this one. 2012-01-01T15:07:29+00:00
+> Removed duplicates. 2011-12-28T09:19:34+00:00
+12100a11983
+> Added parentheses for multiple forms. 2011-12-28T09:09:02+00:00
+12101a11985,11986
+> as name says 2011-11-08T18:10:34+00:00
+> This is a real regex now. 2011-10-10T14:53:16+00:00
+12103a11989
+> Removed pp:v pro pp:p, but both needed. 2011-09-30T20:42:16+00:00
+12105a11992
+> So, we write like the Inari Saami. No hyfsor or hakor. 2011-09-28T22:52:11+00:00
+12106a11994,11995
+> Naming stems and correcting typos. 2011-09-28T22:37:45+00:00
+> Sublexica for kussâ. Also rearranged a bit. 2011-09-28T22:37:16+00:00
+12108a11998,11999
+> Lengthening without weak grade. 2011-09-28T22:36:53+00:00
+> svn copy of version file from smj. 2011-09-28T18:12:33+00:00
+12110a12002
+> link 2011-09-28T17:50:38+00:00
+12111a12004,12005
+> Speller world, here smn comes. 2011-09-28T17:47:30+00:00
+> Invisible control character stranded on line 81, now removed. 2011-09-28T16:31:16+00:00
+12113a12008,12009
+> Lang code correction. 2011-09-28T14:20:53+00:00
+> Added very basic support files for hfst spellers for Inari Sámi/SMN. Svn copy from SMA. 2011-09-28T14:19:05+00:00
+12115a12012,12013
+> Split i-stems in 3 different i-stems. 2011-09-28T05:06:02+00:00
+> Added rule for stem vowel shortening in Abe, Ess, Par, to be extended. 2011-09-28T05:05:38+00:00
+12117a12016,12017
+> Rearringing 2011-09-23T20:09:10+00:00
+> Cosmetics, and additions to KIETA, LUCCA. 2011-09-23T20:08:54+00:00
+12118a12019
+> updates 2011-09-23T20:07:44+00:00
+12119a12021,12022
+> typos 2011-09-18T19:03:32+00:00
+> additions 2011-09-16T22:15:31+00:00
+12121a12025,12026
+> typos 2011-09-16T22:15:15+00:00
+> Split OBL into ILL and rest, in order to distinguish between sollâ and kietâ illative. 2011-09-16T19:29:25+00:00
+12123a12029,12030
+> cosmetics 2011-09-16T19:28:40+00:00
+> More consonants for cns lengthening, and not compensatory lengthening in abessive. 2011-09-16T19:28:13+00:00
+12125a12033,12034
+> Following Morottaja 2006. 2011-09-13T21:31:21+00:00
+> Looking at i-stems. Also Ess Par strengthening. 2011-09-13T21:30:34+00:00
+12127a12037
+> Looking at i-stems. Also Ess Par strengthening. 2011-09-13T21:30:26+00:00
+12128a12039,12040
+> typos 2011-09-13T14:43:32+00:00
+> 3rd grade symbol ' not in use in writing. 2011-09-13T14:43:18+00:00
+12130a12043,12044
+> 3rd grade symbol ' not in use in writing. 2011-09-13T14:42:59+00:00
+> more 2011-09-13T14:42:23+00:00
+12132a12047,12048
+> yaml, yaml. 2011-09-13T13:54:27+00:00
+> Corrected typos. 2011-09-13T13:40:52+00:00
+12134a12051,12052
+> typo in contlex name. 2011-09-13T13:40:33+00:00
+> Added explicit suffix boundary. 2011-09-13T13:40:11+00:00
+12136a12055
+> Reorganising the rule set, now with explicit marking of vowel lengthening (yen for now). 2011-09-13T13:38:43+00:00
+12137a12057,12058
+> Generating only existing dates. 2011-09-05T18:24:19+00:00
+> Looking at CG. 2011-09-05T18:22:12+00:00
+12139a12061,12062
+> Starting on e-stems. 2011-08-30T09:14:54+00:00
+> Starting on e-stems. 2011-08-30T09:14:35+00:00
+12141a12065,12066
+> Started e/a stem rule 2011-08-30T09:13:40+00:00
+> Added smn month names. 2011-08-28T18:14:43+00:00
+12143a12069,12070
+> Added more words. 2011-08-28T18:14:13+00:00
+> Ordinals, from sme, to be translated. 2011-08-28T14:46:54+00:00
+12145a12073
+> Copy from smn, to be translated. 2011-08-28T14:46:26+00:00
+12146a12075,12076
+> Wrong paradigms better than none, to show status quo. 2011-08-28T13:59:30+00:00
+> From sme 2011-08-28T13:21:40+00:00
+12148a12079
+> From sma, adjusted. 2011-08-28T13:14:48+00:00
+12149a12081,12082
+> updates 2011-06-29T19:38:22+00:00
+> Added name tags to all Sami languages, in order not to forget it in the future. 2011-03-25T17:34:25+00:00
+12151a12085
+> Replaced the variable $(TARGET) with $(GTLANG) everywhere. TARGET as a variable name is very unfortunate (extremely ambiguous, especially in a software build context), GTLANG is to the point (and does not conflict with the env. variable LANG). 2011-01-03T08:00:42+00:00
+12154a12089
+> NounRoot declared twice... 2010-08-18T12:42:16+00:00
+12155a12091,12092
+> Pointing new users two levels up. 2010-06-11T13:01:29+00:00
+>  2010-06-06T15:21:48+00:00
+12157a12095
+> Added lengthening for one more vowel. 2010-03-10T21:49:08+00:00
+12158a12097,12098
+> Plural forms of 3-syll had +Sg tag, fixed. 2010-03-10T21:48:46+00:00
+> Added words from the Oahpa lexicon. They are given contlexes more or less on impressionistic ways, so they must be fixed later. The philosophy now is that it is easier to correct manuallyu. 2010-03-10T21:19:46+00:00
+12160a12101,12102
+> Added GPL license note. 2010-01-18T22:27:48+00:00
+> • The $(wildcard ) function is meaningless if there is no file there, and when used together with the automatic generation of the transducer, it effectively causes everything to be made, because it returns null -> the all target in the main makefile is called • added printout before going to the top to make the transducer • synchronised sma, smj and sme 2009-11-27T17:14:05+00:00
+12162a12105,12106
+> Changed the SAVEFILE make command to always generate the correct transducer, irrespective of which transducer is specified. 2009-11-27T14:17:45+00:00
+> cosmetics 2009-11-24T15:11:33+00:00
+12164a12109,12110
+> Resolved an nuresolvable conflict for t:đ due to (t:0) and Vow:*. The t parenthesis was removed and the * changed to + (we want at leas one vowel). 2009-11-20T15:18:36+00:00
+> Remnants from conversion to UTF-8 (sic). 2009-11-20T15:06:01+00:00
+12167a12114
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+12168a12116,12117
+> smn text. 2008-12-31T00:11:10+00:00
+> Added verb codes file. 2008-12-16T22:10:11+00:00
+12170a12120,12121
+> Added sublexica for odd-syllabic verbs (divided in four different categories, one plain, and 3 different, each with its own diacritic mark. The twol rules work partly, but there are still things to do. 2008-12-16T22:09:43+00:00
+> File for Inari Sámi disambiguation and syntactic analysis, still no smn rules. 2008-12-13T20:13:54+00:00
+12172a12124,12125
+> Modified lexica for present tense verbs and suffixes 2008-12-12T11:03:57+00:00
+> Modified VLOW rule 2008-12-12T11:02:40+00:00
+12174a12128,12129
+> Added some verbs 2008-12-12T11:01:25+00:00
+> Brute copy from sme. 2008-12-12T10:56:03+00:00
+12176a12132
+> I've made minor changes to a few smn files 2008-12-11T15:05:02+00:00
+12177a12134,12135
+> corpcat 2008-12-10T23:48:32+00:00
+> Continuation lexica for contracted verbs 2008-12-10T15:11:13+00:00
+12179a12138,12139
+> Worked on several small problems 2008-12-10T15:10:14+00:00
+> Added one lowering rule 2008-12-10T15:09:27+00:00
+12181a12142,12143
+> Added one verb 2008-12-10T15:08:48+00:00
+> I'm practicing data entry 2008-12-10T09:45:03+00:00
+12183a12146,12147
+> Presenting the problem of smn. 2008-12-09T14:58:49+00:00
+> Commented out unused rule. 2008-12-08T19:05:47+00:00
+12187a12152
+> Added one adverb. 2008-12-07T21:53:32+00:00
+12188a12154,12155
+> Working on transition from X1, X2 etc. notation to self-explanatory ones (from sme-style to fao-style). Also added explanations in the preamble section. Some of the old X-es still remain. 2008-12-07T21:53:14+00:00
+> Added digraph h3 (and don't remember why) 2008-12-07T21:51:26+00:00
+12190a12158,12159
+> Added two headers. 2008-12-07T21:48:06+00:00
+> exchanged order. 2008-12-07T21:47:48+00:00
+12192a12162,12163
+> Added banner. 2008-10-06T12:37:10+00:00
+> Now all numerals in the grammar are checked and correct. More testing now must be done by Inari Sámi speakers. 2008-05-22T13:17:44+00:00
+12194a12166,12167
+> Inari numerals distinguish between 1, 2-6 and 7-9, this distinction is now introduced, debugging still needed. 2008-05-22T13:12:29+00:00
+> A first try at an Inari Sámi numeral generator. 2008-05-22T12:12:07+00:00
+12196a12170,12171
+> Simpler stem forms and a new dummy symbol. 2008-03-10T23:32:17+00:00
+> Added a very interesting rule, a mixed, not matched, one, to cater for compensatory lengthening. It must be finetuned against common CG. 2008-03-10T23:31:47+00:00
+12198a12174,12175
+> New Qst tag, worked with Ida. 2008-02-29T11:18:57+00:00
+> cvsignore 2007-12-08T16:43:46+00:00
+12200a12178,12179
+> Adjustments, now somewhat working. 2007-11-22T08:59:31+00:00
+> Copied common Makefile from sme and adjusted. 2007-11-22T08:59:03+00:00
+12202a12182,12183
+> Now all Enare Saami placenames are added to the list. The hyphens need checking, but before that we need hyphen file for smn. 2007-09-14T11:08:35+00:00
+> Added names. 2007-09-13T13:02:32+00:00
+12204a12186,12187
+> Sorted and checked the list for double occurrances. 2007-09-13T08:02:23+00:00
+> Added names. 2007-09-13T05:13:19+00:00
+12206a12190
+> Added Enare Sami names. 2007-09-11T12:06:57+00:00
+12207a12192,12193
+> Added names. Needs to sort again. 2007-09-11T10:10:55+00:00
+> Sortet the list alphabetically. 2007-09-11T09:57:35+00:00
+12209a12196,12197
+> Added FirstTag. 2007-09-10T16:19:58+00:00
+> Added Enare sami placenames. 2007-09-10T16:18:41+00:00
+12211a12200,12201
+> cvsignore 2007-08-31T15:46:38+00:00
+> Cosmetics 2007-08-22T12:30:01+00:00
+12213a12204,12205
+> propernoun 2007-08-22T12:29:49+00:00
+> Just copied from sme. 2007-08-22T11:29:35+00:00
+12215a12208,12209
+> Split. 2007-01-11T20:21:08+00:00
+> hmm, still problems. 2007-01-11T19:07:02+00:00
+12217a12212,12213
+> Finally found the error: The intermediate, empty or dummy files caused it to crash. 2007-01-11T19:03:52+00:00
+> one fortotten. 2007-01-11T17:11:18+00:00
+12219a12216,12217
+> Closed fix, but this one still doesn't compile. 2007-01-11T16:58:27+00:00
+> sma pro smn. 2007-01-11T16:17:56+00:00
+12221a12220,12221
+> These files are actually empty. 2007-01-11T16:15:58+00:00
+> smn also. 2007-01-10T07:02:18+00:00
+12223a12224
+> Removed save fst command. 2006-12-03T21:38:10+00:00
+12224a12226,12227
+> Updated the cvsignore file. 2006-12-03T09:59:28+00:00
+> cvsignore file. 2006-11-27T22:31:19+00:00
+12226a12230,12231
+> Added suffixes, added new naming diacritic, struggeling with the make process. 2006-11-27T22:28:35+00:00
+> Small changes 2006-11-27T09:58:30+00:00
+12228a12234,12235
+> UTF-8 2006-11-25T21:16:42+00:00
+> UTF-8 2006-11-24T11:17:33+00:00
+12230a12238,12239
+> UTF-8. 2006-11-24T11:16:02+00:00
+> Introduced en-dash and em-dash to the other Sámi lgs. as well. 2006-10-03T18:07:13+00:00
+12231a12241,12251
+> Added xml:lang tag to .xml documents 2005-09-06T11:13:33+00:00
+> Updated old sms and smn documentation, fixed links, etc. 2005-06-20T10:02:43+00:00
+> Updated links. 2005-05-03T07:49:29+00:00
+> Fixed most of the linking problems 2005-04-28T10:58:18+00:00
+> Tried to resolve a lot of link errors. The documents validate. 2005-04-26T11:56:11+00:00
+> Updated links. 2005-03-17T15:29:41+00:00
+> Updated links. 2005-03-16T08:57:35+00:00
+> Added <authors> tag Added cvs $Date$ and $Author$ tags 2005-03-14T12:16:08+00:00
+> Converted the docs from dtd 1.3 to dtd 2.0 2005-02-10T09:13:23+00:00
+> Initial revision 2005-01-22T00:44:32+00:00
+> Changed relative reference to tmp catalogue, from root to gt 2003-02-21T09:11:21+00:00
+12233a12254,12255
+> added * cvsignore, all files invisible 2002-09-20T13:03:47+00:00
+> added bin/ to list of ignoreable, look at this 2002-09-19T17:31:47+00:00
+12235a12258,12259
+> Adjusted makefile to multople-catalogue structure 2002-09-19T13:51:37+00:00
+> added .cvsignore for binary files 2002-09-19T13:49:21+00:00
+12237a12262,12263
+> .cvsignore file, identical to the smj one 2002-07-30T08:28:18+00:00
+> Initialising smn project 2002-07-29T10:43:21+00:00
+12238a12265
+> Added for testing. 2002-07-29T10:42:13+00:00

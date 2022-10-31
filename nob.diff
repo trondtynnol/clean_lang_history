@@ -1,0 +1,414 @@
+852a853
+> symlink 2019-04-02T13:23:02+00:00
+1181d1181
+< Moved obt/ from st/nob/ to langs/nob/. 2017-01-24T10:12:38+00:00
+1189a1190
+> Removed nob files used for testing Hunspell speller for nob. We have a newer version in our speller testbench, so no need to keep it around. 2017-01-23T11:51:42+00:00
+1457a1459
+> author 2015-03-10T15:02:49+00:00
+1889a1892
+> nob in newinfra, docu still not updated. 2013-05-01T16:36:50+00:00
+1912a1916,1917
+> files 2013-04-13T14:24:36+00:00
+> added to upheld st/nob in a transfer period 2013-04-13T14:23:33+00:00
+1914a1920
+> note 2013-04-13T14:22:49+00:00
+1931a1938
+> adj to adj, adv to adv, both from noun-lex 2013-04-12T13:58:48+00:00
+1932a1940,1941
+> moved verbs to verb file 2013-04-12T13:55:15+00:00
+> changed some vx to v2. 2013-04-11T21:26:19+00:00
+1934a1944,1945
+> Forgot to add contlex for some new cases, added irregular MOR, GÅS, KU, KLE 2013-04-11T21:25:57+00:00
+> rev-sort 2013-04-11T21:24:32+00:00
+1936a1948,1949
+> These were added to noun-nob-lex 2013-04-11T14:58:53+00:00
+> feils 2013-04-11T14:58:33+00:00
+1938a1952,1953
+> lese 2013-04-11T11:57:05+00:00
+> additions 2013-04-11T11:32:16+00:00
+1940a1956,1957
+> fleire feil i fad 2013-04-11T11:31:46+00:00
+> Gjonnom første runde. 2013-04-11T06:43:09+00:00
+1942a1960,1961
+> meir 2013-04-10T22:10:52+00:00
+> meir 2013-04-10T15:39:53+00:00
+1944a1964,1965
+> Lexicalised 4037, 3347 to go... 2013-04-10T14:22:36+00:00
+> 7000 words to be lexicalised, for dict purposes. 2013-04-10T10:09:39+00:00
+1946a1968,1969
+> i-boks 2013-04-10T10:09:28+00:00
+> updat 2013-04-09T20:09:48+00:00
+1948a1972,1973
+> from fad 2013-04-09T19:18:48+00:00
+> Added words from FAD 2013-04-09T18:21:40+00:00
+1950a1976,1977
+> corr 2013-04-09T13:53:17+00:00
+> inc frå FAD 2013-04-09T11:47:16+00:00
+1952a1980,1981
+> omtrent endeleg 2013-04-09T11:43:08+00:00
+> fad-ord 2013-04-09T11:25:32+00:00
+1954a1984,1985
+> Fleire FAD-ord klassifisert 2013-04-09T06:58:42+00:00
+> Fleire FAD-ord klassifisert 2013-04-09T06:51:07+00:00
+1956a1988,1989
+> fleire inc 2013-04-08T20:47:28+00:00
+> prefixed verbs fixed. 2013-04-08T20:42:17+00:00
+1958a1992,1993
+> påhøre ei ole olemassa. 2013-04-08T18:13:17+00:00
+> Gått gjennom 1023 ukjente nob frå fad, lagt til m1, resten undervegs. 2013-04-08T13:54:29+00:00
+1960a1996,1997
+> These words now added. 2013-04-02T20:48:31+00:00
+> Added the missing words from the fad-project. 2013-04-02T20:48:03+00:00
+1962a2000
+> verbs from inc 2013-04-02T20:23:45+00:00
+1963a2002,2003
+> corrections from fad 2013-04-02T20:22:57+00:00
+> Corrections from fad work 2013-04-02T20:22:37+00:00
+1965a2006,2007
+> rev-sort-rev 2013-04-02T11:53:45+00:00
+> contlex 2013-04-02T11:53:19+00:00
+1967a2010,2011
+> rev-sort-rev 2013-04-02T11:02:13+00:00
+> added contlex 2013-04-02T11:00:37+00:00
+1969a2014,2015
+> rev-sorted, added contlex marking, at the same time correcting errors in the fad files as they turn up. 2013-04-02T10:06:54+00:00
+> rev 2013-04-02T09:43:16+00:00
+1971a2018,2019
+> converted 2013-04-01T20:52:25+00:00
+> x-veks 2013-04-01T20:49:37+00:00
+1973a2022,2023
+> fX 2013-04-01T20:49:11+00:00
+> compound -s- 2013-04-01T20:48:03+00:00
+1975a2026,2027
+> corrections 2013-04-01T20:46:13+00:00
+> Leksikaliserer ord frå FAD-listene. 2013-03-27T23:32:30+00:00
+1977a2030,2031
+> Better name, perhaps. 2013-03-27T10:46:35+00:00
+> incoming fad-work. 2013-03-27T10:45:56+00:00
+1979a2034,2035
+> gender 2013-03-13T06:42:44+00:00
+> av 2013-03-12T23:22:39+00:00
+1981a2038,2039
+> sorted 2013-02-23T18:39:13+00:00
+> The ; had accidently dropped out in front of NounRoot, thus all nouns were lost. Now restored. The Bokmål:Nynorsk lexicon (for dict use) has been commented out. 2013-02-23T18:38:38+00:00
+1983a2042,2043
+> flyttet tvers og ekstern til adv og adj fil 2013-02-18T08:53:04+00:00
+> verb 2013-02-15T14:50:26+00:00
+1985a2046,2047
+> Spellrelax for nob Bokmål 2013-02-13T18:29:28+00:00
+> updates 2013-02-13T18:29:13+00:00
+1987a2050,2051
+> determiners 2013-02-13T13:34:41+00:00
+> sånn 2013-02-13T12:53:04+00:00
+1989a2054,2055
+> dum is not n4. 2013-02-13T12:28:27+00:00
+> den and det also pronouns. 2013-02-13T12:28:01+00:00
+1991a2058,2059
+> words 2013-02-09T23:43:00+00:00
+> moved over from noun file. 2013-02-09T23:17:20+00:00
+1993a2062,2063
+> Classified unclassified words 2013-02-09T23:15:02+00:00
+> +Radical not visible tag, and jenta etc. no longer +Fem+Sg+Msc (thanks to Janne B. Johannesen for pointing out this error to me). 2013-02-09T18:11:16+00:00
+1995a2066
+> Added som e 2- and 3-letter words. 2013-02-09T18:08:53+00:00
+1996a2068,2069
+> særdeles 2013-02-09T11:06:08+00:00
+> ord 2013-02-07T11:54:28+00:00
+1998a2072,2073
+> eneste 2013-02-05T06:19:28+00:00
+> improvements 2013-02-04T15:19:05+00:00
+2000a2076,2077
+> Sg1, Sg2 etc. I left +1, +2 +3 just in case. 2013-02-04T15:18:11+00:00
+> Standardised tag order for personal pronouns to follow giellatekno rule. 2013-02-04T15:16:29+00:00
+2002a2080,2081
+> Improving the nob and nno in one. 2013-01-26T14:43:10+00:00
+> Better naming, I just could not find this... 2013-01-26T14:02:04+00:00
+2004a2084,2085
+> Nynorsk comparative 2013-01-24T21:48:06+00:00
+> Making nynorsk-tolerant nob.fst, for dictionary use. 2013-01-24T21:46:46+00:00
+2006a2088,2089
+> Checked in a nynorsk-inclusive version of nob.fst for dictionary use 2013-01-24T21:19:35+00:00
+> Ordna ein del meir, for å få fst-en i stand til å fungere som ordboksgenerator. 2012-12-29T09:20:12+00:00
+2008a2092,2093
+> updates from nobsme. 2012-12-28T15:19:03+00:00
+> updates from nobsme. 2012-12-28T15:18:49+00:00
+2010a2096,2098
+> compounding. 2012-12-28T08:08:52+00:00
+> Saami 2012-11-22T13:05:15+00:00
+> the statistical parser 2012-11-06T14:51:47+00:00
+2012a2101,2102
+> Does not work outside git catalogue (or with support files) 2012-11-06T14:45:03+00:00
+> statistical tagger 2012-11-06T14:41:49+00:00
+2014a2105,2106
+> Commenting out the if-vic-then-commercial-xerox. Users wanting them for special purposes may comment the ifeq victorio lines in again locally, the default behaviour is now non-commercial xerox. 2012-10-13T00:49:47+00:00
+> cleanup of txt-files, too 2012-09-03T12:54:49+00:00
+2016a2109,2110
+> Add some abbreviations Berit Merete mentioned for me 2012-06-22T12:16:58+00:00
+> minor 2012-05-27T06:52:42+00:00
+2018a2113,2114
+> gender tag errors 2012-05-27T06:50:06+00:00
+> Corrections, gender and decl class 2012-05-27T06:49:18+00:00
+2020a2117,2120
+> risten-nob 2012-03-29T10:05:11+00:00
+> Almost usable docu 2012-03-25T12:39:35+00:00
+> To-come documentation on how to use obt here at gt 2012-03-25T10:19:16+00:00
+> updates 2012-03-25T10:11:59+00:00
+2022a2123,2124
+> more 2012-03-13T11:08:20+00:00
+> 64 2012-03-13T11:05:45+00:00
+2024a2127,2128
+> Replaced NOT ** with NEGATE **, look into this 2012-03-13T10:59:57+00:00
+> correct version of the tool 2012-03-13T10:57:21+00:00
+2026a2131,2132
+> vic 2012-03-13T10:30:45+00:00
+> omission in command 2012-03-13T10:23:10+00:00
+2028a2135,2136
+> la til ex.fac 2012-02-10T11:52:53+00:00
+> ref er TRNUMAB nå 2012-02-10T11:35:12+00:00
+2030a2139,2140
+> fjernet da som abbr 2012-02-10T11:22:37+00:00
+>  la inn vit 2012-02-09T13:46:47+00:00
+2032a2143,2144
+> la inn polit 2012-02-09T13:42:57+00:00
+> commercial first, then non-commercial. 2012-02-08T09:03:41+00:00
+2034a2147,2148
+> added ILO-konv. nr. 2012-02-08T08:29:47+00:00
+> moved setn and avsn to TRNUMAB 2012-02-07T13:15:57+00:00
+2036a2151,2152
+> La til Noereh%! i propernoun-fila 2012-02-03T10:14:00+00:00
+> Made a new and useful lexicon NOAB with the following behaviour: Sentence boundary before capital and number, otherwise abbr: 2012-02-01T15:15:17+00:00
+2038a2155,2156
+> lagt til vit.ass. 2012-01-30T12:41:37+00:00
+> Commented out "dem" as ITRAB, because: 2012-01-30T06:17:37+00:00
+2040a2159,2160
+> New abbr 2012-01-26T10:12:40+00:00
+> la til Budsjett-innst.% S.% nr 2012-01-17T10:03:03+00:00
+2042a2163,2164
+> Added distr 2012-01-14T10:49:50+00:00
+> Move pst so that it behaves like nr 2012-01-11T23:20:33+00:00
+2044a2167,2168
+> lagt til noen flere forkortelser 2012-01-06T11:08:03+00:00
+> la til avsn og setn 2012-01-05T09:20:31+00:00
+2046a2171,2172
+> La til St. meld 2012-01-04T12:50:37+00:00
+> Har fjernet sluttpunktum enkelte plasser og lagt til bla. Budsjett-innst. S 2012-01-04T12:46:58+00:00
+2048a2175,2176
+> New abbreviations added 2012-01-04T11:20:21+00:00
+> Removed A. S. because of A. S. Huvva 2012-01-04T08:47:26+00:00
+2050a2179,2180
+> Lexicon LA defined twice, now fixed. 2012-01-03T16:12:25+00:00
+> Corrected 1 to n1 in lexicon name. 2012-01-03T16:10:18+00:00
+2052a2183,2184
+> Abbreviations that fix issues in samisk_strategiplan_norsk_uten_vedlegg.doc.tmx 2011-12-22T15:50:01+00:00
+> lagt til flere abbr iht testresultat 2011-12-14T12:26:56+00:00
+2054a2187,2188
+> impr 2011-12-12T15:25:34+00:00
+> Sorted abbr list, preparing unification with sme. 2011-12-11T21:45:56+00:00
+2056a2191,2192
+> changed some fx to n2. 2011-11-26T14:53:18+00:00
+> Checking in files for use for analysis of the nob part of parallel text. The same shall be done for nno. 2011-11-26T14:43:50+00:00
+2058a2195,2196
+> A bit more. 2011-11-14T07:07:35+00:00
+> harmonizing-to-sme 2011-11-13T11:39:27+00:00
+2060a2199
+> abbr-work 2011-11-13T00:10:24+00:00
+2061a2201,2202
+> abbrs added, harmonizing with sme 2011-11-12T19:04:06+00:00
+> More abbrs 2011-11-10T14:44:27+00:00
+2063a2205,2206
+> missing-list 2011-11-09T20:50:55+00:00
+> multichar 2011-11-09T07:19:22+00:00
+2065a2209,2210
+> We need a makefile for ordbank_nb. For the moment, this scriptfile will do. 2011-11-08T21:38:14+00:00
+> one level up 2011-11-08T18:14:02+00:00
+2067a2213,2214
+> utf8 2011-11-08T08:16:35+00:00
+> as downloaded. 2011-11-08T08:13:36+00:00
+2068a2216,2220
+> Downloaded the OOo 3.x proofing tools ("dictionary") extension, and added that version. This is the version most relevant for testing, since it is the version most likely to be used by OOo users. 2011-08-19T09:53:00+00:00
+> Correct version of the nob hunspell files, as far as I have been able to detect. 2011-08-19T06:25:33+00:00
+> Renamed hunspell file to only ISO 639-2 code, no country part. This is needed because of the way our infrastructure is made. 2011-08-19T06:23:22+00:00
+> An initial version file - the content may change. 2011-08-18T19:20:56+00:00
+> Dirs and files for supporting testing of the nob hunspell speller. 2011-08-18T17:52:29+00:00
+2069a2222,2223
+> cosmetics 2011-02-10T10:11:59+00:00
+> Added words 2010-11-24T14:40:55+00:00
+2071a2226,2227
+> Commented out thge 0:d pair, does not understand it. 2010-11-24T14:40:38+00:00
+> More words from dict 2010-11-12T17:17:12+00:00
+2073a2230,2231
+> words from smenob 2010-11-07T16:22:25+00:00
+> text 2010-09-03T08:51:16+00:00
+2075a2234,2235
+> update 2010-09-03T08:45:49+00:00
+> Removed initial (and final, hmm) blanks in order to avoid bug in abbr list creation. 2010-07-02T12:31:02+00:00
+2077a2238,2239
+> Went through the adjectives, and found all sorts of fishes. 2010-06-28T13:49:12+00:00
+> Fishy 2010-06-28T08:31:12+00:00
+2079a2242,2243
+> Changed name. 2010-06-28T08:30:04+00:00
+> update 2010-06-28T08:29:30+00:00
+2081a2246,2247
+> starting-to-document 2010-06-28T07:49:54+00:00
+> added script name extension 2010-04-21T17:46:29+00:00
+2083a2250,2251
+> deleted-wrong-name 2010-02-01T19:30:19+00:00
+> deleted-wrong-name 2010-02-01T19:29:58+00:00
+2085a2254,2255
+> regex terminology fix. 2010-01-30T14:28:11+00:00
+> caseconv-fix 2010-01-15T15:14:26+00:00
+2087a2258,2259
+> Got new name 2010-01-15T15:07:19+00:00
+> Moved 2010-01-15T15:06:56+00:00
+2089a2262,2263
+> script 2009-09-19T10:25:23+00:00
+> Path and whitespace cleanup. 2009-07-01T11:05:45+00:00
+2091a2266,2267
+> derivations. 2009-06-29T20:58:03+00:00
+> Additions to some Imp rules. 2009-05-18T20:20:50+00:00
+2093a2270,2271
+> Additions for Htwolc. 2009-05-18T20:20:19+00:00
+> Unicode 2009-05-11T16:08:29+00:00
+2095a2274,2275
+> Changed svnredone reference back to gtsvn. 2009-04-14T10:28:59+00:00
+> redone 2009-04-13T18:13:21+00:00
+2097a2278,2279
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> utf8 2008-10-20T21:30:48+00:00
+2099a2282,2283
+> Stylesheet to transform the NOB textDB into usable xml-format. 2008-10-08T16:09:53+00:00
+> Added ING derivation process, just for testing purposes. 2008-09-01T04:45:29+00:00
+2101a2286,2287
+> Changed script address from gt/script to gtsvn/gt/script 2008-06-26T20:27:47+00:00
+> test 2008-06-24T08:50:52+00:00
+2103a2290,2291
+> Test. 2008-06-24T08:27:00+00:00
+> Demo checkin adjs. 2008-06-23T21:57:59+00:00
+2105a2294,2295
+> More test check in, added some declension classes. 2008-06-23T19:38:38+00:00
+> Test check in for svn, added a couple of gender specs. 2008-06-23T19:32:33+00:00
+2107a2298,2299
+> XIKKE not an independent verb. 2008-06-02T12:49:18+00:00
+> Introduced variable definitions for the Xerox tools 2008-05-23T18:39:03+00:00
+2109a2302,2303
+> Minor changes. 2008-05-13T13:41:31+00:00
+> Added test. 2008-04-30T14:04:57+00:00
+2111a2306,2307
+> Commented out verbs and adjectives as second parts of compounds. This should probably be done via separate tags instead. 2008-04-28T09:20:04+00:00
+> Added Imp and MF rules. 2008-04-28T09:19:07+00:00
+2113a2310,2311
+> adj stein. 2008-04-02T22:26:18+00:00
+> Minor corrections. 2008-04-02T14:04:57+00:00
+2115a2314,2315
+> Debugged a flex scanner jammed error, I found a ^S character in the Multichar_Symbols list. 2007-10-29T17:32:52+00:00
+> Use local tmp catalogue instead of global. 2007-10-29T17:02:48+00:00
+2117a2318,2319
+> Resolved all conflicts. 2007-10-23T14:19:50+00:00
+> Finally got rid of lexicon na. 2007-08-24T12:28:46+00:00
+2119a2322,2323
+> Minor, fatal, blank removed. 2007-08-24T12:27:21+00:00
+> Added abbreviations from Lars. I'm not sure if they are correct, please check. 2007-08-14T09:33:57+00:00
+2121a2326,2327
+> Fixed compound problem. 2007-07-12T10:13:56+00:00
+> REversed compund attern. 2007-07-08T19:37:27+00:00
+2123a2330,2331
+> Fiksa m1c. 2007-07-08T19:30:55+00:00
+> compounds 2007-07-08T19:30:39+00:00
+2125a2334
+> Took out one rule who overlapped. 2007-07-08T19:27:47+00:00
+2126a2336,2337
+>  twol-fiks konflikt. 2007-07-08T19:21:14+00:00
+> Fixed conflicting contects for t:0 and t:d 2007-07-08T19:15:24+00:00
+2128a2340,2341
+> Removed double %%, instead X6:0. 2007-07-08T17:14:32+00:00
+> abbr-extract in gt/script replaces old version 2007-06-11T04:43:49+00:00
+2130a2344,2345
+> Updates. 2007-05-27T20:30:40+00:00
+> Additions. 2007-05-23T23:01:20+00:00
+2132a2348,2349
+> Corrections. 2007-05-10T13:28:43+00:00
+> Additions. 2007-05-05T19:05:07+00:00
+2134a2352,2353
+> Checking in a conversion of the obt. 2007-05-04T18:36:44+00:00
+> Updates. Also harmonising with Oslo. 2007-05-02T08:18:21+00:00
+2136a2356,2357
+> Moved own dis version here, and the Oslo version to ordinary dis. 2007-05-01T16:39:15+00:00
+> Additions. 2007-04-29T12:20:56+00:00
+2138a2360,2361
+> Morph split. 2007-04-29T12:17:53+00:00
+> Additions. 2007-04-27T08:11:15+00:00
+2140a2364,2365
+> Updates during the lesson. 2007-04-26T10:33:47+00:00
+> sm wordsgendered. 2007-04-23T14:07:41+00:00
+2142a2368,2369
+> Temorarily excluded +X tag. 2007-04-23T14:06:12+00:00
+> Added abbrs. 2007-04-04T23:21:32+00:00
+2144a2372,2373
+> documentation, and added sm. 2007-04-04T09:42:12+00:00
+> Added ingore file 2007-03-12T13:02:07+00:00
+2146a2376,2377
+> vislcg3 adjustments, sm extra rules along the way. 2007-03-11T10:00:10+00:00
+> One x fixed. 2007-01-24T21:14:41+00:00
+2148a2380,2381
+> Removed 'save-as-fst' command. 2007-01-10T07:04:53+00:00
+> Updated target abbr to work with updated abbr-extract. 2006-12-18T09:41:24+00:00
+2150a2384,2385
+> No substantial change, only added a banner at the top. 2006-12-07T19:51:45+00:00
+> updated. 2006-11-20T12:36:30+00:00
+2152a2388,2389
+> upperCASE. 2006-11-20T11:29:25+00:00
+> Cosmetics. 2006-10-09T22:32:14+00:00
+2154a2392,2393
+> Added and reassigned abbreviations. 2006-10-09T21:02:26+00:00
+> Added *.txt to cvsignore. 2006-10-05T07:36:20+00:00
+2156a2396,2397
+> Shuffled around and improved abbr lists. 2006-10-04T12:28:14+00:00
+> Added non-English initials to the list of TRAB. 2006-10-03T22:01:55+00:00
+2158a2400,2401
+> Removed Punctuation lexicon here. 2006-10-03T20:38:32+00:00
+> New punct file. 2006-10-03T18:50:39+00:00
+2160a2404,2405
+> Fixed en-dash, em-dash and related issues in the st/ languages. 2006-10-03T18:49:33+00:00
+> Reshuffled more abbreviations, this time in several directions, against corpus data. Also sorted all three lists. 2006-10-03T09:18:25+00:00
+2162a2408,2409
+> Reshuffled abbreviations, went through the ITRAB list and made many of them TRABs (mostly abbreviated adjectives, these are transitive). 2006-10-03T07:29:27+00:00
+> Added pointer to lexicon Abbreviation. 2006-10-02T21:53:20+00:00
+2164a2412,2413
+> Done major cleanup in the abbr file, and added it to cvs. It is still not satisfied with the overall distribution, but at least we ahve something. This file can now be used to preprocess the nob files for alignment with sme. 2006-10-02T21:52:45+00:00
+> Incorporated the generation of an abbr.txt file for nob. 2006-10-02T21:51:05+00:00
+2166a2416,2417
+> Updates. 2006-09-28T13:25:59+00:00
+> Two demo abbrs 2006-08-18T16:52:38+00:00
+2168a2420,2421
+> Added explanation. 2006-08-18T06:30:05+00:00
+> Refinements. 2006-08-10T14:25:00+00:00
+2170a2424,2425
+> Refinements, including stipulated nouns, added sm dis rules. 2006-08-09T18:37:51+00:00
+> cvsignore. 2006-05-02T20:33:19+00:00
+2172a2428,2429
+> Testing routine added. 2006-05-02T20:27:51+00:00
+> Smaller corrections. 2006-05-01T21:27:27+00:00
+2174a2432,2433
+> Binary files shall not be in cvs. 2006-02-06T08:15:46+00:00
+> Added apostroph mark. 2006-02-05T22:00:34+00:00
+2176a2436,2437
+> Added BOS/EOS, rule for _det_ Pron, and for _vi_ Pron, added sm adverbs. 2006-02-02T07:43:51+00:00
+> Corpus file. 2006-01-31T07:20:20+00:00
+2178a2440,2441
+> Embryonic nob disambiguator. 2006-01-30T08:16:41+00:00
+> Adding files. 2005-06-09T21:31:15+00:00
+2180a2444,2445
+> *** empty log message *** 2005-06-09T21:19:27+00:00
+> Removed false verbs. 2005-06-09T21:15:44+00:00
+2182a2448,2449
+> Rearranged the words to better lexica. 2005-03-28T13:35:52+00:00
+> Doc file added 2004-10-31T09:17:40+00:00
+2184a2452,2453
+> Changed lexicon categories, added more closed classes. 2004-10-29T22:13:12+00:00
+> Added cvs ignore 2004-10-29T22:12:11+00:00
+2186a2456,2457
+> Added .cvsignore file. 2004-10-14T10:44:34+00:00
+> Added entries. 2004-10-14T09:40:41+00:00
+2187a2459
+> Initial revision 2004-09-15T21:07:00+00:00

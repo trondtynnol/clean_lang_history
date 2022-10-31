@@ -1,0 +1,92 @@
+326d325
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+333d331
+< fomaignore 2019-10-08T10:00:11+00:00
+335,338d332
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T21:13:09+00:00
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+347d340
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+353,354d345
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+364d354
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+377,378d366
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+390,391d377
+< ignore for bin 2018-10-14T13:31:01+00:00
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+411,412d396
+< svn ignore update 2018-09-20T08:44:05+00:00
+< updated svn ignore. 2018-09-20T08:28:11+00:00
+416d399
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+419d401
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+429d410
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+432d412
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+434d413
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+449d427
+< More things to ignore. 2018-05-14T10:33:30+00:00
+463,466d440
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+469d442
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+480d452
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+513d484
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+534,535d504
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+547d515
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+561,562d528
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+569d534
+< ign 2017-03-21T19:49:19+00:00
+581d545
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+597d560
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+666d628
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+687d648
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+709d669
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+728d687
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+731d689
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+767d724
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+789d745
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+794d749
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+796d750
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+814d767
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+874d826
+< Updated svn:ignore’s. 2015-11-18T23:05:40+00:00
+906a859
+> symlink 2015-10-20T21:17:29+00:00
+908c861,863
+< Updated svn ignores. 2015-10-20T07:50:38+00:00
+---
+> deleted oji to start over with desired presets 2015-10-20T20:13:50+00:00
+> added other pre-made files to version control 2015-10-20T20:08:44+00:00
+> added adjectives.lexc file to version control 2015-10-20T20:04:47+00:00

@@ -1,0 +1,628 @@
+573d572
+< Merge pull request #9 from AmbientLighter/patch-1 2021-05-27T23:41:45+02:00
+1465a1465,1466
+> tatt bort lemma 2020-05-13T12:52:22+00:00
+> lagt till lemma 2020-05-13T12:49:28+00:00
+1847d1847
+< mappe for bibeldokumenter og missinlister 2019-10-30T11:54:20+00:00
+1873d1872
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+1975,1976d1973
+< fomaignore 2019-10-08T10:01:24+00:00
+< fomaignore 2019-10-08T10:00:11+00:00
+1978,1981d1974
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T21:13:09+00:00
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+2251d2243
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+2307,2308d2298
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+2488d2477
+< Proper mime types, for correct browser rendering. 2019-03-13T08:54:02+00:00
+2544d2532
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+2668,2669d2655
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+2809,2810d2794
+< ignore for bin 2018-10-14T13:31:01+00:00
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+2901d2884
+< Updated svn ignores. 2018-09-25T08:00:58+00:00
+2931d2913
+< svn ignore update 2018-09-20T08:44:05+00:00
+2941d2922
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+2944d2924
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+2967d2946
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+2974d2952
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+2978d2955
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+3234d3210
+< More things to ignore. 2018-05-14T10:33:30+00:00
+3454d3429
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+3457,3458d3431
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+3463d3435
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+3498d3469
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+3533d3503
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+3604d3573
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+3667,3668d3635
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+3735d3701
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+3818,3819d3783
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+3910d3873
+< ign 2017-03-21T19:49:19+00:00
+3954d3916
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+3990d3951
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+3998,3999d3958
+< Moved speller test data from old to new infra. 2017-01-23T11:25:48+00:00
+< Moved hyphenator test data from old to new infra. 2017-01-23T11:22:34+00:00
+4004,4006d3962
+< Moving old test files to new infra. Must be rewritten into proper yaml syntax. 2017-01-23T09:20:39+00:00
+< Removing empty dirs. 2017-01-23T09:17:07+00:00
+< Moving plx test files from old to new infra, just in case. 2017-01-23T09:16:09+00:00
+4011d3966
+< Moving sma working files in old infra to sma/src/morphology/incoming/. They should be cleaned up, and obsolete files should be removed. 2017-01-23T08:57:13+00:00
+4015,4016d3969
+< Moving files from old to new infra. 2017-01-23T08:52:25+00:00
+< Removing empty dirs in old infra. 2017-01-23T08:46:40+00:00
+4018,4019d3970
+< Moving files from old to new infra. 2017-01-23T08:46:04+00:00
+< Moving files from old to new infra. 2017-01-23T08:45:25+00:00
+4425d4375
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+4488d4437
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+4554d4502
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+4626d4573
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+4660d4606
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+4711d4656
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+4728d4672
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+4733,4734d4676
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+4738d4679
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+4768d4708
+< Set proper mime types, for better rendering in browsers. 2015-12-08T22:08:49+00:00
+4807d4746
+< Updated svn:ignore’s. 2015-11-18T23:05:40+00:00
+4886d4824
+< Updated svn ignores. 2015-10-20T07:50:38+00:00
+5027d4964
+< Ignore temporary files generated by the speller suggestion test script. 2015-09-03T04:23:51+00:00
+5159d5095
+< don't ignore .sh's, these are tracked 2015-06-30T13:43:51+00:00
+5305d5240
+< Ignore txt files in speller dirs. 2015-04-09T11:55:38+00:00
+5411d5345
+< Updated svn ignores. 2015-03-14T10:46:39+00:00
+5424d5357
+< Updated svn ignores. 2015-03-12T08:28:02+00:00
+5442d5374
+< Updated svn ignores. 2015-03-09T10:41:02+00:00
+5448d5379
+< Updated svn ignores. 2015-03-06T15:56:54+00:00
+5453d5383
+< Updated svn ignores. 2015-03-06T09:24:00+00:00
+5471d5400
+< Update svn ignores. 2015-02-27T12:55:53+00:00
+5583d5511
+< Special svn:ignore on src/orthography/. 2015-01-26T10:30:36+00:00
+5603d5530
+< Setting svn:ignore for Bashkir, updating the other ignores. 2015-01-19T06:20:12+00:00
+5626d5552
+< Updated svn:ignore's. 2015-01-12T21:50:15+00:00
+5628d5553
+< svn:ignore also for *.service. 2015-01-12T15:58:08+00:00
+5721d5645
+< Update ignores for src/morphology/. 2014-10-23T08:25:38+00:00
+5766d5689
+< Updated svn:ignore's. 2014-09-08T21:51:28+00:00
+5783d5705
+< ignore 2014-08-16T15:52:40+00:00
+5855d5776
+< Updated svn:ignore for all languages. 2014-06-11T09:37:23+00:00
+5868d5788
+< Ignore cg3 files in the tools/mt/apertium/ dir. 2014-06-02T14:02:42+00:00
+5910d5829
+< Ignore the generated pkg-config files. 2014-05-12T20:27:01+00:00
+5979d5897
+< Extra ignores on tools/mt/apertium/filters/. 2014-04-16T05:45:32+00:00
+5981d5898
+< Updated svn ignores. 2014-04-15T13:30:11+00:00
+5985d5901
+< Updated svn ignore. 2014-04-10T15:16:59+00:00
+6000d5915
+< Updated svn ignores. 2014-04-03T10:10:45+00:00
+6005d5919
+< Updated svn ignore. 2014-04-02T10:58:00+00:00
+6020d5933
+< Update svn ignores on test/src/phonology/. 2014-03-20T07:32:24+00:00
+6030d5942
+< Updated ignore patterns for test/tools/spellcheckers/. 2014-03-14T10:26:24+00:00
+6069d5980
+< Updated svn ignores. 2014-02-28T06:46:07+00:00
+6178d6088
+< Ignore mk-files in the preprocess/ dir. 2014-01-14T14:20:40+00:00
+6188d6097
+< Ignore generated easteregg files. 2014-01-12T11:44:07+00:00
+6193d6101
+< Ignore functions.cg3 and dependency.cg3 if they are copied from a shared location (these files will not be ignored if already in svn). 2014-01-10T10:24:56+00:00
+6198d6105
+< Updated the ignore pattern for morphology/stems/. 2014-01-09T13:45:44+00:00
+6208d6114
+< Ignoring the smi-propernouns.lexc file. 2014-01-01T10:16:00+00:00
+6271d6176
+< Ignore generated regex files in the src/filters/ dir. 2013-12-03T11:56:43+00:00
+6319d6223
+< Extra ignores in the filters/ dir. 2013-11-24T15:25:17+00:00
+6321d6224
+< igno 2013-11-24T15:13:39+00:00
+6326d6228
+< Ignore the generated, concatenated lexc file. 2013-11-22T13:37:46+00:00
+6363d6264
+< Ignore generated documents in tools/shellscripts/. 2013-10-18T11:47:12+00:00
+6383d6283
+< One more ignore on the grammar checker dir. 2013-10-10T09:06:26+00:00
+6385d6284
+< Update svn ignores. 2013-10-09T11:01:58+00:00
+6387d6285
+< Updated svn ignores. 2013-10-09T07:04:36+00:00
+6526d6423
+< Ignore zipped files (built for apertium). 2013-08-19T07:13:39+00:00
+6569d6465
+< Ignore *.att files in src/ (produced by the apertium targets). 2013-08-17T12:30:28+00:00
+6713d6608
+< Ignore extra generated files in the tagsets dir. 2013-06-13T14:40:56+00:00
+6729d6623
+< Updated the svn ignores. 2013-06-06T08:10:31+00:00
+6833d6726
+< [ignore] Also ignore generated foma transducers. 2013-04-11T16:57:19+00:00
+6849d6741
+< Moved the hfst speller error models from the old infra to the new for SMA. 2013-04-09T16:44:31+00:00
+6888d6779
+< Ignore the generated voikko-3 dir. 2013-03-18T09:43:22+00:00
+6910d6800
+< More extensive ignores on src/morphology/. 2013-03-12T08:07:27+00:00
+6929d6818
+< Ignore top-level build dir. 2013-02-27T07:18:08+00:00
+6931d6819
+< Update svn ignores. 2013-02-27T00:08:32+00:00
+6935d6822
+< Ignore the build/ dir within doc/. 2013-02-26T17:02:56+00:00
+7010,7011d6896
+< The ignore pattern was wrong - now correct. 2013-01-23T22:34:12+00:00
+< Ignore generated yaml tests. 2013-01-23T22:28:44+00:00
+7026a6912
+> Added sma symlink to langs/sma/doc/. 2013-01-23T10:05:09+00:00
+7059d6944
+< Updated svn:ignore with the latest modifications to the ignore patterns. 2013-01-14T19:34:16+00:00
+7206a7092,7093
+> Saami 2012-11-22T13:05:15+00:00
+> Saami 2012-11-22T12:56:38+00:00
+7348,7349d7234
+< Moved to langs/sma/doc, as for kal. 2012-10-16T12:48:19+00:00
+< moved to doc catalogue, as was done for kal. 2012-10-16T12:46:52+00:00
+7427a7313,7314
+> sma-documentation 2012-09-28T10:02:13+00:00
+> også på sørsamisk. 2012-09-28T09:50:59+00:00
+7436c7323,7377
+< Moved gtcore/ and langs/ out of newinfra/ - the experiment period is over, and the new infra should grow up and become a full member of the GT home. The newinfra/ dir is now gone. 2012-09-25T15:30:19+00:00
+---
+> Initial addition of SMI names to SMA. They are not yet integrated into the build, and we don't know whether we want to do it. But let us add the file, and have a look. 2012-09-25T15:09:45+00:00
+> Added some propernouns 2012-09-25T13:21:31+00:00
+> Some changes; pliejhkies/pleajhkan, added gaasedenmasten, sat the gåvva/gavva to point to PRED_0 ; 2012-09-25T11:15:29+00:00
+> Some few comments 2012-09-25T09:51:03+00:00
+> added 'muahrastehtedh' and 'gïjredehtedh' 2012-09-25T08:24:36+00:00
+> few propernouns 2012-09-25T08:02:10+00:00
+> Added warning about missing YAML testing, with short instructions on how to enable them. Template update. 2012-09-25T06:19:32+00:00
+> Some corrections. 2012-09-24T13:48:21+00:00
+> Lagt til Biscayaloekte + lagt til subversjonene av Hattfjelldal og Engerdal 2012-09-24T10:03:31+00:00
+> Bernkonvensjovne 2012-09-24T08:03:41+00:00
+> Fixed 2 stk. propernoun 2012-09-21T23:56:54+00:00
+> Fixed 'Aarborte' 2012-09-21T12:52:51+00:00
+> Fixed 'supplejaante' 2012-09-21T11:55:40+00:00
+> Fixed some nouns 2012-09-21T11:38:34+00:00
+> Fixed compound testing for nouns. At the same time moved the rest of the SMA shell scripts for testing to AC processing, to make them dependent only on the autoconf processing to find the tools needed to run the tests. 2012-09-21T11:31:49+00:00
+> Just fixed some nouns 2012-09-21T11:20:35+00:00
+> The top-level syntax include AM file had not been changed to reflect the rle->cg3 suffix change. Merge from template. 2012-09-21T10:37:43+00:00
+> Just fixed some few nouns 2012-09-21T09:38:09+00:00
+> According to the discussion about tiovne vs. sjovne yesterday :-) Changed the lemmas which 'tiovne' to 'sjovne' :-) 2012-09-21T07:49:20+00:00
+> Merged propernouns from smi 2012-09-20T16:36:05+00:00
+> Bit of macrolang templating test 2012-09-20T16:33:39+00:00
+> Fixed the IJVE-Lexicon 2012-09-20T12:54:12+00:00
+> Endret ï til i i lemma for ijve. Nå fungerer det fint! 2012-09-20T12:52:32+00:00
+> Removed the adjective 'stïerhke' from noun-file to adjectives.lexc 2012-09-20T10:02:41+00:00
+> added new adjective 'stïerhke' 2012-09-20T10:02:00+00:00
+> Corrected a bug in the default generate-noun-lemmas.sh test script. Made file references more robust. Update from template. This also clears any warnings left over from the cg3 file renaming, such that we get a clean merge in the next template update. 2012-09-20T09:26:56+00:00
+> deleted the stem-vowel _e_ before the lexicon AAJEGE 2012-09-20T08:34:59+00:00
+> putted LEEJJEGE and AAJEGE lexicon together 2012-09-20T08:30:04+00:00
+> +Der/Dim has been changed to +Der/Dimin. Now all tests in this file PASS. 2012-09-20T04:40:17+00:00
+> Verbs now always have transitivity tags in their analyses, and the tag is thus required in the yaml test data. Fixes one FAIL. 2012-09-20T04:35:05+00:00
+> The VislCG3 team has lately switched to a *.cg3 suffix. Now we do the same in the new infra - the new suffix is definitely more transparent. 2012-09-19T18:26:12+00:00
+> Space. 2012-09-19T15:30:41+00:00
+> Started splitting the adjectives.yaml test file in smaller, more manageable chunks. Started with adjectives on -ah and -oeh, and added dåankah, which showed up in the missing lemma test as problematic. It shows that we have a problem with a too eager twol rule (or wrong application of a twol rule trigger in lexc). Some corrections made by Maja to some word forms. 2012-09-19T14:04:37+00:00
+> FIXED GAAJSEGE-Lexicon, all ege-nouns are now getting analyses. 2012-09-19T12:51:30+00:00
+> leejjege is sat to point to GAAJSEGE-LEXICON 2012-09-19T12:50:15+00:00
+> fixed skïelhkes :_) 2012-09-19T12:33:06+00:00
+> Fixed some adjectives. these two are left: dåankah and skïelhkes. I don't know what is wrong with these two. = BUG 2012-09-19T11:49:08+00:00
+> back to txt. 2012-09-19T06:03:07+00:00
+> back to txt 2012-09-19T06:02:22+00:00
+> UTF-8 2012-09-18T20:47:04+00:00
+> UTF-8 2012-09-18T20:43:25+00:00
+> heller-flytte 2012-09-18T20:26:53+00:00
+> UTF-8 2012-09-18T20:23:15+00:00
+> UTF-8 2012-09-18T20:21:17+00:00
+> Variables=cleaner code. Update from the template. 2012-09-18T06:56:51+00:00
+> Updated the yaml test runner to properly report the exit value of the yaml tests, and also to give directions for how to see the details of each test if it failed. Update from the template. 2012-09-17T14:10:42+00:00
+> Corrected typo in shell scripts. 2012-09-17T11:03:08+00:00
+> Several testing shell script updates: correct exit value when data files are not found, proper use of Autoconf-made variables (will free the test scripts from relying on the user setting up environment variables), and better checks on the availability of test data for the lemma and replaced all hard-coded file refs with variables in the noun generation test. 2012-09-17T09:30:31+00:00
+> Added check for the Xerox lookup tool, which also defines the LOOKUP variable. Update from template. 2012-09-17T08:14:29+00:00
+> Reorganised AC processing of shell scripts to be more future-proof and avoid annoying (and useless) warning from chmod. Added AC variable to the AC-processed shell script to make casual by-lookers aware of the fact that the resulting shell script file is generated by AC. 2012-09-17T07:37:40+00:00
+> Corrected error in previous commit. Finally things are working as they should. It might be necessary to run ./autogen.sh and ./configure before compilation is running smoothly again. 2012-09-15T12:52:14+00:00
+> Forgot to update configure.ac. 2012-09-15T10:43:23+00:00
+> Refined the yaml test runner: more informative banner, ignore extra analyses (= removes false alarms). Merge from template. 2012-09-15T08:17:53+00:00
+> Added basic setup for running YAML tests in the test/src/morphology/ dir. The default setup will run all *.yaml files found in this dir, but this can be modified in the shell (*.sh.in) script. If there are yaml files in that dir, they will be automatically run by 'make check'. 2012-09-14T19:28:03+00:00
+> I intended to rename the files when I moved them, but forgot to do it. Now done. 2012-09-14T13:40:27+00:00
+7437a7379,7394
+> Enable yaml tests by magic. Merge from the template. 2012-09-14T11:54:49+00:00
+> Reverted an unintentional commit. 2012-09-14T11:45:13+00:00
+> Added conditional support for running python-based tests in test/src/morphology. 2012-09-14T11:27:52+00:00
+> Added checks for Python 3.1+ and py-yaml, and defined CAN_YAML_TEST. The idea is that we will run the python-based tests only if the prerequisites are available to us, and skip them if not. 2012-09-14T10:54:10+00:00
+> Fjerna LA i kommentarene. De ble lagt til for 1,5 år, for å skille hvilke ord Lene arbeidet med, og hvilke ord Trond arbeidet med. Det er siden gjort mange forandringer, dermed har ikke signaturen noen funksjon, den kan tvert imot være forvirrende. 2012-09-13T21:31:07+00:00
+> Endret noen lemma for noen adjektiver. foreløpig versjon, ikke ferdig. 2012-09-13T20:18:48+00:00
+> Changed the lemma to såabran, skeamtjan and reaktoe. 2012-09-12T15:17:11+00:00
+> To LA: rïekte (attr) / rïektes (Pred) and the adjective rïektes (attr) /reaktoe (pred) are two different adjectives! 2012-09-12T13:07:54+00:00
+> We are changing the lemmas/ uppers in the adjectives.lexc-file, we should therefor also change the uppers/lemmas in the noun.lexc-file, like this: skaavtjoe 2012-09-12T12:56:41+00:00
+> outcommented 'abpesaemie' because I dont know what it is 2012-09-12T12:23:59+00:00
+> Changed the upper/lemma 2012-09-12T10:23:44+00:00
+> endret upper/lemma i båajhtah, and changed 'båajhtoeh to point to ATTR_0 2012-09-12T08:31:57+00:00
+> har reparert båadtsoes, båadtsah, båadtsoeh, båadtsan. Tror det må være slik 2012-09-12T08:21:41+00:00
+> fixed ökolåågeles 2012-09-11T13:34:35+00:00
+> fixed maajeööhpehtimmie 2012-09-11T12:59:52+00:00
+> Foreløpig. Noen igjen 2012-09-11T12:14:06+00:00
+7438a7396,7397
+> DAGENS 2012-09-10T14:02:01+00:00
+> DAGENS 2012-09-10T14:01:53+00:00
+7439a7399,7411
+> Added support for transcribing transducers, ie transducers that change the input from one orthographical representation to another, e.g. date and time expressions as strings or digits to the opposite form. 2012-09-10T10:30:19+00:00
+> HAR NO REPARERT 'bueriengielhts' og 'bueriesjugnehts' ;-) 2012-09-10T09:43:08+00:00
+> Renamed the default error model file, to follow the naming scheme used in the zhfst guidelines. 2012-09-10T09:30:47+00:00
+> Renamed the default error model file, to follow the naming scheme used in the zhfst guidelines. This makes compilation much easier, and should cause the present makefile to actually build spellers. Tommi already did this for FIN. 2012-09-10T09:25:01+00:00
+> Don't remove the *.tmp files - that destroys the dependency relationships for (auto)make, which forces a full recompilation of all target fst's, and a lot of extra waiting time. 2012-09-10T09:00:36+00:00
+> Commented out superfluous echo statements, corrected test for failure when test PASSed. Now all tests properly reports PASSed tests as well :) 2012-09-10T08:18:14+00:00
+> added plïejhke/pliejhkies. Added 'faavroes' as lemma to 'faavre' + some comments 2012-09-10T07:35:10+00:00
+> added gebtiehtidh, sub of gebriehtidh 2012-09-09T18:37:52+00:00
+> Add missing src to hfst spellchecker automaton path. Merge from template. 2012-09-08T13:00:22+00:00
+> Added missing reference to dialect tag filter. Update from the template. 2012-09-08T08:42:58+00:00
+> Updated my simplistic noun generation script to be aware of its new location. 2012-09-07T14:48:50+00:00
+> Reorganised the test dir, in anticipation of a larger set of tools and source types in need of testing. Merge from the template. 2012-09-07T13:29:39+00:00
+> Aligned the header with that of the other languages (example, better explanation of format). These two files were moved from their old sources, and thus had old headers. 2012-09-07T06:38:53+00:00
+7440a7413,7464
+> Added test/data/typos.txt to hold a list of collected typos. The list is used both for testing spellers, and as part of the preprocessor used with the Xerox lookup tool. 2012-09-07T06:27:36+00:00
+> Replaced "open -a SubEthaEdit" with the command line tool 'see'. Should be more robust, but it does of course require that you have SubEthaEdit (and its command line tool) installed. 2012-09-07T05:57:45+00:00
+> Major template update of all languages (except those already updated by Jack): * proper tag deletion of tags only used for transducer manipulation, not for analysis (manipulations mostly not yet implemented) * making optional some tag sets for the generators * updated README with correct and working instructions for first time installers, also for svn users * added hooks for easily adding language-specific operations on transducers * silenced the und.timestamp message unless you are a GTMAINTAINER (thanks to Tommi) => more synchronized template merges, less noise for regular users * a number of other small fixes 2012-09-06T19:19:58+00:00
+> This is the gemtebe fix. 2012-09-06T14:57:30+00:00
+> a twolc test file. 2012-09-06T14:46:21+00:00
+> documenting twolc testing via file mode. 2012-09-06T14:45:59+00:00
+> Moved the t of gamtie before the ^DISIMP symbol. We put those multichar ones after the stem. 2012-09-06T14:17:03+00:00
+> Changed the as_AN_ODD lexicon to as_AN_ODDNOCOMP 2012-09-06T09:27:56+00:00
+> I have gone through the missingAdjLemmas.txt, and the adjectives give analyzes, exept of samhtj, båadtsah, tjalhve, tjålpoeh and ökolåågeles. I will work further with them. 2012-09-06T09:26:29+00:00
+> in lieu of docu. 2012-09-06T06:21:26+00:00
+> Generalised the local/language-specific *fst processing. Template merge. 2012-09-05T17:01:24+00:00
+> Aded some werbs 2012-09-05T13:47:05+00:00
+> tried to fix some analyze 2012-09-05T13:46:33+00:00
+> added some noun 2012-09-05T13:45:36+00:00
+> I was removing files a bit too eagerly. Now it should work. 2012-09-05T13:02:23+00:00
+> Adding support for local/language-specific *fst processing of default targets. 2012-09-05T12:14:35+00:00
+> båadtsah_et mysterium 2012-09-05T11:55:45+00:00
+> A number of small fixes and improvements: * corrected file test * delete old test results before starting a new test round * separate Xerox and HFST test results - they may not be the same! * some other small changes 2012-09-05T10:46:04+00:00
+> Maintainability, code readability and stability/integrity changes: * replaced hard-coded file refs with variables (not for the temporary files) * added test for the existence of the source file - fail if not found * open SEE only if the test fails * changed the exit value back to 1 when no transducer is found * some whitespace changes 2012-09-05T10:04:37+00:00
+> Turn of my initial test script, it is much less informative than Lene's scripts. 2012-09-05T09:39:59+00:00
+> Restructured and wrapped the proper noun test script from the old infra to suit the new. Renamed it and enabled it. Run 'make check' to test proper noun generation. 2012-09-05T09:29:49+00:00
+> Restructured and wrapped the adjective test script from the old infra to suit the new. Renamed it and enabled it. Run 'make check' to test the adjective generation. 2012-09-05T05:34:58+00:00
+> Corrected reference to verb source file. 2012-09-04T16:46:28+00:00
+> The old verb test file was renamed, but the deletion was not committed. Now it is. 2012-09-04T16:41:07+00:00
+> Wrapped the verb test code in the code required for GNU build compliance, added tests for transducers, etc. Added the verb test file to the automake file. 2012-09-04T16:40:22+00:00
+> Renamed final output file slightly, changed exit code when no transducer is found. 2012-09-04T16:37:05+00:00
+> Reverting the copy source file step for $GTCORE/gtshare/src/filters/, replacing it with direct compilation. The main reason for copying was to have the source files available for distribution, but that is not required, since the distribution and installations of the languages depends on the presence of GTCORE. Instead we risk that people start to add the copied source files to svn. 2012-09-04T16:13:32+00:00
+> added some ie-noun 2012-09-04T13:46:49+00:00
+> splitted some adjectivs 2012-09-04T13:46:07+00:00
+> The GT_FILTER_TARGETS variable needs to be parametrised for HFST and Xerox also for the local modifications. 2012-09-04T13:19:25+00:00
+> Added comment. 2012-09-04T13:02:33+00:00
+> Added several (tag removal) filters from the old infra, and added compilation of them as well. Applied (composed) them on the generator and the analyser, such that the gen. and anal. should now produce the same output as in the old infra. Corrected the README file. 2012-09-04T12:52:35+00:00
+> Added processing of local (language-specific) filters. 2012-09-04T10:22:34+00:00
+> Added njerries. goes as hujnies 2012-09-04T10:11:08+00:00
+> Splitting the oes_AN lexicon. 'håjnoes' and hajnas' are now pointing to the ATTR_0 lexicon, as 'hujnies' does 2012-09-04T09:59:31+00:00
+> Some tag removals in the old $GTHOME/gt/common/src/usage-tags-remove.regex were language specific. The SMA ones are now in the new SMA src/filters/ dir. 2012-09-04T09:53:46+00:00
+> added vaeltjehks, men foreløpig bare outcommented 2012-09-03T17:01:57+00:00
+> test: added veasomes 2012-09-03T16:28:39+00:00
+> renamed soem lexicon-names.Foreløpig versjon 2012-09-03T13:20:34+00:00
+> renamed and removed the lexicons from affixes/nouns to affixes/adjectives. Foreløpig versjon 2012-09-03T13:19:22+00:00
+> renamed and removed the lexicons from affixes/nouns to affixes/adjectives. Foreløpig versjon 2012-09-03T13:19:06+00:00
+> Has deleted the word on the right side of : to the ATTR_0 Lexicon 2012-09-03T11:18:45+00:00
+> åejvies is now pointing to ATTR_0 ; 2012-09-03T07:45:55+00:00
+> Undoing most of the previous commit - it was committed prematurely by accident. 2012-08-30T23:11:24+00:00
+> Added two more tag filters - both are coming from usage-tags-remove, which contained a lot of different things. I am trying to split it up into more logical units - some general, some language-specific. 2012-08-30T23:01:20+00:00
+> Left-over from the template - removed. 2012-08-30T13:08:19+00:00
+> Changed the source files back to what they were before the intermediate reference point. The files can now be edited in the SMA source dir. 2012-08-30T12:39:13+00:00
+> Changed the sources to what it was in the old infrastructure at revision 59359. At that point (+ one single manual correction), the shell script/lemma generation tests produced one single error (in a multiword name, probably due to a bug in the test script). Thus, that revision can be taken as a reference point. I will restore the present state as a separate checkin, so this commit serves as a temporary transition to get the check point in the new infrastructure, such that we can use the new testing tools to more easily check the differences between then and now. 2012-08-30T12:29:08+00:00
+> Autoconf updates from the template. Intended goal: better hfst testing before enabling it. 2012-08-30T05:39:16+00:00
+> Added .txt to all text files produced by the test. This will make it easy to ignore them, and to clean them. Also corrected the expression for reporting fail or not for the test to make. 2012-08-29T21:47:38+00:00
+> Added the new noun test script to the TESTS variable, so that it will be run each time. 2012-08-29T21:25:12+00:00
+> Made the noun test script fit nicely with the new infrastructure: * added shebang * added comments * added wrapper statements to check transducer type etc * added proper file refs 2012-08-29T21:19:25+00:00
+7442a7467,7476
+> This file was just copied from the old structure, and had old filenames. 2012-08-29T09:03:32+00:00
+> Added border removal to the basic analyser and generator, such that they become useful. Also changed the order of the dir processing in src/, to ensure that the filters are built before they are needed. 2012-08-29T03:12:39+00:00
+> Added border removal to the basic analyser and generator, such that they become useful. Also changed the order of the dir processing in src/, to ensure that the filters are built before they are needed. 2012-08-29T03:06:20+00:00
+> Corrected syntax error. 2012-08-29T01:46:18+00:00
+> Made the first test script more robust: it bails out if no transducer is found, and gives basic feedback to whether it is testing Xerox or Hfst. The test data files are not deleted after the test run, so that they can be easily inspected if needed, even after a successful test run. 2012-08-29T01:34:20+00:00
+> Added the first test script: it tests whether noun lemmas do generate. The script does contain some language-specific bits, and must thus be adapted to the requirements of each language. 2012-08-29T00:17:53+00:00
+> Corrected reference to inituppercase.?fst. Template update. 2012-08-28T19:34:40+00:00
+> Corrected compilation of hyphenation rules. Template update. 2012-08-28T18:44:51+00:00
+> Corrected compilation of phonetic/orth2ipa rules. Merge from the template. 2012-08-28T17:41:58+00:00
+> Moved SMA to the new infra. Most files in $GTHOME/gt/sma/src/ have been moved, a few remain, but all the core analyzers should be there. 2012-08-28T10:14:29+00:00
+7498a7533
+> a very modest documentation. 2012-08-21T05:04:03+00:00
+7506a7542
+> Dummy document to detect forrest error. 2012-08-15T20:15:14+00:00
+7614a7651,7653
+> Bedret formuleringene. 2011-11-21T12:20:47+00:00
+> Retta en link, og endra presentasjonen av lemma-dokumentet. 2011-11-20T20:23:42+00:00
+> Litt bedre forklart? 2011-11-20T20:18:34+00:00
+7635,7636d7673
+< Ignore generated files. 2011-11-04T21:53:27+00:00
+< Ignore generated files. 2011-11-04T21:53:04+00:00
+7758d7794
+< Ignore generated files. 2011-10-09T10:49:54+00:00
+7765d7800
+< this dir needs not be in the svn: removed 2011-10-07T20:33:29+00:00
+7855a7891
+> updates 2011-09-15T12:10:27+00:00
+7871d7906
+< Ignore zhfst files. 2011-09-08T10:21:38+00:00
+7880d7914
+< Dirs for the voikko infrastructure used ATM. 2011-09-07T10:37:48+00:00
+7940a7975
+> Northern -> North, Southern -> South. 2011-08-04T23:09:26+00:00
+7981a8017,8028
+> link-error 2011-06-30T07:06:06+00:00
+> updates 2011-06-29T19:38:22+00:00
+> unterwegs 2011-06-29T18:44:37+00:00
+> Slightly less outdated. 2011-06-29T18:30:06+00:00
+> Forthcoming 2011-06-29T18:07:40+00:00
+> links 2011-06-29T18:03:13+00:00
+> æøå 2011-06-29T18:02:51+00:00
+> name 2011-06-29T17:57:28+00:00
+> Better than previously, at least. 2011-06-29T17:53:08+00:00
+> name 2011-06-29T17:41:57+00:00
+> formatting 2011-06-29T17:41:50+00:00
+> Whitespace changes by XMLEditor, some changes to the text by Lene, Sjur & Trond. 2011-06-29T15:48:50+00:00
+8321c8368
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/gt/sma@42134 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2011-05-01T21:21:46+00:00
+---
+>  2011-05-01T21:21:46+00:00
+8388,8389d8434
+< The way the makefile is made requires this dir to exist, otherwise redirection will fail. Resurrected from version 41841. 2011-04-20T07:39:53+00:00
+< ignore 2011-04-19T22:47:32+00:00
+8466d8510
+< Ignore corpus dir link. 2011-03-29T12:11:13+00:00
+9457a9502
+> corrections 2010-09-02T19:18:45+00:00
+9527c9572
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/gt/sma@32338 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2010-06-06T15:21:48+00:00
+---
+>  2010-06-06T15:21:48+00:00
+9558d9602
+< Ignore generated Polderland lexicon file. 2010-05-04T13:45:29+00:00
+9773a9818,9819
+> updates 2010-02-19T10:58:38+00:00
+> Document for the umlaut colum discussion. 2010-02-19T10:57:46+00:00
+10125a10172
+> Added since it was linked to. Not much content, though. 2009-12-01T22:21:03+00:00
+10135d10181
+< I made this folder for words on their way in. 2009-11-29T16:14:44+00:00
+10321d10366
+< Ignore all generated files. 2009-11-03T11:55:25+00:00
+10338a10384,10398
+> catalogue 2009-11-02T17:13:19+00:00
+> ascii 2009-11-02T17:06:14+00:00
+> ascii 2009-11-02T17:05:26+00:00
+> dele 2009-11-02T17:04:46+00:00
+> dele 2009-11-02T17:04:37+00:00
+> dele 2009-11-02T17:04:29+00:00
+> ascii 2009-11-02T17:03:52+00:00
+> ascii 2009-11-02T17:03:22+00:00
+> ascii 2009-11-02T17:03:03+00:00
+> ascii 2009-11-02T17:02:25+00:00
+> ascii 2009-11-02T17:01:46+00:00
+> Dååhkesjahteme - konv_txt.odt 2009-11-02T17:00:55+00:00
+> ååhkesjahteme - konv_txt.doc 2009-11-02T17:00:07+00:00
+> asciiDååhkesjahteme - bolig.odt 2009-11-02T16:58:30+00:00
+> ascii 2009-11-02T16:57:25+00:00
+10573a10634
+> First results from don jih daan bijre, no correction. 2009-09-02T11:56:44+00:00
+10668a10730,10731
+> minor modification to name-issue 2009-07-13T07:57:26+00:00
+> written about names, so pleased with the result that i called it fully explained as well 2009-07-12T21:37:10+00:00
+10670a10734,10738
+> This is a file we have never got a license for. 2009-07-09T10:53:52+00:00
+> Cleaned the file from empty lines and strange binary noise at the end. 2009-07-09T10:08:03+00:00
+> Removed lock file accidentally committed earlier. 2009-07-09T10:02:37+00:00
+> Lists of southsámi words from Sámediggi which are standardized and which are suggested to be standardized! 2009-07-09T09:24:00+00:00
+> Added some more text to the document. Added a section named "Lånord og stavelsestakter" 2009-07-08T13:44:32+00:00
+10672a10741,10747
+> This is an old version about normativity issue. I just want to check in.Perhaps we will need it some day.. 2009-07-08T07:46:04+00:00
+> Edited the text about normativity issue 2009-07-07T13:40:34+00:00
+> Corrected UTF-8 errors. 2009-07-06T14:56:30+00:00
+> Adjective meeting in May 2009, with Maja, David, Trond, Thomas and Sjur. 2009-07-06T14:49:52+00:00
+> Old version of document arbete normer 2009-07-06T13:44:15+00:00
+> Bearbeid versjon av normeringsdokumentet 2009-07-06T13:30:56+00:00
+> some comments 2009-07-06T09:43:21+00:00
+10677a10753
+> Merged content from NORMATIVITY_ISSUE.txt, restructured the document. 2009-07-02T14:23:44+00:00
+10679a10756,10758
+> deleted NORMATIVIT ISSUE files 2009-07-02T11:30:08+00:00
+> deleted outdated file 2009-07-02T11:28:21+00:00
+> merged David's and Maja's files 2009-07-02T11:27:01+00:00
+10701a10781,10785
+> Merged David and Majas file 2009-06-19T12:29:06+00:00
+> must be merged with twin file. 2009-06-18T14:25:54+00:00
+> in 2009-06-18T14:25:38+00:00
+> Majas version 2009-06-18T14:17:26+00:00
+> Deleted 2009-06-18T14:14:28+00:00
+10702a10787,10791
+> The result of today's meeting & discussion. 2009-06-18T10:25:17+00:00
+> added som text to arbeide med normer 2009-06-16T16:32:38+00:00
+> added som text to arbeide med normer 2009-06-16T16:09:19+00:00
+> added som text to arbeide med normer 2009-06-16T14:22:52+00:00
+> added som text to arbeide med normer 2009-06-15T13:56:26+00:00
+10706c10795
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/gt/sma@26477 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2009-06-12T18:24:39+00:00
+---
+>  2009-06-12T18:24:39+00:00
+10713a10803
+> this days work 2009-06-10T13:43:32+00:00
+10718a10809
+> NORMATIVITY ISSUE which is going to SGL 2009-06-10T10:08:15+00:00
+10721c10812
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/gt/sma@26414 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2009-06-10T08:32:39+00:00
+---
+>  2009-06-10T08:32:39+00:00
+10780a10872
+> started the work with collecting normative issues and specifying them 2009-05-27T07:25:14+00:00
+10911d11002
+< propedit 2009-05-11T19:30:50+00:00
+10962c11053
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/gt/sma@25699 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2009-05-04T07:21:18+00:00
+---
+>  2009-05-04T07:21:18+00:00
+11087d11177
+< * Set properties for all known file-types 2009-04-21T09:48:21+00:00
+11117d11206
+< here too, it seems. 2009-04-14T12:07:48+00:00
+11119,11120d11207
+< Para_tmp directory, Ciprian-style, as referred to in the makefile. 2009-04-14T12:05:41+00:00
+< Gen_tmp directory, Ciprian-style, as referred to in the makefile. 2009-04-14T12:03:32+00:00
+11190a11278,11280
+> Reformatting 2009-03-23T09:21:25+00:00
+> Added "proper" markup 2009-03-23T09:11:54+00:00
+> Made this a valid document 2009-03-23T08:58:51+00:00
+11215,11216d11304
+< Working files for dic 2009-03-17T19:04:59+00:00
+< Correct mime-type. 2009-03-17T19:01:53+00:00
+11239a11328
+> added a description of the issue of case endings added to abbreviations 2009-03-17T08:21:35+00:00
+11344a11434
+> Added some text to the comment about Ella Holm Bull's books. 2009-01-29T10:27:06+00:00
+11345a11436,11438
+> Fixed some titles. 2009-01-29T09:55:39+00:00
+> Formatting 2009-01-28T18:07:08+00:00
+> Some smaller changes. 2009-01-28T13:45:27+00:00
+11351a11445
+> Minor editing. 2009-01-26T08:30:41+00:00
+11352a11447
+> SMA Corpus gathering meeting memo. 2009-01-23T12:18:51+00:00
+11355a11451
+> Our new document on adjective morphology. 2009-01-21T14:39:56+00:00
+11523c11619
+< Commented out DÃERIEDIDH. 2008-04-04T12:21:02+00:00
+---
+> Commented out DÅERIEDIDH. 2008-04-04T12:21:02+00:00
+11568c11664
+< Added a list of names from SÃ¡mediggi. 2008-02-17T14:39:59+00:00
+---
+> Added a list of names from Sámediggi. 2008-02-17T14:39:59+00:00
+11578c11674
+< Added a list of (outcommented) verbs at the end. Typed in while waiting for incoming aircraft at VÃ¦rnes. 2008-02-13T08:39:28+00:00
+---
+> Added a list of (outcommented) verbs at the end. Typed in while waiting for incoming aircraft at Værnes. 2008-02-13T08:39:28+00:00
+11593c11689
+< Generalised Ã¯:e by adding o:u as well (even rules now) Rule "Even syllabic verbs Sg3 Ã¯-Ã¦ IV" had an errouneous Vx definition Ã¯ a, now Ã¯ o, giving o:u pro a:u. Added o: in the left context of "2nd rule for even syllabic verbs Sg3 Ã¯e-ea IV". 2008-02-12T14:11:19+00:00
+---
+> Generalised Ã¯:e by adding o:u as well (even rules now) Rule "Even syllabic verbs Sg3 Ã¯-æ IV" had an errouneous Vx definition Ã¯ a, now Ã¯ o, giving o:u pro a:u. Added o: in the left context of "2nd rule for even syllabic verbs Sg3 Ã¯e-ea IV". 2008-02-12T14:11:19+00:00
+11607c11703
+< Removed the Archiphonemes from the Old Paradigm stem forms (Ã, A4, etc:) Replaced them with the real vowels (i, e, etc.) Otherwise only cosmetic changes. 2008-02-11T16:41:02+00:00
+---
+> Removed the Archiphonemes from the Old Paradigm stem forms (Æ, A4, etc:) Replaced them with the real vowels (i, e, etc.) Otherwise only cosmetic changes. 2008-02-11T16:41:02+00:00
+11615c11711
+< Changed tag Ptc to PrfPrc, to harmonise. Added multichar symbol %^DISIMP for the odd-syll verbs. Added a new lexicon, GOLTELIDH, and modified the old DÃERIEDIDH. Now, of the 5 verbclasses for odd verbs, one is GOLTELIDH, and the 4 other are subsumed under DÃERIEDIDH, with different twol rules. The lexica have separate Prt Sg3, otherwise the morphology is directed to V-ODD. 2008-02-09T20:50:38+00:00
+---
+> Changed tag Ptc to PrfPrc, to harmonise. Added multichar symbol %^DISIMP for the odd-syll verbs. Added a new lexicon, GOLTELIDH, and modified the old DÅERIEDIDH. Now, of the 5 verbclasses for odd verbs, one is GOLTELIDH, and the 4 other are subsumed under DÅERIEDIDH, with different twol rules. The lexica have separate Prt Sg3, otherwise the morphology is directed to V-ODD. 2008-02-09T20:50:38+00:00
+11618c11714
+< Commented out the Ã4 gÃ¥etie, for testing purposes (now only Ã3 version active) 2008-02-09T18:16:11+00:00
+---
+> Commented out the Å4 gåetie, for testing purposes (now only Å3 version active) 2008-02-09T18:16:11+00:00
+11629c11725
+< Received report from Ove: 1. Diftongen Ã¯e deles dÃ¯-ed-te, fÃ¯-er-hne, gÃ¯-e-le 2. Nasalen ng deles etter C jarn-ge, jokn-ge, sÃ¯kn-ge, jÃ¯ln-gedh 3. Affrikaten ts deles foran C jat-svoe, goet-smedh, gaet-skedh 4. lhv, rhv deles etter h, men rhm deles foran h maarh-vodh, dÃ¯-elh-ve-re, tjÃ¯-elh-ves,  (MEN OK rir-hmedh) 5. NÃ¥ deles bj feil (pga. TorbjÃ¸rn?) krÃ¥a-bjan, la-bja 6. Reglene ikke gjennomfÃ¸rt for store bokstaver njÃ¥asj-loeh â  NJÃASJ-LO-EH snjiep-tjie â  SNJI-EP-TJI-E ... and fixed issues 1-5. Anyone wanting to have a go at 6, feel free. 2007-01-23T11:05:18+00:00
+---
+> Received report from Ove: 1. Diftongen Ã¯e deles dÃ¯-ed-te, fÃ¯-er-hne, gÃ¯-e-le 2. Nasalen ng deles etter C jarn-ge, jokn-ge, sÃ¯kn-ge, jÃ¯ln-gedh 3. Affrikaten ts deles foran C jat-svoe, goet-smedh, gaet-skedh 4. lhv, rhv deles etter h, men rhm deles foran h maarh-vodh, dÃ¯-elh-ve-re, tjÃ¯-elh-ves,  (MEN OK rir-hmedh) 5. Nå deles bj feil (pga. Torbjørn?) kråa-bjan, la-bja 6. Reglene ikke gjennomført for store bokstaver njåasj-loeh â  NJÅASJ-LO-EH snjiep-tjie â  SNJI-EP-TJI-E ... and fixed issues 1-5. Anyone wanting to have a go at 6, feel free. 2007-01-23T11:05:18+00:00
+11631c11727
+< Corrected some of the hyph rules, following Ove's advices. Unified Ã¸ and Ã¶, moved huyph to after ng, included handling of capital words. 2007-01-22T23:18:40+00:00
+---
+> Corrected some of the hyph rules, following Ove's advices. Unified ø and ø, moved huyph to after ng, included handling of capital words. 2007-01-22T23:18:40+00:00
+11644c11740
+< Been to SnÃ¥sa on a seminar on reference grammar, done minor changes here and there during the presentation of the sma analyser. 2006-10-26T07:53:34+00:00
+---
+> Been to Snåsa on a seminar on reference grammar, done minor changes here and there during the presentation of the sma analyser. 2006-10-26T07:53:34+00:00
+11647c11743,11747
+< Introduced en-dash and em-dash to the other SÃ¡mi lgs. as well. 2006-10-03T18:07:13+00:00
+---
+> Introduced en-dash and em-dash to the other Sámi lgs. as well. 2006-10-03T18:07:13+00:00
+> The document was saved as a latin1 encoded document. Converted it back to utf-8. The fixme needed a author attribute, also fixed. 2006-07-07T11:14:15+00:00
+> Fixme Ã¤øå needed. 2006-07-07T07:11:24+00:00
+> Updates and corrections. 2006-07-05T06:38:35+00:00
+> Corrected typos. 2006-06-30T22:10:14+00:00
+11649c11749
+< Let us try a South SÃ¡mi hyphenator as well. 2006-04-04T18:45:27+00:00
+---
+> Let us try a South Sámi hyphenator as well. 2006-04-04T18:45:27+00:00
+11651a11752,11755
+> Fixed bugzilla addresses 2005-12-21T15:06:47+00:00
+> Added a new placeholder document for South SaÌmi normativity issues. 2005-10-20T12:38:19+00:00
+> Cleaned the document, added link to Bugzilla (I added South SaÌmi bug categories to Bugzilla as well). 2005-10-18T14:30:59+00:00
+> Corrected the links, added correctly formatted timestamp. 2005-10-18T14:04:10+00:00
+11656a11761,11770
+> Added xml:lang tag to .xml documents 2005-09-06T11:13:33+00:00
+> Updated documentation. 2005-08-01T06:41:03+00:00
+> Fixed broken link to the external Southern Sámi parser article. 2005-04-28T15:50:27+00:00
+> Fixed most of the linking problems 2005-04-28T10:58:18+00:00
+> Tried to resolve a lot of link errors. The documents validate. 2005-04-26T11:56:11+00:00
+> Updated links. 2005-03-17T15:29:41+00:00
+> Updated links. 2005-03-16T08:57:35+00:00
+> Added <authors> tag Added cvs $Date$ and $Author$ tags 2005-03-14T12:16:08+00:00
+> Converted the docs from dtd 1.3 to dtd 2.0 2005-02-10T09:13:23+00:00
+> Initial revision 2005-01-22T00:44:32+00:00
+11757,11758d11870
+< This rule file was written by Lauri Karttunen, who in turn copied it from the Trosterud / Moshagen sms.rul file, and rewrote it into the Xerox format. He also made some changes, as documented in his comment to the NJL editor. 2001-12-27T11:21:42+00:00
+< The sms lexicon is rewritten into Xerox conventions by Lauri Karttunen, based up\on the Lexicon in the Trosterud / Moshagen NJL article. 2001-12-27T11:18:21+00:00
+11760c11872
+< Initial revision 2001-12-22T13:04:32+00:00
+---
+> Initial revision 2001-12-22T13:04:32+00:00
+\ No newline at end of file

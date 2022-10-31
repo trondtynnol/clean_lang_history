@@ -1,0 +1,50 @@
+320d319
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+326d324
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+335d332
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+340,341d336
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+347d341
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+359d352
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+389d381
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+394d385
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+397d387
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+407d396
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+410d398
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+412d399
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+426d412
+< More things to ignore. 2018-05-14T10:30:20+00:00
+440,441d425
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+444d427
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+455d437
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
+484d465
+< Updated svn ignores. 2017-12-11T12:54:11+00:00
+505,506d485
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:59:35+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:06:09+00:00
+518d496
+< Updating svn ignores. 2017-08-25T10:17:49+00:00
+532,533d509
+< Updating svn ignores. 2017-06-29T00:05:40+00:00
+< Updated svn ignores. 2017-06-28T22:59:36+00:00
+551d526
+< Updated svn ignores. 2017-03-01T12:03:10+00:00
+567d541
+< Updated svn ignores. 2017-01-30T09:58:10+00:00
+571a546
+> OC 2008-10-24T23:38:47+00:00

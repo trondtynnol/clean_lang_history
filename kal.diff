@@ -1,0 +1,2046 @@
+2180c2180
+< tilføjelse af de linjer, der ved en fejl blev slettet med commit 2ab2725 2020-05-14T14:33:13-02:00
+---
+> tilføjelse af de linjer, der ved en fejl blev slettet med commit a8b5419 2020-05-14T14:33:13-02:00
+2299c2299
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@190171 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-04-23T17:46:18+00:00
+---
+>  2020-04-23T17:46:18+00:00
+2328d2327
+< kal-analyse etc. får svnignore. 2020-04-19T10:02:38+00:00
+2436c2435
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@188970 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-03-30T14:21:25+00:00
+---
+>  2020-03-30T14:21:25+00:00
+2565c2564
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@187808 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-02-28T12:28:27+00:00
+---
+>  2020-02-28T12:28:27+00:00
+2603c2602
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@187568 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-02-17T13:40:57+00:00
+---
+>  2020-02-17T13:40:57+00:00
+2645c2644
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@187006 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-01-24T17:10:17+00:00
+---
+>  2020-01-24T17:10:17+00:00
+2662c2661
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@186821 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-01-16T19:39:25+00:00
+---
+>  2020-01-16T19:39:25+00:00
+2675c2674
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@186742 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2020-01-14T03:00:45+00:00
+---
+>  2020-01-14T03:00:45+00:00
+2737c2736
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@185942 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-12-09T09:30:15+00:00
+---
+>  2019-12-09T09:30:15+00:00
+2749c2748
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@185488 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-11-22T16:32:39+00:00
+---
+>  2019-11-22T16:32:39+00:00
+2760c2759
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@185362 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-11-18T14:17:53+00:00
+---
+>  2019-11-18T14:17:53+00:00
+2768c2767
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@185024 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-11-07T15:33:01+00:00
+---
+>  2019-11-07T15:33:01+00:00
+2816,2817c2815
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@184474 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-23T19:10:30+00:00
+< Updated ignore patterns. 2019-10-23T18:40:46+00:00
+---
+>  2019-10-23T19:10:30+00:00
+2827c2825
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@184365 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-21T18:01:22+00:00
+---
+>  2019-10-21T18:01:22+00:00
+2829,2830c2827,2828
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@184363 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-21T17:22:37+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@184362 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-21T16:16:10+00:00
+---
+>  2019-10-21T17:22:37+00:00
+>  2019-10-21T16:16:10+00:00
+2834c2832
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@184306 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-19T16:02:31+00:00
+---
+>  2019-10-19T16:02:31+00:00
+2876,2879d2873
+< ignore *.fomabin. 2019-10-08T06:35:05+00:00
+< ign 2019-10-07T21:32:11+00:00
+< ign 2019-10-07T21:15:15+00:00
+< ign 2019-10-07T21:13:09+00:00
+2881d2874
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:16:53+00:00
+2886c2879
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@183751 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-10-04T14:45:46+00:00
+---
+>  2019-10-04T14:45:46+00:00
+2903c2896
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@183476 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-25T19:22:40+00:00
+---
+>  2019-09-25T19:22:40+00:00
+2908,2909c2901,2902
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@183416 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-24T14:32:37+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@183415 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-24T14:30:36+00:00
+---
+>  2019-09-24T14:32:37+00:00
+>  2019-09-24T14:30:36+00:00
+2932c2925
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@182843 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-10T06:20:56+00:00
+---
+>  2019-09-10T06:20:56+00:00
+2943,2944c2936,2937
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@182560 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-03T14:35:22+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@182530 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-09-02T21:26:38+00:00
+---
+>  2019-09-03T14:35:22+00:00
+>  2019-09-02T21:26:38+00:00
+2999d2991
+< svnignore 2019-08-05T07:01:11+00:00
+3008c3000
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@181755 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-07-30T15:08:07+00:00
+---
+>  2019-07-30T15:08:07+00:00
+3012c3004
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@181731 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-07-27T08:46:28+00:00
+---
+>  2019-07-27T08:46:28+00:00
+3051c3043
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@181302 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-06-25T15:23:08+00:00
+---
+>  2019-06-25T15:23:08+00:00
+3097d3088
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:38:51+00:00
+3144c3135
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@180225 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-05-29T16:11:48+00:00
+---
+>  2019-05-29T16:11:48+00:00
+3164,3165d3154
+< Updating svn ignores. 2019-05-24T09:55:04+00:00
+< Updating svn ignores. 2019-05-24T09:44:55+00:00
+3168c3157
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@179972 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-05-23T12:42:10+00:00
+---
+>  2019-05-23T12:42:10+00:00
+3255c3244
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@179132 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-04-28T20:16:49+00:00
+---
+>  2019-04-28T20:16:49+00:00
+3267c3256
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@178990 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-04-24T13:45:42+00:00
+---
+>  2019-04-24T13:45:42+00:00
+3271c3260
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@178972 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-04-24T10:19:30+00:00
+---
+>  2019-04-24T10:19:30+00:00
+3356c3345
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@178038 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-03-25T19:16:12+00:00
+---
+>  2019-03-25T19:16:12+00:00
+3362c3351
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@178009 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-03-24T18:04:02+00:00
+---
+>  2019-03-24T18:04:02+00:00
+3377c3366
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@177876 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-03-20T14:57:46+00:00
+---
+>  2019-03-20T14:57:46+00:00
+3400c3389
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@177532 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-03-08T20:22:27+00:00
+---
+>  2019-03-08T20:22:27+00:00
+3422d3410
+< Updated svn ignores. 2019-02-27T10:18:02+00:00
+3424d3411
+< ignorerer genererte scripts 2019-02-26T08:47:03+00:00
+3504c3491
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@175855 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2019-01-22T14:32:31+00:00
+---
+>  2019-01-22T14:32:31+00:00
+3540,3541d3526
+< Ignore compiled cg3 files in tools/tokenisers/. 2019-01-08T07:08:34+00:00
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T06:55:51+00:00
+3624c3609
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@173510 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-11-07T12:50:58+00:00
+---
+>  2018-11-07T12:50:58+00:00
+3649,3651c3634,3636
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@173102 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-10-31T09:58:58+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@173096 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-10-31T09:29:25+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@173094 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-10-31T09:27:07+00:00
+---
+>  2018-10-31T09:58:58+00:00
+>  2018-10-31T09:29:25+00:00
+>  2018-10-31T09:27:07+00:00
+3736,3737d3720
+< ignore for bin 2018-10-14T13:31:01+00:00
+< added korp.cg3 to svn ignore. 2018-10-14T12:56:20+00:00
+3836,3837d3818
+< svn ignore update 2018-09-20T08:44:05+00:00
+< updated svn ignore. 2018-09-20T08:28:11+00:00
+3892d3872
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:16:40+00:00
+3904d3883
+< Updated svn ignore patterns. 2018-09-08T05:26:27+00:00
+3955d3933
+< Updated svn ignores. 2018-08-30T16:00:09+00:00
+3971d3948
+< Updated svn ignores. 2018-08-29T05:25:34+00:00
+3979d3955
+< Updating svn ignores. 2018-08-28T10:47:06+00:00
+4083,4088c4059,4064
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@169431 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-08T14:15:16+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@169429 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-08T12:08:23+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@169428 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-08T12:00:32+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@169425 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-08T11:56:21+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@169424 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-08T11:40:29+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@169420 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-08-08T10:51:54+00:00
+---
+>  2018-08-08T14:15:16+00:00
+>  2018-08-08T12:08:23+00:00
+>  2018-08-08T12:00:32+00:00
+>  2018-08-08T11:56:21+00:00
+>  2018-08-08T11:40:29+00:00
+>  2018-08-08T10:51:54+00:00
+4154c4130
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@168907 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-07-17T14:26:59+00:00
+---
+>  2018-07-17T14:26:59+00:00
+4166c4142
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@168667 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-07-09T09:11:32+00:00
+---
+>  2018-07-09T09:11:32+00:00
+4180c4156
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@168234 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-06-19T22:02:35+00:00
+---
+>  2018-06-19T22:02:35+00:00
+4308d4283
+< More things to ignore. 2018-05-14T10:33:30+00:00
+4508,4510d4482
+< Added ignore pattern for in.txt 2018-03-01T07:09:50+00:00
+< More ignores 2018-03-01T06:52:33+00:00
+< More svn ignores. 2018-03-01T06:25:59+00:00
+4521d4492
+< Added svnignore pattern for sigma.txt. 2018-02-21T09:49:57+00:00
+4545d4515
+< Two more files to ignore. 2018-02-06T09:44:18+00:00
+4567d4536
+< Updated svn ignores. 2018-01-31T12:13:59+00:00
+4624,4625c4593,4594
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@161646 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-01-02T19:20:31+00:00
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/langs/kal@161643 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-01-02T18:35:39+00:00
+---
+>  2018-01-02T19:20:31+00:00
+>  2018-01-02T18:35:39+00:00
+4654d4622
+< Updated svn ignores. 2017-12-11T12:55:46+00:00
+4761,4762d4728
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:47:18+00:00
+< Updated svn ignores for tokenisers and grammar checkers + subdirs. 2017-10-11T11:22:45+00:00
+4839d4804
+< Updating svn ignores. 2017-08-25T10:22:58+00:00
+4954d4918
+< Updated svn ignores. 2017-06-28T23:37:25+00:00
+4960d4923
+< Updated svn ignores. 2017-06-28T23:08:42+00:00
+5102d5064
+< ign 2017-03-21T19:49:19+00:00
+5134d5095
+< Updated svn ignores. 2017-03-01T12:02:48+00:00
+5174d5134
+< Updated svn ignores. 2017-01-30T10:04:48+00:00
+5184a5145
+> Removed the kal dir from the old infra after verifying that all files and accidental changes in the old infra have been carried over to the new one. 2017-01-24T09:15:43+00:00
+5314d5274
+< Updated svn ignores. 2016-06-09T20:11:13+00:00
+5333d5292
+< Setting svn ignore patterns on tools/spellcheckers/filters/. 2016-05-10T01:00:11+00:00
+5355d5313
+< Ignore more preprocessor files = fst’s. 2016-04-14T16:01:04+00:00
+5359d5316
+< Updated svn ignores. 2016-03-15T19:54:49+00:00
+5363d5319
+< Use a more general svn ignore pattern in src/morphology/. 2016-03-07T17:10:12+00:00
+5384c5340
+< Updated the svn ignore property for recent changes in the infrastructure. 2016-02-16T22:36:51+00:00
+---
+> Removing files that are now in the new infra. 2016-02-12T23:21:36+00:00
+5393d5348
+< Updating svn:ignore’s. 2016-02-02T15:34:45+00:00
+5398,5399d5352
+< Updated svn:ignore’s. 2016-02-02T10:33:44+00:00
+< Updated svn:ignore’s. 2016-02-02T10:16:28+00:00
+5404d5356
+< Updated svn ignores. 2016-01-25T08:11:45+00:00
+5416d5367
+< Updated svn:ignore’s. 2015-11-18T23:05:40+00:00
+5432d5382
+< Updated svn ignores. 2015-10-20T07:50:38+00:00
+5460d5409
+< Ignore temporary files generated by the speller suggestion test script. 2015-09-03T04:23:51+00:00
+5531d5479
+< Ignore txt files in speller dirs. 2015-04-09T11:55:38+00:00
+5545d5492
+< Updated svn ignores. 2015-03-14T10:46:39+00:00
+5553d5499
+< Updated svn ignores. 2015-03-12T08:28:02+00:00
+5560d5505
+< Updated svn ignores. 2015-03-09T10:41:02+00:00
+5562d5506
+< Updated svn ignores. 2015-03-06T15:56:54+00:00
+5565d5508
+< Updated svn ignores. 2015-03-06T09:24:00+00:00
+5577d5519
+< Update svn ignores. 2015-02-27T12:55:53+00:00
+5624d5565
+< Special svn:ignore on src/orthography/. 2015-01-26T10:30:36+00:00
+5631d5571
+< Setting svn:ignore for Bashkir, updating the other ignores. 2015-01-19T06:20:12+00:00
+5639d5578
+< Updated svn:ignore's. 2015-01-12T21:50:15+00:00
+5641d5579
+< svn:ignore also for *.service. 2015-01-12T15:58:08+00:00
+5662d5599
+< Update ignores for src/morphology/. 2014-10-23T08:25:38+00:00
+5705d5641
+< Updated svn:ignore's. 2014-09-08T21:51:28+00:00
+5728d5663
+< ignore 2014-08-16T15:52:40+00:00
+5743d5677
+< Updated svn:ignore for all languages. 2014-06-11T09:37:23+00:00
+5750d5683
+< Ignore cg3 files in the tools/mt/apertium/ dir. 2014-06-02T14:02:42+00:00
+5760d5692
+< Ignore the generated pkg-config files. 2014-05-12T20:27:01+00:00
+5784d5715
+< Extra ignores on tools/mt/apertium/filters/. 2014-04-16T05:45:32+00:00
+5786d5716
+< Updated svn ignores. 2014-04-15T13:30:11+00:00
+5792d5721
+< Updated svn ignore. 2014-04-10T15:16:59+00:00
+5802d5730
+< Updated svn ignores. 2014-04-03T10:10:45+00:00
+5805d5732
+< Updated svn ignore. 2014-04-02T10:58:00+00:00
+5817d5743
+< Update svn ignores on test/src/phonology/. 2014-03-20T07:32:24+00:00
+5825d5750
+< Updated ignore patterns for test/tools/spellcheckers/. 2014-03-14T10:26:24+00:00
+5837d5761
+< Updated svn ignores. 2014-02-28T06:46:07+00:00
+5884d5807
+< Ignore mk-files in the preprocess/ dir. 2014-01-14T14:20:40+00:00
+5892d5814
+< Ignore generated easteregg files. 2014-01-12T11:44:07+00:00
+5895d5816
+< Ignore functions.cg3 and dependency.cg3 if they are copied from a shared location (these files will not be ignored if already in svn). 2014-01-10T10:24:56+00:00
+5899a5821,5822
+> moved to new infra. 2014-01-10T09:53:04+00:00
+> moved to new infra. 2014-01-10T09:52:09+00:00
+5903d5825
+< Updated the ignore pattern for morphology/stems/. 2014-01-09T13:45:44+00:00
+5921d5842
+< Ignore generated regex files in the src/filters/ dir. 2013-12-03T11:56:43+00:00
+5930,5931d5850
+< Extra ignores in the filters/ dir. 2013-11-24T15:24:39+00:00
+< igno 2013-11-24T15:13:39+00:00
+5935d5853
+< Ignore the generated, concatenated lexc file. 2013-11-22T13:37:46+00:00
+5962d5879
+< Ignore generated documents in tools/shellscripts/. 2013-10-18T11:47:12+00:00
+5973,5974d5889
+< One more ignore on the grammar checker dir. 2013-10-10T09:06:26+00:00
+< Update svn ignores. 2013-10-09T11:01:58+00:00
+5976d5890
+< Updated svn ignores. 2013-10-09T07:04:36+00:00
+6019d5932
+< Ignore zipped files (built for apertium). 2013-08-19T07:13:39+00:00
+6022d5934
+< Ignore *.att files in src/ (produced by the apertium targets). 2013-08-17T12:30:28+00:00
+6041d5952
+< Ignore extra generated files in the tagsets dir. 2013-06-13T14:40:56+00:00
+6067d5977
+< [ignore] Also ignore generated foma transducers. 2013-04-11T16:57:19+00:00
+6089c5999
+< Ignore the generated voikko-3 dir. 2013-03-18T09:43:22+00:00
+---
+> En smule opdatering af verber i ny struktur 2013-03-18T19:20:21+00:00
+6097d6006
+< More extensive ignores on src/morphology/. 2013-03-12T08:07:27+00:00
+6103a6013
+> Renamed the src dir in the old infra, to make it clear that this src dir is now old, retired, and should not be touched. 2013-03-11T15:36:25+00:00
+6113d6022
+< Disambiguation file replaced with latest from the old infra. 2013-03-07T22:36:34+00:00
+6118d6026
+< Ignore top-level build dir. 2013-02-27T07:18:08+00:00
+6120d6027
+< Update svn ignores. 2013-02-27T00:08:32+00:00
+6124d6030
+< Ignore the build/ dir within doc/. 2013-02-26T17:02:56+00:00
+6143,6144d6048
+< The ignore pattern was wrong - now correct. 2013-01-23T22:34:12+00:00
+< Ignore generated yaml tests. 2013-01-23T22:28:44+00:00
+6149a6054
+> symlink 2013-01-23T14:42:41+00:00
+6156d6060
+< Updated svn:ignore with the latest modifications to the ignore patterns. 2013-01-14T19:34:16+00:00
+6175a6080
+> Nov.12 Karen 2012-11-22T12:23:34+00:00
+6177a6083
+> TikaNov12 2012-11-15T14:33:14+00:00
+6182a6089
+> verbOkt12Tik 2012-11-06T19:08:30+00:00
+6187a6095
+> Lidt fejlrettelser i tekstene plus tilføjelse af en hel tekst 2012-11-01T13:09:38+00:00
+6188a6097,6098
+> Rettelser af stavefejl i basisteksten 2012-11-01T13:06:09+00:00
+> Committed a small perl script probably made by Tino May 8 2012, and added to svn at that time, but not committed. The purpose of the script is not entirely clear to Per and Sjur. 2012-11-01T13:00:32+00:00
+6198a6109
+> CG med Ukiut Trettenit 2012-10-19T07:48:41+00:00
+6202a6114,6115
+> Oktob12 2012-10-08T14:47:42+00:00
+> CG med Ukiut Trettenit 2012-10-05T20:33:46+00:00
+6215a6129
+> rydde op i verberne 2012-09-28T12:54:18+00:00
+6217c6131,6132
+< Moved gtcore/ and langs/ out of newinfra/ - the experiment period is over, and the new infra should grow up and become a full member of the GT home. The newinfra/ dir is now gone. 2012-09-25T15:30:19+00:00
+---
+> Added warning about missing YAML testing, with short instructions on how to enable them. Template update. 2012-09-25T06:19:32+00:00
+> verb240912 2012-09-24T17:01:07+00:00
+6219a6135,6137
+> verbs 2012-09-24T12:58:20+00:00
+> The top-level syntax include AM file had not been changed to reflect the rle->cg3 suffix change. Merge from template. 2012-09-21T10:37:43+00:00
+> Ukiut Trettenit og CG 2012-09-20T20:42:01+00:00
+6220a6139,6140
+> Corrected a bug in the default generate-noun-lemmas.sh test script. Made file references more robust. Update from template. This also clears any warnings left over from the cg3 file renaming, such that we get a clean merge in the next template update. 2012-09-20T09:26:56+00:00
+> The VislCG3 team has lately switched to a *.cg3 suffix. Now we do the same in the new infra - the new suffix is definitely more transparent. 2012-09-19T18:26:12+00:00
+6221a6142,6156
+> UTIGE 2012-09-18T16:07:06+00:00
+> Variables=cleaner code. Update from the template. 2012-09-18T06:56:51+00:00
+> Updated the yaml test runner to properly report the exit value of the yaml tests, and also to give directions for how to see the details of each test if it failed. Update from the template. 2012-09-17T14:10:42+00:00
+> Corrected typo in shell scripts. 2012-09-17T11:03:08+00:00
+> Several testing shell script updates: correct exit value when data files are not found, proper use of Autoconf-made variables (will free the test scripts from relying on the user setting up environment variables), and better checks on the availability of test data for the lemma and replaced all hard-coded file refs with variables in the noun generation test. 2012-09-17T09:30:31+00:00
+> Added check for the Xerox lookup tool, which also defines the LOOKUP variable. Update from template. 2012-09-17T08:14:29+00:00
+> Reorganised AC processing of shell scripts to be more future-proof and avoid annoying (and useless) warning from chmod. Added AC variable to the AC-processed shell script to make casual by-lookers aware of the fact that the resulting shell script file is generated by AC. 2012-09-17T07:37:40+00:00
+> Corrected error in previous commit. Finally things are working as they should. It might be necessary to run ./autogen.sh and ./configure before compilation is running smoothly again. 2012-09-15T12:52:14+00:00
+> Forgot to update configure.ac. 2012-09-15T10:43:23+00:00
+> Refined the yaml test runner: more informative banner, ignore extra analyses (= removes false alarms). Merge from template. 2012-09-15T08:17:53+00:00
+> Added basic setup for running YAML tests in the test/src/morphology/ dir. The default setup will run all *.yaml files found in this dir, but this can be modified in the shell (*.sh.in) script. If there are yaml files in that dir, they will be automatically run by 'make check'. 2012-09-14T19:28:03+00:00
+> Enable yaml tests by magic. Merge from the template. 2012-09-14T11:54:49+00:00
+> Added conditional support for running python-based tests in test/src/morphology. 2012-09-14T11:27:52+00:00
+> Added checks for Python 3.1+ and py-yaml, and defined CAN_YAML_TEST. The idea is that we will run the python-based tests only if the prerequisites are available to us, and skip them if not. 2012-09-14T10:54:10+00:00
+> CG med Ukiut Trettenit 2012-09-12T18:33:55+00:00
+6223a6159,6169
+> CG og Ukiut Trettenit 2012-09-11T19:35:32+00:00
+> Added support for transcribing transducers, ie transducers that change the input from one orthographical representation to another, e.g. date and time expressions as strings or digits to the opposite form. 2012-09-10T10:37:35+00:00
+> Renamed the default error model file, to follow the naming scheme used in the zhfst guidelines. 2012-09-10T09:30:47+00:00
+> Renamed the default error model file, to follow the naming scheme used in the zhfst guidelines. This makes compilation much easier, and should cause the present makefile to actually build spellers. Tommi already did this for FIN. 2012-09-10T09:25:01+00:00
+> Don't remove the *.tmp files - that destroys the dependency relationships for (auto)make, which forces a full recompilation of all target fst's, and a lot of extra waiting time. 2012-09-10T09:00:36+00:00
+> Add missing src to hfst spellchecker automaton path. Merge from template. 2012-09-08T13:00:22+00:00
+> Added missing reference to dialect tag filter. Update from the template. 2012-09-08T08:42:58+00:00
+> Updated my simplistic noun generation script to be aware of its new location. 2012-09-07T14:48:50+00:00
+> Reorganised the test dir, in anticipation of a larger set of tools and source types in need of testing. Merge from the template. 2012-09-07T13:49:17+00:00
+> Added test/data/typos.txt to hold a list of collected typos. The list is used both for testing spellers, and as part of the preprocessor used with the Xerox lookup tool. 2012-09-07T06:27:36+00:00
+> Major template update of all languages (except those already updated by Jack): * proper tag deletion of tags only used for transducer manipulation, not for analysis (manipulations mostly not yet implemented) * making optional some tag sets for the generators * updated README with correct and working instructions for first time installers, also for svn users * added hooks for easily adding language-specific operations on transducers * silenced the und.timestamp message unless you are a GTMAINTAINER (thanks to Tommi) => more synchronized template merges, less noise for regular users * a number of other small fixes 2012-09-06T19:19:58+00:00
+6224a6171,6173
+> suliat kingulliit 2012-08-31T11:38:52+00:00
+> Autoconf updates from the template. Intended goal: better hfst testing before enabling it. 2012-08-30T05:39:16+00:00
+> Ny multichar LIVIK retter aqerluusivik m.fl. 2012-08-29T09:56:49+00:00
+6225a6175,6188
+> Added border removal to the basic analyser and generator, such that they become useful. Also changed the order of the dir processing in src/, to ensure that the filters are built before they are needed. 2012-08-29T03:12:39+00:00
+> Added border removal to the basic analyser and generator, such that they become useful. Also changed the order of the dir processing in src/, to ensure that the filters are built before they are needed. 2012-08-29T03:06:20+00:00
+> Corrected syntax error. 2012-08-29T01:46:18+00:00
+> Made the first test script more robust: it bails out if no transducer is found, and gives basic feedback to whether it is testing Xerox or Hfst. The test data files are not deleted after the test run, so that they can be easily inspected if needed, even after a successful test run. 2012-08-29T01:34:20+00:00
+> Added the first test script: it tests whether noun lemmas do generate. The script does contain some language-specific bits, and must thus be adapted to the requirements of each language. 2012-08-29T00:17:53+00:00
+> Newest merge 2012-08-28T22:46:26+00:00
+> Corrected reference to inituppercase.?fst. Template update. 2012-08-28T19:34:40+00:00
+> Updated the timestamp of three languages - they didn't merge for some reason. 2012-08-28T19:02:44+00:00
+> Corrected compilation of hyphenation rules. Template update. 2012-08-28T18:44:51+00:00
+> Corrected compilation of phonetic/orth2ipa rules. Merge from the template. 2012-08-28T17:41:58+00:00
+> Added basic structure for hyphenation and conversion to IPA. Merge from the template. 2012-08-28T05:45:14+00:00
+> Added Hunspell dir. Merge from templates. 2012-08-27T16:44:43+00:00
+> Two template updates at once: 2012-08-27T16:01:48+00:00
+> Added build support for xml source files. Updates from the template. 2012-08-27T07:33:38+00:00
+6226a6190,6194
+> Ukiut Trettenit disamb. fort. 2012-08-25T20:08:54+00:00
+> Added initial support for xml source files. NB! The support isn't fully according to GNU (autotools) standards yet, but will have to do for the moment. 2012-08-25T07:24:18+00:00
+> Merging in the latest changes from the template - this time only the timestamp file got updated. 2012-08-24T12:00:55+00:00
+> Merged changes from the template - mostly *-include.am cleanup and cancelled warnings for pattern rules. 2012-08-24T10:52:53+00:00
+> Ukiut trettenit fort. 2012-08-24T08:41:48+00:00
+6228a6197,6200
+> Disambiguering af Ukiut Trettenit 2012-08-23T17:11:08+00:00
+> Working my way of getting rid of pattern rule warnings - now orthography (uppercasing) is ok. 2012-08-23T15:14:54+00:00
+> Template merge with changes to the phonology compilation: all compilation is now done with suffix rules (more compatible), and the filenames src/phonology/ are updated to follow the filename conventions in the new infra. 2012-08-23T14:50:25+00:00
+> Disambiguering og lidt oprydning i kal-lex 2012-08-22T20:26:40+00:00
+6229a6202,6205
+> Added Autoconf processing of the Makefile.am files in test/. Update from the template. Also added the dir src/filters/ that had been left out of an earlier template update. 2012-08-22T18:06:10+00:00
+> Moved files with codes from the old infra into the relevant dir. Don't know whether we will use them in the new infra, but here they are. 2012-08-22T17:32:46+00:00
+> Updated Test dir with subdirs and make-files, and older template changes. Updates from the template. 2012-08-22T17:24:43+00:00
+> Nom-Akk struktur i DivPron og konsekvensrettet dis-kal.rle 2012-08-19T20:21:37+00:00
+6231a6208,6214
+> TIP og QQU til intr. 2012-07-06T10:26:16+00:00
+> Merge from core: Capital initials for Xerox transducers, more comments. 2012-06-21T21:57:18+00:00
+> Updated KAL to include all recent changes. 2012-06-21T10:30:23+00:00
+> Added a large number of new exclusion for the error model. This should improve the overall speed of the hfst speller, and also improve the suggestions and speed with which suggestions are returned. 2012-05-10T11:10:33+00:00
+> Brought KAL in line with the core template by running the new-language script and manually reverting unwanted changes. Several new standard files were added, and some files just got a final newline. No major changes to the build system, and everything seems to work as intended. KAL is awfully memory-intensive to compile, but we already knew that. 2012-05-10T10:54:04+00:00
+> Renamed files and dirs to more generic names. 2012-05-08T05:43:36+00:00
+> Ukiut trettenit 2012-05-02T19:55:05+00:00
+6233a6217,6219
+> Disambiguering i Ukiut Trettenit 2012-05-01T19:21:58+00:00
+> Added comments copied from tlh. 2012-04-30T21:21:02+00:00
+> Disambiguering UkiutTrettenit 2012-04-25T17:50:07+00:00
+6235a6222,6223
+> Genoprettet fejlslet i verb-kal-lex 2012-04-24T17:32:01+00:00
+> Disambiguering. Slettet +MAAR+nv 2012-04-23T19:29:40+00:00
+6237a6226
+> Disambiguering UkiutTrettenit 2012-04-22T22:36:46+00:00
+6238a6228,6229
+> Verbalnominer på UTE 2012-04-21T07:23:57+00:00
+> Leksikaliserede verbalnominer på UTE 2012-04-20T08:06:26+00:00
+6240a6232,6235
+> Disambiguering og lidt fejl i kal-lex 2012-04-16T20:34:46+00:00
+> Fix naming of xfst script 2012-04-16T00:45:45+00:00
+> Fix kal to copied infra 2012-04-15T22:37:23+00:00
+> Disambiguering 2012-04-15T18:55:31+00:00
+6242a6238,6239
+> Lidt disambiguering 2012-04-14T21:06:34+00:00
+> 13.04.12 2012-04-13T16:11:28+00:00
+6244a6242,6243
+> 11.04.12 2012-04-11T15:44:44+00:00
+> conflicting changes 2012-04-04T16:07:52+00:00
+6245a6245,6246
+> En smule disambiguering 2012-03-29T21:29:19+00:00
+> 26.03.12 2012-03-26T15:15:42+00:00
+6247a6249,6250
+> 21.03.12 2012-03-21T19:29:04+00:00
+> 20.03.12 2012-03-20T19:09:22+00:00
+6249a6253,6254
+> 19.03.12 2012-03-19T18:53:05+00:00
+> Marts12Tika 2012-03-14T19:19:42+00:00
+6251a6257
+> Lidt disambiguering 2012-03-13T01:20:55+00:00
+6252a6259,6260
+> tassani 2012-03-12T15:25:09+00:00
+> Lidt mere disambiguering 2012-03-12T02:08:14+00:00
+6254a6263
+> disambiguering 2012-03-11T17:18:17+00:00
+6255a6265,6266
+> Disambiguering 2012-03-09T19:33:11+00:00
+> Partikler 2012-03-08T21:06:49+00:00
+6257a6269
+> Mere disambiguering 2012-03-07T19:38:10+00:00
+6258a6271,6272
+> kalverb 2012-03-06T18:33:57+00:00
+> Pronominer 2012-03-05T13:57:52+00:00
+6260a6275,6276
+> 03.03.12 2012-03-02T18:26:18+00:00
+> Febr12Tika 2012-03-02T17:15:44+00:00
+6262a6279,6280
+> Pron3 2012-03-01T18:41:42+00:00
+> Lidt disamnbiguering 2012-02-29T21:29:26+00:00
+6264a6283
+> 29.02.12 2012-02-29T16:05:58+00:00
+6265a6285,6286
+> Lidt disambiguering 2012-02-27T19:52:49+00:00
+> Lidt CG 2012-02-23T17:49:12+00:00
+6267a6289,6290
+> 22.02.12 2012-02-22T18:29:25+00:00
+> Semantisk constraint 2012-02-22T16:39:46+00:00
+6269a6293,6294
+> 20.02.12 2012-02-20T18:19:27+00:00
+> 16.02.12 2012-02-20T15:43:08+00:00
+6271a6297
+> TikaFebr 2012-02-17T17:40:17+00:00
+6272a6299,6300
+> Slettet de gamle pron og restruktureret transitiv ledsagemåde 2012-02-16T21:19:52+00:00
+> 14.02.12 2012-02-14T18:40:57+00:00
+6274a6303,6304
+> 13.02.12 2012-02-14T16:36:20+00:00
+> verb-januar 2012-01-17T17:02:59+00:00
+6276a6307,6308
+> Tikajanuar 2012-01-16T16:59:04+00:00
+> Corrected the definition syntax of two lists (exit OR in one, change the other to SET). 2012-01-15T09:45:49+00:00
+6278a6311
+> Nyt forsøg fra Iris 2011-12-09T18:53:04+00:00
+6279a6313,6314
+> Undersøger, om Iris får svn-mail. Får du det, Iris? 2011-12-08T21:24:21+00:00
+> La til _Gaup_. Undersøger om iris kan tjække ind. 2011-12-08T21:21:20+00:00
+6281a6317
+> 08.12.11.JD 2011-12-08T17:39:26+00:00
+6282a6319,6320
+> 05.12.11.JD 2011-12-05T17:39:53+00:00
+> Fortsatte Iris-problemer. Test af Makefile 2011-12-01T18:35:48+00:00
+6284a6323
+> 30.11.11.JD 2011-11-30T18:33:50+00:00
+6285a6325,6326
+> Forsøg på fejlretning af Iris 2011-11-30T13:10:24+00:00
+> 29.11.11.JD 2011-11-29T16:17:57+00:00
+6287a6329,6330
+> 28..11.11.JD 2011-11-29T11:42:34+00:00
+> 25.11.11.JD 2011-11-25T15:33:40+00:00
+6289a6333,6334
+> 23.11.11 2011-11-23T18:54:41+00:00
+> verb-kal-tika 2011-11-22T19:26:49+00:00
+6291a6337
+> +SIMA=NAR jd 2011-11-21T17:00:53+00:00
+6292a6339,6340
+> +NNGIT=NIRAR 2011-11-21T14:15:39+00:00
+> verb Tika uge 45 2011-11-11T18:05:57+00:00
+6293a6342,6343
+> Copy from fao. Needed to establish the symbolic links used to access the shared automake files. 2011-11-08T11:42:08+00:00
+> Add kal, only few additions to fao compilations yet, some parts missing 2011-11-08T09:51:09+00:00
+6294a6345,6346
+> Gamle småtterier 2011-10-31T16:11:22+00:00
+> Oktober Tika 2011-10-26T15:38:50+00:00
+6296a6349,6350
+> ny navne 2011-10-13T16:41:48+00:00
+> Tika sept/okt 2011-10-11T18:01:51+00:00
+6298a6353
+> Bare et par nye navne 2011-09-24T18:33:28+00:00
+6299a6355,6356
+> Oprydning 2011-09-07T17:27:37+00:00
+> Tikas nye tilhæng 2011-09-07T16:12:24+00:00
+6301a6359,6360
+> opdateringer fra corpus 2011-09-06T17:54:48+00:00
+> IR slettet 2011-09-05T21:44:43+00:00
+6303a6363,6364
+> Formiddagens derivativer mv. 2011-08-11T09:09:37+00:00
+> Lidt flere derivativer og justeringer 2011-08-10T18:59:53+00:00
+6305a6367
+> Flere derivativer og lidt rettelser 2011-08-10T10:22:15+00:00
+6306a6369,6370
+> symlink 2011-08-08T22:31:22+00:00
+> Lidt flere morfemkombinationer 2011-08-08T21:00:14+00:00
+6308a6373
+> Fortsat oprydning 2011-08-08T16:23:30+00:00
+6309a6375,6376
+> Fortsat oprydning 2011-08-07T20:01:50+00:00
+> Fjernet passiver fra intransitive leksika. Ikke færdig endnu 2011-08-07T16:56:50+00:00
+6311a6379
+> Oprydning 2011-08-07T05:27:30+00:00
+6312a6381,6382
+> Fortsatte sonderinger før reorganisering af UTE 2011-06-14T19:37:06+00:00
+> Slettet alle HTR= og foretaget et par konsekvensrettelser 2011-06-12T19:50:38+00:00
+6314a6385,6386
+> Slettet RAAR+vv. Mange fejl især for GE+Ind+1Pl+3SgO 2011-06-12T18:00:18+00:00
+> Opdateringer - 10.06.11 2011-06-10T15:07:53+00:00
+6316a6389,6390
+> Kun smårettelser før oprydning i Pron mv. 2011-06-09T19:53:01+00:00
+> Lidt oprydning i mangellisten til Ukiut Trettenit 2011-06-03T21:17:06+00:00
+6318a6393
+> Fjernet varianterne 'raq' og 'jaraq' fra ARAQ 2011-06-02T21:15:51+00:00
+6319a6395,6396
+> Tilføjet %TRUNC før intervokalisk q for at blokere for frikativiseringsreglen 2011-06-01T17:18:17+00:00
+> Nyt lexicon XIi_utePXmorf og genindført %ProgI 2011-06-01T16:16:39+00:00
+6321a6399,6400
+> Tilfoejet LIAR+nv+UTE+vv i nominernes fleksionsleksika 2011-05-31T17:35:46+00:00
+> Slettet +IT+vv, men tilføjet 5 verber med IT up:down 2011-05-31T15:56:41+00:00
+6323a6403,6404
+> Torersaaneq 2011-05-06T17:33:49+00:00
+> Oprydning 2011-05-03T17:55:25+00:00
+6325a6407
+> See forthcoming mail. 2011-04-28T21:12:59+00:00
+6326a6409,6410
+> misiliut 2011-04-18T14:45:03+00:00
+> Tika uge 14 2011-04-07T14:51:23+00:00
+6328a6413,6414
+> Tika uge 13 2011-04-04T12:13:44+00:00
+> Tika 22. marts 11 2011-03-22T20:05:13+00:00
+6330a6417,6418
+> Beatrine - 21.03.11 2011-03-22T11:48:30+00:00
+> Tikap suliai uge11 2011-03-21T14:30:13+00:00
+6332a6421
+> Tika marts 2011 2011-03-18T14:29:00+00:00
+6333a6423,6424
+> Nye regler for j-epentese 2011-03-09T20:12:39+00:00
+> mandagens opdateringer 2011-03-08T12:31:00+00:00
+6335a6427,6428
+> Opdateringer i verb-kal-lex.txt 2011-03-03T17:21:37+00:00
+> Beatrine - 02.03.11 2011-03-03T11:43:12+00:00
+6337a6431,6432
+> Tikas opdateringer 1. marts 2011-03-01T12:25:38+00:00
+> Samlet check-in efter adgangsproblemer 2011-02-23T12:31:32+00:00
+6339a6435
+> test 2011-02-22T13:58:25+00:00
+6340a6437,6438
+> Testen undone 2011-02-09T15:30:42+00:00
+> Bare en test 2011-02-09T15:29:47+00:00
+6342a6441
+>  2010-12-30T12:40:35+00:00
+6343a6443
+>  2010-12-29T12:46:45+00:00
+6344a6445
+>  2010-12-28T12:07:54+00:00
+6345a6447
+>  2010-12-22T12:14:45+00:00
+6346a6449
+>  2010-12-20T12:12:44+00:00
+6347a6451
+>  2010-12-17T12:32:46+00:00
+6348a6453
+>  2010-12-16T12:33:46+00:00
+6349a6455
+>  2010-12-15T17:27:56+00:00
+6350a6457,6458
+>  2010-12-14T18:16:06+00:00
+> Fjærnede 3-4 konflikter i kal-lex og 2 konflikter i verb-kal-lex. 2010-12-13T22:10:20+00:00
+6352a6461
+>  2010-12-13T16:26:07+00:00
+6353a6463
+>  2010-12-09T12:19:39+00:00
+6354a6465
+>  2010-12-08T18:37:34+00:00
+6355a6467
+>  2010-12-08T12:12:14+00:00
+6356a6469
+>  2010-12-07T16:34:41+00:00
+6357a6471
+>  2010-12-07T14:23:54+00:00
+6358a6473,6474
+>  2010-12-07T11:18:18+00:00
+> Tilføjet Nivi og Niviaq i ateq 2010-12-06T15:45:20+00:00
+6360a6477
+>  2010-12-06T12:18:18+00:00
+6361a6479
+>  2010-12-03T14:32:54+00:00
+6362a6481
+>  2010-12-02T11:33:01+00:00
+6363a6483
+>  2010-11-30T15:02:36+00:00
+6364a6485
+>  2010-11-30T15:00:44+00:00
+6365a6487
+>  2010-11-30T14:35:54+00:00
+6366a6489,6490
+>  2010-11-29T19:19:02+00:00
+> Fjernet Pron1 2010-11-29T18:15:45+00:00
+6368a6493
+>  2010-11-29T13:02:47+00:00
+6369a6495
+>  2010-11-25T19:07:34+00:00
+6370a6497
+>  2010-11-25T19:05:50+00:00
+6371a6499
+>  2010-11-24T20:37:36+00:00
+6372a6501
+>  2010-11-24T16:52:23+00:00
+6373a6503
+>  2010-11-23T21:20:01+00:00
+6374a6505,6506
+>  2010-11-22T19:18:49+00:00
+> Mandagens opdateringer -  22112010 2010-11-22T18:54:30+00:00
+6376a6509,6510
+>  2010-11-22T14:58:46+00:00
+> Fredagens opdateringer2 -  19112010 2010-11-19T19:35:37+00:00
+6378a6513,6514
+> Judithes opdateringer - 19112010 2010-11-19T19:05:47+00:00
+> uk13fortsat 2010-11-19T15:40:03+00:00
+6380a6517,6518
+> annikitsunnguit 2010-11-18T19:09:56+00:00
+> Torsdagens opdateringer -  18112010 2010-11-18T15:46:48+00:00
+6382a6521,6522
+> ajung 2010-11-17T19:03:01+00:00
+> aatsaat 2010-11-17T13:31:05+00:00
+6384a6525
+> Lagt til referanse til pronominer i makefilen. Nu kompilerer grønlandsk igen. 2010-11-17T12:50:42+00:00
+6385a6527,6528
+> Beatrines check-in 2010-11-16T19:06:13+00:00
+> aatsaat 2010-11-16T14:09:24+00:00
+6387a6531,6532
+> Torsdagens opdateringer - 111110 2010-11-11T18:05:25+00:00
+> Tirsdagens opdateringer - 091110 2010-11-09T18:56:07+00:00
+6389a6535,6536
+> Mandagens opdateringer - 081110 2010-11-08T18:49:50+00:00
+> Tirsdagens opdateringer2 - 021110 2010-11-02T18:44:29+00:00
+6391a6539
+> Tirsdagens opdateringer - 021110 2010-11-02T15:07:57+00:00
+6392a6541,6542
+> Mandagens opdateringer - 011110 2010-11-01T18:37:32+00:00
+> Fredagens opdateringer - 291010 2010-10-29T17:43:32+00:00
+6394a6545
+> Torsdagens opdateringer - 281010 2010-10-28T17:38:51+00:00
+6395a6547,6548
+> Onsdagens opdateringer - 271010 2010-10-27T17:54:35+00:00
+> Torsdagens opdateringer - 211010 2010-10-21T17:42:12+00:00
+6397a6551
+> Onsdagens opdateringer - 201010 2010-10-20T17:24:47+00:00
+6398a6553,6554
+> Tirsdagens opdateringer - 191010 2010-10-20T11:22:45+00:00
+> Mandagens opdateringer - 181010 2010-10-19T10:58:18+00:00
+6400a6557,6558
+> Fredagens opdateringer - 151010 2010-10-15T16:46:37+00:00
+> Torsdagens opdateringer - 141010 2010-10-14T17:53:59+00:00
+6402a6561,6562
+> Ganske små småting 2010-10-13T20:11:03+00:00
+> jd 2010-10-04T17:58:02+00:00
+6404a6565
+> jd 2010-10-01T17:13:19+00:00
+6405a6567,6568
+> jd 2010-09-30T16:56:03+00:00
+> smule 2010-09-29T20:07:39+00:00
+6407a6571,6572
+> kun lidt 2010-09-28T12:52:14+00:00
+> En lus i xfst 2010-09-26T21:33:42+00:00
+6409a6575,6576
+> jd 2010-09-24T15:11:23+00:00
+> jd 2010-09-23T16:19:38+00:00
+6411a6579
+> j 2010-09-22T10:38:15+00:00
+6412a6581,6582
+> fra igår 2010-09-22T10:14:50+00:00
+> ukiut 13 jd 2010-09-20T17:53:23+00:00
+6414a6585,6586
+> Kun småting 2010-09-17T14:10:22+00:00
+> jude 2010-09-15T17:52:58+00:00
+6416a6589,6590
+> ukiut13 2010-09-14T18:03:49+00:00
+> ukiut13miit jd 2010-09-13T18:09:37+00:00
+6418a6593
+> ullumi immannguaannaq jd 2010-09-10T17:25:11+00:00
+6419a6595,6596
+> jd 2010-09-09T13:35:25+00:00
+> ukiu13 jd 2010-09-07T17:41:14+00:00
+6421a6599
+> ukiut13 jd 2010-09-07T15:57:54+00:00
+6422a6601,6602
+> ukiut13-iaasiit jd 2010-09-06T18:05:59+00:00
+> En enkelt korrektion 2010-09-04T19:10:34+00:00
+6424a6605
+> ukiut13 jd 2010-09-03T17:18:33+00:00
+6425a6607,6608
+> generalised home dir 2010-09-03T08:52:58+00:00
+> uk13 jd 2010-08-31T17:11:04+00:00
+6427a6611,6612
+> ukiut13 jd 2010-08-27T16:27:17+00:00
+> Opdateringer fra Lanas Ornigisaq 2010-08-26T19:29:23+00:00
+6429a6615,6616
+> ukiut13 jd 2010-08-26T17:53:40+00:00
+> Lidt mere Ornigisaq 2010-08-25T21:08:56+00:00
+6431a6619
+> Opdateringer fra Ornigisaq 2010-08-25T19:21:25+00:00
+6432a6621,6622
+> ukiut13 jd 2010-08-25T17:09:59+00:00
+> Ny tag, TermPart, og lidt derivativer 2010-08-25T10:00:21+00:00
+6434a6625,6626
+> Lidt flere derivativer 2010-08-25T05:42:42+00:00
+> ukiut13 jd 2010-08-24T18:03:21+00:00
+6436a6629,6630
+> Nu har jeg lavet en minimal Makefile. Hvis den protesterer på abbr.txt, skal __den ene linie__ der er mærket med "kommenter evt. ud." kommenteres ud (linie 82). 2010-08-24T05:29:15+00:00
+> ukiut13 jd 2010-08-23T17:22:50+00:00
+6438a6633
+> Nye lexica V-Loan og C-Loan. Rettet en fejl i xfst-kal. Tilføjet 1PlPoss+SUB 2010-08-22T20:22:03+00:00
+6439a6635,6636
+> ukiut13 jd 2010-08-20T17:26:41+00:00
+> Per had commented out a the goals phon, hyph, dis. They need not be commented entirely out, they only need to be removed from the default target. Now, they are reintroduced as targets called by commands make hyph, make phon, make dis. 2010-08-20T16:41:46+00:00
+6441a6639,6640
+> fra ukiut13 jd 2010-08-19T17:57:32+00:00
+> fra ukiut13 jd 2010-08-18T18:05:41+00:00
+6443a6643,6644
+> uk13 2010-08-17T17:21:49+00:00
+> lidt fra ukiut13 2010-08-16T17:42:11+00:00
+6445a6647
+> jd 2010-08-16T13:43:06+00:00
+6446a6649,6650
+> jd 2010-08-13T17:38:02+00:00
+> jd 2010-08-13T11:37:40+00:00
+6448a6653
+> some few additions kal-lex jd 2010-08-10T17:14:56+00:00
+6449a6655,6656
+> Removed initial (and final, hmm) blanks in order to avoid bug in abbr list creation. 2010-07-02T12:31:02+00:00
+> Kompletteringer med ungt sprog igen 2010-06-30T21:29:04+00:00
+6451a6659
+> Flere kompletteringer fra Lanas bog 2010-06-30T12:40:04+00:00
+6452a6661,6662
+> Kompletteringer med ungt sprog 2010-06-30T07:28:28+00:00
+> oprydning +VALLAAR noun-kal JD 2010-06-03T13:58:14+00:00
+6454a6665,6666
+> oprydning +GUNNAIR noun-kal jd 2010-06-02T18:04:50+00:00
+> oprydning sinnaa noun-kal jd 2010-06-01T17:18:39+00:00
+6456a6669,6670
+> oprydn. nngor noun-kal 2010-05-31T17:57:27+00:00
+> oprydning noun-kal og verb-kal 2010-05-27T17:58:59+00:00
+6458a6673
+> oprydning sima slut  noun-kal 2010-05-26T17:58:09+00:00
+6459a6675,6676
+> oprydning af sima nomener i  noun-kal 2010-05-21T16:07:22+00:00
+> oprydn 2010-05-19T18:25:18+00:00
+6461a6679,6680
+> jd 2010-05-07T17:27:45+00:00
+> jd 2010-05-03T17:35:14+00:00
+6463a6683,6684
+> jd 2010-04-29T17:52:51+00:00
+> Oprydning i Lok+Sg+3SgPoss i tup og Z2+rZ 2010-04-28T23:59:07+00:00
+6465a6687
+> jd 2010-04-28T17:34:24+00:00
+6466a6689,6690
+> Slettet fejlproducerende Saq fra flex-tv. Nyt lexicon HTR_GAQ_P 2010-04-27T14:40:24+00:00
+> jd 2010-04-26T19:54:42+00:00
+6468a6693,6694
+> jd 2010-04-26T17:53:14+00:00
+> jd 2010-04-22T17:58:14+00:00
+6470a6697,6698
+> Igen blot småting 2010-04-21T21:11:35+00:00
+> jd 2010-04-21T17:58:14+00:00
+6472a6701
+> added script name extension 2010-04-21T17:46:29+00:00
+6473a6703,6704
+> Now we all are number 3. 2010-04-21T13:42:06+00:00
+> jd 2010-04-19T17:54:37+00:00
+6475a6707,6708
+> sualunnguit 2010-04-16T18:16:50+00:00
+> jd 2010-04-15T18:24:35+00:00
+6477a6711,6712
+> kun lidt idag 2010-04-14T17:57:51+00:00
+> Småying 2010-04-12T09:43:28+00:00
+6479a6715
+> annikikkaluarput 2010-04-09T21:55:00+00:00
+6480a6717,6718
+> De sidste småtterier 2010-04-09T21:47:05+00:00
+> Fortsat oprydning 2010-04-08T20:45:19+00:00
+6482a6721,6722
+> Slettet IR+nv samt lidt småting 2010-04-07T20:58:35+00:00
+> Oprydning i nuleq vs. nuliaq. Nye lexica nuliaqmorf og nuliaq 2010-04-07T15:07:30+00:00
+6484a6725,6726
+> Lidt oprydning og et forsøg med nye lexica til HTR og TAQ 2010-04-06T21:50:15+00:00
+> Ny tag +Coll til proprier med uautoriserede stavemaader 2010-04-06T15:20:06+00:00
+6486a6729
+> Fjernet et par nominaliseringer fra verbale derivativer 2010-04-06T13:04:46+00:00
+6487a6731,6732
+> sinnaa oprydn i verb-kal og niar input kal-lex jd 2010-03-26T18:56:44+00:00
+> lidt opdatering af sinnaa jd 2010-03-25T18:53:12+00:00
+6489a6735,6736
+> dagens input 2010-03-24T18:50:59+00:00
+> Nye lexica til HTR. Rettelser og tilfoejelser 2010-03-23T21:42:16+00:00
+6491a6739,6740
+> jd 2010-03-23T18:05:28+00:00
+> Slettet QQUTE, da mere end 10 fejl per hit 2010-03-22T21:49:41+00:00
+6493a6743
+> Lidt rettelser i proprierne 2010-03-19T21:57:55+00:00
+6494a6745,6746
+> thats it for 2day jd 2010-03-19T18:53:58+00:00
+> jd 2010-03-18T18:49:25+00:00
+6496a6749,6750
+> dagens revision 2010-03-17T18:47:19+00:00
+> suunngikkaluarput 2010-03-16T14:47:59+00:00
+6498a6753,6754
+> halvdags arbejde, en smule oprydning 2010-03-15T18:49:32+00:00
+> Added assigmnent rule for multiple possessors (clumsy). 2010-03-14T13:56:19+00:00
+6500a6757
+> glemte at checke ind igår 2010-03-12T12:32:13+00:00
+6501a6759,6760
+> dagens oprydning 2010-03-10T17:43:58+00:00
+> rettelse af fejl +SUNNIP+vv - fjernet 2010-03-09T15:57:49+00:00
+6503a6763
+> judithes småting for idag 2010-03-08T19:03:50+00:00
+6504a6765,6766
+> More script files for analysis. 2010-03-07T12:56:37+00:00
+> ullormut suliat 2010-03-04T19:14:30+00:00
+6506a6769
+> lidt oprydning i verb-kal-lex pallaar-stammer 2010-03-03T19:02:22+00:00
+6507a6771,6772
+> ippassaq suliakka 2010-03-02T16:06:17+00:00
+> Ny mulitichar Comp til de saerlige transitive neq ajor/saper etc. Lidt oprydning i kal-lex 2010-02-28T12:21:35+00:00
+6509a6775,6776
+> New NIQAR=TUAR NIQAR=TUAR=INNAR NIQAR=TUAR=INNAR=NNGIT NIQAR=TUAR=INNAR=NNGIT=GALUAR 2010-02-28T09:29:04+00:00
+> Slettet MA pga heftig overgenering (103 fejl og 0 hit i lille test) 2010-02-28T08:45:22+00:00
+6511a6779,6780
+> opened up for SVO sentences (Bible syntax), added tags. 2010-02-27T15:07:12+00:00
+> MAAR+vv ikke produktiv. Allomorf eller sjaelden archaisk. Slettet 2010-02-27T12:55:22+00:00
+6513a6783
+> Nye lexica iGaq_NIR og flex-tv_fleksiver forebygger derivativer efter transitive paa NIR 2010-02-27T12:33:51+00:00
+6514a6785,6786
+> Nye lexica XIiX-og XIiPX_fleksiver forebygger derivativer efter NIR 2010-02-27T11:51:26+00:00
+> Mandagens opdateringer - 220210 2010-02-22T18:45:46+00:00
+6516a6789,6790
+> dagens småting og lidt oprydning i verb-kal 2010-02-19T19:45:14+00:00
+> Torsdagens opdateringer - 180210 2010-02-18T18:48:48+00:00
+6518a6793,6794
+> Tirsdagens opdateringer 2010-02-16T19:06:56+00:00
+> dagens småting 2010-02-16T18:56:02+00:00
+6520a6797
+> Mandagens opdateringer 2010-02-15T19:09:39+00:00
+6521a6799,6800
+> lidt sima 2010-02-14T20:49:19+00:00
+> Fredagens opdateringer - 120210 2010-02-12T18:53:22+00:00
+6523a6803,6804
+> Torsdagens opdateringer 2010-02-11T18:54:57+00:00
+> Onsdagens opdateringer 2010-02-10T18:55:25+00:00
+6525a6807,6808
+> En enkelt rettelse paa gr. af disambiguitet 2010-02-05T21:13:57+00:00
+> +NAR=NGAJAP... 2010-02-05T19:15:33+00:00
+6527a6811
+> 5/1-2010 fredagens småting 2010-02-05T18:04:09+00:00
+6528a6813,6814
+> torsdag 4 jan 2010 2010-02-04T18:40:05+00:00
+> Rettet QQIP=SSAAR til QQISSAAR 2010-02-04T18:12:17+00:00
+6530a6817
+> ... 2010-02-04T16:51:42+00:00
+6531a6819,6820
+> Småting 2010-02-04T14:59:04+00:00
+> 1. feb. 2010 2010-02-01T18:17:55+00:00
+6533a6823
+> kal-lex uden +SUR 2010-01-29T15:45:56+00:00
+6534a6825,6826
+> Tors 28 jan 2010-01-29T15:17:20+00:00
+> Fredag 22/1 - Torsdag 28/1, glemt at sende de andre dage 2010-01-28T15:39:03+00:00
+6536a6829,6830
+> jd: dagens idiotarbejde 21.01.10 2010-01-21T17:40:38+00:00
+> Removed one useless conditional target that caused make to produce 40 warnings of dropped dependencies. 2010-01-18T08:31:47+00:00
+6538a6833,6834
+> Foma support reinstantiated. Please make sure you update to the latest revision before committing any changes. 2010-01-18T08:16:28+00:00
+> Fakultativ progressiv i-assimilation tilfoejet 2010-01-17T21:52:32+00:00
+6540a6837
+> Renaming caseconv to inituppercase, for consistency. 2010-01-17T18:15:41+00:00
+6541a6839,6840
+> Rettet case.regex til nyt navn 2010-01-17T17:52:58+00:00
+> Tiljoejet GUNNAR og GUNNARSI 2010-01-16T20:19:18+00:00
+6543a6843,6844
+> Rettet QQU=SAAR's distribution 2010-01-16T16:30:24+00:00
+> Lexicon iSaq forkert opdateret. Rettet *isaq tilbage til saq 2010-01-16T15:26:54+00:00
+6545a6847,6848
+> fredag15.01.10opdat 2010-01-15T18:37:35+00:00
+> Corrected the bugs that caused compilation with the Xerox tools to fail. Now it works - but doesn't build with Foma. Oh well... 2010-01-15T16:23:15+00:00
+6547a6851
+> caseconv-fix 2010-01-15T15:14:26+00:00
+6548a6853,6854
+> Got new name 2010-01-15T15:07:17+00:00
+> Moved 2010-01-15T15:06:54+00:00
+6550a6857,6858
+> Indsat %TRUNC i VALLAAR=QE 2010-01-10T09:36:12+00:00
+> Several changes, most focused on making kal FOMA compatible: • made TARGET=sloppy default, so it doesn't need to be specified • simplified and broadened the clean target to delete *all* generated files (which is what you expect from a 'clean' target) • made a temporary target/file where all LEX files are concatenated; needed to make the build process FOMA/XFST compatible (there is no lexc in foma, only one tool corresponding to xfst) • also made a temporary file/target for the xfst regex files (morphophonology) - needed because foma breaks on some comment types - the temporary file is stripped of most comments • removed a number of superfluous semicolons - they are not needed, and in some cases they broke foma • prepared for a simplification of the makefile. Commented out for the time being, as it depends on improved xfst compatibility in foma • added a compilation optimisation suggested by Måns Huldén, the author of Foma: first compose/intersect the regex rules only with the lower side of the lexical transducer, then compose/intersect the resulting transducer with the full lexical transducer. The result is the same, but the compose/intersect on one level only is faster by a magnitude, and the final compose intersect is trivial, since the nets are identical on the composing sides. 2010-01-08T16:10:31+00:00
+6552a6861,6862
+> Found and corrected a bug that has prevented the file from compiling since at least December, at least on my computer. The bug was a simple typo (>% pro %>), but very easily overlooked. Now it compiles perfectly:) 2010-01-08T10:43:36+00:00
+> Added missing linefeed between two entries. Only aestethics, it doesn't really matter:) 2010-01-08T09:23:46+00:00
+6554a6865
+> Replaced tabs in front of comments with spaces. This was the easiest solution for foma compatibility. Since spaces were also used in front of many comments as it was, I only made one practice consistent. The change should have no effect whatsoever on the code, only slightly changed visual placements of the comments. 2010-01-08T08:56:51+00:00
+6555a6867,6868
+> Torsdagens opdateringer 2010-01-07T18:51:42+00:00
+> onsdagens opdateringer 2010-01-06T16:32:44+00:00
+6557a6871
+> Mandagens opdateringer 2010-01-04T18:57:56+00:00
+6558a6873,6874
+> onsdagens opdateringer 2009-12-30T14:47:31+00:00
+> uge 53 2009-12-28T19:09:34+00:00
+6560a6877
+> uge 51 og 52 2009-12-28T15:54:00+00:00
+6561a6879,6880
+> Ugens opdateringer 2009-12-18T18:41:13+00:00
+> mandagens opdateringer i kal 2009-12-07T18:35:37+00:00
+6563a6883,6884
+> fredagens opdateringer i kal 2009-12-07T12:01:56+00:00
+> Torsdagsopdateringer i kal 2009-12-04T11:54:38+00:00
+6565a6887,6888
+> Onsdagens opdateringer 2009-12-02T18:41:50+00:00
+> opdateringer i kal 2009-12-01T11:05:48+00:00
+6567a6891
+> Opdateringer - Mandag d. 23/11 2009-11-23T17:55:45+00:00
+6568a6893,6894
+> verb-kal.lex 2009-11-20T17:26:05+00:00
+> +NAR... 2009-11-19T19:54:37+00:00
+6570a6897,6898
+> Nye lexica til pi- og fortsat oprydning i participiernes CG-regler 2009-11-16T20:09:08+00:00
+> Oprydning og opstramning af constraints vedr. participier 2009-11-15T19:20:49+00:00
+6572a6901,6902
+> Lidt mere CG 2009-11-13T12:22:45+00:00
+> Bare smaa justeringer 2009-11-12T21:21:52+00:00
+6574a6905
+> Formiddagens CG mv. 2009-11-12T12:03:53+00:00
+6575a6907,6908
+> En glemt derivativkaede 2009-11-10T21:05:53+00:00
+> CG og flere derivativkaeder 2009-11-10T20:52:26+00:00
+6577a6911,6912
+> CG-regler og loebende oprydning 2009-11-09T18:15:49+00:00
+> Fortsat oprydning i lex-filer og lidt CG 2009-11-08T19:58:52+00:00
+6579a6915,6916
+> TV --> XTuteXmorf 2009-11-08T15:58:25+00:00
+> Aendringer i TAQ 1. runde 2009-11-08T15:35:05+00:00
+6581a6919
+> ilip+SIMA 2009-11-08T15:25:08+00:00
+6582a6921,6922
+> TAQ vn fjernet 2009-11-08T12:17:14+00:00
+> Ny semantisk klasse AIRBORNE 2009-11-07T14:00:59+00:00
+6584a6925,6926
+> Lidt CG 2009-11-07T13:44:11+00:00
+> SSUSEQ 2009-11-07T13:14:03+00:00
+6586a6929,6930
+> Tilhængskombinationer, oprydning og faa CG-regler 2009-11-06T22:14:56+00:00
+> små ændringer i src 2009-11-06T18:15:35+00:00
+6588a6933
+> Disambiguering 2009-11-05T21:55:23+00:00
+6589a6935,6936
+> Ny tag 'Refl' ved transitive Inf. Tilhaeng. Disambiguering 2009-11-04T20:58:07+00:00
+> Disambiguering og oprydning. Mindre Makefil 2009-11-04T15:11:42+00:00
+6591a6939,6940
+> HTR fra flex-iv_voq til IV_voq 2009-11-04T10:03:07+00:00
+> TIP=HTR=NIAR=HTR 2009-11-04T08:04:30+00:00
+6593a6943,6944
+> TIP=HTR=NIAR=HTR 2009-11-04T07:55:11+00:00
+> tirsdagsopdateringer 2009-11-04T07:31:10+00:00
+6595a6947
+> Smaatterier 2009-11-03T13:03:38+00:00
+6596a6949,6950
+> Flere detaljerettelser 2009-11-03T07:33:27+00:00
+> Diverse oprydning 2009-11-01T19:46:48+00:00
+6598a6953,6954
+> et par opdateringer 2009-11-01T17:23:13+00:00
+> et par opdateringer 2009-11-01T17:22:45+00:00
+6600a6957,6958
+> Disambigueringen genoptaget 2009-11-01T12:10:44+00:00
+> SUR=HTR 2009-10-31T13:35:11+00:00
+6602a6961
+> HTR 2009-10-31T12:58:28+00:00
+6603a6963,6964
+> SIMA=TIP 2009-10-31T10:39:29+00:00
+> SUR=HTR 2009-10-31T10:15:49+00:00
+6605a6967,6968
+> Removed hightone %H symbol with star *. 2009-10-22T15:00:50+00:00
+> Repareret en konflikt 2009-10-03T11:11:09+00:00
+6607a6971,6972
+> Added section 2009-09-22T23:41:06+00:00
+> Smaatterier fra sommeren 2009-09-22T09:32:50+00:00
+6609a6975
+> dumped in some rule from sme, these should be looked at. 2009-09-18T16:59:40+00:00
+6610a6977,6978
+> poss-additions. 2009-09-18T16:59:13+00:00
+> test 2009-09-16T15:07:49+00:00
+6612a6981
+> Nye opdateringer uden SAR 2009-09-04T17:43:20+00:00
+6613a6983,6984
+> Opdateringer uden SAR 2009-09-03T17:47:58+00:00
+> Sidste (meget lidt) nye 2009-09-01T13:35:49+00:00
+6615a6987
+> • The victorio conditional has to come after the regular definitions, otherwise it won't ever have any effect • the script catalog is now referenced using $GTHOME • whitespace formatting for easier readability 2009-07-01T10:59:18+00:00
+6616a6989,6990
+> Per parked the dis file, I partly took it in again, but behind bars. 2009-05-26T15:19:07+00:00
+> Qooqa 2009-04-30T18:42:48+00:00
+6618a6993
+> Deleted initial blank line to check svn functionality. 2009-04-22T17:08:12+00:00
+6620a6996
+> ændringer i kal-lex 2009-04-20T16:38:25+00:00
+6621a6998,6999
+> redigeret verb-kal-lex.txt 2009-04-14T13:34:18+00:00
+> Changed svnredone reference back to gtsvn. 2009-04-14T10:28:59+00:00
+6623a7002
+> redone 2009-04-13T18:13:21+00:00
+6624a7004,7005
+> Remove files that don't belong in svn 2009-04-09T14:14:25+00:00
+> Opdateringer i kal-lex.txt 2009-03-25T19:01:44+00:00
+6626a7008,7009
+> Opdateringer i kal-lex 2009-03-19T19:38:56+00:00
+> Opdatering i corpus 2009-03-16T19:16:34+00:00
+6628a7012,7013
+> Oprydning i noun-kal-lex 2009-03-15T11:47:41+00:00
+> Fortsat oprydning i noun-kal-lex 2009-03-14T20:21:41+00:00
+6630a7016
+> Opdateringer i corpus 2009-03-12T19:21:05+00:00
+6631a7018,7019
+> Fortsat oprydning i noun-kal-lex 2009-03-10T20:49:26+00:00
+> Ups! Fejl i noun-kal-lex. Ny version hermed 2009-03-10T11:59:30+00:00
+6633a7022,7023
+> Oprydning i noun-kal 2009-03-10T11:31:33+00:00
+> Genoptaget disambigueringen 2009-03-06T21:27:50+00:00
+6635a7026,7027
+> La til Pers adresse-regex heilt først i fila. 2009-03-05T21:04:32+00:00
+> almost a dummy file. 2009-03-04T23:01:06+00:00
+6637a7030
+> Completed the repertoire of VVCC symbols. 2009-03-04T22:07:26+00:00
+6638a7032,7033
+> Enkelte rettelser i kal-lex 2009-03-04T20:18:23+00:00
+> Added tilde versions of all vowels. Added er/eq to the right context of tt > ts / _ i, so now also the whole i phoneme (i/e) is included. 2009-03-03T18:50:53+00:00
+6640a7036
+> Added o-tilde and added a forgotten rule to the compilation chain. Feedback rom Oqaasileriffik. 2009-03-03T18:11:49+00:00
+6641a7038,7039
+> Rettelser 2009-03-02T18:02:23+00:00
+> svn-øvelser, ingen ændring egentlig. 2009-03-02T17:43:04+00:00
+6643a7042
+> Trondi kalaallisoorsinnaanngilaq. 2009-03-02T16:56:51+00:00
+6644a7044,7045
+> Opdateringer i corpus 2009-03-02T16:53:01+00:00
+> Første kapittel af min kære lærebog. 2009-03-02T16:50:39+00:00
+6646a7048,7049
+> Flytter byrden med at se på M Makefile over på Per. Nu er så xfst #-utf8 default. 2009-03-02T14:54:07+00:00
+> Cosmetics. 2009-03-01T19:58:42+00:00
+6648a7052,7053
+> Added rule ngn. 2009-03-01T19:53:33+00:00
+> Added antepenultimate high tone. Quite ugly. 2009-03-01T19:52:32+00:00
+6650a7056
+> Oprydning i noun-kal-lex 2009-02-27T20:21:25+00:00
+6651a7058,7059
+> Fortsat radikal oprydning i noun-kal-lex 2009-02-26T20:15:21+00:00
+> Ordna taggane slik at alle kasusendingane kjem først, og deretter alle possessivsuffiksa. 2009-02-23T11:22:51+00:00
+6653a7062,7063
+> Added the O letter to the object tags, this file has not been working since we remade the object conjugation tag. 2009-02-23T11:21:26+00:00
+> Added newline. 2009-02-23T11:20:06+00:00
+6655a7066,7067
+> Added newline. 2009-02-23T11:19:25+00:00
+> Fiksa problemet med orth og phon i grønlands. 2009-02-21T19:31:22+00:00
+6657a7070
+> Fortsat oprydning i isaer diatesens morfologi 2009-02-19T18:58:53+00:00
+6658a7072,7073
+> Kraftig oprydning i noun-kal-lex paabegyndt og konsekvenser i kal-lex 2009-02-18T21:34:27+00:00
+> Added ref to hyph and phon and orth. 2009-01-30T07:39:07+00:00
+6660a7076,7077
+> En gammel regelrevisjon, fjernet nogle, lagt til en illu-regel. 2009-01-26T18:33:11+00:00
+> Last version did not compile, removed two nondefined rules. 2008-12-07T19:11:01+00:00
+6662a7080,7081
+> annonce 2008-12-07T16:15:56+00:00
+> Reverting accidental commit. 2008-11-28T12:38:46+00:00
+6664a7084
+> Added next week's meeting memo to the menus. 2008-11-28T12:32:26+00:00
+6665a7086,7087
+> Smårettelser 2008-11-08T22:27:54+00:00
+> Changed rule names from  single letters to complex ones. Earlier, the same symbol (a, r) was defined as transducer and also referred to as letter. Fix: New rule names. 2008-11-06T09:47:02+00:00
+6666a7089
+>  2008-11-06T09:40:59+00:00
+6668a7092
+> Opdatering af phon-kal - inklusiv en bug, der ikke er klaret 2008-11-05T19:22:03+00:00
+6669a7094,7095
+> Fixed v rule, the problem was IPA ː vs. sampa :. We use ipa ː internally. 2008-11-04T22:30:29+00:00
+> Opdatering af phon-kal - foerste trin 2008-11-04T22:23:18+00:00
+6671a7098
+> IPA symbols for mid vowels. 2008-10-24T23:30:32+00:00
+6672a7100,7101
+> Corrected path. 2008-10-20T13:33:37+00:00
+> biili 2008-10-20T12:32:19+00:00
+6674a7104,7105
+> Finally a nickname-independent path to the script catalogue. 2008-10-20T12:31:40+00:00
+> La inn referanse til phon, orth, hyph. 2008-10-20T10:17:18+00:00
+6676a7108,7109
+> poss-tag 2008-10-19T11:35:33+00:00
+> korpus opdateringer 2008-10-03T17:20:31+00:00
+6678a7112
+> oqaluutit, nouns og partikler*.txt 2008-09-05T17:47:54+00:00
+6679a7114,7115
+> oqaluutit morfemillu*.txt 2008-09-03T14:36:40+00:00
+> morfemer og nouns*.txt 2008-09-02T17:51:10+00:00
+6681a7118,7119
+> The symbol for commenting out lines in Makefile is #. 2008-09-01T18:31:26+00:00
+> Nye nouns og morfemer*.txt 2008-09-01T17:57:19+00:00
+6683a7122,7123
+> Nye proprier og enkelte nominer 2008-08-29T17:30:02+00:00
+> korpus opdateringer 2008-08-27T13:33:49+00:00
+6685a7126
+> Opdateringer i korpus 2008-08-06T16:32:48+00:00
+6686a7128,7129
+> Opdateringer i korpus 2008-07-11T16:15:57+00:00
+> Opdateringer i korpus 2008-07-10T18:01:29+00:00
+6688a7132,7133
+> nye derivative og leksikalske opdateringer 2008-07-08T12:51:25+00:00
+> Dubletter fjernet fra ateq-kal 2008-07-05T21:16:51+00:00
+6690a7136,7137
+> yderligere derivativer og lidt nominer 2008-07-01T15:09:57+00:00
+> derivativer 2008-07-01T06:42:02+00:00
+6692a7140
+> Changed script address from gt/script to gtsvn/gt/script 2008-06-26T20:27:47+00:00
+6693a7142,7143
+> Minicorpus primaert til disambiguering 2008-06-20T08:54:54+00:00
+> This must be the way to organise the xfst reference in the makefile. 2008-06-05T13:04:05+00:00
+6695a7146,7147
+> Opdateringer iflg. SL 2008-05-26T20:31:49+00:00
+> Text 2008-05-26T16:57:50+00:00
+6697a7150,7151
+> Opdateringer fra corpus 2008-05-26T16:27:36+00:00
+> Introduced variable definitions for the Xerox tools 2008-05-23T18:39:03+00:00
+6699a7154
+> Faa opdateringer 2008-05-22T20:01:15+00:00
+6700a7156,7157
+> Added a comma to the string quote-backslah-quote, in front of the last quote. Now it compiles. 2008-05-21T21:52:21+00:00
+> Dagens opdatering i corpus 2008-05-21T18:27:20+00:00
+6702a7160,7161
+> Opdateringer i corpus 2008-05-19T18:19:00+00:00
+> Lidt disambiguering 2008-04-17T19:11:02+00:00
+6704a7164,7165
+> Opdateret Beatrines crashede filer 2008-04-14T20:01:41+00:00
+> Test 2008-04-09T18:04:12+00:00
+6706a7168
+> Disambiguering fortsat 2008-04-07T20:49:47+00:00
+6707a7170,7171
+> Nogle faa participium-regler 2008-04-06T18:46:56+00:00
+> Lidt mere disambiguering af participier 2008-04-05T20:30:51+00:00
+6709a7174,7175
+> Lidt praecisering i disambiguering af participier 2008-04-03T21:36:46+00:00
+> Igen meget lidt disambiguering 2008-04-02T20:11:14+00:00
+6711a7178,7179
+> En smule disambiguering 2008-04-01T21:46:59+00:00
+> La til SS_ i Sticky Tag -reglane for å sjekke om dei fungerer. 2008-04-01T06:15:33+00:00
+6712a7181
+> Dette er et script man kan bruge for at nemt analysere sætninger. For best at bruge det, skal der stå i .bashrc som del af $PATH: $HOME/st/kal/script Scriptet bruges ved at skrive kal-dis.sh og derefter en sætning eller flere. 2008-03-30T20:22:21+00:00
+6713a7183
+> Laga mange namn på reglar. 2008-03-30T20:00:54+00:00
+6715a7186,7187
+> Disambiguering og nye Num-lexica 2008-03-30T19:07:50+00:00
+> Lagt til to reglar: 2008-03-30T12:37:01+00:00
+6717a7190,7191
+> Opdateringer og disambigueringer 2008-03-29T19:30:37+00:00
+> La til eit par regelnam Sjå på konvensjonen. 2008-03-29T12:34:25+00:00
+6719a7194
+> Flere opdateringer 2008-03-29T11:40:28+00:00
+6720a7196,7197
+> Oprydning i CG grammatikken 2008-03-29T09:50:39+00:00
+> Lille groenlandsk corpus med forskellige teksttyper 2008-03-29T09:46:57+00:00
+6722a7200,7201
+> En groenlandsk aviscorpus 2008-03-29T09:44:55+00:00
+> En dansk aviscorpus 2008-03-29T09:44:12+00:00
+6724a7204
+> Oprydning og disambiguering 2008-03-28T20:28:15+00:00
+6725a7206,7207
+> Enkelte opdateringer i kal-lex 2008-03-28T15:25:41+00:00
+> Ganske faa aendringer 2008-03-27T20:29:56+00:00
+6727a7210
+> Dagens opdateringer i corpus 2008-03-27T19:08:13+00:00
+6728a7212,7213
+> Nyt lexicon tup_k_reduceret 2008-03-26T11:43:14+00:00
+> Lidt mere disambiguering 2008-03-25T19:26:27+00:00
+6730a7216
+> En smule disambiguering 2008-03-24T21:49:03+00:00
+6731a7218,7219
+> Opdateringer fra Corpus 2008-03-19T20:23:22+00:00
+> Stadigvaek maengder af ufaerdige disambigueringer vedr. participierne 2008-03-13T22:12:27+00:00
+6733a7222,7223
+> Mange ufaerdige regler om participium. Fortsaettelse foelger 2008-03-12T21:21:01+00:00
+> Oprydning i kal 2008-03-12T18:59:38+00:00
+6735a7226,7227
+> Endnu nogle faa derivativer 2008-03-11T21:52:52+00:00
+> Et par derivativer mere 2008-03-11T15:46:46+00:00
+6737a7230
+> Et par nye derivativer i kal-lex 2008-03-11T14:19:09+00:00
+6738a7232,7233
+> Lidt disambiguering og opdateringer i kal-lex 2008-03-11T13:07:20+00:00
+> Nogle ganske faa disambigueringer 2008-03-10T11:27:38+00:00
+6740a7236,7237
+> Lidt mere disambiguering 2008-03-08T21:24:48+00:00
+> En lang dags disambiguering 2008-03-07T19:08:14+00:00
+6742a7240,7241
+> En hel del ny disambiguering 2008-03-07T13:50:03+00:00
+> Korrigerte noens reglers syntaks. 2008-03-07T08:00:40+00:00
+6744a7244
+> Disambiguering, isaer i pre-section 2008-03-06T21:44:46+00:00
+6745a7246,7247
+> 0.9.2.3279 fix. Lot of garbage removed, some rules split, stricter syntax. The rule now works with the lastest, stricter vislcg3. 2008-03-06T09:06:29+00:00
+> Begyndelsen af en pre-section i rle 2008-03-05T21:31:29+00:00
+6747a7250,7251
+> Opdateringer i txtfilerne 2008-03-04T21:11:01+00:00
+> New, standardised TARGET name for dis.bin 2008-03-04T20:08:44+00:00
+6749a7254,7255
+> Et minicorpus tillagt 2008-03-04T10:13:53+00:00
+> Routine for compiling dis file added. 2008-03-04T07:57:52+00:00
+6751a7258
+> Opdateringer fra corpus 2008-03-03T21:28:00+00:00
+6752a7260,7261
+> atuaaniutitaat.corr.txt 2008-03-02T23:12:13+00:00
+> *** empty log message *** 2008-03-02T13:26:14+00:00
+6754a7264
+> lexicon with pos, better trad-matching, utf8 2008-03-02T11:50:51+00:00
+6755a7266,7267
+> Oprydning efter conflict i kal-dis3.rle 2008-03-02T09:46:22+00:00
+> *** empty log message *** 2008-03-02T09:39:43+00:00
+6757a7270,7271
+> Med pilcrow. 2008-03-02T09:23:40+00:00
+> Lagt til ny tilhænger UTE for vn. 2008-03-01T23:01:04+00:00
+6759a7274,7275
+> Rydda litt i abbr. 2008-03-01T22:59:39+00:00
+> Fjerna overflødige Du-taggar. Lagt til 4SgO, 4PlO til 34SGOBJVERB og ditto pl. Hierarkisert illu og illoq. Rydda opp i @CL-ADVL> og introdusert ny tagg, @CL-N> osb. Map-reglar for desse to. Nytolking av @X. No lagt til, og så fjerna. Remove, osb for underordna modi. Andre, tilsvarande reglar. Lagt til ein ny seksjon til slutt, for @CL-CIT> osb. 2008-03-01T22:59:03+00:00
+6760a7277
+> Attr på alle personnavne. 2008-03-01T22:52:59+00:00
+6762a7280
+> Ny lille testfil 2008-03-01T10:17:38+00:00
+6763a7282,7283
+> Nu over til vislcg3. 2008-03-01T06:47:05+00:00
+> Enkelte opdateringer i kal-lex 2008-03-01T00:56:23+00:00
+6765a7286,7287
+> Forsoeg paa strukturering af kal-dis3.rle og lidt flere regler 2008-02-27T22:10:48+00:00
+> Opdateringer fra fredag til tirsdag i txt 2008-02-27T17:01:11+00:00
+6766a7289
+> få opdateringer af sandkassen mv 2008-02-27T16:04:15+00:00
+6768a7292
+> Opdateringer fra fredag til tirsdag i txt 2008-02-26T19:58:52+00:00
+6769a7294,7295
+> Kosmetik 2008-02-25T23:43:55+00:00
+> Dagens opdateringer 2008-02-25T21:14:20+00:00
+6771a7298,7299
+> Replaced SET with LIST for a smal sett of definitions. 2008-02-24T22:35:18+00:00
+> Try to get to know this file, but it did not work, so I bravely corrected some syntacs: - there were two SET POSSESSUM - commented out the latter one. 2008-02-24T17:26:51+00:00
+6773a7302,7303
+> compilation 2008-02-23T19:42:09+00:00
+> Opdateringer i diverse 2008-02-20T20:39:16+00:00
+6775a7306
+> Opdateringer fra corpus 2008-02-18T21:01:15+00:00
+6776a7308,7309
+> Fredags opdateringer 2008-02-15T19:55:31+00:00
+> Små ændringer 2008-02-14T19:49:06+00:00
+6778a7312
+> Opdateringer i derivationsmorfemer*txt 2008-02-13T20:11:23+00:00
+6779a7314,7315
+> TUQ=U ved transitive verber tilfoejet 2008-02-13T13:34:35+00:00
+> Opdateret kal-lex mv 2008-02-11T20:30:08+00:00
+6781a7318,7319
+> En enkelt retttelse 2008-02-11T18:16:10+00:00
+> smaa aendringer i Lexica 2008-02-08T20:25:32+00:00
+6783a7322
+> Smaa rettelser i kal-lex 2008-02-07T19:31:55+00:00
+6784a7324,7325
+> Yderligere en smule disambiguering 2008-01-24T22:12:48+00:00
+> Endnu et lille nøk CG 2008-01-23T21:29:36+00:00
+6786a7328,7329
+> Lidt mere disambiguering 2008-01-22T22:17:01+00:00
+> La til eit par reglar på tampen av MAPPINGS for å fjerne @X. 2008-01-22T21:50:29+00:00
+6788a7332
+> NB. Helt nye tags for possessors person i possessum i kal-lex og kal-dis3.rle 2008-01-22T09:59:39+00:00
+6789a7334,7335
+> Et par nye LIST i rle 2008-01-22T08:53:34+00:00
+> Skifta ADD til MAP i Cau-regel 2008-01-21T09:20:00+00:00
+6791a7338
+> Definerte KKUT 2008-01-21T08:46:38+00:00
+6792a7340,7341
+> Startet oprydning i kal-dis3.rle og konsekvensrettelser i kal-lex.txt 2008-01-19T22:55:38+00:00
+> Minimale rettelser 2008-01-10T08:15:50+00:00
+6794a7344,7345
+> vislcg3 2008-01-04T23:46:47+00:00
+> Loebende opdateringer 2007-11-28T20:28:37+00:00
+6796a7348,7349
+> Lidt opdatering fortsat 2007-11-19T21:29:04+00:00
+> Kumuleringer fra AG 2007-11-16T21:44:56+00:00
+6798a7352
+> Almindelige opdateringer 2007-11-15T16:34:45+00:00
+6799a7354,7355
+> Opdateret kal-lex 2007-11-14T20:43:59+00:00
+> Smaa opdateringer i leksikonfilerne 2007-11-13T17:45:32+00:00
+6801a7358,7359
+> frequent danish words. 2007-11-13T13:25:43+00:00
+> Kun detaljer 2007-11-09T17:57:52+00:00
+6803a7362,7363
+> flere opdateringer af derivativer og noun 2007-11-01T14:54:36+00:00
+> Mindre rettelser i kal-lex 2007-10-31T19:38:12+00:00
+6805a7366
+> tagsplit gennemrettet og kal-lex konsekvensrettet 2007-10-31T15:06:25+00:00
+6806a7368,7369
+> Alle tags i kal-lex nu opsplittede 2007-10-31T15:04:57+00:00
+> changes are marked with w 2007-10-29T16:10:44+00:00
+6808a7372,7373
+> flere opdateringer af derivativer og verb samt noun 2007-10-26T17:12:05+00:00
+> flere opdateringer af derivativer og verb samt noun 2007-10-26T12:05:06+00:00
+6810a7376,7377
+> Konsekvensrettelser i kal-lex efter tagsplit 2007-10-25T21:14:25+00:00
+> flere opdateringer af derivativer og verb 2007-10-25T14:37:58+00:00
+6812a7380
+> Naesten igennem tagsplit.pl 2007-10-24T18:29:49+00:00
+6813a7382,7383
+> Korrektioner i kal-lex 2007-10-24T18:28:51+00:00
+> Oprydning i kal-lex og tagsplit.pl 2007-10-23T18:40:38+00:00
+6815a7386,7387
+> Rettet en del segmenteringsfejl i kal-lex 2007-10-23T15:15:37+00:00
+> \r to \n 2007-10-23T12:24:13+00:00
+6817a7390,7391
+> New banner. 2007-10-17T12:00:46+00:00
+> The input file is read from command line. 2007-10-16T06:55:17+00:00
+6818a7393
+> - Added unicode definitions - Replaced a-zA-ZæøåÆØÅéÃ with \pL (match unicode letters) 2007-10-13T04:22:25+00:00
+6820a7396
+> flere opdateringer af derivativer 2007-10-12T17:45:39+00:00
+6821a7398,7399
+> Converted to UTF-8. 2007-10-12T13:54:17+00:00
+> Translated from Latin-1 to UTF-8 2007-10-12T12:30:57+00:00
+6823a7402,7403
+> tagsplit.pl med skarpe paranteser. Nyt forsoeg 2007-10-12T10:44:38+00:00
+> tagsplit.pl med skarpe paranteser 2007-10-12T10:14:32+00:00
+6825a7406,7407
+> tagsplit.pl med skarpe paranteser og rettet kal-lex.txt 2007-10-12T10:13:43+00:00
+> Grundlæggeren av AG. 2007-10-12T06:34:49+00:00
+6827a7410,7411
+> Begyndende oprydning i tagsplit.pl 2007-10-10T19:55:07+00:00
+> Vist intet nyt, men maaske et par detaljer 2007-10-10T19:53:29+00:00
+6829a7414,7415
+> La til forklaringar. 2007-10-09T23:27:21+00:00
+> flere opdateringer af derivativer 2007-10-08T14:17:42+00:00
+6831a7418,7419
+> AG 2007-10-04T20:30:12+00:00
+> flere opdateringer af derivativer 2007-10-03T18:35:03+00:00
+6833a7422,7423
+> Andre ipa-symb. 2007-09-27T13:34:28+00:00
+> overflødig = 2007-09-25T20:57:33+00:00
+6834a7425
+> Alle eksempla i Bjørnums grammatikk ok. 2007-09-25T20:50:57+00:00
+6836a7428,7429
+> Makefile med hyph, orth, phon. 2007-09-25T14:02:09+00:00
+> Converter from Kleinschmidt to modern. 2007-09-25T12:51:42+00:00
+6838a7432,7433
+> *** empty log message *** 2007-09-25T11:10:26+00:00
+> Formatering. 2007-09-23T21:02:27+00:00
+6840a7436,7437
+> Lavet et perl-script for at splitte lange derivativer. Solen skinder. 2007-09-23T20:53:10+00:00
+> Fjerna alle gamle reglar frå 1.12, og omformulert overskrifter. 2007-09-23T14:19:28+00:00
+6842a7440
+> Endra glottal stop [sic.] til uvular stop. 2007-09-23T03:35:04+00:00
+6843a7442,7443
+> Mindre retting. 2007-09-22T20:37:01+00:00
+> Kosmetika. 2007-09-22T20:36:47+00:00
+6845a7446
+> nv og vn 2007-09-22T20:36:11+00:00
+6846a7448,7449
+> Lagt til +vn og +nv over alt. 2007-09-22T20:35:47+00:00
+> Lagt til diskusjonar. 2007-09-22T20:35:17+00:00
+6848a7452,7453
+> Denne versjonen er ferdig. 2007-09-22T20:31:02+00:00
+> Forsøk på å oppstille ein fonologisk transduser. 2007-09-22T15:12:35+00:00
+6850a7456,7457
+> flere opdateringer 2007-09-20T13:19:24+00:00
+> Tillæg. 2007-09-19T21:28:01+00:00
+6851a7459
+> Andre øgt med Eckhard og Lars. 2007-09-19T21:27:17+00:00
+6853a7462,7463
+> Lagt til +nn og +vv for derivationstags. 2007-09-19T21:26:41+00:00
+> Flere regler, og objektskonjugasjon. 2007-09-18T15:47:41+00:00
+6854a7465
+> Fil for grønlandsk orddeling. 2007-09-18T15:46:00+00:00
+6856a7468,7469
+> Lagt til ord 2007-09-18T15:45:50+00:00
+> Lagt til separat tag for objektskonjugasjon. 2007-09-18T15:44:53+00:00
+6858a7472,7473
+> To nye tekster. 2007-09-18T15:43:44+00:00
+> Lagt til separat tag for objektkonjugasjon. 2007-09-18T15:42:38+00:00
+6860a7476,7477
+> Reviderede epenteseregler. Sidste rev. foer stavekontollens version 2.0 2007-09-16T19:13:54+00:00
+> Et par derivativkombinationer og nyt lexicon Taq 2007-09-12T07:45:20+00:00
+6862a7480
+> Endnu en smule oprydning 2007-09-10T20:35:00+00:00
+6863a7482,7483
+> Oprydning fortsat 2007-09-08T20:53:36+00:00
+> Litt dokumentasjon 2007-09-08T08:19:44+00:00
+6864a7485
+> Flytta alle tomme leksikonpeikarar frå slutten av leksikonet til starten, for betre lesbarheit. 2007-09-08T08:19:23+00:00
+6866a7488,7489
+> Fortsat oprydning 2007-09-07T22:24:49+00:00
+> Fortsat oprydning 2007-09-07T10:00:25+00:00
+6868a7492,7493
+> Oprydning isaer at N->Vb derivativer flyttet fra nominale derivativer til nominernes fleksion 2007-09-06T20:43:16+00:00
+> Oprydning og en ny assimilationsregel fAssimilation 2007-09-06T06:58:42+00:00
+6870a7496
+> New regex-version of num generator, excluding path to bare analysis of arabic numerals. NB! not checked, in cvs for inspection. 2007-09-05T12:15:51+00:00
+6871a7498,7499
+> Oprydning i leksika og lidt mere derivation 2007-09-04T21:07:33+00:00
+> flere opdateringer 2007-09-04T14:05:11+00:00
+6873a7502,7503
+> Doubled PersonNumber for verbs. 2007-09-03T16:11:14+00:00
+> adding resources for paradigm generaotr 2007-08-31T11:07:31+00:00
+6875a7506,7507
+> Added tags for dual. 2007-08-31T06:59:44+00:00
+> flere opdateringer 2007-08-30T11:34:56+00:00
+6877a7510
+> flere opdateringer 2007-08-24T11:32:52+00:00
+6878a7512,7513
+> flere opdateringer 2007-08-23T11:28:10+00:00
+> flere opdateringer 2007-08-16T11:32:45+00:00
+6880a7516,7517
+> flere opdateringer 2007-08-14T11:38:24+00:00
+> Rydda opp i konflikt, la til eit hermeteikn før isuma. 2007-08-10T21:21:52+00:00
+6882a7520,7521
+> flere opdateringer 2007-08-09T11:44:59+00:00
+> Flere aendringer i kal-dis og to smaa rettelser i noun-kal-lex 2007-08-06T09:45:15+00:00
+6884a7524,7525
+> Added periods (yes, I admit it...) 2007-08-03T21:02:37+00:00
+> Starta seriøst arbeid med syntaksen. 2007-08-03T21:00:58+00:00
+6886a7528,7529
+> Kun smaatterier 2007-07-09T19:31:38+00:00
+> flere opdateringer 2007-06-22T11:33:05+00:00
+6888a7532,7533
+> flere opdateringer 2007-06-19T11:08:10+00:00
+> Kosmetika. 2007-06-19T08:55:17+00:00
+6890a7536,7537
+> flere opdateringer 2007-06-18T11:37:09+00:00
+> flere opdateringer 2007-06-15T18:09:25+00:00
+6892a7540
+> Generel oprydning og nyt lexicon attribut_til_prop 2007-06-14T21:45:49+00:00
+6893a7542,7543
+> Edited links that prevented a clean build 2007-06-14T10:53:51+00:00
+> Transitive r-stammer foert gennem loekken Gaq. Oprydning 2007-06-12T22:52:42+00:00
+6895a7546,7547
+> Rettet en fejl i regelordningen i xfst 2007-06-11T21:03:18+00:00
+> Oprydning og paabegyndt loekke til passivt nomen 2007-06-11T19:05:42+00:00
+6897a7550,7551
+> flere opdateringer 2007-06-11T17:56:53+00:00
+> Smaatterier og oprydning 2007-06-11T10:25:00+00:00
+6899a7554
+> abbr-extract in gt/script replaces old version 2007-06-11T04:43:49+00:00
+6900a7556,7557
+> flere opdateringer 2007-06-08T17:59:32+00:00
+> flere opdateringer 2007-06-07T18:03:03+00:00
+6902a7560,7561
+> flere opdateringer 2007-06-06T16:01:43+00:00
+> flere opdateringer 2007-06-01T13:46:06+00:00
+6904a7564,7565
+> flere opdateringer 2007-05-30T17:54:53+00:00
+> flere opdateringer 2007-05-29T18:12:43+00:00
+6906a7568
+> flere opdateringer 2007-05-25T18:48:37+00:00
+6907a7570,7571
+> flere opdateringer 2007-05-24T20:37:38+00:00
+> flere opdateringer 2007-05-23T18:47:43+00:00
+6909a7574
+> flere opdateringer 2007-05-22T21:13:22+00:00
+6910a7576,7577
+> flere opdateringer 2007-05-21T17:19:40+00:00
+> flere opdateringer 2007-05-16T16:56:01+00:00
+6912a7580
+> flere derivativer 2007-05-16T16:18:56+00:00
+6913a7582,7583
+> La til eit par forkortingar, vi treng fleir skal det bli systnaks ut av det. 2007-04-04T15:55:37+00:00
+> flere opdateringer 2007-03-29T18:16:07+00:00
+6915a7586,7587
+> flere opdateringer 2007-03-28T18:22:16+00:00
+> flere opdateringer 2007-03-27T18:50:33+00:00
+6917a7590,7591
+> flere opdateringer 2007-03-20T17:50:02+00:00
+> flere opdateringer 2007-03-16T17:49:39+00:00
+6919a7594
+> flere opdateringer 2007-03-15T18:40:29+00:00
+6920a7596,7597
+> flere opdateringer 2007-03-14T17:45:44+00:00
+> Nye lexica Z1joqZmorf og Z1joqZ samt oprydning i kal-lex.txt 2007-03-13T11:55:14+00:00
+6922a7600,7601
+> flere opdateringer 2007-03-09T16:59:38+00:00
+> flere opdateringer 2007-03-08T18:49:06+00:00
+6924a7604,7605
+> flere opdateringer 2007-03-03T16:00:45+00:00
+> flere opdateringer 2007-03-02T18:52:38+00:00
+6926a7608
+> flere opdateringer 2007-03-01T19:15:38+00:00
+6927a7610,7611
+> flere opdateringer 2007-02-28T18:52:11+00:00
+> flere opdateringer 2007-02-27T20:37:53+00:00
+6929a7614,7615
+> flere derivativer 2007-02-23T18:45:49+00:00
+> Ganske faa opdateringer og oprydninger 2007-02-23T17:44:36+00:00
+6931a7618,7619
+> Ubetydelige detaljerettelser 2007-01-23T21:53:09+00:00
+> flere derivativer 2007-01-22T14:05:31+00:00
+6933a7622
+> flere derivativer og flere af noun 2007-01-19T15:52:15+00:00
+6934a7624,7625
+> flere derivativer og flere af noun samt fra ateq-kal-lex 2007-01-18T19:16:42+00:00
+> flere af ateq-kal-lex 2007-01-17T19:06:39+00:00
+6936a7628,7629
+> TITTAR tilfoejet med transitive fleksiver 2007-01-09T15:43:30+00:00
+> flere derivativer og flere noun 2007-01-08T18:07:44+00:00
+6938a7632,7633
+> flere derivativer 2006-12-20T17:20:19+00:00
+> flere derivativer 2006-12-19T15:42:22+00:00
+6940a7636
+> flere derivativer 2006-12-18T17:37:03+00:00
+6941a7638,7639
+> Added the full list of lexicon files to the abbr-target. 2006-12-18T09:00:40+00:00
+> Modified abbr-target to work with modified abbr-extract script. 2006-12-18T08:24:13+00:00
+6943a7642,7643
+> flere derivativer 2006-12-15T17:01:50+00:00
+> flere derivativer 2006-12-12T18:11:02+00:00
+6945a7646,7647
+> flere derivativer 2006-12-11T15:22:49+00:00
+> flere derivativer 2006-12-07T17:42:20+00:00
+6947a7650
+> flere derivativer 2006-12-06T16:04:10+00:00
+6948a7652,7653
+> flere derivativer 2006-12-05T18:46:41+00:00
+> Gjekk forbi fst/xfst-problemet med eit ln-hack. Sjå introen for ei forklaring. 2006-12-05T12:31:09+00:00
+6950a7656
+> Meget smaa justeringer i kal-lex 2006-12-04T23:43:52+00:00
+6951a7658,7659
+> flere derivativer 2006-12-04T16:53:57+00:00
+> cvsignore. 2006-12-03T21:41:58+00:00
+6953a7662,7663
+> Ordklassekonverterende morfemer flyttet til fleksiver 2006-12-03T21:06:16+00:00
+> Flere derivativkombinationer 2006-12-01T18:52:27+00:00
+6954a7665
+> Nytt forsøk med Makefile og (x)fst. 2006-12-01T13:06:48+00:00
+6955a7667
+> Forandra to @fst til $(XFST), eg hadde oversett dei, beklager. Dermeg gjekk det heller ikkje å kompilere i dag. 2006-11-30T19:13:30+00:00
+6957a7670,7671
+> flere derivativer 2006-11-30T13:59:08+00:00
+> Prøver å få i pose og sekk.. 2006-11-30T10:31:48+00:00
+6959a7674,7675
+> *** empty log message *** 2006-11-29T19:07:39+00:00
+> Lidt almindelig oprydning i dubletter mv. 2006-11-22T22:54:28+00:00
+6961a7678,7679
+> Derivativkombinationer 2006-11-22T17:36:24+00:00
+> Derivativkombinationer igen, igen 2006-11-21T22:19:55+00:00
+6963a7682,7683
+> Flere derivativkombinationer 2006-11-20T22:10:30+00:00
+> Smaa opdateringer i XFST 2006-11-20T09:42:18+00:00
+6965a7686
+> Flere derivativkombinationer og lidt oprydning i verber og nominer 2006-11-17T17:47:52+00:00
+6966a7688,7689
+> Ny xfst-regel for at haandtere trunkering ved LIR+TAQ 2006-11-16T23:33:10+00:00
+> Derivativkombinationer fortsat 2006-11-16T22:12:54+00:00
+6968a7692
+> flere derivativer 2006-11-15T21:53:19+00:00
+6969a7694,7695
+> opdateringer af derivativkombinationer 2006-11-14T20:28:18+00:00
+> Tre ret marginale epenteseregler introduceret 2006-11-13T23:01:51+00:00
+6971a7698
+> seneste opdateringer af derivativer og lidt oprydning i kal-lex 2006-11-13T20:59:34+00:00
+6972a7700,7701
+> Ny nasaliseringsregel i xfst og fortsat oprydning i kal-lex 2006-11-13T06:48:44+00:00
+> Detaljerettelser i kal-lex 2006-11-12T08:36:49+00:00
+6974a7704,7705
+> Derivativkombinationer fortsat 2006-11-10T20:51:26+00:00
+> Changed the header which had become invalid for some reason. The document didn't validate for this reason. 2006-11-09T23:41:27+00:00
+6976a7708,7709
+> Flere derivativkombinationer og smaa fejlrettelser i noun og verb 2006-11-09T21:59:34+00:00
+> Kosmetiske endringar, + at eg la til dokumentasjon i byrjinga av filene. 2006-11-09T00:25:30+00:00
+6978a7712
+> Opdateret information. 2006-11-08T23:37:27+00:00
+6979a7714,7715
+> Ordklassekonverterende derivativer flyttet til fleksivernes leksika. Foerste afsnit 2006-11-08T21:54:16+00:00
+> Fortsatte opdateringer i derivativerne 2006-11-08T19:22:29+00:00
+6981a7718,7719
+> opdatering foer Aviaqs nye st 2006-11-08T13:02:25+00:00
+> Changed formatting 2006-11-08T12:12:21+00:00
+6983a7722,7723
+> Take away the "/" at the end of .html links. 2006-11-08T12:04:44+00:00
+> Link shall be html, not xml. 2006-11-08T11:10:40+00:00
+6985a7726
+> A minor change 2006-11-08T10:09:45+00:00
+6986a7728,7729
+> Document now validates 2006-11-08T10:05:04+00:00
+> Formatting the doc. It doesn't compile, but I want it to look nice, and ran it through xmllint. 2006-11-08T09:58:12+00:00
+6988a7732,7733
+> opdaterede derivativer 2006-11-07T21:21:23+00:00
+> Link. 2006-11-06T21:40:30+00:00
+6990a7736,7737
+> Documenting the kal lexica. 2006-11-06T21:39:33+00:00
+> Fortsatte Aviaq-opdateringer 2006-11-06T18:06:17+00:00
+6992a7740
+> p class without section tag. 2006-11-06T12:37:55+00:00
+6993a7742,7743
+> Aviaqs opdateringer i noun-kal-lex 2006-11-05T21:11:14+00:00
+> Aviaqs opdateringer i noun-kal-lex plus faa justeringer 2006-11-04T21:06:12+00:00
+6995a7746,7747
+> Fortsatte detaljeopdateringer 2006-10-09T19:04:11+00:00
+> Eit par kasusendingar på abbr. 2006-10-06T15:24:28+00:00
+6997a7750,7751
+> Detaljeopdateringer fra en hel del dage 2006-10-06T13:05:11+00:00
+> La til endash og emdash i analysatoren. 2006-10-05T07:40:00+00:00
+6998a7753
+> La til filer til bruk for å lage preprosesserar. Dei er kopiert frå gt/script/. 2006-10-05T07:38:34+00:00
+7000a7756
+> Detaljeopdateringer i derivativer og enkelte leksemer 2006-09-21T21:40:45+00:00
+7001a7758,7759
+> Her skal vi ha filer av typen *.txt. 2006-09-21T18:26:04+00:00
+> In English, due to the probable future audience. This Makefile revisions makes it possible to create two different targets, make TARGET=sloppy make TARGET=strict The sloppy one accepts Per-ip and Perip, the strict one only Perip. Thus, the speller project should compile with the strict target. 2006-09-21T09:52:31+00:00
+7003a7762,7763
+> Fjernet xfst-reglen Pronvar4 og udbygget derivativerne i kal-lex.txt 2006-09-20T19:58:22+00:00
+> Sett ein del meir på strict/sloppy, men framleis ingen fungerande versjon. Dessutan bør vi helst ha noko parametrisert TARGET, hmm. 2006-09-20T19:05:23+00:00
+7004a7765
+> Her har eg lagt inn bindestrek foran kasussuffiksa, Fredriksen-ip. Dette er ikkje etter standard, så det må ut i stavekontrollen. Dermed har eg skrive !SUB attom alle desse linene. Eg har og lagt inn kommandoar i Makefile for å fjerne !SUB-linene, men desse kommandoane fungerer ikkje enno. For å få ein strikt versjon av analysatoren her og no er det berre å sjekke inn, og deretter skrive grep -v ateq-kal-morph.txt > x mv x ateq-kal-morph.txt Dermed er den lokale ateq-varianten utan SUB-ar, og kan kompilerast. NB! Slett den versjon etterpå, og sjekk ut på nytt. Når vi får til Makefila går dette automatisk. 2006-09-20T12:06:54+00:00
+7005a7767
+> Laga starten på ei ny makefil, som skal skilje mellom strict og sloppy versjon av parsaren, men får det ikkje heilt til. Dei nye delane er dermed kommentert ut så lenge. 2006-09-20T12:02:56+00:00
+7007a7770
+> Stramning af regler paa gr. af TWOL. Mange konsekvensrettelser 2006-09-19T20:02:26+00:00
+7008a7772,7773
+> Fjerna Prop Abbr viss ikkje 1 Prop. 2006-09-18T21:39:47+00:00
+> La til ekstra leksikon med bindestrek foran kasus, sjekk dette for normativitet (men mønsteret er i fleirtal i tekstane). 2006-09-18T21:37:58+00:00
+7009a7775
+> Fjerna ein utgang til # i førkomma, vi hadde 34 etc. utan analyse. 2006-09-18T21:36:44+00:00
+7010a7777
+> La til fleire ord frå nettet. 2006-09-18T21:36:09+00:00
+7011a7779
+> Små opdateringer i leksika og en tilføjelse til XFST-reglen 'eafradikalisering' 2006-09-18T16:57:17+00:00
+7013a7782,7783
+> Added *.txt to the list of suffixes to be ignored. 2006-09-18T06:43:11+00:00
+> Store bokstavar som TRAB. 2006-09-17T20:41:17+00:00
+7015a7786,7787
+> Flere morfemkombinationer og opdaterede leksika 2006-09-17T20:34:45+00:00
+> Reviderte makefile og abbr-fil for å få ein betre preprosessar. Merk at ein må ha gt/ lasta ned for å kompilere kal, pga scriptet i gt/script. 2006-09-17T18:53:03+00:00
+7017a7790,7791
+> Detaljeopdateringer i morfologien og enkelte leksemer 2006-09-17T15:50:01+00:00
+> Fortsatte små justeringer i leksika og morfologi 2006-09-17T10:32:36+00:00
+7018a7793
+> Mange små opdateringer i leksika 2006-09-17T08:32:00+00:00
+7019a7795
+> Oprydninger i ateq-kal-lex. Fortsætter i morgen. Tilfoejet en linie i num-kal-morph for at medtage ord som 27. 2006-09-16T19:21:43+00:00
+7021a7798,7799
+> Nyt leksikon Z1geopropPZ og oprydning i ateq-kal-lex 2006-09-15T10:32:13+00:00
+> Pynt. 2006-09-13T21:55:45+00:00
+7022a7801
+> La til <comp> og <corp> også, med Z1ateq... -leksika. 2006-09-13T21:55:20+00:00
+7023a7803
+> Flytta dei fire dummy-leksikona frå kal-lex til ateq-kal-morph, eg hadde i vanvare lagt dei i feil leksikon. 2006-09-13T21:45:07+00:00
+7024a7805
+> Lagt til 4 leksika utan innhald, Z1geopropZ, Z1geoZ, Z1ateqpropZ og Z1ateq_oqsZ, for å matche namna som er lagt til ateq-kal-lex. 2006-09-13T21:33:13+00:00
+7025a7807
+> Lagt til ca. 9600 namn frå dannames.txt, til 6 ulike leksika: <person> på e/o, på anna vokal, og på konsonant, og <sted> på dei same 6 grupper. Det som står att i dannamnes-fila er no corp, abbr, comp. 2006-09-13T21:31:15+00:00
+7027a7810,7811
+> Documentation sketch. 2006-09-13T08:53:31+00:00
+> Vi går over til ny dokumentajon, index.xml, ikkje index.html. 2006-09-13T08:41:03+00:00
+7029a7814,7815
+> Dokumentation. 2006-09-12T17:10:26+00:00
+> Fra ASDF-ip til ASDF-p og ADSF. 2006-09-12T16:53:36+00:00
+7031a7818,7819
+> Akronym. 2006-09-12T16:44:34+00:00
+> Siste versjon, med acro. 2006-09-12T16:44:19+00:00
+7033a7822,7823
+> Lagt til abbr, lagt til dobbel possessum for Kalaallit Nunaat. 2006-09-12T14:18:59+00:00
+> Lagt til poss-leksika. 2006-09-12T14:03:53+00:00
+7035a7826,7827
+> Baklengssortert, rydda. 2006-09-12T14:03:28+00:00
+> Overskrifter og kosmetikk. Retta -p til -up for up-erne, og flytta forkortingar frå noun til abbr. 2006-09-12T13:15:55+00:00
+7037a7830,7831
+> Exit doble farao og manasse. 2006-09-12T12:21:01+00:00
+> henta Manasse og Farao PROP frå versjon 1.18. 2006-09-12T12:08:36+00:00
+7039a7834,7835
+> Lagt til nye filer. 2006-09-12T12:03:42+00:00
+> Overført morfologi til ateq-kal-morph.txt. 2006-09-12T12:03:29+00:00
+7041a7838,7839
+> Eiga fil for arabiske tal. 2006-09-12T12:02:59+00:00
+> Abbr-fil. 2006-09-12T12:02:37+00:00
+7043a7842
+> Eiga morfologifil for namn. 2006-09-12T12:02:02+00:00
+7044a7844,7845
+> Abs pl. 2006-09-12T10:06:25+00:00
+> Lagt til %EPENT i ref til indholds-K for former som 6-imi. 2006-09-12T09:56:53+00:00
+7045a7847
+> Lagt til bindestrek som mogleg venstrekontekst i regelen define Vepentese [ %EPENT -> i || [Cns | %-] _ %CLIT ] ; på grunn av former som 6-imi, som skal ha +Num+Abs+MI i tillegg til den ordinære lokativanalysen +Num+Lok. 2006-09-12T09:56:08+00:00
+7046a7849
+> Fleirledda tal før komma. 2006-09-12T09:32:07+00:00
+7048a7852
+> Ordna 1900-problemet, og 8 utan suffiks. 2006-09-12T09:11:30+00:00
+7049a7854,7855
+> Dei to manglande %-teikna foran 0 og 00 i 1t9sep. 2006-09-12T08:44:04+00:00
+> Første fungerende arabiske generator for tal opp til hundre, med dansk vokal til kasusbøying. 2006-09-12T07:30:03+00:00
+7050a7857
+> Rydda for å førebu utviding. 2006-09-12T06:38:51+00:00
+7052a7860
+> Attributt-regel for namn. 2006-09-12T06:35:30+00:00
+7053a7862,7863
+> Et par smaafejl fjernet fra noun-kal-lex 2006-09-10T19:27:29+00:00
+> Splitta opp ein del namn. 2006-09-10T13:53:13+00:00
+7055a7866,7867
+> Aendringer i kal-lex (flere derivativer) og en lille justering i xfst-lex 2006-09-10T07:56:55+00:00
+> Sm texts. 2006-08-18T06:28:59+00:00
+7057a7870
+> Fiksa numeraliegeneratoren slik at han gjev taggen +Num til arabiske tal. 2006-08-04T15:15:47+00:00
+7058a7872,7873
+> Laga ein regel for imperativsdisambiguering. 2006-08-04T15:14:26+00:00
+> La til ei ekstrasetning (mi eiga) til sadock-korpuset. 2006-08-04T09:28:34+00:00
+7060a7876,7877
+> Forma erngi av imeq manglar kasus-tagg, eg la til ein merknad om det. 2006-08-04T09:27:59+00:00
+> Endra taggen NegInf på verbet _pi_ til InfNeg, eg går ut frå at det var ein skrivefeil. 2006-08-04T09:25:39+00:00
+7062a7880
+> Lagt til avsnitt om mapping av syntaktiske funksjonar. Definert TV og IV (vi burde ha hatt separate taggar for subjekt- og verbkongruens). Skrive ein del reglar for disambiguering av SOV-strukturar. 2006-08-04T09:24:41+00:00
+7063a7882,7883
+> Laga eit nytt sett TRANSVERB for alle verb med dobbel argumentkongruens, ein regel som vel proprium over nomen setningsinternt, og rydda litt opp. 2006-08-02T14:56:46+00:00
+> Mindre endringar: Rel av Nuuk er Nuup og ikkje Nuuup, Betlehem er Betlehemi, og litt fikling med skiljeteikn. 2006-08-02T14:55:52+00:00
+7064a7885
+> Eksempelsetningar frå Jerry Sadock sin grammatikk i Lincom-serien. 2006-07-28T20:38:18+00:00
+7066a7888
+> Kommenterte ut Gud, han finst som namn, og vi skal ha berre ein... 2006-07-28T20:37:45+00:00
+7067a7890,7891
+> Ny regel for NP Sg3 disambiguering. 2006-07-28T20:36:58+00:00
+> Test og detaljer. Yderligere 3.482 hit i NT siden i gaar 2006-06-07T21:05:22+00:00
+7069a7894,7895
+> Test og konsekvensrettelser. Hit i NT nu 83,25% 2006-06-06T20:37:12+00:00
+> Nogle -loger til at haandtere -logi-erne 2006-06-06T14:36:18+00:00
+7071a7898,7899
+> Detaljerettelser ifm. test # nnnnnnn 2006-06-06T14:14:47+00:00
+> Lagt til lånord på -logi. 2006-06-05T18:40:34+00:00
+7073a7902,7903
+> Mange rettelser og ringe fremskridt. 1200 manglende hits fundet 2006-06-04T20:39:33+00:00
+> Rettelser og tilfoejelser. 4500 ekstra hit i NT siden i gaar 2006-06-03T21:04:42+00:00
+7075a7906,7907
+> Nye kaeder af derivativer plus smaating efter testning 2006-06-03T12:38:01+00:00
+> Fiksa konflikt, og (håpar eg) æøå-problem i kommentarane. 2006-06-02T10:23:47+00:00
+7077a7910,7911
+> kal-lex.txt renset og velfungerende igen 2006-06-01T21:29:35+00:00
+> +QQUAA til +QQA, utan flex scanner -problem. 2006-05-31T21:09:35+00:00
+7079a7914,7915
+> Tester flittigt. Nye derivativer og nye enkelte stammer 2006-05-31T14:32:21+00:00
+> Testfasen begyndt. Mange smaa detaljejusteringer 2006-05-30T11:33:32+00:00
+7081a7918
+> Flyttet stort corpus til lokal 2006-05-23T14:26:45+00:00
+7082a7920,7921
+> Smaa 4.000 nye substantiver 2006-05-23T14:09:32+00:00
+> Test med ateq 2006-05-23T13:33:08+00:00
+7084a7924,7925
+> Jon. 2006-05-23T13:06:24+00:00
+> Korpusfil. 2006-05-15T11:04:13+00:00
+7086a7928,7929
+> .cvs-ignore-file (or should it work from some remote file?) 2006-05-15T11:03:27+00:00
+> OPDATE PAA VICTORIO 2006-05-13T13:52:32+00:00
+7088a7932
+> Web-korpus. 2006-05-08T21:25:22+00:00
+7089a7934,7935
+> ref web. 2006-05-08T21:17:27+00:00
+> No har alle Prop også N. 2006-05-04T12:04:17+00:00
+7091a7938
+> Fjerna dobbel +Prop-deklinasjon. 2006-05-04T12:00:16+00:00
+7092a7940,7941
+> La til ein tag +Prop for propria. 2006-05-04T11:42:14+00:00
+> Lagt til mellomrom etter v2. 2006-05-03T14:23:51+00:00
+7094a7944,7945
+> Enkelte smaa fejl rettede 2006-05-03T13:19:42+00:00
+> Fjerna linjeslutteikn, ikkje viktig endring. 2006-05-01T23:47:45+00:00
+7095a7947
+> Nyt paradigme til ugrønlandske proprier (Zateq_oqsZ) 2006-04-28T15:46:34+00:00
+7097a7950
+> Paradigme for p-boejede nominer paa -leq og mindre justeringer 2006-04-28T12:24:37+00:00
+7098a7952,7953
+> Fiksa konflikt. 2006-04-26T07:22:55+00:00
+> La til ein regel til, relativt fri fantasi. 2006-04-25T22:37:57+00:00
+7100a7956,7957
+> Lagt til taggar for punct-fila. Fjerna \r (doble linjeslutteikn). 2006-04-25T21:24:17+00:00
+> La til taggar frå punkt-fila, og laga to reglar for Rel og V 3Pl, meir for å teste om dei fungerer. 2006-04-25T21:21:51+00:00
+7102a7960
+> La til ref til punct-kal-lex.txt. 2006-04-25T21:18:45+00:00
+7103a7962,7963
+> La til fil med taggar for punktum, parentesar, osb. 2006-04-25T21:18:21+00:00
+> Adjektiverne og 13.012 nye verber 2006-04-25T08:12:20+00:00
+7104a7965
+> Sjekka inn dei 20 vanlegaste namna frå korpuset. Merk at 'Salomo' får 'Salomup' i Relativ, mens Bibelen har 'Salomop'. 2006-04-20T22:11:06+00:00
+7106a7968
+> Oplagt 14.318 nye substantiver 2006-04-20T18:14:57+00:00
+7107a7970,7971
+> Mindre rettelser. Stor opdatering af prt-kal-lex.txt 2006-04-19T10:11:22+00:00
+> Begyndelsen af datoformater inkl. et problem 2006-04-12T21:23:15+00:00
+7108a7973
+> Her har eg lagt til eit utkast til fil for å disambiguere når det er mange analyser av eitt ord. Fila inneheld eit oppsett, og førebels EIN regel: SELECT (Abs Pl) IF (1 (N Abs Sg)) ; Den regelen seier at ein skal velje Abs Pl viss neste ord er N Abs Sg. Kommandoen for å få dette til å virke er: 2006-04-09T22:49:10+00:00
+7109a7975
+> Tekst frå nettet. 2006-04-09T22:45:01+00:00
+7110a7977
+> Setningar frå Jenssen si finske lærebok. 2006-04-09T22:44:38+00:00
+7111a7979
+> Baklengsalfabetiserte, for å få litt oversikt, og la til nokre nye namn øverst. 2006-04-09T22:43:09+00:00
+7113a7982
+> La til referanse til namnefila. 2006-04-09T22:42:34+00:00
+7114a7984,7985
+> Tusindtals nye ord og mange modifikationer 2006-04-08T20:10:46+00:00
+> *** empty log message *** 2006-02-12T22:58:25+00:00
+7116a7988
+> Dette er den eksperimentelle FJERN %likTRUNC -versjonen. 2005-12-21T17:38:05+00:00
+7117a7990,7991
+> Revidert kommentar til LEXICON IVschwa. 2005-12-20T12:55:26+00:00
+> Smaa justeringer 2005-12-17T22:58:57+00:00
+7119a7994,7995
+> Fjernet en glemt Sg form fra et pluralisparadigme 2005-12-17T22:57:22+00:00
+> Nye radikaliseringsregler generer ikke laaneord 2005-12-17T22:54:55+00:00
+7121a7998,7999
+> Lagt til referanse til utf8 for xfst i testrutinene. 2005-12-17T22:45:11+00:00
+> Delt prt opp i tre underleksika, og sortert ord innafor same subleksikon. 2005-12-17T21:14:20+00:00
+7123a8002
+> Dette rettar opp ein fatal feil, : for ;, så forrige versjon kompilerte ikkje. 2005-12-17T20:36:21+00:00
+7124a8004
+> Splitta prt i tre underleksika, for å gjere det lettare å referere til pron. 2005-12-17T20:19:15+00:00
+7126a8007
+> Retta 3 til 4 i dei infinitte formene, retta ein del skrivefeil. 2005-12-17T15:03:03+00:00
+7127a8009,8010
+> Rettet en fejl i trunkering ved pronominer 2005-12-17T15:02:08+00:00
+> Lagt til kodar for 1, 2, 3, p pron. 2005-12-17T15:01:49+00:00
+7129a8013,8014
+> Sjekka dei intransitive mot Pers intuisjon. 2005-12-17T14:02:41+00:00
+> Opt 1Pl 2Pl retta. 2005-12-17T13:32:08+00:00
+7130a8016
+> Endra makefil frå verb til intrans og trans. 2005-12-17T13:08:15+00:00
+7132a8019,8020
+> Fjerna denne fila, i og med at ho lever vidare i intrans-codes.txt og trans-codes.txt 2005-12-17T13:04:55+00:00
+> La til separate koder for transitive og intransitive verb. 2005-12-17T13:04:00+00:00
+7134a8023,8024
+> Pers marl. 2005-12-17T12:53:28+00:00
+> Og no også dei transitive. 2005-12-17T12:48:20+00:00
+7135a8026
+> Pers marl- og andre rættelser. 2005-12-17T12:46:36+00:00
+7136a8028
+> Også med Px 2005-12-17T12:44:17+00:00
+7138a8031,8032
+> Retta verbkodar, m.a. 4 for 3 i Par og visse andre paradigme. 2005-12-17T12:16:27+00:00
+> Lagt -DBASE til den magiske M4-kommandoen i nederste bolk. 2005-12-17T10:37:42+00:00
+7140a8035,8036
+> Lagt inn kolon bak dummies TRUNC og > i makefila. 2005-12-17T10:37:02+00:00
+> Mindre fejlretninger og oprydning i kal-lex 2005-12-16T23:29:30+00:00
+7142a8039,8040
+> Komplettert testparadigme. 2005-12-16T23:28:47+00:00
+> Rettet en gemineringsfejl ved verber paa vokal. Fjernet x-regler og introduceret c2 som NonUvular gemineringsdummy 2005-12-16T20:19:29+00:00
+7144a8043
+> LEXICON Verbum udviddet. Mange nye subleksika 2005-12-16T17:31:31+00:00
+7145a8045,8046
+> Morfofonologi a la Kimmo og Lingsoft. 2005-12-16T13:14:03+00:00
+> Eiga makefile for twol-reglar. 2005-12-16T13:13:12+00:00
+7147a8049,8050
+> Verbkodar. 2005-12-16T12:43:02+00:00
+> Den same makefile som tidlegare, med nytt banner, for å skilje den frå evt twol makefile. 2005-12-15T18:02:45+00:00
+7149a8053,8054
+> De sidste nominale paradigmer 2005-12-14T06:17:57+00:00
+> Engelsk latin til dansk latin, Lok, Aeq pro Loc, Equ. 2005-12-13T14:07:13+00:00
+7151a8057
+> Smaa rettelser og to nye nominale paradigmer 2005-12-12T08:32:17+00:00
+7152a8059,8060
+> Retta kasusnamna Loc og Equ til Lok og Aeq, no virkar heile paradigmet. 2005-12-10T22:43:16+00:00
+> Erstatta PxSg1 osb. med Sg1 osb. 2005-12-09T12:51:42+00:00
+7153a8062
+> La til pron-codes.txt, og skifta ut adj-kapitlet i Makefile med pron (ingen adj i grønlandsk). Skifta Nx-Cx til Cx-Nx i noun-codes.txt-fila. 2005-12-09T12:46:48+00:00
+7155a8065,8066
+> Radikale opdateringer af nominerne 2005-12-06T21:39:04+00:00
+> Flere nye deklinationer 2005-12-06T06:45:00+00:00
+7157a8069,8070
+> Et antal regler for allomorfer samt det pronominale system 2005-12-02T19:22:28+00:00
+> Pegeroedder og pegebiord. Ny multichar %ROD 2005-12-01T12:05:29+00:00
+7158a8072
+> To nye multichars og de første pronominer 2005-11-25T22:46:51+00:00
+7160a8075,8076
+> Enkelte stavefejl mv. rettet 2005-11-21T20:26:25+00:00
+> Splitta 'ng' til 'n g' i regelen clitisNasalisering, dermed løyste eg angut-problemet (ingen ord med -ng- hadde vorte generert. 2005-11-15T08:03:27+00:00
+7162a8079,8080
+> Et forsoeg paa at faa xfst lagt ind 2005-11-11T09:01:44+00:00
+> Turned some 18 lines around. 2005-11-11T08:52:27+00:00
+7164a8083,8084
+> Meget store opdateringer 2005-11-11T08:17:11+00:00
+> Checked in corrected version of kal-lex. 2005-11-11T08:10:37+00:00
+7165a8086
+> Dette er Per si oppdatering etter den stormfulle turen til Grønland. 2005-11-11T07:57:41+00:00
+7167a8089,8090
+> Dette er en test, fordi commit ikke virker 2005-11-09T08:51:29+00:00
+> Fortsat aflusning i reglerne 2005-09-19T20:07:47+00:00
+7168a8092
+> Masser af nye paradigmer og adskillige tilhæng 2005-09-19T14:25:54+00:00
+7169a8094
+> Det nye testamentet, frå heimesida til det danske bibelselskapet. 2005-09-13T06:58:44+00:00
+7171a8097
+> Fjernet flag og oprettet to LEXICON V. Flere nye paradigmer 2005-09-10T12:27:14+00:00
+7172a8099,8100
+> Added links. 2005-09-06T10:58:26+00:00
+> Fjerna ein snarveg forbi IV-flagget, no når t2-problemet er fiksa treng vi ikkje denne snarvegen. 2005-08-28T19:22:22+00:00
+7174a8103,8104
+> Dette er anit2arvoq-fiksen. 2005-08-28T19:20:50+00:00
+> Tilføjet et verbum 2005-08-28T16:52:21+00:00
+7176a8107,8108
+> Korrigeret Makefile 2005-08-28T16:51:39+00:00
+> Lagt til filer for danske og gørnlandske tagger. 2005-08-28T16:37:00+00:00
+7177a8110
+> Lagt til rutiner for danske og grønlandske tagger. 2005-08-28T16:36:24+00:00
+7179a8113
+> Lagt inn referanse til utf8. 2005-08-28T15:50:46+00:00
+7180a8115,8116
+> To nye verber. 2005-08-28T15:26:38+00:00
+> Tilføjet uvirksom IndikativVu 2005-08-28T15:15:54+00:00
+7182a8119,8120
+> 2 nye verber 2005-08-28T15:14:13+00:00
+> Lagt til flere mf-regler. 2005-08-28T14:26:31+00:00
+7183a8122
+> Ændret stammen på tup-erne, ændret t2 til t3 på relevante steder. 2005-08-28T14:26:07+00:00
+7184a8124
+> Tilføjet mange kasussuffiks, ændret arkefonem T til t2. 2005-08-28T14:24:55+00:00
+7185a8126
+> Tilføjet verbet ani 2005-08-28T14:23:13+00:00
+7187a8129,8130
+> UTF8, ikkje L1. 2005-08-28T10:15:05+00:00
+> Litt mer avskrift av Pers bok. 2005-08-28T10:10:07+00:00
+7188a8132
+> De første filer 2005-08-28T10:06:28+00:00
+7190a8135
+> Added cvsignore file here. 2005-04-29T07:02:44+00:00
+7191a8137,8138
+> Testing directory added. 2005-04-29T07:01:44+00:00
+> Documentation. 2005-04-29T07:00:40+00:00
+7193a8141,8142
+> cvsignore. 2005-04-29T06:59:21+00:00
+> added cvsignore. 2005-04-28T21:23:13+00:00

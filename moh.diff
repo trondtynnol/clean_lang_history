@@ -1,0 +1,44 @@
+327d326
+< Updated ignore patterns. 2019-10-23T19:03:04+00:00
+333d331
+< Force unix line endings, to make sure it works ok also on the Windows subsystem for Linux. 2019-10-07T17:52:29+00:00
+342d339
+< Updating svn ignores for tools/analysers/. 2019-06-14T06:39:23+00:00
+347,348d343
+< Updating svn ignores. 2019-05-24T09:58:34+00:00
+< Updating svn ignores. 2019-05-24T09:45:30+00:00
+361d355
+< Updated svn ignores. 2019-02-27T10:22:06+00:00
+373d366
+< Ignore more files, including files that are automatically added to svn when populating a new language. This is done to avoid them showing up as noise for external languages, in which case these files might not be in our svn (but in the external svn repo instead). 2019-01-08T07:01:30+00:00
+403d395
+< Updated svn ignores. 2018-09-25T08:02:11+00:00
+406a399
+> symlink 2018-09-19T17:50:44+00:00
+410d402
+< More general ignore pattern for tools/mt/apertium/tagsets/. 2018-09-10T11:17:14+00:00
+413d404
+< Updated svn ignore patterns. 2018-09-08T05:21:34+00:00
+423d413
+< Updated svn ignores. 2018-08-30T16:17:17+00:00
+426d415
+< Updated svn ignores. 2018-08-29T05:36:10+00:00
+428d416
+< Updating svn ignores. 2018-08-28T10:49:42+00:00
+440c428
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/startup-langs/moh@167056 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-05-25T00:05:45+00:00
+---
+>  2018-05-25T00:05:45+00:00
+443c431
+< git-svn-id: https://gtsvn.uit.no/langtech/trunk/startup-langs/moh@167006 c7155fb1-f0a7-4240-a2fc-2600b6f42f90 2018-05-23T22:38:29+00:00
+---
+>  2018-05-23T22:38:29+00:00
+449d436
+< More things to ignore. 2018-05-14T10:30:20+00:00
+475,476d461
+< Added svn:ignore for files being output of testing. 2018-03-01T06:37:16+00:00
+< Added svnignore pattern for sigma.txt. 2018-02-21T10:00:49+00:00
+479d463
+< Two more files to ignore. 2018-02-06T09:46:57+00:00
+490d473
+< Updated svn ignores. 2018-01-31T12:15:22+00:00
