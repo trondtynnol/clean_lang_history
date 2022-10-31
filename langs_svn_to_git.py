@@ -288,6 +288,13 @@ if __name__ == "__main__":
 # https://github.com/giellalt/clean_lang_history/issues/1
 
 # https://stackoverflow.com/questions/49563574/git-delete-one-of-two-parent-commits, answer two
-# git replace --edit child of commit_a or commit_b
-# in the editor, remove the suspicios parent
 
+# If the script reports about two children, open the lang-xxx in gitk,
+# find the wonky commit and do
+# git replace --edit <hash of wonky commit>
+# In the editor, remove the suspicios parent
+# then
+# git filter-repo --replace-refs delete-no-add --prune-degenerate always
+
+# The last manual command to run when having done checks:
+# git push -f origin main:main_with_history_fixed
