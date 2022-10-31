@@ -189,6 +189,11 @@ def cleanup(git_repo_name, svn_lang, work_directory):
         (
             f"git filter-repo --replace-refs delete-no-add --force --prune-degenerate always",
             f"{work_directory}/{git_repo_name}",
+        ),
+        (
+            f"git remote add origin git@github.com:giellalt/{git_repo_name}",
+            f"{work_directory}/{git_repo_name}",
+        ),
     ]
 
     for command in commands:
