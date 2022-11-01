@@ -13,6 +13,8 @@ def main():
         print(
             "usage: ./langs_svn_to_git.py <dir-where-giellalt-is-clone> <dir-where-work-is-done>"
         )
+        sys.exit(1)
+
     work_directory = os.path.abspath(sys.argv[2])
     if not os.path.exists(os.path.join(work_directory, "lt")):
         try:
