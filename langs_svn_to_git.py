@@ -300,3 +300,27 @@ if __name__ == "__main__":
 
 # The last manual command to run when having done checks:
 # git push -f origin main:main_with_history_fixed
+
+# cd lang-aka/ && git pl && git switch main_with_history_fixed && if [ "$(git log -n1 --pretty=format:"%s %aI")" == "$(git log -n1 --pretty=format:"%s %aI" main)" ]; then git-dag; else echo false; fi
+# check that the last commit in main_with_history_fixed is the same as main
+# if not, cherry-pick from main, to sync the last commits, then
+# git push --force origin main_with_history_fixed:main && git push --force -d origin main_with_history_fixed
+
+# 2022-11-04
+# khk should not have been pushed: Sjur has to push his main again
+# zul-exp no need to fix?
+
+# not pushed
+# bla -> alert contributors
+# crk -> alert contributors
+# est-x-plamk -> not up-to-date
+# est-x-utee -> not up-to-date
+# fao -> alert contributors
+# fit -> alert contributors
+# kal -> alert contributors
+# nob -> alert contributors
+# sma -> alert contributors
+# sme -> alert contributors
+# smj -> alert contributors
+# smn -> alert contributors
+# sms -> alert contributors
