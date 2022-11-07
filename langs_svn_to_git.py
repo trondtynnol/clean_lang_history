@@ -8,6 +8,114 @@ import datetime
 # Script to fix histories of langs from https://gtsvn.uit.no/langtech/trunk
 
 
+def svn_to_est_utee(work_directory):
+    replacements = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "replacements.txt"
+    )
+    git_svn = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "replace_git_svn.py"
+    )
+    mailmappath = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "all-repos.mailmap"
+    )
+    here = os.path.abspath(os.path.dirname(__file__))
+    commands = [
+        (
+            f"git svn clone -r85001:191058 --authors-file {here}/svn2git-authors.txt "
+            "https://gtsvn.uit.no/langtech/trunk/langs/est est-x-utee-mirror",
+            work_directory,
+        ),
+        (
+            "git filter-repo "
+            "--force "
+            "--prune-empty always "  # remove empty commits, e.g. svn-ignores and such
+            "--strip-blobs-bigger-than 50M "  # strip files larger than githubs limit
+            "--replace-refs delete-no-add "
+            "--prune-degenerate always "
+            f"--replace-message {replacements} "
+            f"--message-callback {git_svn} "
+            f"--mailmap {mailmappath}",
+            f"{work_directory}/est-x-utee-mirror",  # the "lang"-mirror repos are cloned from this repo
+        ),
+    ]
+    for command in commands:
+        run(command[0], cwd=command[1])
+    do_git_replace("lang-est-x-utee", "est-x-utee", work_directory)
+
+
+def svn_to_est_plamk(work_directory):
+    replacements = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "replacements.txt"
+    )
+    git_svn = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "replace_git_svn.py"
+    )
+    mailmappath = os.path.join(
+        os.path.abspath(os.path.dirname(__file__)), "all-repos.mailmap"
+    )
+    here = os.path.abspath(os.path.dirname(__file__))
+    commands = [
+        (
+            f"git svn clone -r67271:85000 --authors-file {here}/svn2git-authors.txt "
+            "https://gtsvn.uit.no/langtech/trunk/langs/est est-x-plamk-mirror-old",
+            work_directory,
+        ),
+        (
+            f"git svn clone -r85000:191058 --authors-file {here}/svn2git-authors.txt "
+            "https://gtsvn.uit.no/langtech/trunk/experiment-langs/est est-x-plamk-mirror",
+            work_directory,
+        ),
+        (
+            "git fetch ../est-x-plamk-mirror-old master:old",
+            f"{work_directory}/est-x-plamk-mirror",
+        ),
+    ]
+    for command in commands:
+        run(command[0], cwd=command[1])
+
+    old_head = subprocess.run(
+        ["git", "log", "-n", "1", "--pretty=format:%H %aI", "old"],
+        cwd=f"{work_directory}/est-x-plamk-mirror",
+        encoding="utf-8",
+        capture_output=True,
+    ).stdout
+
+    parent = old_head.split()[0]
+
+    first_commit = (
+        subprocess.run(
+            ["git", "log", "--reverse", "--pretty=format:%H %aI"],
+            cwd=f"{work_directory}/est-x-plamk-mirror",
+            encoding="utf-8",
+            capture_output=True,
+        )
+        .stdout.split("\n")[0]
+        .split()[0]
+    )
+
+    commands = [
+        (
+            f"git replace --graft {first_commit} {parent}",
+            f"{work_directory}/est-x-plamk-mirror",
+        ),
+        (
+            "git filter-repo "
+            "--force "
+            "--prune-empty always "  # remove empty commits, e.g. svn-ignores and such
+            "--strip-blobs-bigger-than 50M "  # strip files larger than githubs limit
+            "--replace-refs delete-no-add "
+            "--prune-degenerate always "
+            f"--replace-message {replacements} "
+            f"--message-callback {git_svn} "
+            f"--mailmap {mailmappath}",
+            f"{work_directory}/est-x-plamk-mirror",  # the "lang"-mirror repos are cloned from this repo
+        ),
+    ]
+    for command in commands:
+        run(command[0], cwd=command[1])
+    do_git_replace("lang-est-x-plamk", "est-x-plamk", work_directory)
+
+
 def main():
     if len(sys.argv) != 3:
         print(
@@ -33,6 +141,9 @@ def main():
                 print(error)
             except IndexError as error:
                 print(error)
+
+    svn_to_est_utee(work_directory)
+    svn_to_est_plamk(work_directory)
 
 
 def prepare_old_svn(work_directory):
