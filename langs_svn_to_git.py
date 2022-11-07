@@ -421,7 +421,7 @@ if __name__ == "__main__":
 # khk should not have been pushed: Sjur has to push his main again
 # zul-exp no need to fix?
 
-# not pushed
+# not pushed to main
 # bla -> alert contributors
 # crk -> alert contributors
 # est-x-plamk -> not up-to-date
@@ -435,3 +435,8 @@ if __name__ == "__main__":
 # smj -> alert contributors
 # smn -> alert contributors
 # sms -> alert contributors
+
+# 2022-11-07
+# not pushed to main
+# est-x-plamk -> alert contributors
+# est-x-utee -> alert contributors
