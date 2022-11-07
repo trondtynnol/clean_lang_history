@@ -121,7 +121,7 @@ def do_git_replace(git_repo_name, svn_lang, work_directory):
     # The last commit in the old history
 
     old_head = subprocess.run(
-        ["git", "log", "-n", "1", "--pretty=format:%H %aI", "old"],
+        ["git", "log", "-n", "1", "--pretty=format:%H %s", "old"],
         cwd=f"{work_directory}/{git_repo_name}",
         encoding="utf-8",
         capture_output=True,
@@ -131,7 +131,7 @@ def do_git_replace(git_repo_name, svn_lang, work_directory):
     print(f"commit_b {commit_b}")
     # The log history of main
     main_log_lines = subprocess.run(
-        ["git", "log", "--pretty=format:%H %aI", "main"],
+        ["git", "log", "--pretty=format:%H %s", "main"],
         cwd=f"{work_directory}/{git_repo_name}",
         encoding="utf-8",
         capture_output=True,
