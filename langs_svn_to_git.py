@@ -442,4 +442,5 @@ if __name__ == "__main__":
 # est-x-utee -> alert contributors
 
 # 2022-11-08
-# khk fixed
+# lang-khk done
+# est-x-plamk done
